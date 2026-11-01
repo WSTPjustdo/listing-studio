@@ -1,0 +1,20 @@
+{
+  "notice": "真实 Amazon ASIN 的有限样本池。只随机排列本池，不代表全站随机抽样。快照不是实时库存；页面参数是卖家披露，非独立检测证据。",
+  "items": [
+    {
+      "asin": "B014XXJQ1I", "url": "https://www.amazon.com/dp/B014XXJQ1I", "title": "100% Cotton Canvas Shopping Tote Bag Grocery Bag 4-pack", "brand": "Augbunny", "color": "Light Grey", "material": "100% cotton", "pack_count": 4, "fabric_weight_gsm": null,
+      "facts": [{"label":"Dimensions (axis order not confirmed)","value":"17.5 x 16.5 x 5 inches"},{"label":"Care","value":"Hand wash with cold water"},{"label":"Fabric weight as listed","value":"7 oz; area basis not specified; do not convert to gsm"}],
+      "availability": "in_stock_observed", "availability_text": "Only 18 left in stock - order soon.", "checked_at": "2026-10-21", "retrieval": "direct_http", "freshness": "2026-10-21 本机直接读取的商品页；库存只代表读取当时"
+    },
+    {
+      "asin": "B0F7HF7KDZ", "url": "https://www.amazon.com/dp/B0F7HF7KDZ", "title": "RAINFLOW Blank Canvas Tote Bags - 4 Pack Black Cotton Totes with Handles", "brand": "RAINFLOW", "color": "Black", "material": "50% cotton", "pack_count": 4, "fabric_weight_gsm": null,
+      "facts": [{"label":"Dimensions as listed","value":"13 inch wide; 17 inch length"},{"label":"Care","value":"Machine wash"},{"label":"Composition limitation","value":"Only 50% cotton is disclosed; remaining fiber composition is unknown"}],
+      "availability": "offer_observed", "availability_text": "页面存在 Add to cart 入口；库存未明确", "checked_at": "2026-10-21", "retrieval": "web_reader", "freshness": "2026-10-21 通过网页检索阅读器取得 Amazon 商品页；阅读器显示当日抓取，本机直连受限"
+    },
+    {
+      "asin": "B07Q3B7SG8", "url": "https://www.amazon.com/dp/B07Q3B7SG8", "title": "DALIX 20-inch Solid Color Cotton Canvas Shopping Tote Bag in Black", "brand": "DALIX", "color": "Black", "material": "cotton canvas", "pack_count": null, "fabric_weight_gsm": null,
+      "facts": [{"label":"Main compartment dimensions","value":"20 in length x 14 in height x 6 in depth"},{"label":"Handle drop (not total handle length)","value":"11 inches"},{"label":"Construction","value":"Outer pocket; zippered inner pocket; zippered top closure"},{"label":"Fabric weight as listed","value":"18 oz; area basis not specified; do not convert to gsm"}],
+      "availability": "offer_observed", "availability_text": "页面显示 Other sellers；没有 Featured offer，实时库存未确认", "checked_at": "2026-10-21", "retrieval": "search_cache", "freshness": "2026-10-21 阅读 Amazon 页面检索缓存；检索器标注上周抓取，非当日库存确认"
+    }
+  ]
+}

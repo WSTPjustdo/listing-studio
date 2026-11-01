@@ -1,0 +1,1194 @@
+{
+  "started_at": "2026-10-24T02:23:12.754Z",
+  "kind": "deterministic_checks_on_real_snapshot_not_live_model_acceptance",
+  "cases": [
+    {
+      "label": "observed_model_omission_no_longer_blocks_parameter_link",
+      "text": "Westford Mill W101 cotton tote bag.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "Westford Mill W101 cotton tote bag.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "Westford Mill",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 13,
+              "original": "Westford Mill",
+              "field": "brand",
+              "parsed_value": "Westford Mill",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "Westford Mill",
+              "value": "Westford Mill",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "original": "cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "material_and_gsm",
+      "text": "100% cotton, 140 gsm.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "100% cotton, 140 gsm.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "exact_mm_conversion",
+      "text": "380 x 420 mm.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "380 x 420 mm.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "dimensions_cm",
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 12,
+              "original": "380 x 420 mm",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              },
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "exact_ml_conversion",
+      "text": "10000 ml.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "10000 ml.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "capacity_l",
+              "value": 10,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 8,
+              "original": "10000 ml",
+              "field": "capacity_l",
+              "parsed_value": 10,
+              "method": "volume_to_litres",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 10,
+              "value": 10,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "exact_handle_conversion",
+      "text": "670 mm handles.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "670 mm handles.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 14,
+              "original": "670 mm handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "dimension_axis_swap",
+      "text": "42 x 38 cm.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "42 x 38 cm.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 0,
+              "end": 10,
+              "original": "42 x 38 cm",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 42,
+                "height": 38
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "conflict",
+              "reason": "该字段的数值、单位、材质或轴顺序与商品快照不一致。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              }
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "42 x 38 cm：该字段的数值、单位、材质或轴顺序与商品快照不一致。"
+        }
+      ]
+    },
+    {
+      "label": "capacity_is_not_load",
+      "text": "10 kg carrying capacity.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "10 kg carrying capacity.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 0,
+              "end": 2,
+              "original": "10",
+              "field": "unclassified_parameter",
+              "parsed_value": "10",
+              "method": "unclassified_number",
+              "status": "needs_review",
+              "reason": "数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": null
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "10：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+        }
+      ]
+    },
+    {
+      "label": "mass_is_not_mass_per_area",
+      "text": "140 g fabric weight.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "140 g fabric weight.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 0,
+              "end": 3,
+              "original": "140",
+              "field": "unclassified_parameter",
+              "parsed_value": "140",
+              "method": "unclassified_number",
+              "status": "needs_review",
+              "reason": "数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": null
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "140：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+        }
+      ]
+    },
+    {
+      "label": "unknown_retail_pack",
+      "text": "25-pack.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "25-pack.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 0,
+              "end": 7,
+              "original": "25-pack",
+              "field": "retail_pack_count",
+              "parsed_value": 25,
+              "method": "retail_count",
+              "status": "needs_review",
+              "reason": "该字段尚未确认，或来源记录不可用；不从其他字段或待核验材料推定。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": null
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "25-pack：该字段尚未确认，或来源记录不可用；不从其他字段或待核验材料推定。"
+        }
+      ]
+    },
+    {
+      "label": "no_full_sentence_proof",
+      "text": "100% cotton, waterproof.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "100% cotton, waterproof.",
+          "state": "needs_evidence",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "含认证、环保或性能等宣称；参数关联不能证明适用条件或宣称成立，仍需语义审阅及相应证据。"
+        }
+      ]
+    },
+    {
+      "label": "negation",
+      "text": "Not made of cotton.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "Not made of cotton.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 12,
+              "end": 18,
+              "original": "cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_presence_only",
+              "status": "needs_review",
+              "reason": "含否定或限定条件，不能按肯定的等值参数自动关联。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton"
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "cotton：含否定或限定条件，不能按肯定的等值参数自动关联。"
+        }
+      ]
+    },
+    {
+      "label": "percentage_mismatch",
+      "text": "90% cotton.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "90% cotton.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 0,
+              "end": 10,
+              "original": "90% cotton",
+              "field": "material",
+              "parsed_value": "90% cotton",
+              "method": "material_percentage",
+              "status": "conflict",
+              "reason": "该字段的数值、单位、材质或轴顺序与商品快照不一致。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton"
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "90% cotton：该字段的数值、单位、材质或轴顺序与商品快照不一致。"
+        }
+      ]
+    },
+    {
+      "label": "equivalent_percentage_format",
+      "text": "100.0% cotton.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "100.0% cotton.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 13,
+              "original": "100.0% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "hyphenated_handle_expression",
+      "text": "67-cm-long handles.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "67-cm-long handles.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 18,
+              "original": "67-cm-long handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "hyphenated_gsm_expression",
+      "text": "140-gsm cotton.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "140-gsm cotton.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 7,
+              "original": "140-gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 8,
+              "end": 14,
+              "original": "cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ]
+    },
+    {
+      "label": "negative_parameter",
+      "text": "-140 gsm.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "-140 gsm.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 1,
+              "end": 8,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "conflict",
+              "reason": "负数不能按正值商品参数自动关联。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "140 gsm：负数不能按正值商品参数自动关联。"
+        }
+      ]
+    },
+    {
+      "label": "material_boundary",
+      "text": "Cottonwood tote.",
+      "controlled_test_phrase": true,
+      "evidence": []
+    },
+    {
+      "label": "other_attribute_dimensions",
+      "text": "Print area: 38 x 42 cm.",
+      "controlled_test_phrase": true,
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "Print area: 38 x 42 cm.",
+          "state": "needs_evidence",
+          "facts": [],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [],
+          "unresolved_parameters": [
+            {
+              "start": 12,
+              "end": 22,
+              "original": "38 x 42 cm",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "needs_review",
+              "reason": "印刷、刺绣或物流包装尺寸不能关联为商品袋身尺寸。",
+              "source_ids": [],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              }
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "38 x 42 cm：印刷、刺绣或物流包装尺寸不能关联为商品袋身尺寸。"
+        }
+      ]
+    }
+  ],
+  "product_ref": "REAL-WESTFORD-W101@8",
+  "original_request_id": "fb50ecf2-b2fd-4113-b989-57a440cf39f9",
+  "replayed_real_versions": [
+    {
+      "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+      "version": 1,
+      "original_request_id": "33d57e4d-ae48-4513-9923-243bf8a5858e",
+      "sentences": 8,
+      "links": 15,
+      "pending": [
+        "DALIX 22\" Cotton Canvas Tote Bag with Zipper"
+      ]
+    },
+    {
+      "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+      "version": 2,
+      "original_request_id": "23faa566-21d6-4eb0-88fa-e88829520926",
+      "sentences": 8,
+      "links": 15,
+      "pending": [
+        "DALIX 22\" Cotton Canvas Tote Bag with Zipper"
+      ]
+    },
+    {
+      "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+      "version": 1,
+      "original_request_id": "b0f5a5ae-3ddb-492b-a719-30ea935e0dbe",
+      "sentences": 7,
+      "links": 11,
+      "pending": [
+        "DALIX 22\" Cotton Canvas Tote Bag with Zipper",
+        "22\" cotton canvas tote with a zippered top for everyday shopping and carrying",
+        "22-INCH SIZE: A 22\" tote bag that offers roomy space for daily shopping and errands.",
+        "The DALIX 22\" Heavy Duty Cotton Canvas Tote Bag is made from 100% cotton canvas and features a zippered top.",
+        "At 22 inches, it offers roomy space for everyday shopping and carrying, with a simple design that fits daily errands."
+      ]
+    },
+    {
+      "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+      "version": 2,
+      "original_request_id": "537f0247-a6d8-4d93-9d71-f67156fc9733",
+      "sentences": 5,
+      "links": 11,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 1,
+      "original_request_id": "f2425a59-ad85-4a3f-b41a-ccafdd0f16ba",
+      "sentences": 9,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 2,
+      "original_request_id": "35c4eb30-be32-4eb2-a6cf-cd134ff71972",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 3,
+      "original_request_id": "4e308d05-d601-4bee-81f2-cda5c69b8216",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 4,
+      "original_request_id": "9d225753-1b96-4ae4-9bf5-3c06f7c61605",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 5,
+      "original_request_id": "332c6e80-15f1-41b1-bbbf-b66e72885382",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 6,
+      "original_request_id": "19f3cfe2-47a2-4404-82f1-5280c0472fc2",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 7,
+      "original_request_id": "af6f93c8-ec31-49e3-8d6a-7107cc142afe",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 8,
+      "original_request_id": "9726cbc4-19ef-4343-bf22-cc099b08a43f",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 9,
+      "original_request_id": "0a0e3e08-74fc-4d33-adfb-b059d1f2940f",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 10,
+      "original_request_id": "0c44c4c5-ac3b-442b-83f9-fcc28228226f",
+      "sentences": 8,
+      "links": 25,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 11,
+      "original_request_id": "1aec5d0d-eb47-4836-ae25-fc8acd98a4dc",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 12,
+      "original_request_id": "c54cf16d-45a4-41a6-8617-f9743dc85014",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 13,
+      "original_request_id": "f5b759f0-2402-421c-b03f-68d670ca67b2",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 14,
+      "original_request_id": "5e4f0bb3-b3f9-4f63-bee8-ec8e52a4114a",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 15,
+      "original_request_id": "fe0c711c-b71a-4b42-88f6-36814b0f9df0",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 16,
+      "original_request_id": "cc88376c-919f-42dc-bd0d-2db4e4b7fe58",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 17,
+      "original_request_id": "8de39f1f-b345-4242-a9c9-af8042ae668f",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 18,
+      "original_request_id": "7b53ad78-8a18-4464-9847-3d750724d3cb",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 19,
+      "original_request_id": "60ae2fe4-7c45-46c3-ba30-5e53f8b5e7ef",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 20,
+      "original_request_id": "fb50ecf2-b2fd-4113-b989-57a440cf39f9",
+      "sentences": 8,
+      "links": 23,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 1,
+      "original_request_id": "44038392-6821-4f35-b909-8fb70b32e9fb",
+      "sentences": 11,
+      "links": 24,
+      "pending": [
+        "Westford Mill W201 100% Cotton Tote Bag, 200gsm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 2,
+      "original_request_id": "0dd5e97b-35e0-4bdd-826f-a50eb14dcf96",
+      "sentences": 11,
+      "links": 24,
+      "pending": [
+        "Westford Mill W201 Cotton Tote, 200gsm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 3,
+      "original_request_id": "242061ed-dc4c-4c9a-a25d-1ade3fd2c4c5",
+      "sentences": 11,
+      "links": 24,
+      "pending": [
+        "Westford Mill W201 Cotton Tote, 200gsm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 1,
+      "original_request_id": "2b3dd68a-a1f8-41af-9f8b-2b6e17a21fb2",
+      "sentences": 11,
+      "links": 25,
+      "pending": [
+        "Westford Mill W201 Cotton Tote Bag, 200gsm, 38 x 42 cm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 2,
+      "original_request_id": "a558e9a4-6e78-4f3a-b0c2-639147119f6f",
+      "sentences": 11,
+      "links": 25,
+      "pending": [
+        "Westford Mill W201 Cotton Tote Bag, 200gsm, 38 x 42 cm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 3,
+      "original_request_id": "04865d66-e65a-4815-b280-3c3e3e19090a",
+      "sentences": 11,
+      "links": 25,
+      "pending": [
+        "Westford Mill W201 Cotton Tote Bag, 200gsm, 38 x 42 cm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 4,
+      "original_request_id": "5837ebed-3b76-4261-a8db-116c79e120da",
+      "sentences": 11,
+      "links": 25,
+      "pending": [
+        "Westford Mill W201 Cotton Tote Bag, 200gsm, 38 x 42 cm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 5,
+      "original_request_id": "53dba230-9829-45e0-b2c9-4246516b854e",
+      "sentences": 11,
+      "links": 24,
+      "pending": [
+        "Westford Mill W201 100% Cotton Tote Bag, 200gsm",
+        "100% cotton tote, 200gsm; 38 x 42 cm; 10 L capacity; 67 cm handles; approx. 93 g",
+        "100% COTTON, 200GSM: Made from 100% cotton fabric at 200gsm (6oz/yd²), a mid-weight cotton tote for everyday carrying.",
+        "67 CM HANDLE LENGTH: Long handles measuring 67 cm let you carry the tote by hand or over the shoulder.",
+        "LIGHTWEIGHT AT APPROX. 93 G: The tote weighs approximately 93 g, so it adds little weight to your daily load.",
+        "PRINT AND EMBROIDERY AREAS: Maximum print area is 33 x 36 cm; maximum embroidery size with a tubular hoop is 18 cm.",
+        "The Westford Mill W201 is a 100% cotton tote bag made from 200gsm (6oz/yd²) fabric.",
+        "Each tote weighs approximately 93 g.",
+        "For decoration, the maximum print area is 33 x 36 cm and the maximum embroidery size with a tubular hoop is 18 cm."
+      ]
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 1,
+      "original_request_id": "59b49118-1844-4624-a7ce-46432481eacb",
+      "sentences": 7,
+      "links": 17,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 2,
+      "original_request_id": "e5ba974f-e2ef-45e0-8db0-4b5ced2fe86b",
+      "sentences": 7,
+      "links": 20,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 3,
+      "original_request_id": "3e76907e-a162-4ff6-a467-c55bbf8744ff",
+      "sentences": 7,
+      "links": 20,
+      "pending": []
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 4,
+      "original_request_id": "7b7a9af8-566f-4c9d-a156-ca10478bcba8",
+      "sentences": 7,
+      "links": 20,
+      "pending": []
+    }
+  ],
+  "completed_at": "2026-10-24T02:23:12.823Z"
+}

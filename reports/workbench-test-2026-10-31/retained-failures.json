@@ -1,0 +1,374 @@
+{
+  "browser": [
+    {
+      "name": "live-browser-failure-1793418343001.json",
+      "value": {
+        "failed_at": "2026-10-31T03:45:43.001Z",
+        "message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('details[aria-label=\"卖点证据对照\"] > summary')\u001b[22m\n",
+        "run": {
+          "run_id": "run-394a9d63-edd3-43e2-aca8-408df3eedb0f",
+          "status": "succeeded",
+          "stage": "已保存",
+          "created_at": "2026-10-31T03:45:05.452Z",
+          "listing_id": "listing-fbe569a6-1d51-4f55-b83a-5c955dff3f99",
+          "operation": "patch",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "request_id": null,
+          "product_ref": "REAL-WESTFORD-W101@2",
+          "started_at": "2026-10-31T03:45:05.470Z",
+          "finished_at": "2026-10-31T03:45:12.288Z",
+          "elapsed_ms": 6824,
+          "version": 4,
+          "provider_request_id": "0751139d-0f39-47ed-897b-e234e0b2857b",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "0751139d-0f39-47ed-897b-e234e0b2857b",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 6773,
+            "usage": {
+              "prompt_tokens": 6139,
+              "completion_tokens": 565,
+              "total_tokens": 6704,
+              "prompt_tokens_details": {
+                "cached_tokens": 5888
+              },
+              "prompt_cache_hit_tokens": 5888,
+              "prompt_cache_miss_tokens": 251
+            },
+            "http_status": 200,
+            "output_mode": "audit_only_format_retry",
+            "format_retry": {
+              "attempts": 2,
+              "recovered": true,
+              "failed_attempt": {
+                "error_code": "MODEL_INVALID_JSON",
+                "trace": {
+                  "provider": "compatible",
+                  "actual_model_call": true,
+                  "provider_request_id": "1ddb9f72-3ff5-4de9-8ef7-792d9e462390",
+                  "model": "deepseek-flash",
+                  "requested_model": "deepseek-flash",
+                  "elapsed_ms": 3519,
+                  "usage": {
+                    "prompt_tokens": 6054,
+                    "completion_tokens": 517,
+                    "total_tokens": 6571,
+                    "prompt_tokens_details": {
+                      "cached_tokens": 5888
+                    },
+                    "prompt_cache_hit_tokens": 5888,
+                    "prompt_cache_miss_tokens": 166
+                  },
+                  "http_status": 200
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "markets": [
+    {
+      "at": "2026-10-31T03:46:35.177Z",
+      "phase": {
+        "marketplace": "DE",
+        "operation": "exports",
+        "at": "2026-10-31T03:46:35.147Z"
+      },
+      "code": "ERR_ASSERTION",
+      "message": "TXT must identify the saved market."
+    },
+    {
+      "at": "2026-10-31T03:48:29.798Z",
+      "marketplace": "FR",
+      "operation": "plan",
+      "response": {
+        "status": 502,
+        "body": {
+          "error": {
+            "code": "MODEL_INVALID_STRUCTURE",
+            "message": "模型写作方案缺少约定字段或格式不正确，本次未保存，请重试。",
+            "title": "模型返回字段不符合约定",
+            "action": "可重试；持续失败请核对模型与工作流输出。",
+            "details": {
+              "failure_id": "guided-failure-364fb010-0ec1-4726-82a6-1cb121673cc8",
+              "request_id": "5150eaa1-411c-4a19-b0fa-c95ce2532564"
+            }
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-10-31T03:48:29.803Z",
+      "phase": {
+        "marketplace": "FR",
+        "operation": "plan",
+        "at": "2026-10-31T03:48:09.620Z"
+      },
+      "code": "ERR_ASSERTION",
+      "message": "{\"error\":{\"code\":\"MODEL_INVALID_STRUCTURE\",\"message\":\"模型写作方案缺少约定字段或格式不正确，本次未保存，请重试。\",\"title\":\"模型返回字段不符合约定\",\"action\":\"可重试；持续失败请核对模型与工作流输出。\",\"details\":{\"failure_id\":\"guided-failure-364fb010-0ec1-4726-82a6-1cb121673cc8\",\"request_id\":\"5150eaa1-411c-4a19-b0fa-c95ce2532564\"}}}\n\n502 !== 201\n"
+    },
+    {
+      "at": "2026-10-31T03:49:13.078Z",
+      "marketplace": "FR",
+      "operation": "plan",
+      "response": {
+        "status": 502,
+        "body": {
+          "error": {
+            "code": "GUIDED_TEMPLATE_INVALID",
+            "message": "模型模板固化了具体商品信息或规则阈值（命中：fixed_units「100 %」），未保存；请重新生成可复用模板。",
+            "action": "先核对失败原因；确认后可重试此行。",
+            "details": {
+              "failure_id": "guided-failure-dd87cedf-9dc8-401d-9a47-26d372777637",
+              "request_id": "7763d4e6-70f1-4fdc-8f96-f21b0baf3458"
+            }
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-10-31T03:49:13.082Z",
+      "phase": {
+        "marketplace": "FR",
+        "operation": "plan",
+        "at": "2026-10-31T03:48:52.131Z"
+      },
+      "code": "ERR_ASSERTION",
+      "message": "{\"error\":{\"code\":\"GUIDED_TEMPLATE_INVALID\",\"message\":\"模型模板固化了具体商品信息或规则阈值（命中：fixed_units「100 %」），未保存；请重新生成可复用模板。\",\"action\":\"先核对失败原因；确认后可重试此行。\",\"details\":{\"failure_id\":\"guided-failure-dd87cedf-9dc8-401d-9a47-26d372777637\",\"request_id\":\"7763d4e6-70f1-4fdc-8f96-f21b0baf3458\"}}}\n\n502 !== 201\n"
+    }
+  ],
+  "saved_plan_failures": [
+    {
+      "id": "guided-failure-364fb010-0ec1-4726-82a6-1cb121673cc8",
+      "created_at": "2026-10-31T03:48:29.793Z",
+      "code": "MODEL_INVALID_STRUCTURE",
+      "message": "模型写作方案缺少约定字段或格式不正确，本次未保存，请重试。",
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "5150eaa1-411c-4a19-b0fa-c95ce2532564",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 9865,
+        "usage": {
+          "prompt_tokens": 8165,
+          "completion_tokens": 1595,
+          "total_tokens": 9760,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 7525
+        },
+        "http_status": 200,
+        "template_version": "2026-10-30.guided-plan-v1",
+        "calls": [
+          {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "1fc2efaf-6f9f-4abb-845a-11148c578f21",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 10284,
+            "usage": {
+              "prompt_tokens": 8113,
+              "completion_tokens": 1537,
+              "total_tokens": 9650,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              },
+              "prompt_cache_hit_tokens": 0,
+              "prompt_cache_miss_tokens": 8113
+            },
+            "http_status": 200,
+            "template_version": "2026-10-30.guided-plan-v1",
+            "outcome": "failed",
+            "error_code": "MODEL_INVALID_STRUCTURE"
+          },
+          {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "5150eaa1-411c-4a19-b0fa-c95ce2532564",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 9865,
+            "usage": {
+              "prompt_tokens": 8165,
+              "completion_tokens": 1595,
+              "total_tokens": 9760,
+              "prompt_tokens_details": {
+                "cached_tokens": 640
+              },
+              "prompt_cache_hit_tokens": 640,
+              "prompt_cache_miss_tokens": 7525
+            },
+            "http_status": 200,
+            "template_version": "2026-10-30.guided-plan-v1",
+            "outcome": "failed",
+            "error_code": "MODEL_INVALID_STRUCTURE"
+          }
+        ]
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": false,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_STRUCTURE",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "1fc2efaf-6f9f-4abb-845a-11148c578f21",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 10284,
+            "usage": {
+              "prompt_tokens": 8113,
+              "completion_tokens": 1537,
+              "total_tokens": 9650,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              },
+              "prompt_cache_hit_tokens": 0,
+              "prompt_cache_miss_tokens": 8113
+            },
+            "http_status": 200,
+            "template_version": "2026-10-30.guided-plan-v1",
+            "outcome": "failed",
+            "error_code": "MODEL_INVALID_STRUCTURE"
+          }
+        }
+      }
+    },
+    {
+      "id": "guided-failure-dd87cedf-9dc8-401d-9a47-26d372777637",
+      "created_at": "2026-10-31T03:49:13.068Z",
+      "code": "GUIDED_TEMPLATE_INVALID",
+      "message": "模型模板固化了具体商品信息或规则阈值（命中：fixed_units「100 %」），未保存；请重新生成可复用模板。",
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "7763d4e6-70f1-4fdc-8f96-f21b0baf3458",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 8973,
+        "usage": {
+          "prompt_tokens": 8165,
+          "completion_tokens": 1391,
+          "total_tokens": 9556,
+          "prompt_tokens_details": {
+            "cached_tokens": 7936
+          },
+          "prompt_cache_hit_tokens": 7936,
+          "prompt_cache_miss_tokens": 229
+        },
+        "http_status": 200,
+        "template_version": "2026-10-30.guided-plan-v1",
+        "template_hits": [
+          {
+            "pattern": "fixed_units",
+            "match": "100 %"
+          }
+        ],
+        "calls": [
+          {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "a8b1d9b8-0858-4735-a390-20ddd7fe76ab",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 11953,
+            "usage": {
+              "prompt_tokens": 8113,
+              "completion_tokens": 1747,
+              "total_tokens": 9860,
+              "prompt_tokens_details": {
+                "cached_tokens": 7936
+              },
+              "prompt_cache_hit_tokens": 7936,
+              "prompt_cache_miss_tokens": 177
+            },
+            "http_status": 200,
+            "template_version": "2026-10-30.guided-plan-v1",
+            "template_hits": [
+              {
+                "pattern": "fixed_units",
+                "match": "5 %"
+              }
+            ],
+            "outcome": "failed",
+            "error_code": "GUIDED_TEMPLATE_INVALID"
+          },
+          {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "7763d4e6-70f1-4fdc-8f96-f21b0baf3458",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 8973,
+            "usage": {
+              "prompt_tokens": 8165,
+              "completion_tokens": 1391,
+              "total_tokens": 9556,
+              "prompt_tokens_details": {
+                "cached_tokens": 7936
+              },
+              "prompt_cache_hit_tokens": 7936,
+              "prompt_cache_miss_tokens": 229
+            },
+            "http_status": 200,
+            "template_version": "2026-10-30.guided-plan-v1",
+            "template_hits": [
+              {
+                "pattern": "fixed_units",
+                "match": "100 %"
+              }
+            ],
+            "outcome": "failed",
+            "error_code": "GUIDED_TEMPLATE_INVALID"
+          }
+        ]
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": false,
+        "failed_attempt": {
+          "error_code": "GUIDED_TEMPLATE_INVALID",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "a8b1d9b8-0858-4735-a390-20ddd7fe76ab",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 11953,
+            "usage": {
+              "prompt_tokens": 8113,
+              "completion_tokens": 1747,
+              "total_tokens": 9860,
+              "prompt_tokens_details": {
+                "cached_tokens": 7936
+              },
+              "prompt_cache_hit_tokens": 7936,
+              "prompt_cache_miss_tokens": 177
+            },
+            "http_status": 200,
+            "template_version": "2026-10-30.guided-plan-v1",
+            "template_hits": [
+              {
+                "pattern": "fixed_units",
+                "match": "5 %"
+              }
+            ],
+            "outcome": "failed",
+            "error_code": "GUIDED_TEMPLATE_INVALID"
+          }
+        }
+      }
+    }
+  ],
+  "notice": "Failures remain evidence even when a later check passes."
+}

@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-11-01T03:43:11.92Z",
+  "scope": "本地工作台启动与离线入口共存的工程验收；不替代模型验收。",
+  "model_calls": 0,
+  "checks": [
+    "offline_unchanged_start-fair.cmd",
+    "offline_unchanged_reports/fair-rehearsal-2026-11-01/index.html",
+    "offline_unchanged_reports/fair-rehearsal-2026-11-01/case.json",
+    "reuse_existing_service_without_new_server",
+    "unrelated_port_rejected_without_starting_server",
+    "both_concurrent_launches_become_ready",
+    "only_one_startup_process_for_concurrent_clicks",
+    "cold_service_has_real_bootstrap",
+    "original_workbench_still_healthy"
+  ],
+  "results": [
+    {
+      "scenario": "existing_real_workbench",
+      "code": 0,
+      "elapsed_ms": 172,
+      "result": {
+        "status": "ready",
+        "url": "http://127.0.0.1:8787/",
+        "reused_existing_server": true,
+        "started_server": false,
+        "startup_pid": null,
+        "browser": "not_opened",
+        "model_calls": 0
+      },
+      "error": ".env not found. Continuing without it."
+    },
+    {
+      "scenario": "unrelated_port_is_not_a_workbench",
+      "code": 1,
+      "elapsed_ms": 133,
+      "result": null,
+      "error": ".env not found. Continuing without it.\r\n端口 27072 已被占用或未返回正常工作台状态。请确认原服务，或设置 PORT 后重试；未启动新服务。"
+    },
+    {
+      "scenario": "concurrent_real_cold_start_isolated_database",
+      "port": 27074,
+      "launchers": [
+        {
+          "code": 0,
+          "elapsed_ms": 8855,
+          "result": {
+            "status": "ready",
+            "url": "http://127.0.0.1:27074/",
+            "reused_existing_server": false,
+            "started_server": true,
+            "startup_pid": 32660,
+            "browser": "not_opened",
+            "model_calls": 0
+          },
+          "error": ".env not found. Continuing without it."
+        },
+        {
+          "code": 0,
+          "elapsed_ms": 8844,
+          "result": {
+            "status": "ready",
+            "url": "http://127.0.0.1:27074/",
+            "reused_existing_server": false,
+            "started_server": false,
+            "startup_pid": null,
+            "browser": "not_opened",
+            "model_calls": 0
+          },
+          "error": ".env not found. Continuing without it."
+        }
+      ]
+    }
+  ],
+  "status": "passed",
+  "actual_edge_window_confirmed": true,
+  "desktop_shortcuts": [
+    {
+      "name": "本地工作台（Edge）",
+      "path": "D:\\Desktop\\本地工作台（Edge）.lnk",
+      "exists": true
+    },
+    {
+      "name": "游园会演示（Edge）",
+      "path": "D:\\Desktop\\游园会演示（Edge）.lnk",
+      "exists": true
+    }
+  ]
+}

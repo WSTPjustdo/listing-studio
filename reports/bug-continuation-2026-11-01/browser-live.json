@@ -1,0 +1,96 @@
+{
+  "completed_at": "2026-11-01T03:05:45.577Z",
+  "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+  "version": 14,
+  "model": "deepseek-flash",
+  "request_id": "6f435956-0b35-48dc-b25b-223bcdb19a9f",
+  "actual_model_call": true,
+  "elapsed_ms": 7929,
+  "usage": {
+    "prompt_tokens": 8496,
+    "completion_tokens": 474,
+    "total_tokens": 8970,
+    "prompt_tokens_details": {
+      "cached_tokens": 8320
+    },
+    "prompt_cache_hit_tokens": 8320,
+    "prompt_cache_miss_tokens": 176
+  },
+  "issues": [],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+    }
+  ],
+  "ab": {
+    "variant_set_id": "variant-set-33924ee0-917d-4f04-b835-7d6023f0fa20",
+    "base_version": 14,
+    "review_status_before_adoption": "not_reviewed",
+    "generation": {
+      "model": "deepseek-flash",
+      "request_id": "80ea711f-ab6e-4a20-bdc4-4f6cdad56198",
+      "elapsed_ms": 3117,
+      "usage": {
+        "prompt_tokens": 697,
+        "completion_tokens": 575,
+        "total_tokens": 1272,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 185
+      },
+      "format_retry": null
+    },
+    "adopted_version": 15,
+    "angle": "spec_first",
+    "independent_review": {
+      "model": "deepseek-flash",
+      "request_id": "63e3b874-d6e3-4838-abf1-28097c61b5a4",
+      "elapsed_ms": 7491,
+      "usage": {
+        "prompt_tokens": 8496,
+        "completion_tokens": 435,
+        "total_tokens": 8931,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "prompt_cache_hit_tokens": 3200,
+        "prompt_cache_miss_tokens": 5296
+      },
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+        }
+      ]
+    }
+  },
+  "checks": [
+    "guided_draft_survives_navigation",
+    "invalid_product_revision_rejected",
+    "real_api_recheck",
+    "version_history_preserved",
+    "evidence_visible",
+    "html_txt_json_copy_exports",
+    "ab_generation_blocks_escape_close_backdrop_and_navigation",
+    "real_ab_set_persisted_on_reopen",
+    "ab_adoption_saved_as_independently_reviewed_version"
+  ],
+  "transport_check": "The actual A/B server response was delayed until close guards were checked; the model request and response body were not substituted.",
+  "screenshot": "browser-live.png"
+}

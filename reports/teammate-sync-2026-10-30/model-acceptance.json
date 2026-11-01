@@ -1,0 +1,711 @@
+{
+  "checked_at": "2026-10-30T03:51:16.192Z",
+  "source_url": "https://westfordmill.com/products/w101",
+  "source_checked_live": true,
+  "credential_source": "existing_local_DeepSeek_settings_not_exported",
+  "rules_version": "amazon-us-tote-2026-10-30.integration-v9",
+  "parameter_version": "structured-parameters-v2.2",
+  "prompt_version": "2026-10-29.style-prohibitions-v9",
+  "unique_actual_requests": 13,
+  "total_tokens": 90082,
+  "format_failures": 2,
+  "unmapped_raw_response_ids": [],
+  "calls": [
+    {
+      "stage": "incoming_before_version_fixes/真实商品生成与独立审核",
+      "request_id": "18e7dd69-e558-453b-8038-e1c11f963041",
+      "model": "deepseek-flash",
+      "elapsed_ms": 9588,
+      "usage": {
+        "prompt_tokens": 5967,
+        "completion_tokens": 2335,
+        "total_tokens": 8302,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 4815
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "incoming_before_version_fixes/真实商品生成与独立审核",
+      "request_id": "1beb2b1d-a670-4801-966b-4116ee62700a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2058,
+      "usage": {
+        "prompt_tokens": 5696,
+        "completion_tokens": 329,
+        "total_tokens": 6025,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 5312
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "incoming_before_version_fixes/真实问题审查修复与复检",
+      "request_id": "b860677f-c183-4f89-8378-05f20b951cc4",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3853,
+      "usage": {
+        "prompt_tokens": 5845,
+        "completion_tokens": 946,
+        "total_tokens": 6791,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 4181
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "incoming_before_version_fixes/真实问题审查修复与复检",
+      "request_id": "0ec4f05f-9b62-4e80-8d3c-a168faea2075",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1214,
+      "usage": {
+        "prompt_tokens": 7950,
+        "completion_tokens": 207,
+        "total_tokens": 8157,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 6670
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "incoming_before_version_fixes/补充真实规格后原任务复检",
+      "request_id": "c17839b1-aa63-478f-8ace-6c284ef64574",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3946,
+      "usage": {
+        "prompt_tokens": 5882,
+        "completion_tokens": 941,
+        "total_tokens": 6823,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 4602
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "final_rules_v9_parameters_v2.2/真实商品生成与独立审核",
+      "request_id": "e26c710b-4f3a-4162-afea-53bbc1901ede",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6924,
+      "usage": {
+        "prompt_tokens": 5909,
+        "completion_tokens": 1701,
+        "total_tokens": 7610,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 4245
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "final_rules_v9_parameters_v2.2/真实商品生成与独立审核",
+      "request_id": "29153e38-de41-4c35-956f-b9f06e10105b",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1819,
+      "usage": {
+        "prompt_tokens": 5696,
+        "completion_tokens": 271,
+        "total_tokens": 5967,
+        "prompt_tokens_details": {
+          "cached_tokens": 5248
+        },
+        "prompt_cache_hit_tokens": 5248,
+        "prompt_cache_miss_tokens": 448
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "final_rules_v9_parameters_v2.2/真实问题审查修复与复检",
+      "request_id": "74ca38f6-b325-407f-95fa-dcba6da7989d",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4303,
+      "usage": {
+        "prompt_tokens": 5844,
+        "completion_tokens": 897,
+        "total_tokens": 6741,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 4052
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "final_rules_v9_parameters_v2.2/真实问题审查修复与复检",
+      "request_id": "f400bbc2-9d23-447d-81f4-af81a109da79",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1365,
+      "usage": {
+        "prompt_tokens": 7217,
+        "completion_tokens": 206,
+        "total_tokens": 7423,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 5553
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "final_rules_v9_parameters_v2.2/补充真实规格后原任务复检",
+      "request_id": "df90da66-510d-4b74-88af-88bf0c46ab15",
+      "model": "deepseek-flash",
+      "elapsed_ms": 7294,
+      "usage": {
+        "prompt_tokens": 5966,
+        "completion_tokens": 550,
+        "total_tokens": 6516,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 4814
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "failed_attempt_and_retry_combined",
+      "single_request_elapsed_ms": null,
+      "elapsed_note": "Service overwrote the successful retry duration with the combined retry workflow duration; individual successful attempt duration is unknown."
+    },
+    {
+      "error_code": "MODEL_INVALID_JSON",
+      "stage": "final_rules_v9_parameters_v2.2/补充真实规格后原任务复检",
+      "request_id": "e377c109-dd0f-456c-919a-c2c51c2fb5ec",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4177,
+      "usage": {
+        "prompt_tokens": 5881,
+        "completion_tokens": 914,
+        "total_tokens": 6795,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 4089
+      },
+      "http_status": 200,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "stage": "final_browser_recheck",
+      "request_id": "a7b76f22-cd58-4ee0-95ef-d190e4c022a1",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3138,
+      "usage": {
+        "prompt_tokens": 5966,
+        "completion_tokens": 561,
+        "total_tokens": 6527
+      },
+      "http_status": 200,
+      "error_code": null,
+      "elapsed_scope": "provider_attempt"
+    },
+    {
+      "error_code": "MODEL_INVALID_JSON",
+      "stage": "final_browser_recheck",
+      "request_id": "8e27a5fa-2689-4361-8699-e6371590ef5f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2789,
+      "usage": {
+        "prompt_tokens": 5881,
+        "completion_tokens": 524,
+        "total_tokens": 6405
+      },
+      "http_status": 200,
+      "elapsed_scope": "provider_attempt"
+    }
+  ],
+  "steps": [
+    {
+      "phase": "incoming_before_version_fixes",
+      "label": "真实商品生成与独立审核",
+      "status": "succeeded",
+      "elapsed_ms": 12145,
+      "listing_id": "listing-cbc2d60f-3336-4875-bf43-0b9b8d2ad13c",
+      "version": 1,
+      "rule_pack_version": "amazon-us-tote-2026-10-28.integration-v8",
+      "prompt_version": "2026-10-29.style-prohibitions-v9",
+      "parameter_link_version": "structured-parameters-v2.1",
+      "issues": [
+        {
+          "issue_id": "41c5f6696ff8a7",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.title",
+          "original": "38 x 42 cm",
+          "reason": "结构化商品事实中 dimensions_cm 为 unknown，additional_facts 也未给出尺寸；来源快照虽列出 38 x 42，但快照仅作上下文，不能据此确认商品尺寸字段。",
+          "suggestion": "删除标题中的尺寸，或先由人工把尺寸录入结构化事实后再使用。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "6aabcdb848d05d",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.item_highlights",
+          "original": "approx. 38 x 42 cm",
+          "reason": "尺寸未在结构化事实或 additional_facts 中确认，属于未经授权的参数补全。",
+          "suggestion": "移除该尺寸表述，保留已确认的材质与克重信息。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "1865f2889a18fc",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.item_highlights",
+          "original": "10 litre capacity",
+          "reason": "capacity_l 为 unknown，additional_facts 未提供容量，容量数值缺乏本次运行可用的结构化依据。",
+          "suggestion": "删除容量表述，或补充结构化容量事实后再写。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "7515b1a783e5b0",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.item_highlights",
+          "original": "67 cm handle",
+          "reason": "handle_length_cm 为 unknown，additional_facts 未提供提手长度，该数值无结构化依据。",
+          "suggestion": "删除提手长度数值，仅保留“可手提或肩背”这一已支持表述。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "cf36f405db2c01",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.bullet_points.b2",
+          "original": "Dimensions: approx. 38 cm width x 42 cm height (no depth given) — a simple flat tote shape for daily errands.",
+          "reason": "尺寸字段为 unknown，且“no depth given”“flat tote shape”属于对形状的推断，均无结构化事实支持。",
+          "suggestion": "整条删除，或待尺寸录入结构化事实后再写。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "d011462e1915e3",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.bullet_points.b3",
+          "original": "Capacity: 10 litres — room for everyday essentials.",
+          "reason": "容量字段为 unknown，10 升无本次运行可用的结构化依据。",
+          "suggestion": "删除该条，不要用未知容量填充卖点。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "f408d32d0345a4",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.bullet_points.b4",
+          "original": "Handle length: 67 cm — can be carried by hand or over the shoulder.",
+          "reason": "提手长度字段为 unknown；后半句“可手提或肩背”有 additional_facts 支持，但 67 cm 数值无结构化依据。",
+          "suggestion": "删除 67 cm，仅保留“Can be carried by hand or over the shoulder”。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "62d38c83952ef2",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.description",
+          "original": "It measures approx. 38 cm in width by 42 cm in height, with a 10 litre capacity and a 67 cm handle that lets you carry it by hand or over the shoulder.",
+          "reason": "尺寸、容量、提手长度三项均为 unknown 字段，描述中却给出具体数值，与结构化事实不符。",
+          "suggestion": "删除尺寸、容量与提手长度数值，保留已支持的“可手提或肩背”表述。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "164b4234c11953",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.description",
+          "original": "Approx. product weight: 65 g.",
+          "reason": "结构化事实中没有 unit_weight_g 字段，additional_facts 也未收录 65 g；来源快照不能作为本次运行的确认依据。",
+          "suggestion": "删除该重量句，或先补充结构化重量事实。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "922845f679d75d",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "needs_review",
+          "field_path": "content.bullet_points.b5",
+          "original": "suited to custom printing or embroidery projects",
+          "reason": "additional_facts 仅支持“CutAway label for ease of rebranding”，未确认可定制印刷或刺绣服务；该延伸表述超出已支持事实。",
+          "suggestion": "改为仅陈述 CutAway 标签便于重新贴标，删除印刷/刺绣适用性表述。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        }
+      ],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    },
+    {
+      "phase": "incoming_before_version_fixes",
+      "label": "真实问题审查修复与复检",
+      "status": "succeeded",
+      "elapsed_ms": 5589,
+      "listing_id": "listing-cbc2d60f-3336-4875-bf43-0b9b8d2ad13c",
+      "version": 2,
+      "rule_pack_version": "amazon-us-tote-2026-10-28.integration-v8",
+      "prompt_version": "2026-10-29.style-prohibitions-v9",
+      "parameter_link_version": "structured-parameters-v2.1",
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    },
+    {
+      "phase": "incoming_before_version_fixes",
+      "label": "补充真实规格后原任务复检",
+      "status": "succeeded",
+      "elapsed_ms": 4061,
+      "listing_id": "listing-cbc2d60f-3336-4875-bf43-0b9b8d2ad13c",
+      "version": 3,
+      "rule_pack_version": "amazon-us-tote-2026-10-28.integration-v8",
+      "prompt_version": "2026-10-29.style-prohibitions-v9",
+      "parameter_link_version": "structured-parameters-v2.1",
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    },
+    {
+      "phase": "final_rules_v9_parameters_v2.2",
+      "label": "真实商品生成与独立审核",
+      "status": "succeeded",
+      "elapsed_ms": 8799,
+      "listing_id": "listing-a52d5119-4acc-43fa-9fd8-ca3b82d545af",
+      "version": 1,
+      "rule_pack_version": "amazon-us-tote-2026-10-30.integration-v9",
+      "prompt_version": "2026-10-29.style-prohibitions-v9",
+      "parameter_link_version": "structured-parameters-v2.2",
+      "issues": [
+        {
+          "issue_id": "60b0905db6ac09",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.item_highlights",
+          "original": "38 x 42 cm; 10 L capacity; 67 cm handle",
+          "reason": "商品结构化事实中 dimensions_cm、capacity_l、handle_length_cm 均为 unknown，additional_facts 也未提供这些数值；仅凭来源快照不能作为已确认参数写入文案。",
+          "suggestion": "删除未确认的尺寸、容量和手柄长度，仅保留 100% cotton、140gsm (4.1oz/yd²) 及可手提或肩背等已支持信息。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "4d72803c4edd2d",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.bullet_points.b2",
+          "original": "Dimensions: 38 x 42 cm (width x height).",
+          "reason": "dimensions_cm 状态为 unknown，结构化事实未确认尺寸；来源快照中的尺寸不能作为已确认商品参数。",
+          "suggestion": "删除该条尺寸要点，或待补充确认的尺寸事实后再写。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "f84853baae8890",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.bullet_points.b3",
+          "original": "Capacity: 10 litres.",
+          "reason": "capacity_l 状态为 unknown，结构化事实未确认容量。",
+          "suggestion": "删除该容量要点，或待补充确认的容量事实后再写。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "f408d32d0345a4",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.bullet_points.b4",
+          "original": "Handle length: 67 cm — can be carried by hand or over the shoulder.",
+          "reason": "handle_length_cm 状态为 unknown；后半句“可手提或肩背”有 additional_facts 支持，但 67 cm 手柄长度未被结构化事实确认。",
+          "suggestion": "改为仅保留已支持的“Can be carried by hand or over the shoulder”，删除 67 cm。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "f4fec389f0e347",
+          "rule_id": "AMZ-05",
+          "category": "platform_rules",
+          "title": "商品描述准确性",
+          "severity": "blocking",
+          "field_path": "content.description",
+          "original": "It measures 38 x 42 cm (width x height) with a 10 litre capacity and a 67 cm handle",
+          "reason": "描述中的尺寸、容量和手柄长度均未在结构化事实中确认，属于未支持参数。",
+          "suggestion": "删除该句中的尺寸、容量和手柄长度，仅保留材质、克重及可手提或肩背的已支持表述。",
+          "method": "model_assisted",
+          "source_ids": [
+            "AMZS-DETAIL-US"
+          ],
+          "status": "open"
+        }
+      ],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    },
+    {
+      "phase": "final_rules_v9_parameters_v2.2",
+      "label": "真实问题审查修复与复检",
+      "status": "succeeded",
+      "elapsed_ms": 6390,
+      "listing_id": "listing-a52d5119-4acc-43fa-9fd8-ca3b82d545af",
+      "version": 2,
+      "rule_pack_version": "amazon-us-tote-2026-10-30.integration-v9",
+      "prompt_version": "2026-10-29.style-prohibitions-v9",
+      "parameter_link_version": "structured-parameters-v2.2",
+      "issues": [
+        {
+          "issue_id": "e728a7cecd6fa8",
+          "rule_id": "FACT-01",
+          "category": "product_fact_quality",
+          "title": "数量单位与属性混淆",
+          "severity": "blocking",
+          "field_path": "content.item_highlights",
+          "original": "4.1oz",
+          "reason": "额定承重尚未确认；容量、面料克重和单件重量都不能证明承重。",
+          "suggestion": "补充适用商品的额定承重来源，或删除无法证实的数值。",
+          "method": "deterministic_structured_facts",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        }
+      ],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    },
+    {
+      "phase": "final_rules_v9_parameters_v2.2",
+      "label": "补充真实规格后原任务复检",
+      "status": "succeeded",
+      "elapsed_ms": 7606,
+      "listing_id": "listing-a52d5119-4acc-43fa-9fd8-ca3b82d545af",
+      "version": 3,
+      "rule_pack_version": "amazon-us-tote-2026-10-30.integration-v9",
+      "prompt_version": "2026-10-29.style-prohibitions-v9",
+      "parameter_link_version": "structured-parameters-v2.2",
+      "issues": [
+        {
+          "issue_id": "e728a7cecd6fa8",
+          "rule_id": "FACT-01",
+          "category": "product_fact_quality",
+          "title": "数量单位与属性混淆",
+          "severity": "blocking",
+          "field_path": "content.item_highlights",
+          "original": "4.1oz",
+          "reason": "额定承重尚未确认；容量、面料克重和单件重量都不能证明承重。",
+          "suggestion": "补充适用商品的额定承重来源，或删除无法证实的数值。",
+          "method": "deterministic_structured_facts",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        }
+      ],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    }
+  ],
+  "final": {
+    "listing_id": "listing-a52d5119-4acc-43fa-9fd8-ca3b82d545af",
+    "version": 4,
+    "issues": [
+      {
+        "issue_id": "e728a7cecd6fa8",
+        "rule_id": "FACT-01",
+        "category": "product_fact_quality",
+        "title": "数量单位与属性混淆",
+        "severity": "blocking",
+        "field_path": "content.item_highlights",
+        "original": "4.1oz",
+        "reason": "额定承重尚未确认；容量、面料克重和单件重量都不能证明承重。",
+        "suggestion": "补充适用商品的额定承重来源，或删除无法证实的数值。",
+        "method": "deterministic_structured_facts",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "status": "open"
+      }
+    ],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ]
+  },
+  "acceptance": "real_workflow_completed_quality_issue_remains"
+}

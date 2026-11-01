@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "notice": "Engineering checks, separate from real-source/DeepSeek acceptance. No simulated response is counted as live acceptance.",
+  "checks": [
+    { "command": "npm run build", "result": "passed", "frontend_asset": "index-CfM61-mH.js" },
+    { "command": "npm run test:guided", "result": "passed", "tests": 26 },
+    { "command": "npm run test:intake", "result": "passed", "tests": 25 },
+    { "command": "npm run test:integration", "result": "passed", "tests": 31 },
+    { "command": "npm run rules:check", "result": "passed", "rules": 15 },
+    { "command": "npm run export:platform:check", "result": "passed" },
+    { "command": "npm run audit:delivery", "result": "passed", "red_items": 0 },
+    { "command": "git diff --check", "result": "passed" }
+  ]
+}

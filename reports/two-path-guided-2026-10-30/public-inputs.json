@@ -1,0 +1,87 @@
+{
+  "prepared_at": "2026-10-30T09:23:51.283Z",
+  "product_id": "REAL-WESTFORD-W101",
+  "product_revision": 1,
+  "archived_product_revision": 2,
+  "own_content": {
+    "title": "Westford Mill W101 100% Cotton Tote Bag, 140gsm",
+    "item_highlights": "100% cotton, 140gsm (4.1oz/yd²); can be carried by hand or over the shoulder; CutAway label for ease of rebranding",
+    "bullet_points": [
+      {
+        "id": "b1",
+        "text": "Material: 100% cotton, 140gsm (4.1oz/yd²) — a lightweight cotton tote for everyday carrying."
+      },
+      {
+        "id": "b2",
+        "text": "Carry options: can be carried by hand or over the shoulder."
+      },
+      {
+        "id": "b3",
+        "text": "Label: CutAway label for ease of rebranding."
+      }
+    ],
+    "description": "Westford Mill W101 is a tote bag made from 100% cotton at 140gsm (4.1oz/yd²). It can be carried by hand or over the shoulder, and a CutAway label makes it easy to rebrand."
+  },
+  "competitor_content": {
+    "title": "Premium Cotton Tote",
+    "item_highlights": "",
+    "bullet_points": [
+      {
+        "id": "b1",
+        "text": "100% Cotton - 200gsm (6oz/yd²)"
+      },
+      {
+        "id": "b2",
+        "text": "Premium Cotton for enhanced durability"
+      },
+      {
+        "id": "b3",
+        "text": "Superior print surface for optimal decoration"
+      },
+      {
+        "id": "b4",
+        "text": "Can be carried by hand or over the shoulder"
+      },
+      {
+        "id": "b5",
+        "text": "CutAway label for ease of rebranding"
+      }
+    ],
+    "description": ""
+  },
+  "sources": [
+    {
+      "model": "W101",
+      "url": "https://westfordmill.com/products/w101",
+      "publisher": "Westford Mill",
+      "checked_at": "2026-10-30T09:23:45.686Z",
+      "http_status": 200,
+      "elapsed_ms": 5318,
+      "title": "Bag for Life - Long Handles",
+      "bullets": [
+        "100% Cotton - 140gsm (4.1oz/yd²)",
+        "Can be carried by hand or over the shoulder",
+        "CutAway label for ease of rebranding"
+      ],
+      "specifications": "Approx Product Weight ( g ) 65 Dimensions ( cm ) - width x height x depth 38 x 42 Capacity ( litres ) 10 Fabric Weight (gsm) 140 Handle length ( cm ) 67 Approx Carton Weight ( kg ) 19 Carton Dimensions ( cm ) 50 x 40 x 33 Carton Quantity 250 Pricelist Pack Qty 25 Poly Bag Qty 25 Maximum Print Area ( cm ) 33 x 36 Maximum Embroidery ( cm tubular hoop ) 18 Commodity Code 4202929890"
+    },
+    {
+      "model": "W201",
+      "url": "https://westfordmill.com/products/w201-premium-cotton-tote",
+      "publisher": "Westford Mill",
+      "checked_at": "2026-10-30T09:23:51.210Z",
+      "http_status": 200,
+      "elapsed_ms": 5521,
+      "title": "Premium Cotton Tote",
+      "bullets": [
+        "100% Cotton - 200gsm (6oz/yd²)",
+        "Premium Cotton for enhanced durability",
+        "Superior print surface for optimal decoration",
+        "Can be carried by hand or over the shoulder",
+        "CutAway label for ease of rebranding"
+      ],
+      "specifications": "Approx Product Weight ( g ) 93 Dimensions ( cm ) - width x height x depth 38 x 42 Capacity ( litres ) 10 Fabric Weight (gsm) 200 Handle length ( cm ) 67 Approx Carton Weight ( kg ) 17.9 Carton Dimensions ( cm ) 46 x 40 x 33 Carton Quantity 150 Pricelist Pack Qty 25 Poly Bag Qty 25 Maximum Print Area ( cm ) 33 x 36 Maximum Embroidery ( cm tubular hoop ) 18 Commodity Code 4202929890"
+    }
+  ],
+  "notice": "公开真实商品及已有真实模型稿；档案事实不变，重新导入隔离库后本地版本从1起；不是商家试用、SKU、库存或上架验收。"
+}

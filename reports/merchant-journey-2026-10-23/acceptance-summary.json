@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "started_at": "2026-10-23T06:39:47.488Z",
+  "actual_model_calls": 24,
+  "reported_total_tokens": 154026,
+  "model": "deepseek-flash",
+  "current_rule_pack": "amazon-us-tote-2026-10-23.merchant-v4",
+  "page_errors": [],
+  "mobile_width": 390,
+  "mobile_document_width": 390,
+  "original_copy_preserved_during_rechecks": true,
+  "generation_versions": 5,
+  "diagnosis_version": 3,
+  "final_issues": 0,
+  "final_missing_fields": [
+    "color",
+    "retail_pack_count"
+  ],
+  "amazon_live_import": "B07Q3B7SG8",
+  "negative_gates": [
+    "REAL_MODEL_REQUIRED",
+    "REAL_PRODUCT_REQUIRED"
+  ],
+  "calls": [
+    {
+      "request_id": "242061ed-dc4c-4c9a-a25d-1ade3fd2c4c5",
+      "operation": "patch",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6218,
+      "total_tokens": 8417
+    },
+    {
+      "request_id": "0dd5e97b-35e0-4bdd-826f-a50eb14dcf96",
+      "operation": "patch",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5587,
+      "total_tokens": 8222
+    },
+    {
+      "request_id": "44038392-6821-4f35-b909-8fb70b32e9fb",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "elapsed_ms": 10960,
+      "total_tokens": 8252
+    },
+    {
+      "request_id": "6fce82b9-4e04-4946-9723-74955df698ca",
+      "operation": "diagnose retry",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5876,
+      "total_tokens": 8252
+    },
+    {
+      "request_id": "4a15c870-119a-4059-b83f-de1521c464d7",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2012,
+      "total_tokens": 7245
+    },
+    {
+      "request_id": "53dba230-9829-45e0-b2c9-4246516b854e",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6026,
+      "total_tokens": 8326
+    },
+    {
+      "request_id": "777bad8d-e4f5-452e-babe-b8d8a1a78b36",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2107,
+      "total_tokens": 7219
+    },
+    {
+      "request_id": "5837ebed-3b76-4261-a8db-116c79e120da",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6042,
+      "total_tokens": 8300
+    },
+    {
+      "request_id": "04865d66-e65a-4815-b280-3c3e3e19090a",
+      "operation": "patch",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6223,
+      "total_tokens": 8304
+    },
+    {
+      "request_id": "a558e9a4-6e78-4f3a-b0c2-639147119f6f",
+      "operation": "patch",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5760,
+      "total_tokens": 8324
+    },
+    {
+      "request_id": "24f23e6a-eb31-4b3d-a0b4-cb6ad23e61f9",
+      "operation": "create",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2437,
+      "total_tokens": 6893
+    },
+    {
+      "request_id": "2b3dd68a-a1f8-41af-9f8b-2b6e17a21fb2",
+      "operation": "create",
+      "model": "deepseek-flash",
+      "elapsed_ms": 10910,
+      "total_tokens": 8310
+    },
+    {
+      "request_id": "996a2964-dace-4af5-be6a-a3e6d45549cc",
+      "operation": "create retry",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5229,
+      "total_tokens": 8074
+    },
+    {
+      "request_id": "ca4340ce-1f28-46f3-ba18-104d3601d337",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1870,
+      "total_tokens": 6182
+    },
+    {
+      "request_id": "35c4eb30-be32-4eb2-a6cf-cd134ff71972",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4568,
+      "total_tokens": 5273
+    },
+    {
+      "request_id": "ba860ca5-dbfc-4a3f-abc3-816dfc5f2476",
+      "operation": "create",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2818,
+      "total_tokens": 4372
+    },
+    {
+      "request_id": "f2425a59-ad85-4a3f-b41a-ccafdd0f16ba",
+      "operation": "create",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5386,
+      "total_tokens": 5531
+    },
+    {
+      "request_id": "ae603a7f-73b5-494e-a26e-e13e26809560",
+      "operation": "extract",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2856,
+      "total_tokens": 1036
+    },
+    {
+      "request_id": "f1740d51-1315-485f-ae3f-a93fb2e4ea8b",
+      "operation": "extract",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3307,
+      "total_tokens": 1215
+    },
+    {
+      "request_id": "ad0af29c-51b1-46c3-bf28-c2d256f9fcbf",
+      "operation": "真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1895,
+      "total_tokens": 4354
+    },
+    {
+      "request_id": "81ced3d1-25e1-4d32-8908-6c234217c093",
+      "operation": "真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5363,
+      "total_tokens": 5533
+    },
+    {
+      "request_id": "6f90cd16-fdd7-4bb1-88b3-4a7c2fab3da8",
+      "operation": "真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1492,
+      "total_tokens": 5787
+    },
+    {
+      "request_id": "55a88fa3-cab9-4df0-b6be-d6cb0d75d16d",
+      "operation": "真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4549,
+      "total_tokens": 5269
+    },
+    {
+      "request_id": "0a3d6c48-9966-4c92-83bc-dec1941416d6",
+      "operation": "补充真实规格后原任务复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4708,
+      "total_tokens": 5336
+    }
+  ]
+}

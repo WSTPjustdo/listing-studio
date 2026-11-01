@@ -1,0 +1,154 @@
+.merchant-composer label,
+.fact-source-editor label {
+  display: grid;
+  gap: 8px;
+  font-size: 13px;
+  color: #334155;
+  margin: 14px 0;
+}
+.merchant-composer textarea,
+.fact-source-editor textarea,
+.fact-source-editor input,
+.fact-source-editor select,
+.merchant-composer select {
+  box-sizing: border-box;
+  width: 100%;
+  font: inherit;
+  line-height: 1.6;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+  background: #fff;
+  color: #172b4d;
+}
+.merchant-composer textarea,
+.fact-source-editor textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+.merchant-composer select {
+  max-width: 240px;
+}
+.composer-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #526174;
+}
+.instruction-preview {
+  margin: 12px 0;
+  padding: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #f5f8ff;
+}
+.instruction-preview pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: inherit;
+  line-height: 1.7;
+}
+.fact-source-editor,
+.product-completeness {
+  margin: 16px 0;
+  padding: 16px;
+  border: 1px solid #d8e0eb;
+  border-radius: 12px;
+  background: #f8faff;
+}
+.fact-source-editor h3,
+.product-completeness h3 {
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+.fact-source-editor article,
+.review-group {
+  background: white;
+  border: 1px solid #d8e0eb;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 12px 0;
+}
+.fact-source-editor .source-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.fact-source-editor .source-pair label {
+  margin: 6px 0;
+}
+.source-row-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.saved-source-note,
+.product-completeness p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #475569;
+}
+.fact-source-editor summary,
+.review-group summary {
+  cursor: pointer;
+  font-size: 13px;
+  padding: 8px 0;
+  color: #075bb5;
+}
+.review-group pre {
+  white-space: pre-wrap;
+  font: inherit;
+}
+.review-group h3 {
+  margin: 4px 0;
+  font-size: 16px;
+}
+.review-group article {
+  border-top: 1px solid #e2e8f0;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+.review-group blockquote {
+  margin: 8px 0;
+  padding: 12px;
+  background: #f8fafc;
+}
+.readiness-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 12px 0;
+}
+.readiness-grid span {
+  padding: 12px;
+  border: 1px solid #d8e0eb;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 12px;
+}
+.readiness-grid strong {
+  display: block;
+  margin-bottom: 5px;
+}
+@media (max-width: 650px) {
+  .fact-source-editor .source-pair,
+  .readiness-grid {
+    grid-template-columns: 1fr;
+  }
+  .merchant-composer {
+    padding: 16px;
+  }
+  .composer-meta {
+    display: block;
+  }
+}
+
+/* 批量重试的结论：排上几条、跳了哪几条、每条的下一步 */
+.batch-retry-note{margin:16px 0;padding:14px 16px;border-radius:12px;background:#f2f7ff;border:1px solid #d7e5fb;font-size:13px}
+.batch-retry-note.warn{background:#fff8ec;border-color:#f2ddb5}
+.batch-retry-note p{margin:0 0 8px}
+.batch-retry-note ul{margin:0;padding-left:18px}
+.batch-retry-note li{margin:4px 0}

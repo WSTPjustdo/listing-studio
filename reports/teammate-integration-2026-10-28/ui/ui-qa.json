@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-10-29T01:22:17.632Z",
+  "notice": "Readonly UI checks using persisted real model records; no model requests and no simulated routes.",
+  "checks": [
+    {
+      "width": 1440,
+      "view": "review",
+      "horizontal_overflow": false,
+      "parameter_scope_visible": true
+    },
+    {
+      "width": 1440,
+      "view": "trend",
+      "horizontal_overflow": false,
+      "scope_change_visible": true
+    },
+    {
+      "width": 1440,
+      "view": "batch",
+      "horizontal_overflow": false,
+      "file_types_preserved": true
+    },
+    {
+      "width": 390,
+      "view": "review",
+      "horizontal_overflow": false,
+      "parameter_scope_visible": true
+    },
+    {
+      "width": 390,
+      "view": "trend",
+      "horizontal_overflow": false,
+      "scope_change_visible": true
+    },
+    {
+      "width": 390,
+      "view": "batch",
+      "horizontal_overflow": false,
+      "file_types_preserved": true
+    },
+    {
+      "width": 360,
+      "view": "review",
+      "horizontal_overflow": false,
+      "parameter_scope_visible": true
+    },
+    {
+      "width": 360,
+      "view": "trend",
+      "horizontal_overflow": false,
+      "scope_change_visible": true
+    },
+    {
+      "width": 360,
+      "view": "batch",
+      "horizontal_overflow": false,
+      "file_types_preserved": true
+    },
+    {
+      "width": 390,
+      "view": "html",
+      "horizontal_overflow": false,
+      "tables": 9,
+      "minimum_table_font_px": 12.5
+    },
+    {
+      "width": 390,
+      "view": "worklist",
+      "horizontal_overflow": false,
+      "tables": 2,
+      "minimum_table_font_px": 12.5
+    },
+    {
+      "view": "rule_basis",
+      "official_title": true,
+      "highlight_internal_override": true
+    }
+  ],
+  "page_errors": [],
+  "model_requests": [],
+  "status": "passed_readonly_real_ui_checks"
+}

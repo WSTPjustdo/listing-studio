@@ -1,0 +1,203 @@
+ListingStudio
+Amazon 上架内容审核助手
+运营工作空间
+商品内容与审核
+工作台
+工作台
+Listing 台账
+批量商品
+新品 Listing
+诊断与修复
+商品资料
+图片与竞品研究
+版本记录
+知识与依据
+规则与来源
+13
+每一处修改，都有依据
+
+商品事实、规则来源与版本记录，始终随内容保留。
+
+查看资料来源
+模型服务已配置
+deepseek-flash
+工作空间
+新品 Listing
+Amazon US
+· 英文
+S
+CREATE / EVIDENCE FIRST
+新品 Listing 创建
+
+将商品资料转化为有依据、符合美国市场表达习惯的英文内容。
+
+新建任务
+导出
+01
+确认商品资料
+02
+生成英文草稿
+03
+审核与修复
+04
+确认与交付
+事实与来源全程保留
+商品资料
+管理
+规格示意 · 非商品实拍
+关联商品
+DALIX · 22" Heavy Duty Cotton Canvas Tote Bag (Zippered)
+DALIX · DALIX 20" Solid Color Cotton Canvas Shopping Tote Bag in Black
+Westford Mill W101 官方公开商品
+Westford Mill W201 官方公开参考
+Amazon 公开商品
+资料 V2
+材质
+100% cotton canvas
+尺寸
+见来源原始尺寸 / 未披露
+面料克重
+未披露
+容量 / 提手
+未披露 / 未披露
+零售包装
+待确认
+查看商品事实来源
+内容偏好
+目标买家
+日常购物用户
+活动采购人员
+企业采购人员
+使用场景
+日常携带
+活动赠品
+企业定制
+主要购买顾虑
+尺寸与使用便利
+材质与规格
+定制适用性
+表达风格
+简洁自然
+参数清晰
+场景导向
+用途与表达要求
+
+事实、认证与性能以商品档案为准。 目标买家和场景只影响表达顺序；定制能力也须有本商品资料支持。
+
+美国站
+英文产出
+用此资料另建草稿
+
+兼容接口 · 实际模型调用
+
+当前覆盖美国站文本与宣称预审。正式上架还需核对商品类型及其他必要资料。
+
+待补充核验
+
+0 项内容风险 · 0 项检查未完成 · 2 项资料待补充
+
+查看审核
+Listing 草稿
+V2
+文案编辑
+检查与依据
+0
+版本对比
+2
+V1
+10/23 21:38
+V2
+10/23 23:16
+对话修改
+
+Rewrite this listing in concise, natural US English for everyday shoppers. Use only DALIX, 100% cotton canvas and the zippered top supported by the current product record and imported title. Do not add facts from memory. Remove all 22-inch measurements because the structured dimensions are unconfirmed. Do not use heavy duty, durable, secure, roomy, waterproof, washable, organic, eco-friendly or similar unsupported performance claims. Omit color, pack count, capacity, weight, handle measurements, country of origin, certifications, price, inventory and seller SKU. Do not add an exterior pocket because it has not been saved as a verified fact in this workspace. Return one title under 100 characters, a short highlights line, five distinct bullet points, and a description under 70 words. Use plain sentence case and avoid keyword repetition. Keep missing-data notes outside customer-facing copy. Preserve all confirmed facts; do not manufacture new facts merely to fill five bullets.
+
+本轮未再检出 5
+仍存在 0
+新增 0
+商品标题
+修改前
+
+DALIX 22" Cotton Canvas Tote Bag with Zipper
+
+修改后
+
+DALIX Cotton Canvas Tote Bag with Zipper
+
+商品亮点
+修改前
+
+22" cotton canvas tote with a zippered top for everyday shopping and carrying
+
+修改后
+
+Cotton canvas tote with a zippered top for everyday shopping and carrying
+
+商品要点 1
+修改前
+
+100% COTTON CANVAS: Made from 100% cotton canvas for a sturdy, everyday tote.
+
+修改后
+
+100% cotton canvas: The bag is made from 100% cotton canvas.
+
+商品要点 2
+修改前
+
+ZIPPERED TOP: The zippered closure helps keep your items contained while you carry them.
+
+修改后
+
+Zippered top: A zipper closure runs along the top of the bag.
+
+商品要点 3
+修改前
+
+22-INCH SIZE: A 22" tote bag that offers roomy space for daily shopping and errands.
+
+修改后
+
+Everyday carry: A simple tote for shopping, errands and daily use.
+
+商品要点 4
+修改前
+
+EVERYDAY CARRY: Simple, practical design that suits grocery runs, errands and daily use.
+
+修改后
+
+DALIX tote: A cotton canvas tote bag from DALIX.
+
+商品要点 5
+修改前
+
+DALIX TOTE: A cotton canvas tote bag from DALIX, made for everyday carrying.
+
+修改后
+
+Easy to use: Open the zippered top to load the bag and close it when you carry it.
+
+商品描述
+修改前
+
+The DALIX 22" Heavy Duty Cotton Canvas Tote Bag is made from 100% cotton canvas and features a zippered top. At 22 inches, it offers roomy space for everyday shopping and carrying, with a simple design that fits daily errands.
+
+修改后
+
+The DALIX Cotton Canvas Tote Bag is made from 100% cotton canvas and has a zippered top. It is a simple, practical bag for everyday shopping, errands and carrying your items.
+
+实际模型调用
+商品事实快照已保存
+运行详情
+继续调整这份文案
+修改后重新检查 · 保留原版本
+整份文案
+只改标题
+只改亮点
+只改描述
+标题更简洁
+突出日常通勤
+查看版本变化
+Listing Studio · 为准确的商品内容而设计
+Amazon US · 本地工作空间

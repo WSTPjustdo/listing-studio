@@ -1,0 +1,666 @@
+{
+  "started_at": "2026-10-31T06:21:10.103Z",
+  "base": "http://127.0.0.1:8787",
+  "scope": "Read-only layout and navigation on real workbench; no synthetic products, no model calls.",
+  "checks": [
+    {
+      "name": "guided_collapsed_1440",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 52,
+        "sidebarRight": 60
+      }
+    },
+    {
+      "name": "guided_expanded_1440",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 200,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200
+      }
+    },
+    {
+      "name": "hover_expand_overlay",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200
+      }
+    },
+    {
+      "name": "keyboard_focus_expand",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200
+      }
+    },
+    {
+      "name": "more_navigation_fits",
+      "passed": true,
+      "actual": [
+        {
+          "label": "批量商品",
+          "right": 187,
+          "scroll": 175,
+          "width": 175,
+          "iconWidth": 28
+        },
+        {
+          "label": "新品 Listing",
+          "right": 187,
+          "scroll": 175,
+          "width": 175,
+          "iconWidth": 28
+        },
+        {
+          "label": "诊断与修复",
+          "right": 187,
+          "scroll": 175,
+          "width": 175,
+          "iconWidth": 28
+        },
+        {
+          "label": "商品资料",
+          "right": 187,
+          "scroll": 175,
+          "width": 175,
+          "iconWidth": 28
+        },
+        {
+          "label": "图片与竞品研究",
+          "right": 187,
+          "scroll": 175,
+          "width": 175,
+          "iconWidth": 28
+        },
+        {
+          "label": "导入已有文案",
+          "right": 187,
+          "scroll": 175,
+          "width": 175,
+          "iconWidth": 28
+        },
+        {
+          "label": "规则与来源",
+          "right": 187,
+          "scroll": 175,
+          "width": 175,
+          "iconWidth": 28
+        }
+      ]
+    },
+    {
+      "name": "expanded_layout_1001",
+      "passed": true,
+      "actual": {
+        "viewport": 1001,
+        "documentWidth": 1001,
+        "sidebar": 200,
+        "mainMargin": 200,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200,
+        "elements": [
+          {
+            "name": "brand",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item active",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "provider-switch",
+            "width": 175,
+            "scrollWidth": 175
+          }
+        ]
+      }
+    },
+    {
+      "name": "expanded_layout_1280",
+      "passed": true,
+      "actual": {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "sidebar": 200,
+        "mainMargin": 200,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200,
+        "elements": [
+          {
+            "name": "brand",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item active",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "provider-switch",
+            "width": 175,
+            "scrollWidth": 175
+          }
+        ]
+      }
+    },
+    {
+      "name": "expanded_layout_1440",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 200,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200,
+        "elements": [
+          {
+            "name": "brand",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item active",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "provider-switch",
+            "width": 175,
+            "scrollWidth": 175
+          }
+        ]
+      }
+    },
+    {
+      "name": "expanded_layout_1920",
+      "passed": true,
+      "actual": {
+        "viewport": 1920,
+        "documentWidth": 1920,
+        "sidebar": 200,
+        "mainMargin": 200,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200,
+        "elements": [
+          {
+            "name": "brand",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item active",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "nav-item ",
+            "width": 175,
+            "scrollWidth": 175
+          },
+          {
+            "name": "provider-switch",
+            "width": 175,
+            "scrollWidth": 175
+          }
+        ]
+      }
+    },
+    {
+      "name": "tablet_layout_761",
+      "passed": true,
+      "actual": {
+        "viewport": 761,
+        "documentWidth": 761,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 46.5,
+        "sidebarRight": 60,
+        "icons": [
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 105,
+              "width": 31,
+              "height": 31,
+              "top": 105,
+              "right": 45,
+              "bottom": 136,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 96,
+              "width": 47,
+              "height": 49,
+              "top": 96,
+              "right": 53,
+              "bottom": 145,
+              "left": 6
+            }
+          },
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 167,
+              "width": 31,
+              "height": 31,
+              "top": 167,
+              "right": 45,
+              "bottom": 198,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 158,
+              "width": 47,
+              "height": 49,
+              "top": 158,
+              "right": 53,
+              "bottom": 207,
+              "left": 6
+            }
+          },
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 229,
+              "width": 31,
+              "height": 31,
+              "top": 229,
+              "right": 45,
+              "bottom": 260,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 220,
+              "width": 47,
+              "height": 49,
+              "top": 220,
+              "right": 53,
+              "bottom": 269,
+              "left": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "tablet_layout_800",
+      "passed": true,
+      "actual": {
+        "viewport": 800,
+        "documentWidth": 800,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 46.5,
+        "sidebarRight": 60,
+        "icons": [
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 105,
+              "width": 31,
+              "height": 31,
+              "top": 105,
+              "right": 45,
+              "bottom": 136,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 96,
+              "width": 47,
+              "height": 49,
+              "top": 96,
+              "right": 53,
+              "bottom": 145,
+              "left": 6
+            }
+          },
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 167,
+              "width": 31,
+              "height": 31,
+              "top": 167,
+              "right": 45,
+              "bottom": 198,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 158,
+              "width": 47,
+              "height": 49,
+              "top": 158,
+              "right": 53,
+              "bottom": 207,
+              "left": 6
+            }
+          },
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 229,
+              "width": 31,
+              "height": 31,
+              "top": 229,
+              "right": 45,
+              "bottom": 260,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 220,
+              "width": 47,
+              "height": 49,
+              "top": 220,
+              "right": 53,
+              "bottom": 269,
+              "left": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "tablet_layout_1000",
+      "passed": true,
+      "actual": {
+        "viewport": 1000,
+        "documentWidth": 1000,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 46.5,
+        "sidebarRight": 60,
+        "icons": [
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 105,
+              "width": 31,
+              "height": 31,
+              "top": 105,
+              "right": 45,
+              "bottom": 136,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 96,
+              "width": 47,
+              "height": 49,
+              "top": 96,
+              "right": 53,
+              "bottom": 145,
+              "left": 6
+            }
+          },
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 167,
+              "width": 31,
+              "height": 31,
+              "top": 167,
+              "right": 45,
+              "bottom": 198,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 158,
+              "width": 47,
+              "height": 49,
+              "top": 158,
+              "right": 53,
+              "bottom": 207,
+              "left": 6
+            }
+          },
+          {
+            "width": 47,
+            "scrollWidth": 47,
+            "icon": {
+              "x": 14,
+              "y": 229,
+              "width": 31,
+              "height": 31,
+              "top": 229,
+              "right": 45,
+              "bottom": 260,
+              "left": 14
+            },
+            "button": {
+              "x": 6,
+              "y": 220,
+              "width": 47,
+              "height": 49,
+              "top": 220,
+              "right": 53,
+              "bottom": 269,
+              "left": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile_layout_390",
+      "passed": true,
+      "actual": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "sidebar": 390,
+        "mainMargin": 0,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 0,
+        "sidebarRight": 390
+      }
+    },
+    {
+      "name": "mobile_layout_760",
+      "passed": true,
+      "actual": {
+        "viewport": 760,
+        "documentWidth": 760,
+        "sidebar": 760,
+        "mainMargin": 0,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 0,
+        "sidebarRight": 760
+      }
+    },
+    {
+      "name": "real_W101_result_1440",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": null,
+        "iconShadow": null,
+        "brandRight": 52,
+        "sidebarRight": 60
+      }
+    },
+    {
+      "name": "real_W101_result_800",
+      "passed": true,
+      "actual": {
+        "viewport": 800,
+        "documentWidth": 800,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": null,
+        "iconShadow": null,
+        "brandRight": 46.5,
+        "sidebarRight": 60
+      }
+    },
+    {
+      "name": "real_W101_result_390",
+      "passed": true,
+      "actual": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "sidebar": 390,
+        "mainMargin": 0,
+        "activeShadow": null,
+        "iconShadow": null,
+        "brandRight": 0,
+        "sidebarRight": 390
+      }
+    },
+    {
+      "name": "real_result_expanded",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 200,
+        "activeShadow": null,
+        "iconShadow": null,
+        "brandRight": 187,
+        "sidebarRight": 200
+      }
+    },
+    {
+      "name": "reduced_motion_compact",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": null,
+        "iconShadow": null,
+        "brandRight": 52,
+        "sidebarRight": 60
+      }
+    },
+    {
+      "name": "no_page_errors",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "name": "no_mutation_or_paid_requests",
+      "passed": true,
+      "actual": []
+    }
+  ],
+  "existing_record": {
+    "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+    "version": 20,
+    "product_id": "REAL-WESTFORD-W101",
+    "model": "deepseek-flash",
+    "request_id": "fb50ecf2-b2fd-4113-b989-57a440cf39f9",
+    "notice": "Existing historical real record, not a model call in this UI check."
+  },
+  "completed_at": "2026-10-31T06:26:44.705Z",
+  "model_calls": [],
+  "mutation_requests": [],
+  "page_errors": []
+}

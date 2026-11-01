@@ -1,0 +1,171 @@
+{
+  "notice": "真实 DeepSeek 调用，德语（language=de / marketplace=DE），同一份 W101 公开资料。第 8 轮引擎改动后（VERPACK-01 接上、注册号不再冒充证书号、GPSR 清单改口径）的一次回归：产出 0 条问题，说明新检查没有对真实德语合规文案误报。不含任何密钥。",
+  "run": {
+    "label": "第 8 轮回归",
+    "marketplace": "DE",
+    "language": "de",
+    "locale": "de-DE",
+    "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+    "model": "deepseek-flash",
+    "elapsed_ms": 9636,
+    "billing_note": "本轮共 3 次计费调用：其中 1 次返回非法 JSON（MODEL_INVALID_JSON，request id 记在 format_retry 里），服务按既有格式重试策略自动重来一次并成功；另一次是结果审查。已到本轮 3 次上限，未再追加。",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": true,
+      "failed_request_id": "7d62b2b4-3cbc-419f-8413-6f433c9c6742"
+    },
+    "calls": [
+      {
+        "step": "成功的模型调用 1/2（产品侧未标注它对应 create 还是 diagnose，这里不猜）",
+        "provider_request_id": "ac80a9de-45f8-4098-9da9-9e43a227dee4",
+        "model": "deepseek-flash",
+        "elapsed_ms": 1605,
+        "http_status": 200,
+        "usage": {
+          "prompt_tokens": 8023,
+          "completion_tokens": 190,
+          "total_tokens": 8213,
+          "prompt_tokens_details": {
+            "cached_tokens": 768
+          },
+          "prompt_cache_hit_tokens": 768,
+          "prompt_cache_miss_tokens": 7255
+        }
+      },
+      {
+        "step": "成功的模型调用 2/2（同上）",
+        "provider_request_id": "a6ae9122-7391-46c1-aeda-1cf628e6e153",
+        "model": "deepseek-flash",
+        "elapsed_ms": 7947,
+        "http_status": 200,
+        "usage": {
+          "prompt_tokens": 8253,
+          "completion_tokens": 634,
+          "total_tokens": 8887,
+          "prompt_tokens_details": {
+            "cached_tokens": 1792
+          },
+          "prompt_cache_hit_tokens": 1792,
+          "prompt_cache_miss_tokens": 6461
+        }
+      }
+    ],
+    "content": {
+      "title": "Westford Mill W101 Baumwolltasche, 38 × 42 cm, 140 g/m²",
+      "item_highlights": "100 % Baumwolle, 140 g/m², 38 × 42 cm",
+      "bullet_points": [
+        {
+          "id": "b1",
+          "text": "100 % Baumwolle"
+        },
+        {
+          "id": "b2",
+          "text": "Flächengewicht: 140 g/m²"
+        },
+        {
+          "id": "b3",
+          "text": "Maße: 38 × 42 cm (Breite × Höhe)"
+        }
+      ],
+      "description": "Baumwolltasche von Westford Mill, Modell W101. Material: 100 % Baumwolle. Flächengewicht: 140 g/m². Maße: 38 × 42 cm (Breite × Höhe)."
+    },
+    "issues": [],
+    "checks": [
+      {
+        "rule_id": "AMZ-01",
+        "state": "pass",
+        "method": "deterministic"
+      },
+      {
+        "rule_id": "AMZ-02",
+        "state": "pass",
+        "method": "deterministic"
+      },
+      {
+        "rule_id": "AMZ-03",
+        "state": "pass",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "AMZ-04",
+        "state": "pass",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "AMZ-05",
+        "state": "pass",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "AMZ-06",
+        "state": "pass",
+        "method": "deterministic"
+      },
+      {
+        "rule_id": "DE-TITLE-02",
+        "state": "pass",
+        "method": "deterministic"
+      },
+      {
+        "rule_id": "DE-TITLE-03",
+        "state": "pass",
+        "method": "deterministic"
+      },
+      {
+        "rule_id": "DE-GPSR-19",
+        "state": "not_checked",
+        "method": "checklist_only"
+      },
+      {
+        "rule_id": "DE-TEXTIL-01",
+        "state": "not_checked",
+        "method": "deterministic_partial"
+      },
+      {
+        "rule_id": "DE-ENV-01",
+        "state": "not_checked",
+        "method": "deterministic_partial"
+      },
+      {
+        "rule_id": "DE-VERPACK-01",
+        "state": "not_checked",
+        "method": "checklist_only"
+      },
+      {
+        "rule_id": "DE-CERT-01",
+        "state": "not_checked",
+        "method": "deterministic_partial"
+      },
+      {
+        "rule_id": "DE-GARANTIE-01",
+        "state": "not_checked",
+        "method": "deterministic_partial"
+      },
+      {
+        "rule_id": "FACT-01",
+        "state": "pass",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "FACT-02",
+        "state": "pass",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "EVID-01",
+        "state": "pass",
+        "method": "deterministic_structured_facts"
+      },
+      {
+        "rule_id": "SYS-01",
+        "state": "pass",
+        "method": "deterministic"
+      },
+      {
+        "rule_id": "SYS-02",
+        "state": "not_checked",
+        "method": "deterministic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "merchant_acceptance": false,
+  "checks": [
+    {
+      "command": "npm run build",
+      "status": "passed"
+    },
+    {
+      "command": "node --test tests/materials.test.mjs tests/amazon-template-import.test.mjs tests/model-context.test.mjs tests/guided.test.mjs tests/research-source-grounding.test.mjs tests/privacy-export.test.mjs tests/parameter-integration.test.mjs tests/integration-provider-metadata.test.mjs",
+      "status": "passed",
+      "tests": 65
+    },
+    {
+      "command": "npm run test:flat-file",
+      "status": "passed",
+      "checks": 20
+    },
+    {
+      "command": "npm run audit:delivery",
+      "status": "passed",
+      "red": 0
+    },
+    {
+      "command": "scripts/package-share.mjs --snapshot isolated fixture",
+      "status": "passed",
+      "checks": 12
+    }
+  ],
+  "known_previous_strict_probe_failure": {
+    "command": "node scripts/generation-contract.mjs --strict",
+    "status": "failed",
+    "reason": "Existing hardcoded limits in scripts/collect-listings.mjs:327-328; not changed in this task. Not a model acceptance result."
+  },
+  "npm_audit": {
+    "moderate": 8,
+    "high": 0,
+    "critical": 0,
+    "dependency_chain": "Existing ExcelJS archive/glob dependencies"
+  }
+}

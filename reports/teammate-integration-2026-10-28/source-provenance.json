@@ -1,0 +1,16 @@
+{
+  "compiled_on": "2026-10-29",
+  "source_archive_name": "发队友-ListingStudio-20261028.zip",
+  "source_archive_bytes": 27292031,
+  "source_archive_sha256": "ae1326416e9f673946dcdf7aebd05d39080e7ed4ea1504c9a0260c0420523f1b",
+  "source_commit": "81a40917fef531d64bd105433d2222b32fca118c",
+  "common_ancestor": "c0f87bfa5c71892e6d438a982e981dda4e98007c",
+  "current_baseline": "0c5892435a6f410d3a2480f161148eb4e9ed7017",
+  "integration_commits": [
+    "b7144df1937c948dc876d3c5873bdef3927fba7b",
+    "75da2b6613262fbddc2c462ef295c84d88baf05f"
+  ],
+  "source_manifest_entries_verified": 656,
+  "dependency_lock_unchanged": true,
+  "method": "Selective modules on the newer inventory baseline; no whole-directory overwrite, MOCK integration or imported runtime database."
+}

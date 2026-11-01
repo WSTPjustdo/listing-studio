@@ -1,0 +1,15 @@
+.app-error-boundary {
+  width: min(560px, calc(100% - 40px));
+  margin: 12vh auto;
+  padding: 28px;
+  border: 1px solid #dedee5;
+  border-radius: 16px;
+  background: #fff;
+  color: #20212a;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+.app-error-boundary h1 { margin-top: 0; font-size: 24px; }
+.app-error-boundary details { margin: 20px 0; }
+.app-error-boundary pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 13px; }
+.app-error-boundary summary { cursor: pointer; }

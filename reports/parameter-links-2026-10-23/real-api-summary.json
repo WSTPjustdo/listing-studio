@@ -1,0 +1,275 @@
+{
+  "updated_at": "2026-10-23T10:43:16.134Z",
+  "parameter_link_version": "structured-parameters-v1",
+  "rule_pack_version": "amazon-us-tote-2026-10-23.merchant-v6",
+  "prompt_version": "2026-10-23.parameters-v7",
+  "actual_response_count": 13,
+  "total_tokens": 89767,
+  "notice": "含格式重试与复验，不是单商品常规成本。金额未知。",
+  "calls": [
+    {
+      "request_id": "0c5e46aa-9a99-4ce4-bf34-1041d05ce22a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2282,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 4311,
+        "completion_tokens": 268,
+        "total_tokens": 4579,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 3927
+      },
+      "context": "真实商品生成与独立审核",
+      "format_recovered": null
+    },
+    {
+      "request_id": "5247270f-4128-4a84-bf2d-69c56d9ed35a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3852,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 4521,
+        "completion_tokens": 945,
+        "total_tokens": 5466,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 3881
+      },
+      "context": "真实商品生成与独立审核 / first_format_attempt",
+      "format_recovered": null
+    },
+    {
+      "request_id": "a0f98a41-0cec-4a87-84b9-d42d935362bd",
+      "model": "deepseek-flash",
+      "elapsed_ms": 7087,
+      "elapsed_scope": "operation_including_retry",
+      "usage": {
+        "prompt_tokens": 4579,
+        "completion_tokens": 880,
+        "total_tokens": 5459,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3811
+      },
+      "context": "真实商品生成与独立审核",
+      "format_recovered": true
+    },
+    {
+      "request_id": "ad984743-126c-4558-abc3-a155337344dd",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1459,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 5072,
+        "completion_tokens": 268,
+        "total_tokens": 5340,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 4176
+      },
+      "context": "真实问题审查修复与复检",
+      "format_recovered": null
+    },
+    {
+      "request_id": "febca063-4087-4077-9275-98be49fea337",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3792,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 4521,
+        "completion_tokens": 954,
+        "total_tokens": 5475,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "prompt_cache_hit_tokens": 4352,
+        "prompt_cache_miss_tokens": 169
+      },
+      "context": "真实问题审查修复与复检",
+      "format_recovered": null
+    },
+    {
+      "request_id": "b659d889-0cae-4a65-856c-3482c79de0d6",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4031,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 4558,
+        "completion_tokens": 925,
+        "total_tokens": 5483,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 3662
+      },
+      "context": "补充真实规格后原任务复检",
+      "format_recovered": null
+    },
+    {
+      "request_id": "313a6528-27ca-4372-aa3e-345463baffb0",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4611,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 7214,
+        "completion_tokens": 1063,
+        "total_tokens": 8277,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6446
+      },
+      "context": "workbench V17 / first_format_attempt",
+      "format_recovered": null
+    },
+    {
+      "request_id": "8de39f1f-b345-4242-a9c9-af8042ae668f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8419,
+      "elapsed_scope": "operation_including_retry",
+      "usage": {
+        "prompt_tokens": 7272,
+        "completion_tokens": 970,
+        "total_tokens": 8242,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6376
+      },
+      "context": "workbench V17",
+      "format_recovered": true
+    },
+    {
+      "request_id": "7b53ad78-8a18-4464-9847-3d750724d3cb",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5412,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 7214,
+        "completion_tokens": 1078,
+        "total_tokens": 8292,
+        "prompt_tokens_details": {
+          "cached_tokens": 7040
+        },
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 174
+      },
+      "context": "workbench V18",
+      "format_recovered": null
+    },
+    {
+      "request_id": "60ae2fe4-7c45-46c3-ba30-5e53f8b5e7ef",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4593,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 7214,
+        "completion_tokens": 1043,
+        "total_tokens": 8257,
+        "prompt_tokens_details": {
+          "cached_tokens": 7040
+        },
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 174
+      },
+      "context": "workbench V19",
+      "format_recovered": null
+    },
+    {
+      "request_id": "fb50ecf2-b2fd-4113-b989-57a440cf39f9",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4901,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 7214,
+        "completion_tokens": 1118,
+        "total_tokens": 8332,
+        "prompt_tokens_details": {
+          "cached_tokens": 7040
+        },
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 174
+      },
+      "context": "workbench V20",
+      "format_recovered": null
+    },
+    {
+      "request_id": "b29dc99d-64d5-4850-bec9-d9abe0990518",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4228,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 7272,
+        "completion_tokens": 1019,
+        "total_tokens": 8291,
+        "prompt_tokens_details": {
+          "cached_tokens": 7040
+        },
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 232
+      },
+      "context": "failed run-eecba4b8-0da9-42ee-9a93-1089fd8ebbac",
+      "format_recovered": null
+    },
+    {
+      "request_id": "c0779821-9e50-4c7a-9933-d5ff436356af",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4516,
+      "elapsed_scope": "single_response",
+      "usage": {
+        "prompt_tokens": 7214,
+        "completion_tokens": 1060,
+        "total_tokens": 8274,
+        "prompt_tokens_details": {
+          "cached_tokens": 7040
+        },
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 174
+      },
+      "context": "failed run-eecba4b8-0da9-42ee-9a93-1089fd8ebbac / first_format_attempt",
+      "format_recovered": null
+    }
+  ],
+  "current_listing": {
+    "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+    "version": 20,
+    "product_ref": "REAL-WESTFORD-W101@8",
+    "issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ],
+    "consistency": {
+      "state": "consistent",
+      "compared_version": 19,
+      "reason": "本次与上一版相同输入的审核结论一致；单次一致不代表长期稳定性。"
+    }
+  },
+  "remaining_limits": [
+    "whole_sentence_semantics_requires_separate_review",
+    "unrecognized_expressions_remain_pending",
+    "model_json_can_fail",
+    "public_goods_not_merchant_trial",
+    "colour_and_retail_pack_unknown"
+  ]
+}

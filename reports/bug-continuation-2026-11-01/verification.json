@@ -1,0 +1,55 @@
+{
+  "build": "passed",
+  "focused_engineering_tests": {
+    "passed": 21,
+    "failed": 0,
+    "command": "node --test tests/run-polling.test.mjs tests/guided-input-regression.test.mjs tests/provider-config-regression.test.mjs tests/variant-persistence.test.mjs",
+    "notice": "Engineering transport fixtures are not real model acceptance."
+  },
+  "strict_delivery_audit": "passed",
+  "standard_live": "real_api_workflow_completed_quality_requires_review",
+  "browser_live": {
+    "checks": 9,
+    "page_errors": 0,
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "version": 14,
+    "adopted_version": 15
+  },
+  "polling_live": {
+    "checks": 5,
+    "failures": [],
+    "page_errors": [],
+    "submissions": [
+      {
+        "path": "/api/guided/plan",
+        "at": "2026-11-01T03:06:48.899Z"
+      },
+      {
+        "path": "/api/guided/generate",
+        "at": "2026-11-01T03:06:54.457Z"
+      }
+    ],
+    "transport_faults": [
+      {
+        "operation": "status_get",
+        "run_id": "run-60710dcb-33fc-4664-8c1c-ff3283f3d93d",
+        "at": "2026-11-01T03:06:54.980Z"
+      },
+      {
+        "operation": "saved_versions_get",
+        "listing_id": "listing-5107ccb6-4f4e-46f5-b410-8f320298b008",
+        "at": "2026-11-01T03:07:06.803Z"
+      }
+    ],
+    "listing_id": "listing-5107ccb6-4f4e-46f5-b410-8f320298b008"
+  },
+  "real_model_requests": 16,
+  "failed_model_responses_retained": 5,
+  "tokens_total": 127372,
+  "unresolved": [
+    "Color and retail pack quantity remain unknown; no SKU, inventory or Amazon publication is asserted.",
+    "The generated guided copy contains customer-facing statements that color and pack size are unconfirmed; manual copy editing is still required. Transport acceptance does not certify listing quality.",
+    "A/B close protection covers the current page; cross-tab and refresh-level server idempotency is not added in this patch.",
+    "Actual currency cost is unknown."
+  ]
+}

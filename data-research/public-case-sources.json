@@ -1,0 +1,142 @@
+[
+  {
+    "model": "W101",
+    "source_url": "https://westfordmill.com/products/w101",
+    "publisher": "Westford Mill",
+    "retrieved_at": "2026-10-23T09:57:52.192Z",
+    "product_title": "Bag for Life - Long Handles",
+    "specifications": [
+      [
+        "Approx Product Weight ( g )",
+        "65"
+      ],
+      [
+        "Dimensions ( cm ) - width x height x depth",
+        "38 x 42"
+      ],
+      [
+        "Capacity ( litres )",
+        "10"
+      ],
+      [
+        "Fabric Weight (gsm)",
+        "140"
+      ],
+      [
+        "Handle length ( cm )",
+        "67"
+      ],
+      [
+        "Approx Carton Weight ( kg )",
+        "19"
+      ],
+      [
+        "Carton Dimensions ( cm )",
+        "50 x 40 x 33"
+      ],
+      [
+        "Carton Quantity",
+        "250"
+      ],
+      [
+        "Pricelist Pack Qty",
+        "25"
+      ],
+      [
+        "Poly Bag Qty",
+        "25"
+      ],
+      [
+        "Maximum Print Area ( cm )",
+        "33 x 36"
+      ],
+      [
+        "Maximum Embroidery ( cm tubular hoop )",
+        "18"
+      ],
+      [
+        "Commodity Code",
+        "4202929890"
+      ]
+    ],
+    "unknown": [
+      "merchant_sku",
+      "selected_colour",
+      "retail_pack_count",
+      "merchant_inventory",
+      "amazon_publication",
+      "certification_scope"
+    ],
+    "usage": "公开品牌商品规格用于功能验证；不是商家自有商品或平台上架验证。页面包装字段不转换为零售每包件数。未取得商业转载或图片许可。"
+  },
+  {
+    "model": "W201",
+    "source_url": "https://westfordmill.com/products/w201-premium-cotton-tote",
+    "publisher": "Westford Mill",
+    "retrieved_at": "2026-10-23T09:57:54.636Z",
+    "product_title": "Premium Cotton Tote",
+    "specifications": [
+      [
+        "Approx Product Weight ( g )",
+        "93"
+      ],
+      [
+        "Dimensions ( cm ) - width x height x depth",
+        "38 x 42"
+      ],
+      [
+        "Capacity ( litres )",
+        "10"
+      ],
+      [
+        "Fabric Weight (gsm)",
+        "200"
+      ],
+      [
+        "Handle length ( cm )",
+        "67"
+      ],
+      [
+        "Approx Carton Weight ( kg )",
+        "17.9"
+      ],
+      [
+        "Carton Dimensions ( cm )",
+        "46 x 40 x 33"
+      ],
+      [
+        "Carton Quantity",
+        "150"
+      ],
+      [
+        "Pricelist Pack Qty",
+        "25"
+      ],
+      [
+        "Poly Bag Qty",
+        "25"
+      ],
+      [
+        "Maximum Print Area ( cm )",
+        "33 x 36"
+      ],
+      [
+        "Maximum Embroidery ( cm tubular hoop )",
+        "18"
+      ],
+      [
+        "Commodity Code",
+        "4202929890"
+      ]
+    ],
+    "unknown": [
+      "merchant_sku",
+      "selected_colour",
+      "retail_pack_count",
+      "merchant_inventory",
+      "amazon_publication",
+      "certification_scope"
+    ],
+    "usage": "公开品牌商品规格用于功能验证；不是商家自有商品或平台上架验证。页面包装字段不转换为零售每包件数。未取得商业转载或图片许可。"
+  }
+]

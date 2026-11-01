@@ -1,0 +1,245 @@
+{
+  "started_at": "2026-10-28T13:39:52.747Z",
+  "base_url": "http://127.0.0.1:8788",
+  "evidence_type": "real_running_browser_public_source_no_merchant_template",
+  "merchant_acceptance": "pending",
+  "merchant_original_template": "unknown",
+  "merchant_seller_sku": null,
+  "platform_processing_report": "unknown",
+  "model_calls_performed": 0,
+  "model_calls_this_run": [],
+  "reused_model_record": {
+    "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+    "version": 20,
+    "created_at": "2026-10-23T10:40:21.810Z",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "fb50ecf2-b2fd-4113-b989-57a440cf39f9",
+    "model": "deepseek-flash",
+    "elapsed_ms": 4901,
+    "usage": {
+      "prompt_tokens": 7214,
+      "completion_tokens": 1118,
+      "total_tokens": 8332,
+      "prompt_tokens_details": {
+        "cached_tokens": 7040
+      },
+      "prompt_cache_hit_tokens": 7040,
+      "prompt_cache_miss_tokens": 174
+    },
+    "actual_model_call": true,
+    "reused_record_not_new_call": true,
+    "content_sha256": "1eb7404d6c009e0e1ee2a42bc324f1d75136c629bdda1aacee68203c615d269f"
+  },
+  "official_source": {
+    "url": "https://westfordmill.com/products/w101",
+    "checked_at": "2026-10-28T13:36:44.639Z",
+    "status": 200,
+    "publisher": "Westford Mill",
+    "manufacturer_product_code": "W101",
+    "verified_facts": {
+      "material": "100% Cotton",
+      "fabric_weight_gsm": 140,
+      "dimensions_cm": {
+        "width": 38,
+        "height": 42
+      }
+    },
+    "merchant_sku": null,
+    "merchant_inventory": null,
+    "selected_colour": null,
+    "retail_pack_count": null
+  },
+  "source_sha256": "ac62b8a236107ebee0d56bf510ec2e2f13c64478bf34acc19651574c3a612977",
+  "notice": "仅验收真实运行工作台导入公开派生 TSV/TXT、五点识别与缺 SKU 拦截。没有商家模板、真实卖家 SKU 或 Seller Central 报告；未启动批量处理或上传 Amazon。",
+  "checks": [
+    "real_app_file_input_accepts_tsv_and_txt",
+    "same_real_public_derived_bytes_imported_for_both_extensions",
+    "all_five_bullet_columns_mapped_distinctly_in_ui",
+    "manufacturer_code_not_treated_as_seller_sku",
+    "dry_run_returns_missing_sku_block_and_start_button_is_disabled",
+    "no_paid_batch_or_model_revision_requested",
+    "desktop_and_mobile_have_no_document_horizontal_overflow",
+    "no_page_javascript_errors"
+  ],
+  "screenshots": [
+    {
+      "filename": "flat-file-desktop-five-bullet-mapping.png",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "filename": "flat-file-desktop-missing-sku.png",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "filename": "flat-file-mobile-missing-sku.png",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "imports": [
+    {
+      "format": "tsv",
+      "same_source_bytes": true,
+      "import_id": "import-57c8e7a2-9298-4757-a9e0-1f0582926a85",
+      "original_merchant_file": false,
+      "manufacturer_product_code": "W101",
+      "seller_sku": null,
+      "dry_run": true,
+      "status": "blocked",
+      "errors": [
+        "缺少真实 SKU：请映射 SKU 列或填写商家实际货号，不会自动生成 SKU。",
+        "原表 SKU 单元格为空，请在原文件填入真实货号后重新上传，避免处理后无法回填。"
+      ],
+      "five_bullet_mapping": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "format": "txt",
+      "same_source_bytes": true,
+      "import_id": "import-f98350e4-f151-46b7-8704-d95318e1eacf",
+      "original_merchant_file": false,
+      "manufacturer_product_code": "W101",
+      "seller_sku": null,
+      "dry_run": true,
+      "status": "blocked",
+      "errors": [
+        "缺少真实 SKU：请映射 SKU 列或填写商家实际货号，不会自动生成 SKU。",
+        "原表 SKU 单元格为空，请在原文件填入真实货号后重新上传，避免处理后无法回填。"
+      ],
+      "five_bullet_mapping": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "page_errors": [],
+  "mutation_requests": [
+    {
+      "method": "POST",
+      "path": "/api/batches/preview",
+      "dry_run": null,
+      "filename": "public-derived-w101-without-seller-sku.tsv"
+    },
+    {
+      "method": "POST",
+      "path": "/api/batches",
+      "dry_run": true,
+      "filename": null
+    },
+    {
+      "method": "POST",
+      "path": "/api/batches/preview",
+      "dry_run": null,
+      "filename": "public-derived-w101-without-seller-sku.txt"
+    },
+    {
+      "method": "POST",
+      "path": "/api/batches",
+      "dry_run": true,
+      "filename": null
+    }
+  ],
+  "overflow_checks": [
+    {
+      "label": "1440px_tsv_missing_sku",
+      "viewport": 1440,
+      "scroll": 1440,
+      "overflowing_elements": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 1443
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 1443
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 1443
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 1443
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "right": 1443
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 1443
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "right": 1443
+        }
+      ]
+    },
+    {
+      "label": "390px_txt_missing_sku",
+      "viewport": 390,
+      "scroll": 390,
+      "overflowing_elements": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "right": 1181
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "right": 1181
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "right": 1181
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 481
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 581
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 681
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 781
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "right": 881
+        }
+      ]
+    }
+  ],
+  "status": "passed_browser_available_scope_merchant_validation_pending",
+  "completed_at": "2026-10-28T13:39:54.259Z"
+}

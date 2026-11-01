@@ -1,0 +1,145 @@
+{
+  "started_at": "2026-10-29T01:17:29.262Z",
+  "mode": "live_official_source_and_real_deepseek",
+  "checks": [
+    "真实文案不关联商品诊断保留未执行项",
+    "补关联后真实复检正文不变且历史不可变",
+    "规则来源快照与v2算法写入记录",
+    "检查范围变化不宣称改稿改善",
+    "桌面与390px真实工作台无页面脚本异常或横向溢出",
+    "真实报告与工作单inline导出、A4打印及390px布局"
+  ],
+  "calls": [
+    {
+      "run_id": "run-ac10ed0f-2527-4d9c-a6a4-eaeae31ea2dc",
+      "model": "deepseek-flash",
+      "request_id": "2c40f950-7e94-4323-8e9b-0723e0df150b",
+      "elapsed_ms": 6433,
+      "usage": {
+        "prompt_tokens": 4199,
+        "completion_tokens": 473,
+        "total_tokens": 4672,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 3175
+      },
+      "issues": 0
+    },
+    {
+      "run_id": "run-46013570-a97d-4d46-8dc5-7e88da790a45",
+      "model": "deepseek-flash",
+      "request_id": "c4de1daa-25b0-460e-b1ac-1e6d38f0f4b2",
+      "elapsed_ms": 5803,
+      "usage": {
+        "prompt_tokens": 7480,
+        "completion_tokens": 1289,
+        "total_tokens": 8769,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6584
+      },
+      "issues": 1
+    }
+  ],
+  "pending": [
+    "商家原始库存模板、真实卖家SKU及平台处理报告尚未提供。",
+    "并发提速、服装品类与Seller Central上传未验收。"
+  ],
+  "source": {
+    "url": "https://westfordmill.com/products/w101",
+    "checked_at": "2026-10-29T01:17:33.429Z",
+    "sha256": "034e58e0b89802868fede9a943123bd95945f6f5088aaf29eff83ef9bd28fac9",
+    "known_facts": [
+      "100% Cotton",
+      "140gsm",
+      "38 x 42"
+    ],
+    "input_listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+    "input_version": 20
+  },
+  "page_errors": [],
+  "request_ledger": [
+    {
+      "at": "2026-10-29T01:17:47.351Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 5803,
+      "total_tokens": 8769,
+      "prompt_tokens": 7480,
+      "completion_tokens": 1289,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "c4de1daa-25b0-460e-b1ac-1e6d38f0f4b2",
+      "http_status": 200
+    },
+    {
+      "at": "2026-10-29T01:17:39.878Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 2813,
+      "total_tokens": 4672,
+      "prompt_tokens": 4199,
+      "completion_tokens": 473,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "2c40f950-7e94-4323-8e9b-0723e0df150b",
+      "http_status": 200
+    },
+    {
+      "at": "2026-10-29T01:17:37.058Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3611,
+      "total_tokens": 4651,
+      "prompt_tokens": 4114,
+      "completion_tokens": 537,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "7f5ecf6b-6710-4b8d-8746-6b0a9b55eaf9",
+      "http_status": 200
+    },
+    {
+      "at": "2026-10-28T13:37:15.490Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 6235,
+      "total_tokens": 8359,
+      "prompt_tokens": 7104,
+      "completion_tokens": 1255,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "9a6154f3-6c44-4261-a1ea-cfee2f49a837",
+      "http_status": 200
+    }
+  ],
+  "completed_at": "2026-10-29T01:17:49.442Z",
+  "status": "real_integration_workflow_completed_quality_requires_review"
+}

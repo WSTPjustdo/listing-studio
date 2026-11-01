@@ -1,0 +1,11 @@
+{
+  "command": "node scripts/validate-live-handoff.mjs --real-api --transfer-only",
+  "source_url": "https://westfordmill.com/products/w101",
+  "status": "failed_before_model_call",
+  "error_name": "TimeoutError",
+  "message": "The operation was aborted due to timeout",
+  "timeout_ms": 30000,
+  "model_calls": 0,
+  "request_id": null,
+  "fallback_used": false
+}

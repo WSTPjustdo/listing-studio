@@ -1,0 +1,979 @@
+{
+  "schema_version": 1,
+  "product_name": "THERMOS Stainless King 16oz Tumbler",
+  "scope": "公开保温杯样例的模拟商家流程；仅审核文案与厂家公开资料的一致性及无依据宣称，不是完整品类、法规或上架验收。",
+  "prepared_at": "2026-11-01T03:17:01.152Z",
+  "source_file": "product-source.json",
+  "simulation_notice": "无真实商家资料。商家操作与问题稿为演练；公开商品资料及标为真实的 DeepSeek 调用可追溯。无商家 SKU、库存或上架登记。",
+  "calls": [
+    {
+      "at": "2026-11-01T03:17:03.655Z",
+      "operation": "create",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 2499,
+      "total_tokens": 5662,
+      "prompt_tokens": 5359,
+      "completion_tokens": 303,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "01ff6bb9-347a-4f71-b151-efb3a6c2d571",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "at": "2026-11-01T03:17:07.938Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 4276,
+      "total_tokens": 6677,
+      "prompt_tokens": 5706,
+      "completion_tokens": 971,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "28b673a0-d696-46c1-bd71-d2898e51b976",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "at": "2026-11-01T03:17:09.592Z",
+      "operation": "revise",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 1652,
+      "total_tokens": 6426,
+      "prompt_tokens": 6185,
+      "completion_tokens": 241,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "8c98b717-32ad-4a79-9ab4-9abc7125b2a4",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "at": "2026-11-01T03:17:13.059Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3465,
+      "total_tokens": 6361,
+      "prompt_tokens": 5631,
+      "completion_tokens": 730,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "5a5c8e86-6d74-4f79-8dcc-ffc6133538c8",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "at": "2026-11-01T03:17:15.152Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 2093,
+      "total_tokens": 5955,
+      "prompt_tokens": 5716,
+      "completion_tokens": 239,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "9af4fb5a-6216-4a08-9b1f-e8bbe51af7ec",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "at": "2026-11-01T03:18:40.653Z",
+      "operation": "revise",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 1606,
+      "total_tokens": 6420,
+      "prompt_tokens": 6157,
+      "completion_tokens": 263,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "811d8a90-2946-45b4-9765-bc11ed2d6553",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "at": "2026-11-01T03:18:44.105Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3450,
+      "total_tokens": 6413,
+      "prompt_tokens": 5596,
+      "completion_tokens": 817,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "80afc842-e2bc-4c45-9e5c-7df664b74c32",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "at": "2026-11-01T03:18:46.056Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 1950,
+      "total_tokens": 5929,
+      "prompt_tokens": 5681,
+      "completion_tokens": 248,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "21fd88b2-179e-4ea0-98e0-56e9fd135528",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    }
+  ],
+  "steps": [
+    {
+      "label": "预生成英文 Listing",
+      "status": "succeeded",
+      "at": "2026-11-01T03:17:03.655Z",
+      "elapsed_ms": 2502,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "01ff6bb9-347a-4f71-b151-efb3a6c2d571",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 2499,
+        "usage": {
+          "prompt_tokens": 5359,
+          "completion_tokens": 303,
+          "total_tokens": 5662,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 4719
+        },
+        "http_status": 200
+      }
+    },
+    {
+      "label": "真实审核人工问题稿",
+      "status": "succeeded",
+      "at": "2026-11-01T03:17:07.938Z",
+      "elapsed_ms": 4278,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "28b673a0-d696-46c1-bd71-d2898e51b976",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 4276,
+        "usage": {
+          "prompt_tokens": 5706,
+          "completion_tokens": 971,
+          "total_tokens": 6677,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 4298
+        },
+        "http_status": 200
+      }
+    },
+    {
+      "label": "真实改写问题稿",
+      "status": "succeeded",
+      "at": "2026-11-01T03:17:09.592Z",
+      "elapsed_ms": 1652,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "8c98b717-32ad-4a79-9ab4-9abc7125b2a4",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 1652,
+        "usage": {
+          "prompt_tokens": 6185,
+          "completion_tokens": 241,
+          "total_tokens": 6426,
+          "prompt_tokens_details": {
+            "cached_tokens": 4992
+          },
+          "prompt_cache_hit_tokens": 4992,
+          "prompt_cache_miss_tokens": 1193
+        },
+        "http_status": 200
+      }
+    },
+    {
+      "label": "修改后独立真实复检",
+      "status": "succeeded",
+      "at": "2026-11-01T03:17:15.152Z",
+      "elapsed_ms": 5558,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "9af4fb5a-6216-4a08-9b1f-e8bbe51af7ec",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 5558,
+        "usage": {
+          "prompt_tokens": 5716,
+          "completion_tokens": 239,
+          "total_tokens": 5955,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 4308
+        },
+        "http_status": 200,
+        "output_mode": "audit_only_format_retry",
+        "format_retry": {
+          "attempts": 2,
+          "recovered": true,
+          "failed_attempt": {
+            "error_code": "MODEL_INVALID_JSON",
+            "trace": {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "5a5c8e86-6d74-4f79-8dcc-ffc6133538c8",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 3465,
+              "usage": {
+                "prompt_tokens": 5631,
+                "completion_tokens": 730,
+                "total_tokens": 6361,
+                "prompt_tokens_details": {
+                  "cached_tokens": 5120
+                },
+                "prompt_cache_hit_tokens": 5120,
+                "prompt_cache_miss_tokens": 511
+              },
+              "http_status": 200
+            }
+          }
+        }
+      }
+    },
+    {
+      "label": "真实改写问题稿",
+      "status": "succeeded",
+      "at": "2026-11-01T03:18:40.653Z",
+      "elapsed_ms": 1610,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "811d8a90-2946-45b4-9765-bc11ed2d6553",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 1606,
+        "usage": {
+          "prompt_tokens": 6157,
+          "completion_tokens": 263,
+          "total_tokens": 6420,
+          "prompt_tokens_details": {
+            "cached_tokens": 2304
+          },
+          "prompt_cache_hit_tokens": 2304,
+          "prompt_cache_miss_tokens": 3853
+        },
+        "http_status": 200
+      }
+    },
+    {
+      "label": "修改后独立真实复检",
+      "status": "succeeded",
+      "at": "2026-11-01T03:18:46.057Z",
+      "elapsed_ms": 5402,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "21fd88b2-179e-4ea0-98e0-56e9fd135528",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 5402,
+        "usage": {
+          "prompt_tokens": 5681,
+          "completion_tokens": 248,
+          "total_tokens": 5929,
+          "prompt_tokens_details": {
+            "cached_tokens": 2432
+          },
+          "prompt_cache_hit_tokens": 2432,
+          "prompt_cache_miss_tokens": 3249
+        },
+        "http_status": 200,
+        "output_mode": "audit_only_format_retry",
+        "format_retry": {
+          "attempts": 2,
+          "recovered": true,
+          "failed_attempt": {
+            "error_code": "MODEL_INVALID_JSON",
+            "trace": {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "80afc842-e2bc-4c45-9e5c-7df664b74c32",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 3450,
+              "usage": {
+                "prompt_tokens": 5596,
+                "completion_tokens": 817,
+                "total_tokens": 6413,
+                "prompt_tokens_details": {
+                  "cached_tokens": 2304
+                },
+                "prompt_cache_hit_tokens": 2304,
+                "prompt_cache_miss_tokens": 3292
+              },
+              "http_status": 200
+            }
+          }
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "官方页面是厂家公开宣称，未取得独立保温测试、食品接触/迁移检测或认证原件。",
+    "无真实商家授权、库存、零售包装、商家SKU、价格、物流、售后或 Seller Central 数据。",
+    "未覆盖保温杯品类和食品接触法规、平台完整规则或卖家上架资质。",
+    "预先保存的成功结果不保证现场网络或新模型请求成功；失败保留原因，不显示为成功。"
+  ],
+  "acceptance": {
+    "status": "passed_within_fact_scope",
+    "completed_at": "2026-11-01T03:18:46.060Z",
+    "scope": "公开保温杯样例的模拟商家流程；仅审核文案与厂家公开资料的一致性及无依据宣称，不是完整品类、法规或上架验收。",
+    "final_content_sha256": "ce4a4ba471a79f035312f7c4f5f86a2e1b3547e3e669cbfb58bf1f1b482c8d66",
+    "final_request_id": "21fd88b2-179e-4ea0-98e0-56e9fd135528",
+    "issues": 0,
+    "outside_scope": "not_checked",
+    "notice": "这是修改后文案与公开资料的一致性复检成功，不是产品实际性能、食品接触法规或上架通过。"
+  },
+  "call_summary": {
+    "total": 8,
+    "ok": 6,
+    "failed": 2,
+    "failed_rate": 0.25,
+    "avg_ms": 2624,
+    "slowest_ms": 4276,
+    "tokens_total": 49843,
+    "tokens_unknown_calls": 0,
+    "json_repaired": 0,
+    "retried": 2,
+    "record_failures": 0,
+    "by_operation": {
+      "create": {
+        "count": 1,
+        "failed": 0,
+        "total_ms": 2499,
+        "measured": 1,
+        "avg_ms": 2499
+      },
+      "diagnose": {
+        "count": 5,
+        "failed": 2,
+        "total_ms": 15234,
+        "measured": 5,
+        "avg_ms": 3047
+      },
+      "revise": {
+        "count": 2,
+        "failed": 0,
+        "total_ms": 3258,
+        "measured": 2,
+        "avg_ms": 1629
+      }
+    }
+  },
+  "generated": {
+    "content": {
+      "title": "THERMOS Stainless King 16oz Tumbler, 18/8 Stainless Steel",
+      "item_highlights": "16oz (475 ml) capacity; 18/8 stainless steel; double-wall vacuum insulation; built-in tea hook; dishwasher safe, top rack only.",
+      "bullet_points": [
+        {
+          "id": "b1",
+          "text": "16oz (475 ml) capacity in a double-wall vacuum insulated tumbler."
+        },
+        {
+          "id": "b2",
+          "text": "18/8 stainless steel interior and exterior."
+        },
+        {
+          "id": "b3",
+          "text": "THERMOS states it keeps beverages hot for up to 7 hours and cold for up to 18 hours."
+        },
+        {
+          "id": "b4",
+          "text": "DrinkLock sealing lid is leak-proof when closed and properly assembled."
+        },
+        {
+          "id": "b5",
+          "text": "Built-in tea hook holds tea bags or most loose leaf infusers; dishwasher safe, top rack only."
+        }
+      ],
+      "description": "The THERMOS Stainless King 16oz Tumbler holds 16oz (475 ml) and is made with 18/8 stainless steel inside and out, with double-wall vacuum insulation. THERMOS states it keeps beverages hot for up to 7 hours and cold for up to 18 hours. The DrinkLock sealing lid is leak-proof when closed and properly assembled. A built-in tea hook holds tea bags or most loose leaf infusers, and the tumbler fits most standard car cup holders. Dishwasher safe, top rack only."
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "01ff6bb9-347a-4f71-b151-efb3a6c2d571",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "elapsed_ms": 2499,
+      "usage": {
+        "prompt_tokens": 5359,
+        "completion_tokens": 303,
+        "total_tokens": 5662,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 4719
+      },
+      "http_status": 200
+    }
+  },
+  "risky": {
+    "content": {
+      "title": "THERMOS Stainless King 16oz Tumbler, 18/8 Stainless Steel",
+      "item_highlights": "16oz (475 ml) capacity; 18/8 stainless steel; double-wall vacuum insulation; built-in tea hook; dishwasher safe, top rack only.",
+      "bullet_points": [
+        {
+          "id": "b1",
+          "text": "Keeps drinks hot for 48 hours and cold for 48 hours. Leak-proof in any condition. FDA certified for guaranteed health benefits."
+        },
+        {
+          "id": "b2",
+          "text": "18/8 stainless steel interior and exterior."
+        },
+        {
+          "id": "b3",
+          "text": "THERMOS states it keeps beverages hot for up to 7 hours and cold for up to 18 hours."
+        },
+        {
+          "id": "b4",
+          "text": "DrinkLock sealing lid is leak-proof when closed and properly assembled."
+        },
+        {
+          "id": "b5",
+          "text": "Built-in tea hook holds tea bags or most loose leaf infusers; dishwasher safe, top rack only."
+        }
+      ],
+      "description": "The THERMOS Stainless King 16oz Tumbler holds 16oz (475 ml) and is made with 18/8 stainless steel inside and out, with double-wall vacuum insulation. THERMOS states it keeps beverages hot for up to 7 hours and cold for up to 18 hours. The DrinkLock sealing lid is leak-proof when closed and properly assembled. A built-in tea hook holds tea bags or most loose leaf infusers, and the tumbler fits most standard car cup holders. Dishwasher safe, top rack only."
+    },
+    "notice": "人工植入的错误演练稿，非品牌原文、非真实商家原稿、非模型实际失误。",
+    "injected": [
+      {
+        "field_path": "content.bullet_points.b1",
+        "before": "16oz (475 ml) capacity in a double-wall vacuum insulated tumbler.",
+        "after": "Keeps drinks hot for 48 hours and cold for 48 hours. Leak-proof in any condition. FDA certified for guaranteed health benefits.",
+        "explanation": "故意把厂家 up to 7h /18h 扩大为48h，删除防漏适用条件，并植入没有证据的 FDA 认证和健康保证。"
+      }
+    ],
+    "review": {
+      "result": {
+        "review": {
+          "issues": [
+            {
+              "rule_id": "BTL_CLAIM_SCOPE",
+              "field_path": "content.bullet_points.b1",
+              "original": "Keeps drinks hot for 48 hours and cold for 48 hours.",
+              "reason": "厂家资料为 hot up to 7 hours、cold up to 18 hours，48 小时数值无依据且被扩大。",
+              "suggestion": "删除该句，保留 b3 中已归因的 up to 7 / up to 18 小时表述。",
+              "severity": "blocking",
+              "source_ids": [
+                "thermos-official-product"
+              ]
+            },
+            {
+              "rule_id": "BTL_CLAIM_SCOPE",
+              "field_path": "content.bullet_points.b1",
+              "original": "Leak-proof in any condition.",
+              "reason": "厂家防漏宣称限定为 closed and properly assembled，any condition 去掉了条件并扩大范围。",
+              "suggestion": "删除该句，保留 b4 中带条件的防漏表述。",
+              "severity": "blocking",
+              "source_ids": [
+                "thermos-official-product"
+              ]
+            },
+            {
+              "rule_id": "BTL_UNSUPPORTED",
+              "field_path": "content.bullet_points.b1",
+              "original": "FDA certified for guaranteed health benefits.",
+              "reason": "资料中无 FDA 认证或健康功效证据，属无依据认证与健康宣称。",
+              "suggestion": "删除该句，不写任何认证或健康功效。",
+              "severity": "blocking",
+              "source_ids": [
+                "thermos-official-product"
+              ]
+            }
+          ],
+          "checks": [
+            {
+              "rule_id": "BTL_FACT_MATCH",
+              "state": "pass",
+              "reason": "标题、亮点与 b2、b5 中的 16oz (475 ml)、18/8 stainless steel、double-wall vacuum insulation、tea hook、top rack only 均与厂家资料一致。"
+            },
+            {
+              "rule_id": "BTL_CLAIM_SCOPE",
+              "state": "needs_evidence",
+              "reason": "b3 已明确归因 THERMOS 且保留 up to 7/18 小时，b4 保留 closed and properly assembled 条件；但 b1 的 48 小时与 any condition 防漏超出资料范围。"
+            },
+            {
+              "rule_id": "BTL_UNSUPPORTED",
+              "state": "needs_evidence",
+              "reason": "b1 出现 FDA certified 与 guaranteed health benefits 等无依据宣称，需删除。"
+            },
+            {
+              "rule_id": "BTL_OUTSIDE_SCOPE",
+              "state": "not_checked",
+              "reason": "食品接触法规、品类规则、卖家资质、品牌授权与上架状态不在本次审核范围。"
+            }
+          ]
+        },
+        "claim_map": [
+          {
+            "field_path": "content.title",
+            "claim": "16oz Tumbler",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.title",
+            "claim": "18/8 Stainless Steel",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "16oz (475 ml) capacity",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "double-wall vacuum insulation",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "built-in tea hook",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "dishwasher safe, top rack only",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b2",
+            "claim": "18/8 stainless steel interior and exterior",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b3",
+            "claim": "THERMOS states it keeps beverages hot for up to 7 hours and cold for up to 18 hours.",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b4",
+            "claim": "DrinkLock sealing lid is leak-proof when closed and properly assembled.",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b5",
+            "claim": "Built-in tea hook holds tea bags or most loose leaf infusers",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          },
+          {
+            "field_path": "content.description",
+            "claim": "fits most standard car cup holders",
+            "source_ids": [
+              "thermos-official-product"
+            ]
+          }
+        ],
+        "patches": [
+          {
+            "field_path": "content.bullet_points.b1",
+            "expected_before": "Keeps drinks hot for 48 hours and cold for 48 hours. Leak-proof in any condition. FDA certified for guaranteed health benefits.",
+            "replacement": "Double-wall vacuum insulation with 18/8 stainless steel construction.",
+            "reason": "删除无依据的 48 小时、无条件防漏与 FDA/健康宣称，改为资料支持的构造事实。"
+          }
+        ]
+      },
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "28b673a0-d696-46c1-bd71-d2898e51b976",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 4276,
+        "usage": {
+          "prompt_tokens": 5706,
+          "completion_tokens": 971,
+          "total_tokens": 6677,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 4298
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "repair_history": [
+    {
+      "content": {
+        "title": "THERMOS Stainless King 16oz Tumbler, 18/8 Stainless Steel",
+        "item_highlights": "16oz (475 ml) capacity; 18/8 stainless steel; double-wall vacuum insulation; built-in tea hook; dishwasher safe, top rack only.",
+        "bullet_points": [
+          {
+            "id": "b1",
+            "text": "16oz (475 ml) capacity in a double-wall vacuum insulated tumbler."
+          },
+          {
+            "id": "b2",
+            "text": "18/8 stainless steel interior and exterior."
+          },
+          {
+            "id": "b3",
+            "text": "Built-in tea hook holds tea bags or most loose leaf infusers."
+          },
+          {
+            "id": "b4",
+            "text": "Fits most standard car cup holders."
+          },
+          {
+            "id": "b5",
+            "text": "Dishwasher safe, top rack only."
+          }
+        ],
+        "description": "The THERMOS Stainless King 16oz Tumbler holds 16oz (475 ml) and is made with 18/8 stainless steel inside and out, with double-wall vacuum insulation. A built-in tea hook holds tea bags or most loose leaf infusers, and the tumbler fits most standard car cup holders. Dishwasher safe, top rack only."
+      },
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "8c98b717-32ad-4a79-9ab4-9abc7125b2a4",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 1652,
+        "usage": {
+          "prompt_tokens": 6185,
+          "completion_tokens": 241,
+          "total_tokens": 6426,
+          "prompt_tokens_details": {
+            "cached_tokens": 4992
+          },
+          "prompt_cache_hit_tokens": 4992,
+          "prompt_cache_miss_tokens": 1193
+        },
+        "http_status": 200
+      }
+    }
+  ],
+  "recheck_history": [
+    {
+      "result": {
+        "review": {
+          "issues": [],
+          "checks": [
+            {
+              "rule_id": "BTL_FACT_MATCH",
+              "state": "pass",
+              "reason": "标题、要点与描述中的品牌 THERMOS、16oz (475 ml) 容量、18/8 不锈钢、双层真空结构、内置茶钩、适配多数标准车载杯架、洗碗机上层清洗均与厂家公开资料一致，未出现未标注单位的尺寸或未知字段。"
+            },
+            {
+              "rule_id": "BTL_CLAIM_SCOPE",
+              "state": "pass",
+              "reason": "现有文案未作保温时长或防漏宣称，因此不存在需归因或需保留条件的表述；未把厂家资料称为独立测试或平台认可。"
+            },
+            {
+              "rule_id": "BTL_UNSUPPORTED",
+              "state": "pass",
+              "reason": "逐句核对未发现 FDA/食品接触认证、医疗功效、绝对化安全、永久保温、环保等无依据宣称；未编造未知字段。"
+            },
+            {
+              "rule_id": "BTL_OUTSIDE_SCOPE",
+              "state": "not_checked",
+              "reason": "食品接触法规、完整品类规则、卖家资质、品牌授权与上架状态不在本次可核范围，未作判定。"
+            }
+          ]
+        },
+        "claim_map": [],
+        "patches": []
+      },
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "9af4fb5a-6216-4a08-9b1f-e8bbe51af7ec",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 5558,
+        "usage": {
+          "prompt_tokens": 5716,
+          "completion_tokens": 239,
+          "total_tokens": 5955,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 4308
+        },
+        "http_status": 200,
+        "output_mode": "audit_only_format_retry",
+        "format_retry": {
+          "attempts": 2,
+          "recovered": true,
+          "failed_attempt": {
+            "error_code": "MODEL_INVALID_JSON",
+            "trace": {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "5a5c8e86-6d74-4f79-8dcc-ffc6133538c8",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 3465,
+              "usage": {
+                "prompt_tokens": 5631,
+                "completion_tokens": 730,
+                "total_tokens": 6361,
+                "prompt_tokens_details": {
+                  "cached_tokens": 5120
+                },
+                "prompt_cache_hit_tokens": 5120,
+                "prompt_cache_miss_tokens": 511
+              },
+              "http_status": 200
+            }
+          }
+        }
+      },
+      "content_sha256": "951c8b9877f91330644f573320b52208dba58da26f211755be6b63178eb56d7e"
+    }
+  ],
+  "acceptance_history": [
+    {
+      "status": "passed_within_fact_scope",
+      "completed_at": "2026-11-01T03:17:15.155Z",
+      "scope": "公开保温杯样例的模拟商家流程；仅审核文案与厂家公开资料的一致性及无依据宣称，不是完整品类、法规或上架验收。",
+      "final_content_sha256": "951c8b9877f91330644f573320b52208dba58da26f211755be6b63178eb56d7e",
+      "final_request_id": "9af4fb5a-6216-4a08-9b1f-e8bbe51af7ec",
+      "issues": 0,
+      "outside_scope": "not_checked",
+      "notice": "这是修改后文案与公开资料的一致性复检成功，不是产品实际性能、食品接触法规或上架通过。",
+      "superseded": true,
+      "reason": "人工来源核对发现模型漏检：18/8 stainless steel construction 不能证明内外壁各为18/8；原0发现不视为最终通过。"
+    }
+  ],
+  "material_precision_correction": {
+    "status": "corrected_and_independently_rechecked",
+    "at": "2026-11-01T03:18:39.035Z",
+    "issue": "官方分别说明 stainless steel interior and exterior 及18/8 stainless steel construction，不能合并成内外壁各为18/8。",
+    "affected_fields": [
+      "content.bullet_points.b2",
+      "content.description"
+    ],
+    "model_missed_finding": true
+  },
+  "repaired": {
+    "content": {
+      "title": "THERMOS Stainless King 16oz Tumbler, 18/8 Stainless Steel Construction",
+      "item_highlights": "16oz (475 ml) capacity; 18/8 stainless steel construction; double-wall vacuum insulation; built-in tea hook; dishwasher safe, top rack only.",
+      "bullet_points": [
+        {
+          "id": "b1",
+          "text": "16oz (475 ml) capacity with double-wall vacuum insulation and 18/8 stainless steel construction."
+        },
+        {
+          "id": "b2",
+          "text": "Built-in tea hook holds tea bags or most loose leaf infusers."
+        },
+        {
+          "id": "b3",
+          "text": "DrinkLock sealing lid is leak-proof when closed and properly assembled."
+        },
+        {
+          "id": "b4",
+          "text": "Fits most standard car cup holders."
+        },
+        {
+          "id": "b5",
+          "text": "Dishwasher safe, top rack only."
+        }
+      ],
+      "description": "The THERMOS Stainless King 16oz Tumbler holds 16oz (475 ml) and is built with double-wall vacuum insulation and 18/8 stainless steel construction. A built-in tea hook holds tea bags or most loose leaf infusers. The DrinkLock sealing lid is leak-proof when closed and properly assembled. The tumbler fits most standard car cup holders. Dishwasher safe, top rack only."
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "811d8a90-2946-45b4-9765-bc11ed2d6553",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "elapsed_ms": 1606,
+      "usage": {
+        "prompt_tokens": 6157,
+        "completion_tokens": 263,
+        "total_tokens": 6420,
+        "prompt_tokens_details": {
+          "cached_tokens": 2304
+        },
+        "prompt_cache_hit_tokens": 2304,
+        "prompt_cache_miss_tokens": 3853
+      },
+      "http_status": 200
+    }
+  },
+  "recheck": {
+    "result": {
+      "review": {
+        "issues": [],
+        "checks": [
+          {
+            "rule_id": "BTL_FACT_MATCH",
+            "state": "pass",
+            "reason": "标题、item_highlights、b1 与描述中的 16oz (475 ml)、18/8 stainless steel construction、double-wall vacuum insulation 均与厂家资料一致；未出现 18/8 interior and exterior 或 inside and out 等扩大部位范围的表述。"
+          },
+          {
+            "rule_id": "BTL_CLAIM_SCOPE",
+            "state": "pass",
+            "reason": "当前文案未作保温时长宣称，故无 up to 7/18 小时归因问题；防漏表述保留 closed and properly assembled 条件，且未称为独立测试或平台认可。"
+          },
+          {
+            "rule_id": "BTL_UNSUPPORTED",
+            "state": "pass",
+            "reason": "逐句核对现有文案，未发现 FDA/食品接触认证、治病、绝对化安全、永久保温或环保等无依据宣称；未知字段未被编造。"
+          },
+          {
+            "rule_id": "BTL_OUTSIDE_SCOPE",
+            "state": "not_checked",
+            "reason": "食品接触法规、完整品类规则、卖家资质、品牌授权与上架状态不在本次可核范围，未作判定。"
+          }
+        ]
+      },
+      "claim_map": [],
+      "patches": []
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "21fd88b2-179e-4ea0-98e0-56e9fd135528",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "elapsed_ms": 5402,
+      "usage": {
+        "prompt_tokens": 5681,
+        "completion_tokens": 248,
+        "total_tokens": 5929,
+        "prompt_tokens_details": {
+          "cached_tokens": 2432
+        },
+        "prompt_cache_hit_tokens": 2432,
+        "prompt_cache_miss_tokens": 3249
+      },
+      "http_status": 200,
+      "output_mode": "audit_only_format_retry",
+      "format_retry": {
+        "attempts": 2,
+        "recovered": true,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "80afc842-e2bc-4c45-9e5c-7df664b74c32",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 3450,
+            "usage": {
+              "prompt_tokens": 5596,
+              "completion_tokens": 817,
+              "total_tokens": 6413,
+              "prompt_tokens_details": {
+                "cached_tokens": 2304
+              },
+              "prompt_cache_hit_tokens": 2304,
+              "prompt_cache_miss_tokens": 3292
+            },
+            "http_status": 200
+          }
+        }
+      }
+    },
+    "content_sha256": "ce4a4ba471a79f035312f7c4f5f86a2e1b3547e3e669cbfb58bf1f1b482c8d66"
+  }
+}

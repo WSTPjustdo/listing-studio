@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-10-29T20:19:31.146Z",
+  "evidence_type": "live_official_source_and_persisted_real_model_text",
+  "model_calls_performed": 0,
+  "model_calls_this_run": [],
+  "checks": [],
+  "merchant_acceptance": "pending",
+  "merchant_original_template": {
+    "status": "pending",
+    "source": null,
+    "reason": "商家原始库存模板尚未提供。"
+  },
+  "merchant_seller_sku": {
+    "status": "unknown",
+    "value": null
+  },
+  "merchant_roundtrip": {
+    "status": "pending",
+    "reason": "没有商家原文件及已确认真实卖家 SKU，不能用厂家产品代码替代。"
+  },
+  "platform_processing_report": {
+    "status": "pending",
+    "source": null,
+    "reason": "尚未取得真实 Seller Central 处理报告。"
+  },
+  "amazon_upload": {
+    "status": "not_performed",
+    "result": null
+  },
+  "notice": "本轮仅验证实时官方公开商品数据、已有真实模型文案及缺 SKU 拦截；不是商家库存、Amazon 模板兼容或上架验收。结构测试另见 unit_fixture 报告。",
+  "status": "failed",
+  "failure": {
+    "code": "ERR_ASSERTION",
+    "message": "An existing real W101 model record is required; no content is generated or simulated by this script.\n\n0 !== 1\n"
+  }
+}

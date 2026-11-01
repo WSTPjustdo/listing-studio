@@ -1,0 +1,747 @@
+[
+  {
+    "started_at": "2026-10-31T04:21:13.841Z",
+    "completed_at": "2026-10-31T04:21:39.896Z",
+    "source_url": "https://westfordmill.com/products/w101",
+    "source_checked_live": true,
+    "acceptance": "real_api_workflow_completed_quality_requires_review",
+    "steps": [
+      {
+        "label": "真实商品生成与独立审核",
+        "status": "succeeded",
+        "elapsed_ms": 9717,
+        "listing_id": "listing-464313fc-234b-4c77-bb00-37a1a88aaf7e",
+        "version": 1,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "67217159-f9f0-4b2b-8e6d-fbbca7e97cc3",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 9293,
+          "usage": {
+            "prompt_tokens": 6083,
+            "completion_tokens": 1758,
+            "total_tokens": 7841,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920
+            },
+            "prompt_cache_hit_tokens": 1920,
+            "prompt_cache_miss_tokens": 4163
+          },
+          "http_status": 200,
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "136dbdc7-d9e3-4098-ad12-e12d99e37d8e",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 1692,
+              "usage": {
+                "prompt_tokens": 5866,
+                "completion_tokens": 275,
+                "total_tokens": 6141,
+                "prompt_tokens_details": {
+                  "cached_tokens": 5504
+                },
+                "prompt_cache_hit_tokens": 5504,
+                "prompt_cache_miss_tokens": 362
+              },
+              "http_status": 200
+            },
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "67217159-f9f0-4b2b-8e6d-fbbca7e97cc3",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 7601,
+              "usage": {
+                "prompt_tokens": 6083,
+                "completion_tokens": 1758,
+                "total_tokens": 7841,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1920
+                },
+                "prompt_cache_hit_tokens": 1920,
+                "prompt_cache_miss_tokens": 4163
+              },
+              "http_status": 200
+            }
+          ],
+          "prompt_version": "2026-10-30.guided-writing-v11",
+          "parameter_link_version": "structured-parameters-v2.4",
+          "audit_input_hash": "3c08070caac6a6f028106fe2c5aca51bcdf3dd318fb0c3f10837da66874cb334",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [
+          {
+            "issue_id": "ff12cc808cec0e",
+            "rule_id": "AMZ-05",
+            "category": "platform_rules",
+            "title": "商品描述准确性",
+            "severity": "blocking",
+            "field_path": "content.bullet_points.b2",
+            "original": "Dimensions: 38 x 42 cm (width x height) — a roomy everyday tote.",
+            "reason": "结构化商品事实中 dimensions_cm 为 unknown，且来源快照的尺寸为 38 x 42（宽 x 高，另含深度轴），当前表述把来源快照当作已确认商品事实并省略了深度轴，属于未经结构化事实授权的参数补全。",
+            "suggestion": "删除该尺寸句，或先由人工把完整尺寸（含深度轴、原始单位）录入结构化商品事实后再写。",
+            "method": "model_assisted",
+            "source_ids": [
+              "AMZS-DETAIL-US"
+            ],
+            "status": "open"
+          },
+          {
+            "issue_id": "19966c8ec7498c",
+            "rule_id": "AMZ-05",
+            "category": "platform_rules",
+            "title": "商品描述准确性",
+            "severity": "blocking",
+            "field_path": "content.bullet_points.b3",
+            "original": "Capacity: 10 litres — space for daily essentials.",
+            "reason": "结构化商品事实中 capacity_l 为 unknown，10 升仅见于来源快照，未进入已确认商品事实，不能作为容量宣称。",
+            "suggestion": "移除容量句，或先补录 capacity_l 结构化事实后再写。",
+            "method": "model_assisted",
+            "source_ids": [
+              "AMZS-DETAIL-US"
+            ],
+            "status": "open"
+          },
+          {
+            "issue_id": "f408d32d0345a4",
+            "rule_id": "AMZ-05",
+            "category": "platform_rules",
+            "title": "商品描述准确性",
+            "severity": "blocking",
+            "field_path": "content.bullet_points.b4",
+            "original": "Handle length: 67 cm — can be carried by hand or over the shoulder.",
+            "reason": "结构化商品事实中 handle_length_cm 为 unknown，67 cm 仅见于来源快照；同时把提手长度与“可手提或肩背”的携带方式做了因果绑定，携带方式本身有来源支持但长度数值未确认。",
+            "suggestion": "保留“Can be carried by hand or over the shoulder”这一有来源的表述，删除 67 cm 提手长度，或先补录 handle_length_cm 结构化事实。",
+            "method": "model_assisted",
+            "source_ids": [
+              "AMZS-DETAIL-US"
+            ],
+            "status": "open"
+          },
+          {
+            "issue_id": "f4fec389f0e347",
+            "rule_id": "AMZ-05",
+            "category": "platform_rules",
+            "title": "商品描述准确性",
+            "severity": "blocking",
+            "field_path": "content.description",
+            "original": "It measures 38 x 42 cm (width x height) with a 10 litre capacity and a 67 cm handle",
+            "reason": "描述中重复了未进入结构化商品事实的尺寸、容量与提手长度，且尺寸省略了深度轴，与已确认事实不一致。",
+            "suggestion": "删除该句中的尺寸、容量与提手长度，仅保留 100% cotton、140gsm (4.1oz/yd²) 与携带方式等有来源内容。",
+            "method": "model_assisted",
+            "source_ids": [
+              "AMZS-DETAIL-US"
+            ],
+            "status": "open"
+          },
+          {
+            "issue_id": "d03ad92bba208a",
+            "rule_id": "AMZ-05",
+            "category": "platform_rules",
+            "title": "商品描述准确性",
+            "severity": "needs_review",
+            "field_path": "content.bullet_points.b2",
+            "original": "a roomy everyday tote",
+            "reason": "“roomy”是对内部空间的容量性暗示，在容量与尺寸均未确认的情况下缺乏依据。",
+            "suggestion": "改为中性描述，如“a plain cotton tote for everyday carrying”，与 b1 保持不重复。",
+            "method": "model_assisted",
+            "source_ids": [
+              "AMZS-DETAIL-US"
+            ],
+            "status": "open"
+          }
+        ],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          }
+        ]
+      },
+      {
+        "label": "真实问题审查修复与复检",
+        "status": "succeeded",
+        "elapsed_ms": 9209,
+        "listing_id": "listing-464313fc-234b-4c77-bb00-37a1a88aaf7e",
+        "version": 2,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "52df0eea-0ba9-4f69-b1f9-a1bfeac2c653",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 9097,
+          "usage": {
+            "prompt_tokens": 6092,
+            "completion_tokens": 539,
+            "total_tokens": 6631,
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "prompt_cache_hit_tokens": 2048,
+            "prompt_cache_miss_tokens": 4044
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "1c2b3b04-9af0-46a8-8322-891526ae495c",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 4155,
+                "usage": {
+                  "prompt_tokens": 6007,
+                  "completion_tokens": 941,
+                  "total_tokens": 6948,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 1920
+                  },
+                  "prompt_cache_hit_tokens": 1920,
+                  "prompt_cache_miss_tokens": 4087
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "3dff0845-35fe-40b8-aba3-a21bb60ff345",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 1689,
+              "usage": {
+                "prompt_tokens": 7504,
+                "completion_tokens": 199,
+                "total_tokens": 7703,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1920
+                },
+                "prompt_cache_hit_tokens": 1920,
+                "prompt_cache_miss_tokens": 5584
+              },
+              "http_status": 200
+            },
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "52df0eea-0ba9-4f69-b1f9-a1bfeac2c653",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 7408,
+              "usage": {
+                "prompt_tokens": 6092,
+                "completion_tokens": 539,
+                "total_tokens": 6631,
+                "prompt_tokens_details": {
+                  "cached_tokens": 2048
+                },
+                "prompt_cache_hit_tokens": 2048,
+                "prompt_cache_miss_tokens": 4044
+              },
+              "http_status": 200,
+              "output_mode": "audit_only_format_retry",
+              "format_retry": {
+                "attempts": 2,
+                "recovered": true,
+                "failed_attempt": {
+                  "error_code": "MODEL_INVALID_JSON",
+                  "trace": {
+                    "provider": "compatible",
+                    "actual_model_call": true,
+                    "provider_request_id": "1c2b3b04-9af0-46a8-8322-891526ae495c",
+                    "model": "deepseek-flash",
+                    "requested_model": "deepseek-flash",
+                    "elapsed_ms": 4155,
+                    "usage": {
+                      "prompt_tokens": 6007,
+                      "completion_tokens": 941,
+                      "total_tokens": 6948,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 1920
+                      },
+                      "prompt_cache_hit_tokens": 1920,
+                      "prompt_cache_miss_tokens": 4087
+                    },
+                    "http_status": 200
+                  }
+                }
+              }
+            }
+          ],
+          "prompt_version": "2026-10-30.guided-writing-v11",
+          "parameter_link_version": "structured-parameters-v2.4",
+          "audit_input_hash": "d109f6b4501113efec7285ef5d864100326984f8dc1168469184f877d154db10",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          }
+        ]
+      },
+      {
+        "label": "补充真实规格后原任务复检",
+        "status": "succeeded",
+        "elapsed_ms": 7105,
+        "listing_id": "listing-464313fc-234b-4c77-bb00-37a1a88aaf7e",
+        "version": 3,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "38eca91a-ce66-45bc-b736-a2d2402615a4",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 6882,
+          "usage": {
+            "prompt_tokens": 6129,
+            "completion_tokens": 518,
+            "total_tokens": 6647,
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "prompt_cache_hit_tokens": 2048,
+            "prompt_cache_miss_tokens": 4081
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "6ccc23c1-71e0-4553-ad3d-e1538088f848",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 3956,
+                "usage": {
+                  "prompt_tokens": 6044,
+                  "completion_tokens": 892,
+                  "total_tokens": 6936,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2048
+                  },
+                  "prompt_cache_hit_tokens": 2048,
+                  "prompt_cache_miss_tokens": 3996
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "prompt_version": "2026-10-30.guided-writing-v11",
+          "parameter_link_version": "structured-parameters-v2.4",
+          "audit_input_hash": "acc3b3a16f902d4223b42b7c9f5d7ba276525d65319216f718a68fd60ea34ee6",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "started_at": "2026-10-31T04:35:05.075Z",
+    "completed_at": "2026-10-31T04:35:25.914Z",
+    "source_url": "https://westfordmill.com/products/w101",
+    "source_checked_live": true,
+    "acceptance": "real_api_workflow_completed_quality_requires_review",
+    "steps": [
+      {
+        "label": "真实商品生成与独立审核",
+        "status": "succeeded",
+        "elapsed_ms": 5580,
+        "listing_id": "listing-b64a8672-7388-4496-8a7f-21b684ec8cae",
+        "version": 1,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "dcde2a65-d77e-4cfe-925b-bfa5ef7a5538",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 5472,
+          "usage": {
+            "prompt_tokens": 6017,
+            "completion_tokens": 842,
+            "total_tokens": 6859,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920
+            },
+            "prompt_cache_hit_tokens": 1920,
+            "prompt_cache_miss_tokens": 4097
+          },
+          "http_status": 200,
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "5a5e79e6-a963-44ee-8ead-dd02dfa5c09a",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 1788,
+              "usage": {
+                "prompt_tokens": 5866,
+                "completion_tokens": 209,
+                "total_tokens": 6075,
+                "prompt_tokens_details": {
+                  "cached_tokens": 5504
+                },
+                "prompt_cache_hit_tokens": 5504,
+                "prompt_cache_miss_tokens": 362
+              },
+              "http_status": 200
+            },
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "dcde2a65-d77e-4cfe-925b-bfa5ef7a5538",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 3684,
+              "usage": {
+                "prompt_tokens": 6017,
+                "completion_tokens": 842,
+                "total_tokens": 6859,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1920
+                },
+                "prompt_cache_hit_tokens": 1920,
+                "prompt_cache_miss_tokens": 4097
+              },
+              "http_status": 200
+            }
+          ],
+          "prompt_version": "2026-10-31.guided-writing-v12-compact-context",
+          "parameter_link_version": "structured-parameters-v2.4",
+          "audit_input_hash": "3938a4287e8b6eede0ecd48d2a4d01425495dc5dd3767b493de1447a8a6a6a66",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          }
+        ]
+      },
+      {
+        "label": "真实问题审查修复与复检",
+        "status": "succeeded",
+        "elapsed_ms": 8629,
+        "listing_id": "listing-b64a8672-7388-4496-8a7f-21b684ec8cae",
+        "version": 2,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "f79e8ec9-515c-4e1e-a8bf-bc3a50c579db",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 8279,
+          "usage": {
+            "prompt_tokens": 6102,
+            "completion_tokens": 473,
+            "total_tokens": 6575,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920
+            },
+            "prompt_cache_hit_tokens": 1920,
+            "prompt_cache_miss_tokens": 4182
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "c2ac8a12-b642-41cb-8357-05130e9641ca",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 4143,
+                "usage": {
+                  "prompt_tokens": 6017,
+                  "completion_tokens": 925,
+                  "total_tokens": 6942,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 5883
+                  },
+                  "prompt_cache_hit_tokens": 5883,
+                  "prompt_cache_miss_tokens": 134
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "ae7d3318-62f2-4818-bbfe-ba59f9654396",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 1400,
+              "usage": {
+                "prompt_tokens": 6668,
+                "completion_tokens": 209,
+                "total_tokens": 6877,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1920
+                },
+                "prompt_cache_hit_tokens": 1920,
+                "prompt_cache_miss_tokens": 4748
+              },
+              "http_status": 200
+            },
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "f79e8ec9-515c-4e1e-a8bf-bc3a50c579db",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 6879,
+              "usage": {
+                "prompt_tokens": 6102,
+                "completion_tokens": 473,
+                "total_tokens": 6575,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1920
+                },
+                "prompt_cache_hit_tokens": 1920,
+                "prompt_cache_miss_tokens": 4182
+              },
+              "http_status": 200,
+              "output_mode": "audit_only_format_retry",
+              "format_retry": {
+                "attempts": 2,
+                "recovered": true,
+                "failed_attempt": {
+                  "error_code": "MODEL_INVALID_JSON",
+                  "trace": {
+                    "provider": "compatible",
+                    "actual_model_call": true,
+                    "provider_request_id": "c2ac8a12-b642-41cb-8357-05130e9641ca",
+                    "model": "deepseek-flash",
+                    "requested_model": "deepseek-flash",
+                    "elapsed_ms": 4143,
+                    "usage": {
+                      "prompt_tokens": 6017,
+                      "completion_tokens": 925,
+                      "total_tokens": 6942,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 5883
+                      },
+                      "prompt_cache_hit_tokens": 5883,
+                      "prompt_cache_miss_tokens": 134
+                    },
+                    "http_status": 200
+                  }
+                }
+              }
+            }
+          ],
+          "prompt_version": "2026-10-31.guided-writing-v12-compact-context",
+          "parameter_link_version": "structured-parameters-v2.4",
+          "audit_input_hash": "3938a4287e8b6eede0ecd48d2a4d01425495dc5dd3767b493de1447a8a6a6a66",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          }
+        ]
+      },
+      {
+        "label": "补充真实规格后原任务复检",
+        "status": "succeeded",
+        "elapsed_ms": 6604,
+        "listing_id": "listing-b64a8672-7388-4496-8a7f-21b684ec8cae",
+        "version": 3,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "2889fb34-e818-46a6-9dd8-51fcf806c74d",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 6443,
+          "usage": {
+            "prompt_tokens": 6139,
+            "completion_tokens": 521,
+            "total_tokens": 6660,
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "prompt_cache_hit_tokens": 2048,
+            "prompt_cache_miss_tokens": 4091
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "85b7550b-5a4f-442e-ba12-5b037a48200a",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 3604,
+                "usage": {
+                  "prompt_tokens": 6054,
+                  "completion_tokens": 850,
+                  "total_tokens": 6904,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 1920
+                  },
+                  "prompt_cache_hit_tokens": 1920,
+                  "prompt_cache_miss_tokens": 4134
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "prompt_version": "2026-10-31.guided-writing-v12-compact-context",
+          "parameter_link_version": "structured-parameters-v2.4",
+          "audit_input_hash": "cc1278356d846b60a3cb90e950df5861382c09266e2ffe495b152704a188c2d6",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+          }
+        ]
+      }
+    ]
+  }
+]

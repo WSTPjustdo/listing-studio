@@ -1,0 +1,270 @@
+{
+  "started_at": "2026-10-31T04:09:40.377Z",
+  "base": "http://127.0.0.1:8787",
+  "actual_source": "Existing real W101 listing and saved official public product facts; no fabricated inputs or model responses.",
+  "paid_model_calls": 0,
+  "checks": [
+    {
+      "check": "aplus_uses_exact_saved_product_facts_and_keeps_unknowns",
+      "passed": true,
+      "result": {
+        "generated_at": "2026-10-31T04:09:40.425Z",
+        "product_ref": "REAL-WESTFORD-W101",
+        "revision": 8,
+        "marketplace": "US",
+        "language": "en",
+        "comparison_chart": [
+          {
+            "field": "material",
+            "label_en": "Material",
+            "label_zh": "材质",
+            "value": "100% cotton",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "dimensions_cm",
+            "label_en": "Dimensions",
+            "label_zh": "尺寸",
+            "value": "38 × 42 cm",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "fabric_weight_gsm",
+            "label_en": "Fabric weight",
+            "label_zh": "克重",
+            "value": "140 g/m²",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "capacity_l",
+            "label_en": "Capacity",
+            "label_zh": "容量",
+            "value": "10 L",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "handle_length_cm",
+            "label_en": "Handle length",
+            "label_zh": "提手长度",
+            "value": "67 cm",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "brand",
+            "label_en": "Brand",
+            "label_zh": "品牌",
+            "value": "Westford Mill",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "官方页面原文",
+            "label_en": "官方页面原文",
+            "label_zh": "官方页面原文",
+            "value": "4.1oz/yd²",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "官方页面原文",
+            "label_en": "官方页面原文",
+            "label_zh": "官方页面原文",
+            "value": "Can be carried by hand or over the shoulder",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "官方页面原文",
+            "label_en": "官方页面原文",
+            "label_zh": "官方页面原文",
+            "value": "CutAway label for ease of rebranding",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "missing_parameters": [
+          {
+            "field": "rated_load_kg",
+            "label_en": "Rated load",
+            "label_zh": "承重"
+          },
+          {
+            "field": "retail_pack_count",
+            "label_en": "Pack size",
+            "label_zh": "包装件数"
+          },
+          {
+            "field": "color",
+            "label_en": "Color",
+            "label_zh": "颜色"
+          }
+        ],
+        "module_copy": {
+          "type": "comparison_chart",
+          "headline": null,
+          "feature_bullets": [
+            "Material: 100% cotton",
+            "Dimensions: 38 × 42 cm",
+            "Fabric weight: 140 g/m²",
+            "Capacity: 10 L",
+            "Handle length: 67 cm"
+          ],
+          "note": "对比表与图片配文候选由已登记商品参数确定性生成，不构成 A+ 营销文案，也不代表平台审核结论；A+ 模块正文与卖点措辞需用真实模型生成后独立审阅。"
+        }
+      }
+    },
+    {
+      "check": "roles_preserve_real_missing_data_count",
+      "passed": true,
+      "result": {
+        "total": 2,
+        "board": [
+          {
+            "role": "合规",
+            "items": []
+          },
+          {
+            "role": "美工",
+            "items": []
+          },
+          {
+            "role": "采购",
+            "items": [
+              {
+                "field": "color",
+                "label": "颜色",
+                "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+              },
+              {
+                "field": "retail_pack_count",
+                "label": "零售包装",
+                "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+              }
+            ]
+          },
+          {
+            "role": "运营",
+            "items": []
+          }
+        ],
+        "notice": "按岗位的经验默认分组，可人工调整；待补项来自当次审核，分组不代表已完成核验。"
+      }
+    },
+    {
+      "check": "voc_empty_input_rejected_without_model_call",
+      "passed": true,
+      "result": {
+        "status": 400,
+        "body": {
+          "error": {
+            "code": "REVIEWS_REQUIRED",
+            "message": "请粘贴至少一条竞品差评。",
+            "action": "先核对失败原因；确认后可重试此行。"
+          }
+        }
+      }
+    },
+    {
+      "check": "keywords_empty_input_rejected_without_model_call",
+      "passed": true,
+      "result": {
+        "status": 400,
+        "body": {
+          "error": {
+            "code": "TERMS_REQUIRED",
+            "message": "没有识别到搜索词，请粘贴每行一个搜索词或 ABA 报告。",
+            "action": "先核对失败原因；确认后可重试此行。"
+          }
+        }
+      }
+    },
+    {
+      "check": "aplus_unknown_version_rejected",
+      "passed": true,
+      "status": 404
+    },
+    {
+      "check": "roles_unknown_version_rejected",
+      "passed": true,
+      "status": 404
+    },
+    {
+      "check": "all_original_database_tables_unchanged_including_model_settings",
+      "passed": true,
+      "tables": {
+        "batches": {
+          "rows": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "call_telemetry": {
+          "rows": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "imports": {
+          "rows": 17,
+          "sha256": "e77f6706e00f0c55e9c4f54214b32995c894e5271a17da84aa0490b52ed418d2"
+        },
+        "library_entries": {
+          "rows": 6,
+          "sha256": "fa624fcb6d9f85668a26f994a8ebfb63d15460306a9810b4bd953e483968ff33"
+        },
+        "listings": {
+          "rows": 11,
+          "sha256": "5c11c6944f98f3a3ccad2b490a4e8456e25705caa82555ba56f9c1cdfad7f0ba"
+        },
+        "products": {
+          "rows": 16,
+          "sha256": "788b5ec9e1e41323f55cf2884668d5c969fe1acc965e9abb5d8a953699c6d5d4"
+        },
+        "runs": {
+          "rows": 55,
+          "sha256": "058cfc9c0192eaaa03aa3a5e7ae62c6684c713703475e2b995eaeb737b6f0fd7"
+        },
+        "settings": {
+          "rows": 1,
+          "sha256": "25fc8d96b1f247b7675969a8d5d2c2960fcafff263f5c92efa141ba46ebc0437"
+        },
+        "sources": {
+          "rows": 15,
+          "sha256": "b2866ae4de6f07744d9ef9cf74588ef43e2f61295f58a04de41b4f8d298ea620"
+        },
+        "versions": {
+          "rows": 47,
+          "sha256": "4a8310c425497c7f3ca52657cb73e060a45f8053f1ad8444f91ec1b6ebfa6711"
+        }
+      }
+    }
+  ],
+  "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+  "version": 20,
+  "unverified": [
+    "VOC semantic analysis: no real review export provided; no new model invocation.",
+    "Keywords actual ABA report: no report provided; parser limitations identified in source review.",
+    "A/B variants: no new model invocation; trace, independent-audit and UK-locale gaps remain.",
+    "Roles manual reassignment and collaborative persistence are not implemented."
+  ],
+  "completed_at": "2026-10-31T04:09:40.452Z"
+}

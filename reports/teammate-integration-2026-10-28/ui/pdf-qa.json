@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-29T01:23:36.316Z",
+  "evidence_type": "rendered_real_pdf_visual_review",
+  "method": "Poppler pdftoppm rendered every A4 page to PNG; all 11 pages visually inspected.",
+  "files": [
+    {
+      "name": "real-html.pdf",
+      "pages": 9,
+      "sha256": "f0ec1f25b1ed16a6e3b0bd5e2b3e867a93cf0a68a103ec560d20ffbb043649f9",
+      "paper": "A4",
+      "version": 2
+    },
+    {
+      "name": "real-worklist.pdf",
+      "pages": 2,
+      "sha256": "bcabb9700df18e6fdc7a2e9de2032f7919b6bd755948c56d6dd191d9e348e2f8",
+      "paper": "A4",
+      "version": 2
+    }
+  ],
+  "body_text_clipping_observed": false,
+  "overlapping_body_text_observed": false,
+  "legibility": "Chinese and English text and table content readable",
+  "cosmetic_observation": "Report page 5 worklist group bottom border extends into footer region; body text remains above footer. Parent notified for pagination refinement.",
+  "notice": "Read-only review of existing real model artifacts; no model calls and no edited report content."
+}

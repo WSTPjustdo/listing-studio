@@ -1,0 +1,239 @@
+{
+  "started_at": "2026-10-31T12:04:52.758Z",
+  "source_observations": [
+    {
+      "url": "https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag",
+      "checked_at": "2026-10-31T12:04:53.036Z",
+      "http_status": 429,
+      "usable_new_product_facts": false,
+      "reason": "HTTP 429",
+      "notice": "No new color or retail quantity is inferred from a default selection or singular product title."
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0732NPDRB",
+      "checked_at": "2026-10-31T12:04:53.417Z",
+      "http_status": 200,
+      "usable_new_product_facts": false,
+      "reason": "verification_or_access_limit_page",
+      "notice": "No new color or retail quantity is inferred from a default selection or singular product title."
+    }
+  ],
+  "checks": [
+    "real_existing_source_tuple_associated_without_axis_inference",
+    "verbatim_copy_preserved",
+    "original_product_and_historical_listing_unchanged",
+    "unknown_color_and_retail_count_preserved",
+    "one_independent_real_model_recheck"
+  ],
+  "user_confirmed_unknown": [
+    "color",
+    "retail_pack_count"
+  ],
+  "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+  "before_version": 10,
+  "product_id": "AMAZON-US-B0732NPDRB",
+  "product_revision": 4,
+  "existing_dimension_source": {
+    "value": "22\" X 16\" X 6\"",
+    "source_id": "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e",
+    "url": "https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag",
+    "publisher": "DALIX",
+    "excerpt": "22\" X 16\" X 6\"; Outer Pocket; Top Zipper Closure",
+    "recorded_at": "2026-10-24T02:17:19.064Z",
+    "status": "merchant_confirmed",
+    "applicable_model": "DALIX 22 inch zippered tote; color and retail pack not verified",
+    "independent_verification": false
+  },
+  "run_id": "run-88c9f8c7-edc0-44ca-89ea-ac825b6b69b4",
+  "run_status": "succeeded",
+  "trace": {
+    "provider": "compatible",
+    "actual_model_call": true,
+    "provider_request_id": "5acd760a-526b-43e7-9d19-7e31e0a9f998",
+    "model": "deepseek-flash",
+    "requested_model": "deepseek-flash",
+    "elapsed_ms": 4631,
+    "usage": {
+      "prompt_tokens": 8408,
+      "completion_tokens": 1183,
+      "total_tokens": 9591,
+      "prompt_tokens_details": {
+        "cached_tokens": 8192
+      },
+      "prompt_cache_hit_tokens": 8192,
+      "prompt_cache_miss_tokens": 216
+    },
+    "http_status": 200,
+    "prompt_version": "2026-10-31.guided-writing-v14-empty-bullet-audit",
+    "parameter_link_version": "structured-parameters-v2.6-original-dimension-tuples",
+    "audit_input_hash": "d1fea979a8a25615077578c28d1df6cca104ceadbe882f1b84f9a564f3dfaf32",
+    "rule_selection": "structured_scope_selection",
+    "source_ids": [
+      "AMZS-TITLE-2026",
+      "AMZS-DETAIL-US",
+      "AMZS-DETAIL-PROMO",
+      "FTCS-GREEN-SUMMARY",
+      "FTCS-AD-SUBSTANTIATION",
+      "FTCS-GUIDE-STATUS",
+      "FTCS-GUIDE-REGISTER",
+      "PROJECT-AMAZON-QUALITY",
+      "AMZ-PAGE-B0732NPDRB-5be602c5cfce",
+      "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e",
+      "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a",
+      "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48",
+      "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+    ]
+  },
+  "failure": null,
+  "after_version": 11,
+  "issues_before": [
+    {
+      "issue_id": "65c5d28300ca6b",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.title",
+      "original": "DALIX 100% Cotton Canvas Tote Bag 22\" x 16\" x 6\" with Zipper",
+      "reason": "22\" x 16\" x 6\" ：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "06cbf924b0598e",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.item_highlights",
+      "original": "100% cotton canvas; 22\" X 16\" X 6\"; top zipper closure; outer pocket",
+      "reason": "22\" X 16\" X 6\"：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "c491f2f7600160",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.bullet_points.b2",
+      "original": "Measures 22\" X 16\" X 6\".",
+      "reason": "22\" X 16\" X 6\"：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "4a92f019650587",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.description",
+      "original": "Dimensions: 22\" X 16\" X 6\".",
+      "reason": "22\" X 16\" X 6\"：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    }
+  ],
+  "issues_after": [],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+    }
+  ],
+  "dimension_links": [
+    {
+      "start": 34,
+      "end": 49,
+      "original": "22\" x 16\" x 6\" ",
+      "field": "additional_facts.0",
+      "parsed_value": "22\" X 16\" X 6\"",
+      "method": "recorded_original_dimension_tuple",
+      "status": "matched",
+      "reason": "与已记录商品尺寸原文的三轴数值、原单位和顺序一致；仅关联原文尺寸，不推定哪一轴是宽、高或深。",
+      "source_ids": [
+        "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+      ],
+      "product_ref": "AMAZON-US-B0732NPDRB@4",
+      "expected_value": "22\" X 16\" X 6\"",
+      "value": "22\" X 16\" X 6\"",
+      "fact_status": "merchant_confirmed"
+    },
+    {
+      "start": 20,
+      "end": 34,
+      "original": "22\" X 16\" X 6\"",
+      "field": "additional_facts.0",
+      "parsed_value": "22\" X 16\" X 6\"",
+      "method": "recorded_original_dimension_tuple",
+      "status": "matched",
+      "reason": "与已记录商品尺寸原文的三轴数值、原单位和顺序一致；仅关联原文尺寸，不推定哪一轴是宽、高或深。",
+      "source_ids": [
+        "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+      ],
+      "product_ref": "AMAZON-US-B0732NPDRB@4",
+      "expected_value": "22\" X 16\" X 6\"",
+      "value": "22\" X 16\" X 6\"",
+      "fact_status": "merchant_confirmed"
+    },
+    {
+      "start": 9,
+      "end": 23,
+      "original": "22\" X 16\" X 6\"",
+      "field": "additional_facts.0",
+      "parsed_value": "22\" X 16\" X 6\"",
+      "method": "recorded_original_dimension_tuple",
+      "status": "matched",
+      "reason": "与已记录商品尺寸原文的三轴数值、原单位和顺序一致；仅关联原文尺寸，不推定哪一轴是宽、高或深。",
+      "source_ids": [
+        "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+      ],
+      "product_ref": "AMAZON-US-B0732NPDRB@4",
+      "expected_value": "22\" X 16\" X 6\"",
+      "value": "22\" X 16\" X 6\"",
+      "fact_status": "merchant_confirmed"
+    },
+    {
+      "start": 12,
+      "end": 26,
+      "original": "22\" X 16\" X 6\"",
+      "field": "additional_facts.0",
+      "parsed_value": "22\" X 16\" X 6\"",
+      "method": "recorded_original_dimension_tuple",
+      "status": "matched",
+      "reason": "与已记录商品尺寸原文的三轴数值、原单位和顺序一致；仅关联原文尺寸，不推定哪一轴是宽、高或深。",
+      "source_ids": [
+        "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+      ],
+      "product_ref": "AMAZON-US-B0732NPDRB@4",
+      "expected_value": "22\" X 16\" X 6\"",
+      "value": "22\" X 16\" X 6\"",
+      "fact_status": "merchant_confirmed"
+    }
+  ],
+  "completed_at": "2026-10-31T12:04:58.534Z"
+}

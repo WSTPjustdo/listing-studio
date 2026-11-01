@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-10-31T09:33:20.575Z",
+  "unchanged": true,
+  "before": {
+    "products": {
+      "count": 16,
+      "sha256": "788b5ec9e1e41323f55cf2884668d5c969fe1acc965e9abb5d8a953699c6d5d4"
+    },
+    "listings": {
+      "count": 11,
+      "sha256": "5c11c6944f98f3a3ccad2b490a4e8456e25705caa82555ba56f9c1cdfad7f0ba"
+    },
+    "versions": {
+      "count": 47,
+      "sha256": "4a8310c425497c7f3ca52657cb73e060a45f8053f1ad8444f91ec1b6ebfa6711"
+    },
+    "runs": {
+      "count": 55,
+      "sha256": "058cfc9c0192eaaa03aa3a5e7ae62c6684c713703475e2b995eaeb737b6f0fd7"
+    },
+    "settings": {
+      "count": 1,
+      "sha256": "25fc8d96b1f247b7675969a8d5d2c2960fcafff263f5c92efa141ba46ebc0437"
+    },
+    "sources": {
+      "count": 15,
+      "sha256": "b2866ae4de6f07744d9ef9cf74588ef43e2f61295f58a04de41b4f8d298ea620"
+    },
+    "batches": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "imports": {
+      "count": 17,
+      "sha256": "e77f6706e00f0c55e9c4f54214b32995c894e5271a17da84aa0490b52ed418d2"
+    },
+    "call_telemetry": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "library_entries": {
+      "count": 6,
+      "sha256": "fa624fcb6d9f85668a26f994a8ebfb63d15460306a9810b4bd953e483968ff33"
+    }
+  },
+  "after": {
+    "products": {
+      "count": 16,
+      "sha256": "788b5ec9e1e41323f55cf2884668d5c969fe1acc965e9abb5d8a953699c6d5d4"
+    },
+    "listings": {
+      "count": 11,
+      "sha256": "5c11c6944f98f3a3ccad2b490a4e8456e25705caa82555ba56f9c1cdfad7f0ba"
+    },
+    "versions": {
+      "count": 47,
+      "sha256": "4a8310c425497c7f3ca52657cb73e060a45f8053f1ad8444f91ec1b6ebfa6711"
+    },
+    "runs": {
+      "count": 55,
+      "sha256": "058cfc9c0192eaaa03aa3a5e7ae62c6684c713703475e2b995eaeb737b6f0fd7"
+    },
+    "settings": {
+      "count": 1,
+      "sha256": "25fc8d96b1f247b7675969a8d5d2c2960fcafff263f5c92efa141ba46ebc0437"
+    },
+    "sources": {
+      "count": 15,
+      "sha256": "b2866ae4de6f07744d9ef9cf74588ef43e2f61295f58a04de41b4f8d298ea620"
+    },
+    "batches": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "imports": {
+      "count": 17,
+      "sha256": "e77f6706e00f0c55e9c4f54214b32995c894e5271a17da84aa0490b52ed418d2"
+    },
+    "call_telemetry": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "library_entries": {
+      "count": 6,
+      "sha256": "fa624fcb6d9f85668a26f994a8ebfb63d15460306a9810b4bd953e483968ff33"
+    }
+  },
+  "notice": "Table content hashes only; settings contents and credentials omitted. Acceptance uses an isolated database."
+}

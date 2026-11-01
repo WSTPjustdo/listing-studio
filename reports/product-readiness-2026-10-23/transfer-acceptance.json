@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-10-23T10:04:49.569Z",
+  "public_products_only": true,
+  "merchant_owned_sku_tested": false,
+  "publication_performed": false,
+  "steps": [
+    {
+      "label": "browser_export_preview_confirm",
+      "product_revision": 8,
+      "guards": [
+        "tampered_metadata",
+        "formulas",
+        "wrong_product",
+        "replay",
+        "stale_product"
+      ],
+      "source_id": "evidence-0e0838ca-4bd6-4a4c-9fc2-af87f536c189"
+    }
+  ],
+  "calls": [],
+  "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+  "source": {
+    "url": "https://westfordmill.com/products/w101",
+    "checked_at": "2026-10-23T10:05:07.678Z",
+    "excerpt": "Pricelist Pack Qty 25",
+    "interpretation": "物流装箱与批发包装信息，不能确认商家零售每包件数。"
+  },
+  "completed_at": "2026-10-23T10:05:09.561Z"
+}

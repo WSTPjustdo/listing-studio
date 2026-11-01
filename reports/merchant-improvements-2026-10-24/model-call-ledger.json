@@ -1,0 +1,589 @@
+{
+  "created_at": "2026-10-24T02:28:11.905Z",
+  "known_requests": 32,
+  "known_total_tokens": 206667,
+  "unknown_requests": [
+    {
+      "count": 2,
+      "reason": "Two title rewrite attempts completed generation but then failed auditing before completed-call retention was implemented. Their generation request IDs, elapsed times and usage were not stored; omitted from known totals."
+    }
+  ],
+  "calls": [
+    {
+      "request_id": "b10d89a8-b2c0-4c63-8cdc-abee8523b466",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3953,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4598,
+        "completion_tokens": 870,
+        "total_tokens": 5468,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3830
+      },
+      "output_mode": "standard",
+      "context": "workflow-1/patch"
+    },
+    {
+      "request_id": "7e67f3b6-c6f6-42fa-86c9-74898ef476cc",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4094,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4540,
+        "completion_tokens": 909,
+        "total_tokens": 5449,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 3644
+      },
+      "output_mode": "standard",
+      "context": "workflow-1/failed format attempt"
+    },
+    {
+      "request_id": "ac609bd6-7613-4523-9127-80de27bc56f8",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1366,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 5100,
+        "completion_tokens": 194,
+        "total_tokens": 5294,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 4204
+      },
+      "output_mode": "standard",
+      "context": "workflow-1/revise"
+    },
+    {
+      "request_id": "ca3ea5cf-1424-486d-b062-8ae4f09dbdc8",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3932,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4503,
+        "completion_tokens": 879,
+        "total_tokens": 5382,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "prompt_cache_hit_tokens": 4352,
+        "prompt_cache_miss_tokens": 151
+      },
+      "output_mode": "standard",
+      "context": "workflow-1/revise"
+    },
+    {
+      "request_id": "8d911716-7170-409c-8fe6-b0491f7187ab",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1440,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4367,
+        "completion_tokens": 194,
+        "total_tokens": 4561,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 4367
+      },
+      "output_mode": "standard",
+      "context": "workflow-1/create"
+    },
+    {
+      "request_id": "7c90d0b9-ab8b-4737-ac99-823e8eacc881",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3857,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4503,
+        "completion_tokens": 884,
+        "total_tokens": 5387,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3735
+      },
+      "output_mode": "standard",
+      "context": "workflow-1/create"
+    },
+    {
+      "request_id": "949b4461-9d27-4662-9070-f1ec9288df42",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4390,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4568,
+        "completion_tokens": 988,
+        "total_tokens": 5556,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 3544
+      },
+      "output_mode": "standard",
+      "context": "workflow-2/patch"
+    },
+    {
+      "request_id": "400bfb33-5ef1-43c8-8328-194003741ed3",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1353,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 5134,
+        "completion_tokens": 188,
+        "total_tokens": 5322,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 4110
+      },
+      "output_mode": "standard",
+      "context": "workflow-2/revise"
+    },
+    {
+      "request_id": "44cbaf1c-36ad-4361-b626-7164b8cd9da9",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3931,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4531,
+        "completion_tokens": 861,
+        "total_tokens": 5392,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "prompt_cache_hit_tokens": 4352,
+        "prompt_cache_miss_tokens": 179
+      },
+      "output_mode": "standard",
+      "context": "workflow-2/revise"
+    },
+    {
+      "request_id": "2fd9799e-0e79-4518-af14-9984d3933577",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1213,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4401,
+        "completion_tokens": 188,
+        "total_tokens": 4589,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 3761
+      },
+      "output_mode": "standard",
+      "context": "workflow-2/create"
+    },
+    {
+      "request_id": "3b0a2a3a-f19c-4abf-869a-bdbc8264fab8",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4099,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4531,
+        "completion_tokens": 941,
+        "total_tokens": 5472,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3763
+      },
+      "output_mode": "standard",
+      "context": "workflow-2/create"
+    },
+    {
+      "request_id": "a2d2033a-d1cb-479b-8f1c-979fc9efc321",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4130,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4576,
+        "completion_tokens": 892,
+        "total_tokens": 5468,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3168
+      },
+      "output_mode": "standard",
+      "context": "workflow-3/patch"
+    },
+    {
+      "request_id": "aaa303d5-2c9b-4640-9fee-e157a81f77d2",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1141,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 5128,
+        "completion_tokens": 196,
+        "total_tokens": 5324,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3720
+      },
+      "output_mode": "standard",
+      "context": "workflow-3/revise"
+    },
+    {
+      "request_id": "f6bdb3cd-e5c9-4711-b1a8-9a6a5cbf4079",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3947,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4539,
+        "completion_tokens": 899,
+        "total_tokens": 5438,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "prompt_cache_hit_tokens": 4352,
+        "prompt_cache_miss_tokens": 187
+      },
+      "output_mode": "standard",
+      "context": "workflow-3/revise / failed format attempt"
+    },
+    {
+      "request_id": "4de1551e-0592-49e9-91f9-a025eb787de9",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3092,
+      "elapsed_note": "Derived by subtracting the failed request duration from retry total; includes small retry overhead.",
+      "usage": {
+        "prompt_tokens": 4624,
+        "completion_tokens": 460,
+        "total_tokens": 5084,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 3600
+      },
+      "output_mode": "audit_only_format_retry",
+      "context": "workflow-3/revise"
+    },
+    {
+      "request_id": "71fd9aa0-0a0e-4a08-8fb6-c6eee29d9ec9",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1644,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4401,
+        "completion_tokens": 196,
+        "total_tokens": 4597,
+        "prompt_tokens_details": {
+          "cached_tokens": 3968
+        },
+        "prompt_cache_hit_tokens": 3968,
+        "prompt_cache_miss_tokens": 433
+      },
+      "output_mode": "standard",
+      "context": "workflow-3/create"
+    },
+    {
+      "request_id": "113ea032-3754-4aa4-bcbd-39134ce6cf03",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3796,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 4539,
+        "completion_tokens": 884,
+        "total_tokens": 5423,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3131
+      },
+      "output_mode": "standard",
+      "context": "workflow-3/create"
+    },
+    {
+      "request_id": "de432edb-91b6-4ea4-bd95-cd0ca570e3f0",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4998,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6928,
+        "completion_tokens": 1230,
+        "total_tokens": 8158,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 5904
+      },
+      "output_mode": "standard",
+      "context": "workbench/patch/succeeded"
+    },
+    {
+      "request_id": "3a45963e-bd48-411d-8a98-db396c9fb5d4",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1564,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 7031,
+        "completion_tokens": 226,
+        "total_tokens": 7257,
+        "prompt_tokens_details": {
+          "cached_tokens": 2688
+        },
+        "prompt_cache_hit_tokens": 2688,
+        "prompt_cache_miss_tokens": 4343
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/succeeded"
+    },
+    {
+      "request_id": "454804fa-99ca-42c6-b879-660196d91ce7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5477,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6961,
+        "completion_tokens": 1293,
+        "total_tokens": 8254,
+        "prompt_tokens_details": {
+          "cached_tokens": 6784
+        },
+        "prompt_cache_hit_tokens": 6784,
+        "prompt_cache_miss_tokens": 177
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/succeeded / failed format attempt"
+    },
+    {
+      "request_id": "2f355325-9945-4602-9e71-2cc1afbe9a9b",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3574,
+      "elapsed_note": "Derived by subtracting the failed request duration from retry total; includes small retry overhead.",
+      "usage": {
+        "prompt_tokens": 7046,
+        "completion_tokens": 556,
+        "total_tokens": 7602,
+        "prompt_tokens_details": {
+          "cached_tokens": 2560
+        },
+        "prompt_cache_hit_tokens": 2560,
+        "prompt_cache_miss_tokens": 4486
+      },
+      "output_mode": "audit_only_format_retry",
+      "context": "workbench/revise/succeeded"
+    },
+    {
+      "request_id": "9f27f38b-c8e1-47ad-897f-e0d3222e4985",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1537,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 7032,
+        "completion_tokens": 229,
+        "total_tokens": 7261,
+        "prompt_tokens_details": {
+          "cached_tokens": 6784
+        },
+        "prompt_cache_hit_tokens": 6784,
+        "prompt_cache_miss_tokens": 248
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/succeeded"
+    },
+    {
+      "request_id": "d6277f21-fb76-4546-b30b-1a2e2edac851",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4883,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6964,
+        "completion_tokens": 1237,
+        "total_tokens": 8201,
+        "prompt_tokens_details": {
+          "cached_tokens": 6784
+        },
+        "prompt_cache_hit_tokens": 6784,
+        "prompt_cache_miss_tokens": 180
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/succeeded / failed format attempt"
+    },
+    {
+      "request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2594,
+      "elapsed_note": "Derived by subtracting the failed request duration from retry total; includes small retry overhead.",
+      "usage": {
+        "prompt_tokens": 7049,
+        "completion_tokens": 483,
+        "total_tokens": 7532,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6281
+      },
+      "output_mode": "audit_only_format_retry",
+      "context": "workbench/revise/succeeded"
+    },
+    {
+      "request_id": "a0fede14-17f5-49c5-8754-0671a68e205a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4547,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 7022,
+        "completion_tokens": 1215,
+        "total_tokens": 8237,
+        "prompt_tokens_details": {
+          "cached_tokens": 2560
+        },
+        "prompt_cache_hit_tokens": 2560,
+        "prompt_cache_miss_tokens": 4462
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/failed"
+    },
+    {
+      "request_id": "cfda662a-f95f-4d08-a607-07c352d9eb80",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5051,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6964,
+        "completion_tokens": 1191,
+        "total_tokens": 8155,
+        "prompt_tokens_details": {
+          "cached_tokens": 2432
+        },
+        "prompt_cache_hit_tokens": 2432,
+        "prompt_cache_miss_tokens": 4532
+      },
+      "output_mode": "standard",
+      "context": "workbench/failed format attempt"
+    },
+    {
+      "request_id": "c4f907a9-e552-4e5c-915f-4de5fd9e9893",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4006,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 7019,
+        "completion_tokens": 1122,
+        "total_tokens": 8141,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6123
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/failed"
+    },
+    {
+      "request_id": "c8101685-5be6-452f-996e-0804f682cc79",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5495,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6961,
+        "completion_tokens": 1203,
+        "total_tokens": 8164,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6065
+      },
+      "output_mode": "standard",
+      "context": "workbench/failed format attempt"
+    },
+    {
+      "request_id": "82e14755-5e32-4217-b9f0-d69559892f10",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1141,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6962,
+        "completion_tokens": 229,
+        "total_tokens": 7191,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6066
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/succeeded"
+    },
+    {
+      "request_id": "23faa566-21d6-4eb0-88fa-e88829520926",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5136,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6897,
+        "completion_tokens": 1255,
+        "total_tokens": 8152,
+        "prompt_tokens_details": {
+          "cached_tokens": 6656
+        },
+        "prompt_cache_hit_tokens": 6656,
+        "prompt_cache_miss_tokens": 241
+      },
+      "output_mode": "standard",
+      "context": "workbench/revise/succeeded"
+    },
+    {
+      "request_id": "6feaae1d-08db-4d6d-a597-3fad7c03e994",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2137,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6771,
+        "completion_tokens": 229,
+        "total_tokens": 7000,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 5875
+      },
+      "output_mode": "standard",
+      "context": "workbench/create/succeeded"
+    },
+    {
+      "request_id": "33d57e4d-ae48-4513-9923-243bf8a5858e",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4951,
+      "elapsed_note": "Recorded request duration.",
+      "usage": {
+        "prompt_tokens": 6897,
+        "completion_tokens": 1259,
+        "total_tokens": 8156,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6001
+      },
+      "output_mode": "standard",
+      "context": "workbench/create/succeeded"
+    }
+  ]
+}

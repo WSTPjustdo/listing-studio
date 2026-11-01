@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "provider": "DeepSeek",
+  "model": "deepseek-flash",
+  "total_responses": 14,
+  "total_tokens": 93415,
+  "bill_amount": null,
+  "requests": [
+    { "stage": "test:live / W101 generation retry", "request_id": "b5cf11e8-da71-4756-b27e-2728070323e2", "elapsed_ms": 3545, "prompt_tokens": 6100, "completion_tokens": 852, "total_tokens": 6952, "outcome": "failed_retried", "error_code": "MODEL_INVALID_JSON", "http_status": 200 },
+    { "stage": "test:live / W101 generation", "request_id": "f97c187c-bc9f-460d-94a6-2c15390c16b5", "elapsed_ms": 1664, "prompt_tokens": 5949, "completion_tokens": 215, "total_tokens": 6164, "outcome": "succeeded" },
+    { "stage": "test:live / W101 independent review", "request_id": "34f32a7a-6498-4f59-8d02-4686d95ef8c1", "elapsed_ms": 6499, "prompt_tokens": 6185, "completion_tokens": 547, "total_tokens": 6732, "outcome": "succeeded" },
+    { "stage": "test:live / review repair retry", "request_id": "42b0f6cb-b0d1-43d8-a725-997d252afe79", "elapsed_ms": 3694, "prompt_tokens": 6100, "completion_tokens": 906, "total_tokens": 7006, "outcome": "failed_retried", "error_code": "MODEL_INVALID_JSON", "http_status": 200 },
+    { "stage": "test:live / repair generation", "request_id": "b24c5ff9-668f-47b0-bf16-d8a9889ab38b", "elapsed_ms": 1408, "prompt_tokens": 6790, "completion_tokens": 209, "total_tokens": 6999, "outcome": "succeeded" },
+    { "stage": "test:live / repair independent review", "request_id": "c4922c40-56b6-4401-b8b7-2aae9a60c413", "elapsed_ms": 6794, "prompt_tokens": 6185, "completion_tokens": 535, "total_tokens": 6720, "outcome": "succeeded" },
+    { "stage": "test:live / product recheck retry", "request_id": "b35189d2-e280-4b42-abda-19624d9fc614", "elapsed_ms": 4093, "prompt_tokens": 6137, "completion_tokens": 913, "total_tokens": 7050, "outcome": "failed_retried", "error_code": "MODEL_INVALID_JSON", "http_status": 200 },
+    { "stage": "test:live / product recheck", "request_id": "4d089017-fa30-4ca1-92c4-c83cdc3532c4", "elapsed_ms": 7207, "prompt_tokens": 6222, "completion_tokens": 512, "total_tokens": 6734, "outcome": "succeeded" },
+    { "stage": "test:live:browser first pass / recheck", "request_id": "49aa6036-b3db-4e77-9f3c-d33b66163e5e", "elapsed_ms": 7477, "prompt_tokens": 8540, "completion_tokens": 463, "total_tokens": 9003, "outcome": "succeeded" },
+    { "stage": "test:live:browser first pass / A/B generation", "request_id": "2f3ad939-b53d-4dcf-848e-ac5bb9b4ee92", "elapsed_ms": 2907, "prompt_tokens": 697, "completion_tokens": 568, "total_tokens": 1265, "outcome": "succeeded" },
+    { "stage": "test:live:browser first pass / A/B independent review", "request_id": "f86a9992-3feb-47c0-948e-ac5bb9b4ee92", "elapsed_ms": 4695, "prompt_tokens": 8409, "completion_tokens": 1242, "total_tokens": 9651, "outcome": "succeeded" },
+    { "stage": "test:live:browser final / recheck", "request_id": "115c80cc-fa3f-439f-a676-eb8f283630a4", "elapsed_ms": 7102, "prompt_tokens": 8494, "completion_tokens": 440, "total_tokens": 8934, "outcome": "succeeded" },
+    { "stage": "test:live:browser final / A/B generation", "request_id": "2903f69e-db43-47cf-997e-a6284d53ac2d", "elapsed_ms": 2665, "prompt_tokens": 697, "completion_tokens": 550, "total_tokens": 1247, "outcome": "succeeded" },
+    { "stage": "test:live:browser final / A/B independent review", "request_id": "3505ec06-0b9d-42dc-8969-c00497a65555", "elapsed_ms": 7651, "prompt_tokens": 8493, "completion_tokens": 465, "total_tokens": 8958, "outcome": "succeeded" }
+  ]
+}

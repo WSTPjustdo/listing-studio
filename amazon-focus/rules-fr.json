@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.0",
+  "rule_pack_version": "amazon-fr-tote-2026-10-31.r1",
+  "checked_at": "2026-10-31",
+  "implementation_status": "wired_platform_layer_only",
+  "scope": {
+    "platform": "amazon",
+    "marketplace": "FR",
+    "locale": "fr-FR",
+    "application_product_type": "tote_bag_demo",
+    "official_product_type_definition_loaded": false,
+    "workflows": [
+      "listing_create",
+      "listing_diagnose"
+    ]
+  },
+  "notice": "法国站规则包（r1）：4 条按 amazon.fr 帮助页（fr-FR）核过的平台层规则 + 6 条法国/EU 法域规则。平台层由引擎按 constraint 读数执行；6 条法域规则里**只有 FR-LANG-01 有本地检查**（保守地判「这段文案读起来是不是英语」，三个条件同时成立才报），其余 5 条一律记 not_checked 并只列清单 —— 引擎里没有对应的检查代码，就不许给 pass。**这不等于「法国站已合规」**：Triman 标志是否印对、IDU 是否真实有效、GPSR 四要素是否齐备、成分有没有按 Annex I 的法语名写，本地都核不了。对外只能说「法国站的 4 条平台层检查能出结论，另加一条法语语言要求的保守检测」。",
+  "result_states": [
+    "pass",
+    "fail",
+    "needs_evidence",
+    "not_applicable",
+    "error",
+    "not_checked"
+  ],
+  "sources": [
+    {
+      "source_id": "FR-TITLE-2026",
+      "kind": "platform_documentation",
+      "publisher": "Amazon Seller Central（amazon.fr 帮助页 Product title requirements and guidelines，GYTR6SYGFA5E3EQC，locale=fr-FR）",
+      "url": "https://sellercentral.amazon.fr/help/hub/reference/external/GYTR6SYGFA5E3EQC?locale=fr-FR",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-31",
+      "access_note": "原文（2026-10-31 直接抓取，页面语言 fr-FR）：\"Character limit | Titles must not exceed 75 characters, including spaces.\"；\"Promotional content | Titles must not contain promotional phrases, such as \"livraison gratuite\" or \"qualité garantie à 100 %.\"\"；\"Special characters | Titles must not use the following special characters: !, $, ?, _, {, }, ^, ¬, ¦. Other special characters, such as ~, #, <, >, and *, are allowed only in specific contexts.\"；\"Word repetition | Titles must not contain the same word more than twice. ... Prepositions, articles, and conjunctions may be used more than twice in a title. However, brand names are also subject to the two-instance limit.\"；\"Item highlights provide an additional 125 characters for product details like materials or recommended use cases. These should be written as comma-separated phrases, instead of full sentences.\"；豁免：\"Brand names that contain prohibited characters (such as !, {, or }) should be entered in the \"Brand name\" field. Special characters in the brand field are exempt from title requirements\"。注意：这是与 amazon.de / amazon.co.uk 同一个帮助页（同 reference id），只换 locale，75/125/禁用字符/同词两次四地同值。"
+    },
+    {
+      "source_id": "FR-TOUBON-DGCCRF",
+      "kind": "official_regulator_guidance",
+      "publisher": "DGCCRF / Ministère de l'Économie（Vademecum des entreprises）",
+      "url": "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/profil_entreprises/Vademecum_entreprises_final.pdf",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-31",
+      "access_note": "原文（2026-10-31 抓取 PDF 正文）：\"Tout professionnel qui offre à la vente des produits a l'obligation d'employer la langue française sur les documents remis.\" 同段另指向 \"Emploi de la langue française\" 专页。这是法国消费者保护主管机关自己写给企业的合规手册，作为「面向消费者的商品信息必须用法语」的一手依据。"
+    },
+    {
+      "source_id": "FR-TOUBON-ART2",
+      "kind": "statute",
+      "publisher": "République française（Loi n° 94-665 du 4 août 1994 relative à l'emploi de la langue française，第 2 条），经 ARPP 官方文件转引",
+      "url": "https://www.arpp.org/wp-content/uploads/2024/06/ARPP-doctrine-sheet-French-Language.pdf",
+      "updated_on": "2024-06",
+      "effective_from": "1994-08-04",
+      "checked_at": "2026-10-31",
+      "access_note": "法文原文（ARPP《DOCTRINE SHEET - FRENCH LANGUAGE》逐字引用第 2 条）：\"Dans la désignation, l'offre, la présentation, les instructions d'utilisation ou de mode d'emploi, la description de l'étendue et des conditions de garantie d'un bien, d'un produit ou d'un service, ainsi que dans les factures et quittances, l'emploi de la langue française est obligatoire. Les mêmes dispositions s'appliquent à toute publicité écrite, parlée ou audiovisuelle.\" 第 4 条：\"Dans tous les cas où les mentions, annonces et inscriptions prévues aux articles 2 et 3 de la présente loi sont complétées d'une ou plusieurs traductions, la présentation en langue française doit être aussi lisible, audible ou intelligible que la présentation en langues étrangères.\" **取数说明：Legifrance 一手页面 2026-10-31 访问被 Cloudflare 挑战页拦截，两次均未取到正文 HTML；上述条文经 ARPP（法国广告监管自律组织，政府认可）官方文件与 harlaylaw 律所公开问答两处逐字核对，措辞一致。**"
+    },
+    {
+      "source_id": "FR-REP-TRI",
+      "kind": "official_public_guidance",
+      "publisher": "Service-Public Entreprendre（Direction de l'information légale et administrative，法国政府官方站）",
+      "url": "https://entreprendre.service-public.fr/vosdroits/F37937",
+      "updated_on": "2025-08-04",
+      "effective_from": null,
+      "checked_at": "2026-10-31",
+      "access_note": "原文（2026-10-31 抓取法语版与英文版正文，小节「Producteurs : quelle signalétique de tri indiquer ?」）：\"Any PWR product placed on the market for households shall be subject to a sign informing the consumer that this product is subject to sorting rules. This signage is: Either the logo \"Triman\" indicated on Legifrance (in annex) Or any other common signage regulated by the European Union or by another Member State of the European Union\"；\"The Triman logo must be attached to a information specifying the instructions for sorting or feeding waste from the product. If several elements of the product or waste from the product are subject to different sorting instructions, these must be detailed element by element.\"；位置：\"The Triman logo and the associated sorting instructions shall be included on: The product / The packing of product / The other documents supplied with the product, if it is not possible to indicate this on the product and its packaging.\" 例外阈值：最大面 <10 cm²、圆柱/球形 <20 cm² 且无随附文件时可改数字化展示；10–20 cm² 只有分拣说明可用数字化，Triman 标志仍须在实物上。玻璃饮料包装豁免。**条款号未核实：多份二手资料称对应 code de l'environnement L. 541-9-3，本包未在 Legifrance 一手原文核实，因此不以条款号作为依据。**"
+    },
+    {
+      "source_id": "FR-REP-IDU",
+      "kind": "official_public_guidance",
+      "publisher": "Service-Public Entreprendre（Direction de l'information légale et administrative，法国政府官方站）",
+      "url": "https://entreprendre.service-public.fr/vosdroits/F37937?lang=en",
+      "updated_on": "2025-08-04",
+      "effective_from": null,
+      "checked_at": "2026-10-31",
+      "access_note": "原文（2026-10-31 抓取英文版，小节「How do I get a Unique Identifier (UDI) and where should it appear?」）：\"Companies subject to the EPR principle must be recorded to the Ministry of the Environment, which issues a unique identifier (UDI).\"；\"The company registration is carried out by the eco-body to which the company contributes.\"；\"A company subject to EPR under several sectors must have a unique identification number for each of the PWR systems to which it is subject.\"；\"The company subject to REP shall indicate its UDI: In the document on general terms and conditions of sale (GTC) or, where it does not, in any other contractual document communicated to the buyer · And on his website.\" **页面上没有写生效日期，也没有给法典条款号；二手资料普遍称「2022-01-01 起强制」，本包未核实，故只作为「商家该在哪儿披露 IDU」的依据，不用于断言强制时点。**"
+    },
+    {
+      "source_id": "EU-2023-988",
+      "kind": "regulation",
+      "publisher": "European Parliament and Council / EUR-Lex（Regulation (EU) 2023/988, GPSR, Article 19）",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0988",
+      "updated_on": null,
+      "effective_from": "2024-12-13",
+      "checked_at": "2026-10-30",
+      "access_note": "英文原文四项要件：(a) \"the name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted\"；(b) \"where the manufacturer is not established in the Union, the name, postal and electronic address of the responsible person within the meaning of Article 16(1) of this Regulation or Article 4(1) of Regulation (EU) 2019/1020\"；(c) \"information allowing the identification of the product, including a picture of it, its type and any other product identifier\"；(d) \"any warning or safety information ... in a language which can be easily understood by consumers, as determined by the Member State in which the product is made available on the market\"。取数说明：2026-10-30 直接抓 EUR-Lex 正文时页面在 Article 10 后被服务端截断（HTTP 202、0 字节），上述引文经两处独立二次来源逐字核对（GS1 Sweden《Trade Item Information GPSR Guide》v2 引 (a)(b)、criticalcatalyst 引 (a)–(d)），两处措辞一致。法国站与德国站共用同一条 EU 法规，故本包复用同一引文。"
+    },
+    {
+      "source_id": "EU-1007-2011",
+      "kind": "regulation",
+      "publisher": "European Parliament and Council（Regulation (EU) No 1007/2011，经 legislation.gov.uk 转载原文）",
+      "url": "https://www.legislation.gov.uk/eur/2011/1007/chapter/2/adopted",
+      "updated_on": null,
+      "effective_from": "2012-05-08",
+      "checked_at": "2026-10-30",
+      "access_note": "英文原文：Art. 7(1) \"Only textile products exclusively composed of the same fibre may be labelled or marked as '100%', 'pure' or 'all'.\"；Art. 9(1) \"A textile product shall be labelled or marked with the name and percentage by weight of all constituent fibres in descending order.\"；Art. 9(2) \"a fibre which accounts for up to 5 % of the total weight ... or fibres which collectively account for up to 15 % ... may ... be designated by the term 'other fibres'\"；Art. 16(1) \"This information shall be clearly visible to the consumer before the purchase, including in cases where the purchase is made by electronic means.\"；Art. 16(3) \"The labelling or marking shall be provided in the official language or languages of the Member State on the territory of which the textile products are made available to the consumer\"——这一句是法国站要求法语纤维名的直接依据，与德国站同源。"
+    },
+    {
+      "source_id": "EU-2024-825",
+      "kind": "directive",
+      "publisher": "European Parliament and Council / EUR-Lex（Directive (EU) 2024/825, EmpCo/ECGT）",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L0825",
+      "updated_on": null,
+      "effective_from": "2026-09-27",
+      "checked_at": "2026-10-30",
+      "access_note": "Annex I 新增条款原文：\"4a. Making a generic environmental claim for which the trader is not able to demonstrate recognised excellent environmental performance relevant to the claim.\"；\"4b. Making an environmental claim about the entire product or the trader's entire business when it concerns only a certain aspect of the product or a specific activity of the trader's business.\"；\"4c. Claiming, based on the offsetting of greenhouse gas emissions, that a product has a neutral, reduced or positive impact on the environment in terms of greenhouse gas emissions.\"。Article 4：成员国须在 2026-03-27 前转化，\"They shall apply those measures from 27 September 2026.\"——即本包写作时（2026-10-31）已在适用。法国作为成员国同受此约束，故德国站与法国站共用这一条 EU 依据；法国另有 AGEC 法与国家层面的绿色宣称规则，本包未逐条核验。"
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "AMZ-01",
+      "category": "platform_rules",
+      "title_zh": "标题长度上限（法国站 75 字符）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 75,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "FR-TITLE-2026"
+      ],
+      "repair": "删掉次要信息（材质形容词、使用场景堆叠、重复的品类词），保留品牌 + 品类 + 关键属性 + 尺寸/容量。别为了凑长度加事实。",
+      "note": "amazon.fr 帮助页原文 \"Titles must not exceed 75 characters, including spaces.\"。与美国站、德国站、英国站同值——这是同一个帮助页换 locale，不是法国另有一套。"
+    },
+    {
+      "rule_id": "AMZ-02",
+      "category": "platform_rules",
+      "title_zh": "Item highlights 长度上限（法国站 125 字符）",
+      "field_paths": [
+        "content.item_highlights"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 125,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "FR-TITLE-2026"
+      ],
+      "repair": "改成逗号分隔的短语，不要整句；先删修饰语，再删次要属性。",
+      "note": "原文 \"Item highlights provide an additional 125 characters ... These should be written as comma-separated phrases, instead of full sentences.\""
+    },
+    {
+      "rule_id": "FR-TITLE-01",
+      "category": "platform_rules",
+      "title_zh": "标题禁用特殊字符（法国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "prohibited_characters": [
+          "!",
+          "$",
+          "?",
+          "_",
+          "{",
+          "}",
+          "^",
+          "¬",
+          "¦"
+        ],
+        "brand_name_exemption": true
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "FR-TITLE-2026"
+      ],
+      "repair": "删掉这些符号；品牌名里确有这些字符时写进 Brand name 字段（帮助页明确豁免）。法语的 `«` `»` `'` `-` `,` `.` `&` `/` 不在禁用表里，可以保留。",
+      "note": "正例：\"Sac cabas en coton 38 x 42 cm - Naturel\"。反例：\"Sac cabas! Meilleur_Choix {2026}\"。注意 `~ # < > *` 属于「特定语境可用」（型号、尺寸），不能一刀切禁。"
+    },
+    {
+      "rule_id": "FR-TITLE-02",
+      "category": "platform_rules",
+      "title_zh": "标题同一个词不超过两次（法国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "max_occurrences_per_word": 2,
+        "exempt_word_classes": [
+          "preposition",
+          "article",
+          "conjunction"
+        ],
+        "brand_name_also_limited": true
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "FR-TITLE-2026"
+      ],
+      "repair": "换说法或合并：`sac cabas` 与 `sac de courses` 只保留一个；重复的形容词删掉。",
+      "note": "原文 \"Titles must not contain the same word more than twice ... Prepositions, articles, and conjunctions may be used more than twice in a title. However, brand names are also subject to the two-instance limit.\" 法语介词/冠词/连词（de, la, le, les, pour, et, à, en, avec...）按词类豁免，词表见引擎的 FRENCH_FUNCTION_WORDS；宁可漏豁免也不误豁免实词。"
+    },
+    {
+      "rule_id": "FR-LANG-01",
+      "category": "target_country_product_info",
+      "title_zh": "面向法国消费者的商品信息必须用法语（Loi Toubon 第 2 条）",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "french_mandatory_for": [
+          "designation",
+          "offer",
+          "presentation",
+          "instructions_for_use",
+          "warranty_scope_and_conditions",
+          "invoices_and_receipts",
+          "written_spoken_or_audiovisual_advertising"
+        ],
+        "other_languages_allowed_alongside_french": true,
+        "french_must_be_as_readable_as_other_languages": true,
+        "exempt": "typical foreign product names and specialities known to the wider public"
+      },
+      "effective_from": "1994-08-04",
+      "method": "patterns_with_context_review",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "FR-TOUBON-ART2",
+        "FR-TOUBON-DGCCRF"
+      ],
+      "repair": "把整段改成法语；保留品牌名、型号、SKU、证书号原文。不要在法语页里留成句的英语。",
+      "note": "本地只判一件事：**这份文案是不是法语写的**（按法语功能词与重音字符的密度判，判不出就记 needs_review，不猜）。内容的准确性与是否满足「同样易读」判不了，留给人工。这条在法国站比在英国站更硬：法国有专门的语言法，英国没有对应立法。"
+    },
+    {
+      "rule_id": "FR-TEXTIL-01",
+      "category": "target_country_product_info",
+      "title_zh": "纺织纤维成分标注（EU 1007/2011，法语纤维名）",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "fibre_composition_required": true,
+        "fibre_names_from_annex_i_only": true,
+        "percentages_in_descending_order": true,
+        "percentages_must_total_100": true,
+        "language": "fr",
+        "visible_before_purchase_including_online": true
+      },
+      "effective_from": "2012-05-08",
+      "method": "checklist_only",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "EU-1007-2011"
+      ],
+      "repair": "按资料写成分，用 Annex I 的法语纤维名（coton / lin / polyester / polyamide），从大到小排，合计 100 %。资料没给比例就不要写。",
+      "note": "本地能判的只有确定性那一半：合计是否 100 %、是否降序、是否 100 % 又并列第二种纤维、纤维名是否用了英文（cotton vs coton）。「成分是否在购买前可见」「法语名是否用了 Annex I 的法定写法」判不了。所以这条永远不给 pass。"
+    },
+    {
+      "rule_id": "FR-ENV-01",
+      "category": "target_country_claims_review",
+      "title_zh": "环保宣称（泛化词与抵消式中性）",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "generic_claims_banned_without_recognised_excellence": true,
+        "whole_product_claim_for_one_aspect_banned": true,
+        "offset_based_neutrality_banned": true,
+        "generic_terms_fr": [
+          "écologique",
+          "eco-responsable",
+          "éco-responsable",
+          "respectueux de l'environnement",
+          "respectueux de la planète",
+          "durable",
+          "vert",
+          "neutre en carbone",
+          "compensé",
+          "biodégradable",
+          "compostable"
+        ]
+      },
+      "effective_from": "2026-09-27",
+      "method": "checklist_only",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "EU-2024-825"
+      ],
+      "repair": "删掉无法逐条证明的泛化表述，改成可核实的材料与比例（\"100 % coton\" 可以写，\"écologique\" 不行）；缺证据就留空，不补事实。",
+      "note": "本地只做候选检测：出现词表里的词或「compensé / neutre en carbone」这类抵消式表述就报 needs_review，不判违规。「durable」在法语里同时是「耐用」，会误报，所以报的是「需要人看一眼」而不是「违规」。生物降解/可堆肥类宣称另受法国 AGEC 法约束，本包未逐条核验。"
+    },
+    {
+      "rule_id": "FR-TRIMAN-01",
+      "category": "target_country_product_info",
+      "title_zh": "Triman 标志与 Info-tri 分拣说明",
+      "field_paths": [
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "triman_logo_required_for_epr_household_products": true,
+        "sorting_instructions_required_and_must_be_element_by_element": true,
+        "placement": [
+          "product",
+          "packaging",
+          "documents_supplied_with_the_product"
+        ],
+        "logo_and_instructions_side_by_side": true,
+        "dematerialised_allowed_only_below_surface_thresholds": "max side <10 cm², or cylindrical/spherical <20 cm², and no accompanying document",
+        "glass_beverage_packaging_exempt": true
+      },
+      "effective_from": null,
+      "method": "checklist_only",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "FR-REP-TRI"
+      ],
+      "repair": "向所签约的生态组织（包装 Citeo、纺织品 Refashion）索取官方图样，把 Triman + Info-tri 印在产品或其包装上；文案层不补这句。",
+      "note": "只列清单不给结论。理由：Triman 是**印刷标志**，文本层看不到有没有印、印得对不对、尺寸是否达标。本地最多能看出「文案里提到了 Triman」——那既不能证明印了，也不能证明印对。"
+    },
+    {
+      "rule_id": "FR-EPR-01",
+      "category": "target_country_product_info",
+      "title_zh": "法国 EPR 唯一识别码（IDU）",
+      "field_paths": [
+        "content.description",
+        "content.bullet_points"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "one_idu_per_epr_stream": true,
+        "disclose_in": [
+          "terms_and_conditions_or_other_contractual_document",
+          "company_website"
+        ],
+        "disclose_on_buyer_request": true,
+        "belongs_in_listing_copy": false
+      },
+      "effective_from": null,
+      "method": "checklist_only",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "FR-REP-IDU"
+      ],
+      "repair": "IDU 填在卖家后台的 EPR 合规字段与销售条款里，不要写进商品文案。",
+      "note": "本地只判一件：**文案里是不是写了 IDU**（`FR` + 6 位数字 + `_` + 6 位字母数字的形态，或出现 IDU / identifiant unique 字样）。写了就报 needs_review，理由是「号不该进文案、本地也核不了真伪」。注册状态、类别是否对得上、号码是否有效都核不了。与德国站 DE-VERPACK-01 的 LUCID 逻辑同构，但法国是每个 EPR 类别一个号（包装、纺织、WEEE 各一个），比德国更容易漏。"
+    },
+    {
+      "rule_id": "FR-GPSR-01",
+      "category": "target_country_product_info",
+      "title_zh": "GPSR 第 19 条四要素（法国站）",
+      "field_paths": [
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "FR",
+        "media_product": false
+      },
+      "constraint": {
+        "manufacturer_name_and_postal_and_electronic_address": true,
+        "eu_responsible_person_when_manufacturer_outside_eu": true,
+        "product_identification_including_picture_type_and_identifier": true,
+        "warnings_in_language_easily_understood_by_consumers": "French, as determined by France",
+        "online_offer_must_display_the_four_elements": true
+      },
+      "effective_from": "2024-12-13",
+      "method": "checklist_only",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "EU-2023-988"
+      ],
+      "repair": "在商品档案的「补充事实」里填制造商名称 + 邮政地址 + 电子地址、欧盟责任人（非欧盟制造商）、产品标识；这些会原样进生成上下文。",
+      "note": "本地判不了：商品档案里没有这四个结构化字段，只能靠「补充事实」这个通用通道。与德国站 DE-GPSR-19 同一条法规、同一套四要素，差别只在 (d) 的语言由法国定为法语。"
+    }
+  ],
+  "coverage_limits": [
+    "平台层只核了标题长度、item highlights 长度、禁用特殊字符、同词两次四条；联系方式、促销语、描述准确性、包装件数、类目专属 style guide 均未按 amazon.fr 逐条核验，因此本包不能单独用于审阅出结论。",
+    "已注册进 rulePacks：AMZ-01 / AMZ-02 / FR-TITLE-01 / FR-TITLE-02 四条平台层规则由引擎按 constraint 执行；FR-LANG-01 有本地检查（保守判定「这段文案读起来是英语」）；FR-TEXTIL-01、FR-ENV-01、FR-EPR-01、FR-TRIMAN-01、FR-GPSR-01 五条没有本地实现，按引擎约定一律记 not_checked，只列清单，不得计为 pass。",
+    "2026-10-31 起已接界面与生成/批量链路（WORKFLOW_MARKETPLACES 含 FR），locale 用 fr-FR；但法国站语料与类目 style guide G1641 仍未核验。可以说「支持法国站（4 条平台层 + 法语语言检测）」，不得声称法国法域合规已核。",
+    "未核实：code de l'environnement 中 Triman 标志的条款号、法国 IDU 的强制生效日期、法国 AGEC 法对具体环保宣称的额外要求、法国纺织品 EPR（Refashion）与包装 EPR（Citeo）的费率与申报口径。",
+    "未覆盖图片、A+、Search Terms、进口、税务、包装重量申报。",
+    "规则用于上架前风险预审，不构成法律意见。"
+  ],
+  "label": "棉布手提袋（Amazon FR 文本预审 · 仅平台层 + 法语语言）",
+  "pack_id": "amazon-fr-tote"
+}

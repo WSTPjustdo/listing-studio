@@ -1,0 +1,57 @@
+{
+  "completed_at": "2026-10-30T03:49:58.627Z",
+  "listing_id": "listing-a52d5119-4acc-43fa-9fd8-ca3b82d545af",
+  "version": 4,
+  "model": "deepseek-flash",
+  "request_id": "a7b76f22-cd58-4ee0-95ef-d190e4c022a1",
+  "actual_model_call": true,
+  "elapsed_ms": 5939,
+  "usage": {
+    "prompt_tokens": 5966,
+    "completion_tokens": 561,
+    "total_tokens": 6527,
+    "prompt_tokens_details": {
+      "cached_tokens": 5760
+    },
+    "prompt_cache_hit_tokens": 5760,
+    "prompt_cache_miss_tokens": 206
+  },
+  "issues": [
+    {
+      "issue_id": "e728a7cecd6fa8",
+      "rule_id": "FACT-01",
+      "category": "product_fact_quality",
+      "title": "数量单位与属性混淆",
+      "severity": "blocking",
+      "field_path": "content.item_highlights",
+      "original": "4.1oz",
+      "reason": "额定承重尚未确认；容量、面料克重和单件重量都不能证明承重。",
+      "suggestion": "补充适用商品的额定承重来源，或删除无法证实的数值。",
+      "method": "deterministic_structured_facts",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "checks": [
+    "invalid_product_revision_rejected",
+    "real_api_recheck",
+    "version_history_preserved",
+    "evidence_visible",
+    "html_txt_json_copy_exports"
+  ],
+  "screenshot": "browser-final.png"
+}

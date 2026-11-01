@@ -1,0 +1,68 @@
+{
+  "started_at": "2026-10-24T02:21:02.266Z",
+  "checks": [
+    "original_v1_five_findings_grouped_and_expandable"
+  ],
+  "run": {
+    "run_id": "run-cec70333-8c6f-4dc1-9f79-11ce1b5dd4ee",
+    "status": "failed",
+    "stage": "运行失败",
+    "created_at": "2026-10-24T02:21:03.950Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "b0679409-1b66-424e-a2b5-4d7d1c4810aa",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:21:03.955Z",
+    "finished_at": "2026-10-24T02:21:14.805Z",
+    "elapsed_ms": 10850,
+    "error": {
+      "code": "MODEL_INVALID_JSON",
+      "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。"
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "c4f907a9-e552-4e5c-915f-4de5fd9e9893",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4006,
+      "usage": {
+        "prompt_tokens": 7019,
+        "completion_tokens": 1122,
+        "total_tokens": 8141,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6123
+      }
+    },
+    "provider_request_id": "c4f907a9-e552-4e5c-915f-4de5fd9e9893",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": false,
+      "failed_attempt": {
+        "error_code": "MODEL_INVALID_JSON",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "c8101685-5be6-452f-996e-0804f682cc79",
+          "model": "deepseek-flash",
+          "elapsed_ms": 5495,
+          "usage": {
+            "prompt_tokens": 6961,
+            "completion_tokens": 1203,
+            "total_tokens": 8164,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 6065
+          }
+        }
+      }
+    }
+  },
+  "failure": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。"
+}

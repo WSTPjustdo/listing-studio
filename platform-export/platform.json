@@ -1,0 +1,81 @@
+{
+  "format": "listing-studio-local-platform-export-v1",
+  "generated": {
+    "by": "npm run export:platform（scripts/export-platform.mjs）",
+    "note": "batch 段的数字来自 server/flat-file.mjs 的 TABLE_LIMITS / TABLE_FORMATS 与 server/batch-cost.mjs 的 CALLS_PER_ROW；手改会被 tests/delivery.test.mjs 判定过期。",
+    "numerical_fields_generated": true
+  },
+  "platform": "Node.js + React + SQLite",
+  "node": ">=24.0.0",
+  "default_url": "http://127.0.0.1:8787/",
+  "environment_template": "runtime.env.example",
+  "dependency_lock": "../package-lock.json",
+  "workflow_manifest": "../workflows/manifest.json",
+  "runtime_implementation": [
+    "../server/service.mjs",
+    "../server/providers.mjs"
+  ],
+  "configuration_directories": [
+    "../amazon-focus",
+    "../data-research"
+  ],
+  "restore_commands": [
+    "npm ci",
+    "npm run build",
+    "npm start"
+  ],
+  "delivery_tag_policy": "打包用 npm run package:share --tag <名称>；脚本会校验该标签指向当前已审查提交。本文件不代表已存在同名标签。",
+  "credentials_included": false,
+  "user_database_included": false,
+  "dify_native_export_included": false,
+  "batch": {
+    "implementation": "../server/batch.mjs",
+    "formats": [
+      "xlsx",
+      "csv",
+      "tsv",
+      "txt"
+    ],
+    "limits": {
+      "max_rows": 2000,
+      "max_columns": 1000,
+      "max_file_bytes": 5242880,
+      "max_cell_chars": 10000
+    },
+    "concurrency": {
+      "default": 1,
+      "max": 8,
+      "auto": "BATCH_CONCURRENCY=auto：按上游 429 自行降档，不预设数字"
+    },
+    "calls_per_row": {
+      "create": 2,
+      "diagnose": 1,
+      "optimize": 2
+    },
+    "calls_per_row_note": "行数 × 调用次数才是钱。这组数字只在假上游与本地假网关上量过，单价与真实 token 数仍未知。",
+    "persistence": "SQLite imports + batches tables",
+    "operations": [
+      "create",
+      "diagnose",
+      "optimize"
+    ]
+  },
+  "grouped_issue_processing": {
+    "implementation": "server/batch.mjs",
+    "group_by": "rule_id within batch",
+    "actions": [
+      "review",
+      "repair_preview_and_apply",
+      "defer"
+    ],
+    "version_guards": [
+      "submit",
+      "queue_execution",
+      "immutable_store"
+    ],
+    "field_scope": "selected issue fields only",
+    "history": "SQLite batches.group_actions; XLSX audit sheet",
+    "missing_facts": "per product only",
+    "risk_deferral": "retains findings; expires on new version"
+  }
+}

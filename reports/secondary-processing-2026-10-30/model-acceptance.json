@@ -1,0 +1,907 @@
+{
+  "completed_at": "2026-10-30T04:53:12.464Z",
+  "scope": "Amazon US cotton tote English text only",
+  "model": "deepseek-flash",
+  "prompt_version": "2026-10-30.intake-keywords-v10",
+  "parameter_version": "structured-parameters-v2.4",
+  "rule_version": "amazon-us-tote-2026-10-30.integration-v9",
+  "unique_actual_requests": 33,
+  "total_tokens": 224926,
+  "format_failures": 12,
+  "calls": [
+    {
+      "request_id": "9ef8e5d1-47ba-40ec-b9b3-f5f01ad82811",
+      "stage": "standard_v2.3/真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6949,
+      "elapsed_scope": "failed_attempt_and_retry_combined",
+      "usage": {
+        "prompt_tokens": 6021,
+        "completion_tokens": 568,
+        "total_tokens": 6589,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 4741
+      },
+      "http_status": 200,
+      "error_code": null,
+      "single_request_elapsed_ms": null,
+      "elapsed_note": "Service trace contains the combined retry workflow duration; individual successful attempt latency is unknown."
+    },
+    {
+      "request_id": "a04e9242-dafa-4df4-8b99-5ca5bc478ccb",
+      "stage": "standard_v2.3/真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3804,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5936,
+        "completion_tokens": 904,
+        "total_tokens": 6840,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 4656
+      },
+      "http_status": 200,
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "request_id": "ae4609b0-4336-447c-bb8e-ed0ddecdf84f",
+      "stage": "standard_v2.3/真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1751,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5795,
+        "completion_tokens": 221,
+        "total_tokens": 6016,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 4643
+      },
+      "http_status": 200,
+      "error_code": null
+    },
+    {
+      "request_id": "1c576981-0950-40c2-90b8-147c520bf393",
+      "stage": "standard_v2.3/真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6677,
+      "elapsed_scope": "failed_attempt_and_retry_combined",
+      "usage": {
+        "prompt_tokens": 6021,
+        "completion_tokens": 546,
+        "total_tokens": 6567,
+        "prompt_tokens_details": {
+          "cached_tokens": 5887
+        },
+        "prompt_cache_hit_tokens": 5887,
+        "prompt_cache_miss_tokens": 134
+      },
+      "http_status": 200,
+      "error_code": null,
+      "single_request_elapsed_ms": null,
+      "elapsed_note": "Service trace contains the combined retry workflow duration; individual successful attempt latency is unknown."
+    },
+    {
+      "request_id": "04797a74-90ba-44ba-9911-dad8dc686ecf",
+      "stage": "standard_v2.3/真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3626,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5936,
+        "completion_tokens": 925,
+        "total_tokens": 6861,
+        "prompt_tokens_details": {
+          "cached_tokens": 5760
+        },
+        "prompt_cache_hit_tokens": 5760,
+        "prompt_cache_miss_tokens": 176
+      },
+      "http_status": 200,
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "request_id": "5375e9a5-b5ad-46dc-9bd6-b944922056b5",
+      "stage": "standard_v2.3/真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1293,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 6635,
+        "completion_tokens": 199,
+        "total_tokens": 6834,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 5227
+      },
+      "http_status": 200,
+      "error_code": null
+    },
+    {
+      "request_id": "ee1a4fa2-e533-41f6-a6aa-d8a8c1bd3723",
+      "stage": "standard_v2.3/补充真实规格后原任务复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6701,
+      "elapsed_scope": "failed_attempt_and_retry_combined",
+      "usage": {
+        "prompt_tokens": 6058,
+        "completion_tokens": 492,
+        "total_tokens": 6550,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 4522
+      },
+      "http_status": 200,
+      "error_code": null,
+      "single_request_elapsed_ms": null,
+      "elapsed_note": "Service trace contains the combined retry workflow duration; individual successful attempt latency is unknown."
+    },
+    {
+      "request_id": "8fc93c09-f337-4400-9ed1-2ed0504e4fa2",
+      "stage": "standard_v2.3/补充真实规格后原任务复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3936,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5973,
+        "completion_tokens": 904,
+        "total_tokens": 6877,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 4565
+      },
+      "http_status": 200,
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "request_id": "c3d04e35-17bd-4168-a6c2-7c45e26819f4",
+      "stage": "standard_final_v2.4/真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6646,
+      "elapsed_scope": "failed_attempt_and_retry_combined",
+      "usage": {
+        "prompt_tokens": 6025,
+        "completion_tokens": 507,
+        "total_tokens": 6532,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4105
+      },
+      "http_status": 200,
+      "error_code": null,
+      "single_request_elapsed_ms": null,
+      "elapsed_note": "Service trace contains the combined retry workflow duration; individual successful attempt latency is unknown."
+    },
+    {
+      "request_id": "266501fb-ac2e-4bb7-be54-6d79c7ab60ee",
+      "stage": "standard_final_v2.4/真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3932,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5940,
+        "completion_tokens": 865,
+        "total_tokens": 6805,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 4148
+      },
+      "http_status": 200,
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "request_id": "a5e7376e-9086-496d-9b90-ec16409bb085",
+      "stage": "standard_final_v2.4/真实商品生成与独立审核",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1579,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5795,
+        "completion_tokens": 203,
+        "total_tokens": 5998,
+        "prompt_tokens_details": {
+          "cached_tokens": 5376
+        },
+        "prompt_cache_hit_tokens": 5376,
+        "prompt_cache_miss_tokens": 419
+      },
+      "http_status": 200,
+      "error_code": null
+    },
+    {
+      "request_id": "f9ff2ffa-ba8c-473e-a6ab-30deee2e89e2",
+      "stage": "standard_final_v2.4/真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6842,
+      "elapsed_scope": "failed_attempt_and_retry_combined",
+      "usage": {
+        "prompt_tokens": 6028,
+        "completion_tokens": 498,
+        "total_tokens": 6526,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4108
+      },
+      "http_status": 200,
+      "error_code": null,
+      "single_request_elapsed_ms": null,
+      "elapsed_note": "Service trace contains the combined retry workflow duration; individual successful attempt latency is unknown."
+    },
+    {
+      "request_id": "5b294219-3318-4125-9391-c5933ee70048",
+      "stage": "standard_final_v2.4/真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3846,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5943,
+        "completion_tokens": 897,
+        "total_tokens": 6840,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 4151
+      },
+      "http_status": 200,
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "request_id": "fbda17fc-20c2-4dc3-89b8-5a8a8ae43421",
+      "stage": "standard_final_v2.4/真实问题审查修复与复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1368,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 6600,
+        "completion_tokens": 206,
+        "total_tokens": 6806,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 4808
+      },
+      "http_status": 200,
+      "error_code": null
+    },
+    {
+      "request_id": "32c81fbd-011c-4b3f-aa43-58768e327cbc",
+      "stage": "standard_final_v2.4/补充真实规格后原任务复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 7311,
+      "elapsed_scope": "failed_attempt_and_retry_combined",
+      "usage": {
+        "prompt_tokens": 6065,
+        "completion_tokens": 520,
+        "total_tokens": 6585,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4145
+      },
+      "http_status": 200,
+      "error_code": null,
+      "single_request_elapsed_ms": null,
+      "elapsed_note": "Service trace contains the combined retry workflow duration; individual successful attempt latency is unknown."
+    },
+    {
+      "request_id": "3d3d4ec3-0f0c-469c-b4ec-f2d94a003f59",
+      "stage": "standard_final_v2.4/补充真实规格后原任务复检",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4188,
+      "elapsed_scope": "provider_attempt",
+      "usage": {
+        "prompt_tokens": 5980,
+        "completion_tokens": 972,
+        "total_tokens": 6952,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 4188
+      },
+      "http_status": 200,
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "at": "2026-10-30T04:42:44.068Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "ce315388-9304-4ac8-9017-8feab7ed3558",
+      "elapsed_ms": 4015,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6164,
+        "completion_tokens": 898,
+        "total_tokens": 7062,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 6164
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "at": "2026-10-30T04:42:47.502Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "6ab7c1a4-b960-4dfc-b98a-656e6cd43198",
+      "elapsed_ms": 3419,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6249,
+        "completion_tokens": 529,
+        "total_tokens": 6778,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 5097
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:42:49.108Z",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": [
+        "content.bullet_points.b1"
+      ],
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "0b2aaf26-e6e0-4719-95ac-e05b17efd2a9",
+      "elapsed_ms": 1347,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6250,
+        "completion_tokens": 202,
+        "total_tokens": 6452,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 5098
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:42:52.844Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": [
+        "content.bullet_points.b1"
+      ],
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "b7dec9c0-da4b-4e19-95ab-99c7ae8bc5ec",
+      "elapsed_ms": 3728,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6198,
+        "completion_tokens": 841,
+        "total_tokens": 7039,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 4790
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "at": "2026-10-30T04:42:55.702Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": [
+        "content.bullet_points.b1"
+      ],
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "9e14d237-a5a1-494d-99c7-804953f09bbc",
+      "elapsed_ms": 2851,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6283,
+        "completion_tokens": 541,
+        "total_tokens": 6824,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 4875
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:42:57.850Z",
+      "operation": "create",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "aecfdfcd-1a75-47d9-b5f8-2597c1513c80",
+      "elapsed_ms": 1873,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6183,
+        "completion_tokens": 275,
+        "total_tokens": 6458,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 4775
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:43:02.245Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "58c5c202-9bce-4327-9f5a-58f3a24e2e34",
+      "elapsed_ms": 4388,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6364,
+        "completion_tokens": 985,
+        "total_tokens": 7349,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 4572
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:44:37.876Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "2c09ece7-63fb-4f3b-a226-c4703a255a0f",
+      "elapsed_ms": 4484,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6364,
+        "completion_tokens": 1096,
+        "total_tokens": 7460,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "prompt_cache_hit_tokens": 6144,
+        "prompt_cache_miss_tokens": 220
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "at": "2026-10-30T04:44:40.989Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "98bdbc9a-4d96-4218-8941-c854d4272cb1",
+      "elapsed_ms": 3105,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6449,
+        "completion_tokens": 584,
+        "total_tokens": 7033,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4529
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:46:20.268Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "21c8c3c8-8bf3-4ec5-897a-489695a21940",
+      "elapsed_ms": 3476,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6151,
+        "completion_tokens": 801,
+        "total_tokens": 6952,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "prompt_cache_hit_tokens": 2048,
+        "prompt_cache_miss_tokens": 4103
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:46:21.918Z",
+      "operation": "revise",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": [
+        "content.bullet_points.b1"
+      ],
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "7cfdc699-ec04-403c-bcd8-e63a70b72519",
+      "elapsed_ms": 1422,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6235,
+        "completion_tokens": 205,
+        "total_tokens": 6440,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "prompt_cache_hit_tokens": 2048,
+        "prompt_cache_miss_tokens": 4187
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:46:25.952Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": [
+        "content.bullet_points.b1"
+      ],
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "1994c978-b5e8-4173-894a-6b6a062e0eda",
+      "elapsed_ms": 4024,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6188,
+        "completion_tokens": 931,
+        "total_tokens": 7119,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4268
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "at": "2026-10-30T04:46:29.010Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": [
+        "content.bullet_points.b1"
+      ],
+      "intake_role": "own_draft",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "148d063b-a94c-4798-89fd-ff3c9e47f154",
+      "elapsed_ms": 3052,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6273,
+        "completion_tokens": 539,
+        "total_tokens": 6812,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4353
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:51:35.172Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "085dc8bd-f2a0-4018-90c8-01c82785ff7d",
+      "elapsed_ms": 4494,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6364,
+        "completion_tokens": 1116,
+        "total_tokens": 7480,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "prompt_cache_hit_tokens": 6144,
+        "prompt_cache_miss_tokens": 220
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "at": "2026-10-30T04:51:38.308Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "c9225c2c-07c9-4638-848c-7d7e4fa3be05",
+      "elapsed_ms": 3127,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6449,
+        "completion_tokens": 544,
+        "total_tokens": 6993,
+        "prompt_tokens_details": {
+          "cached_tokens": 6272
+        },
+        "prompt_cache_hit_tokens": 6272,
+        "prompt_cache_miss_tokens": 177
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    },
+    {
+      "at": "2026-10-30T04:51:56.747Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "fbddb697-4e2b-4415-9d4d-dde46af772ed",
+      "elapsed_ms": 4182,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6364,
+        "completion_tokens": 1060,
+        "total_tokens": 7424,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "prompt_cache_hit_tokens": 6144,
+        "prompt_cache_miss_tokens": 220
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "at": "2026-10-30T04:52:00.337Z",
+      "operation": "diagnose",
+      "model": "deepseek-flash",
+      "selected_terms": [
+        "cotton",
+        "CutAway",
+        "4.1oz/yd²"
+      ],
+      "allowed_fields": null,
+      "intake_role": "competitor_reference",
+      "product_id": "REAL-WESTFORD-W101",
+      "request_id": "b32e74ae-93eb-49bf-be6e-bf2bd4687852",
+      "elapsed_ms": 3584,
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 6449,
+        "completion_tokens": 624,
+        "total_tokens": 7073,
+        "prompt_tokens_details": {
+          "cached_tokens": 6272
+        },
+        "prompt_cache_hit_tokens": 6272,
+        "prompt_cache_miss_tokens": 177
+      },
+      "stage": "real_intake_API_or_browser",
+      "elapsed_scope": "provider_attempt",
+      "error_code": null
+    }
+  ],
+  "standards": [
+    {
+      "label": "standard_v2.3",
+      "steps": [
+        {
+          "label": "真实商品生成与独立审核",
+          "version": 1,
+          "issues": 0,
+          "algorithm": "structured-parameters-v2.3"
+        },
+        {
+          "label": "真实问题审查修复与复检",
+          "version": 2,
+          "issues": 0,
+          "algorithm": "structured-parameters-v2.3"
+        },
+        {
+          "label": "补充真实规格后原任务复检",
+          "version": 3,
+          "issues": 0,
+          "algorithm": "structured-parameters-v2.3"
+        }
+      ]
+    },
+    {
+      "label": "standard_final_v2.4",
+      "steps": [
+        {
+          "label": "真实商品生成与独立审核",
+          "version": 1,
+          "issues": 0,
+          "algorithm": "structured-parameters-v2.4"
+        },
+        {
+          "label": "真实问题审查修复与复检",
+          "version": 2,
+          "issues": 0,
+          "algorithm": "structured-parameters-v2.4"
+        },
+        {
+          "label": "补充真实规格后原任务复检",
+          "version": 3,
+          "issues": 0,
+          "algorithm": "structured-parameters-v2.4"
+        }
+      ]
+    }
+  ],
+  "final": {
+    "listing_id": "listing-25f9bc1b-a579-4b76-9fba-23c5436d3731",
+    "version": 4,
+    "issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ]
+  },
+  "unresolved": [
+    "merchant_original_plugin_export_sample_not_provided",
+    "actual_merchant_inventory_seller_SKU_and_Seller_Central_acceptance_unknown",
+    "color_and_retail_pack_count_unknown",
+    "CSV_XLSX_column_adapters_not_implemented",
+    "bulk_performance_and_other_marketplaces_categories_not_validated"
+  ],
+  "local_user_data_and_settings_unchanged": true
+}

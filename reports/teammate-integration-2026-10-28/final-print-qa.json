@@ -1,0 +1,148 @@
+{
+  "checked_at": "2026-10-29T01:34:02.269060+00:00",
+  "evidence_type": "independent_real_pdf_visual_and_geometry_review",
+  "model_calls_performed": 0,
+  "version": 4,
+  "algorithm_version": "structured-parameters-v2.1",
+  "status": "passed_after_footer_margin_fix",
+  "rendering": "All final V4 pages rendered using Poppler and visually inspected. Per-page footer and disclaimer checked independently using pdfplumber.",
+  "files": [
+    {
+      "name": "followup-html.pdf",
+      "sha256": "8938728fdb3e5849142889534beae2c60664ff1f0ea2eabfa070fd159a871d33",
+      "pages": 7,
+      "page_results": [
+        {
+          "page": 1,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 762.915,
+          "body_clearance_to_footer_text_pt": 35.873,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 2,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 761.671,
+          "body_clearance_to_footer_text_pt": 37.118,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 3,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 725.415,
+          "body_clearance_to_footer_text_pt": 73.373,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 4,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 713.671,
+          "body_clearance_to_footer_text_pt": 85.118,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 5,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 744.915,
+          "body_clearance_to_footer_text_pt": 53.873,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 6,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 741.421,
+          "body_clearance_to_footer_text_pt": 57.368,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 7,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 712.171,
+          "body_clearance_to_footer_text_pt": 86.618,
+          "body_overlapped_by_footer": false
+        }
+      ],
+      "visual_body_clipping_observed": false,
+      "visual_body_overlap_observed": false
+    },
+    {
+      "name": "followup-worklist.pdf",
+      "sha256": "5b32137145d943a2d9accb51ceab8bc0775e69c4fd213852b453faa9765d3dd8",
+      "pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_present": true,
+          "disclaimer_present": true,
+          "footer_text_top_pt": 798.789,
+          "last_body_text_bottom_pt": 725.671,
+          "body_clearance_to_footer_text_pt": 73.118,
+          "body_overlapped_by_footer": false
+        }
+      ],
+      "visual_body_clipping_observed": false,
+      "visual_body_overlap_observed": false
+    }
+  ],
+  "prior_failure_preserved": "final-print-qa-pre-footer-fix.json",
+  "prior_pdf_directory": "prior-print-fixed-overlay",
+  "fix": "The parent replaced an overlaid fixed footer with @page @bottom-center margin boxes; final exports were regenerated from the same immutable real V4 record without inference.",
+  "source_code_changed_by_reviewer": false,
+  "remaining_print_limitations": [
+    "Only the installed Edge/Chromium print engine was verified; Firefox and Safari printing remain unverified."
+  ],
+  "real_prior_record_comparison": {
+    "record_version": 2,
+    "purpose": "Confirm one-issue worklist outer border stays separate from footer under current print layout. Historical audit content and original evidence files unchanged.",
+    "runtime_pdf_sha256": "c19181684db991513f02170606bd8aca5352773964f3d1fe4f43de0425fed021",
+    "pages": 9,
+    "visually_inspected_page": 5,
+    "worklist_group_border_over_footer_observed": false
+  }
+}

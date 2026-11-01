@@ -1,0 +1,302 @@
+{
+  "compiled_on": "2026-10-29",
+  "source_url": "https://westfordmill.com/products/w101",
+  "source_checked_live": true,
+  "rule_pack_version": "amazon-us-tote-2026-10-28.integration-v8",
+  "final_parameter_link_version": "structured-parameters-v2.1",
+  "model": "deepseek-flash",
+  "requests": 12,
+  "failed_requests": 2,
+  "known_total_tokens": 79210,
+  "unknown_usage_requests": 0,
+  "calls": [
+    {
+      "phase": "真实商品生成与独立审核",
+      "request_id": "768ae7cf-6c4d-4fe3-9362-85758029ef9b",
+      "model": "deepseek-flash",
+      "duration_ms": 1817,
+      "usage": {
+        "prompt_tokens": 4577,
+        "completion_tokens": 195,
+        "total_tokens": 4772,
+        "prompt_tokens_details": {
+          "cached_tokens": 2304
+        },
+        "prompt_cache_hit_tokens": 2304,
+        "prompt_cache_miss_tokens": 2273
+      },
+      "outcome": "ok",
+      "error_code": null
+    },
+    {
+      "phase": "真实商品生成与独立审核",
+      "request_id": "9b75bb90-357a-48b9-b744-2ef23dd55fab",
+      "model": "deepseek-flash",
+      "duration_ms": 4210,
+      "usage": {
+        "prompt_tokens": 4714,
+        "completion_tokens": 907,
+        "total_tokens": 5621,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3306
+      },
+      "outcome": "ok",
+      "error_code": null
+    },
+    {
+      "phase": "真实问题审查修复与复检",
+      "request_id": "5cbf87cb-9730-46fb-b309-00f17b5edf09",
+      "model": "deepseek-flash",
+      "duration_ms": 1405,
+      "usage": {
+        "prompt_tokens": 5325,
+        "completion_tokens": 195,
+        "total_tokens": 5520,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3917
+      },
+      "outcome": "ok",
+      "error_code": null
+    },
+    {
+      "phase": "真实问题审查修复与复检",
+      "request_id": "7c6c0c6f-a109-40fc-9a99-e0a4cbaaf21d",
+      "model": "deepseek-flash",
+      "duration_ms": 4431,
+      "usage": {
+        "prompt_tokens": 4714,
+        "completion_tokens": 978,
+        "total_tokens": 5692,
+        "prompt_tokens_details": {
+          "cached_tokens": 4480
+        },
+        "prompt_cache_hit_tokens": 4480,
+        "prompt_cache_miss_tokens": 234
+      },
+      "outcome": "ok",
+      "error_code": null
+    },
+    {
+      "phase": "补充真实规格后原任务复检",
+      "request_id": "070245e1-3b9f-4ba6-8b09-4507b03f839b",
+      "model": "deepseek-flash",
+      "duration_ms": 4224,
+      "usage": {
+        "prompt_tokens": 4751,
+        "completion_tokens": 907,
+        "total_tokens": 5658,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3343
+      },
+      "outcome": "ok",
+      "error_code": null
+    },
+    {
+      "phase": "补关联与后续复检",
+      "request_id": "689eea7e-613c-4e9b-b926-4a73c98fc536",
+      "model": "deepseek-flash",
+      "duration_ms": 6196,
+      "usage": {
+        "prompt_tokens": 7480,
+        "completion_tokens": 1288,
+        "total_tokens": 8768
+      },
+      "outcome": "ok",
+      "error_code": null,
+      "attempt": 1,
+      "json_repaired": false
+    },
+    {
+      "phase": "补关联与后续复检",
+      "request_id": "d43e8fb3-de18-4923-a438-2d3244e07580",
+      "model": "deepseek-flash",
+      "duration_ms": 3479,
+      "usage": {
+        "prompt_tokens": 7565,
+        "completion_tokens": 553,
+        "total_tokens": 8118
+      },
+      "outcome": "ok",
+      "error_code": null,
+      "attempt": 2,
+      "json_repaired": false
+    },
+    {
+      "phase": "补关联与后续复检",
+      "request_id": "3b19333b-9fb7-4075-9950-5e38eb7d71ee",
+      "model": "deepseek-flash",
+      "duration_ms": 4953,
+      "usage": {
+        "prompt_tokens": 7480,
+        "completion_tokens": 1130,
+        "total_tokens": 8610
+      },
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "attempt": 1,
+      "json_repaired": false
+    },
+    {
+      "phase": "补关联与后续复检",
+      "request_id": "c4de1daa-25b0-460e-b1ac-1e6d38f0f4b2",
+      "model": "deepseek-flash",
+      "duration_ms": 5803,
+      "usage": {
+        "prompt_tokens": 7480,
+        "completion_tokens": 1289,
+        "total_tokens": 8769
+      },
+      "outcome": "ok",
+      "error_code": null,
+      "attempt": 1,
+      "json_repaired": false
+    },
+    {
+      "phase": "补关联与后续复检",
+      "request_id": "2c40f950-7e94-4323-8e9b-0723e0df150b",
+      "model": "deepseek-flash",
+      "duration_ms": 2813,
+      "usage": {
+        "prompt_tokens": 4199,
+        "completion_tokens": 473,
+        "total_tokens": 4672
+      },
+      "outcome": "ok",
+      "error_code": null,
+      "attempt": 2,
+      "json_repaired": false
+    },
+    {
+      "phase": "补关联与后续复检",
+      "request_id": "7f5ecf6b-6710-4b8d-8746-6b0a9b55eaf9",
+      "model": "deepseek-flash",
+      "duration_ms": 3611,
+      "usage": {
+        "prompt_tokens": 4114,
+        "completion_tokens": 537,
+        "total_tokens": 4651
+      },
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "attempt": 1,
+      "json_repaired": false
+    },
+    {
+      "phase": "标准浏览器复检",
+      "request_id": "9a6154f3-6c44-4261-a1ea-cfee2f49a837",
+      "model": "deepseek-flash",
+      "duration_ms": 6235,
+      "usage": {
+        "prompt_tokens": 7104,
+        "completion_tokens": 1255,
+        "total_tokens": 8359
+      },
+      "outcome": "ok",
+      "error_code": null,
+      "attempt": 1,
+      "json_repaired": false
+    }
+  ],
+  "standard_steps": [
+    {
+      "label": "真实商品生成与独立审核",
+      "status": "succeeded",
+      "elapsed_ms": 6125,
+      "listing_id": "listing-980f3506-ed64-4c90-b05c-a20a74a4df5d",
+      "version": 1,
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "content_sha256": "933b3b13828e23f2f26f9419661963a687569f071d58d2e1320b126472cc9422"
+    },
+    {
+      "label": "真实问题审查修复与复检",
+      "status": "succeeded",
+      "elapsed_ms": 6123,
+      "listing_id": "listing-980f3506-ed64-4c90-b05c-a20a74a4df5d",
+      "version": 2,
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "content_sha256": "933b3b13828e23f2f26f9419661963a687569f071d58d2e1320b126472cc9422"
+    },
+    {
+      "label": "补充真实规格后原任务复检",
+      "status": "succeeded",
+      "elapsed_ms": 4603,
+      "listing_id": "listing-980f3506-ed64-4c90-b05c-a20a74a4df5d",
+      "version": 3,
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "content_sha256": "933b3b13828e23f2f26f9419661963a687569f071d58d2e1320b126472cc9422"
+    }
+  ],
+  "latest_real_result": {
+    "listing_id": "listing-df10e8ba-608d-405e-829c-3e64dedb9381",
+    "version": 4,
+    "parameter_link_version": "structured-parameters-v2.1",
+    "remaining_issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ],
+    "consistency": {
+      "state": "baseline",
+      "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+    }
+  },
+  "limitations": [
+    "两次模型JSON格式失败已保留实际ID、耗时、用量；真实重试恢复不证明长期稳定。",
+    "保留初版宽高误报与v2一致性待核记录，v2.1单独建立基线；旧记录未改写。",
+    "DALIX浏览器记录仍有完整三轴/深度待核及颜色、包装缺项，未补造资料。",
+    "原商家库存模板、真实卖家SKU、真实平台处理报告、并发性能、服装和上架尚未验收。"
+  ]
+}

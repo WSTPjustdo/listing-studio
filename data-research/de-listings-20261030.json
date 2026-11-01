@@ -1,0 +1,5736 @@
+{
+  "notice": "真实 amazon.de 商品详情页的直接读取结果。字段只取页面实际写出的内容，取不到即 null，不含推断值。样本来自搜索页前几屏，非全站随机抽样。",
+  "collected_at": "2026-10-30T15:52:38.308Z",
+  "marketplace": "DE",
+  "searches": [
+    {
+      "query": "Baumwolltasche",
+      "ok": true,
+      "source": "saved_search_page",
+      "file": "data-research/de-search-asins-20261030.json",
+      "captured_at": "2026-10-30T15:42:24.119Z",
+      "bytes": 2130508,
+      "asins": 56,
+      "reason": null
+    }
+  ],
+  "pack_id": "amazon-de-tote",
+  "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+  "items": [
+    {
+      "asin": "B0D2GJZXQJ",
+      "url": "https://www.amazon.de/dp/B0D2GJZXQJ",
+      "fetched_url": "https://www.amazon.de/dp/B0D2GJZXQJ?language=de_DE",
+      "title": "5 | 10er Pack PREMIUM Baumwolltasche 38 x 42 cm, Stofftaschen zum bemalen oder Besticken, Stoffbeutel mit Langen Henkeln, Unbedruckt",
+      "title_chars": 132,
+      "bullets": [
+        "HOCHWERTIG und NACHHALTIG:: Unsere Stofftaschen werden aus 100% hochwertiger Baumwolle (140 g/m²) hergestellt und mit fachmännischen Nähten verstärkt, um eine dauerhafte Zuverlässigkeit im täglichen Gebrauch zu gewährleisten. Naturfarben mit ca. 70 cm langen Henkeln, bequem in der Hand oder auf der Schulter zu tragen.",
+        "MEHRZWECK: Unsere wiederverwendbare Stofftasche eignet sich perfekt zum Einkaufen, für Strandausflüge, Schule, Fitnessstudio oder zum Transportieren von Kleidung und Schuhen. Auch ideal zum bemalen für Kunstprojekte.",
+        "UMWELTFREUNDLICH: Unser Engagement für Nachhaltigkeit veranlasst uns, die Baumwolltaschen aus Stoff als verantwortungsvolle Alternative zu Papier oder Plastik anzubieten, um die Umweltbelastung zu minimieren.",
+        "PFLEGE: Stofftaschen sind geruchsneutral. Das Waschen und Reinigen von Taschen aus 100 % Baumwolle wird aufgrund der Schrumpfeigenschaft des Stoffes nicht empfohlen. Bei stark verschmutzten Taschen wird eine Handwäsche mit kaltem Wasser empfohlen.",
+        "GARANTIE: wenn die Tasche beim normalem Gebrauch innerhalb von 3 Monaten beschädigt wird, bieten wir Ihnen einen kostenlosen Ersatz an."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        319,
+        216,
+        208,
+        247,
+        135
+      ],
+      "description": "Unser Unternehmen ist stolz darauf, seinen Sitz in Hamburg zu haben, und hat sich in jeder Hinsicht zu Spitzenleistungen verpflichtet. Wir streben danach, den Geist unserer pulsierenden Stadt zu verkörpern, indem wir hochwertige, nachhaltige Produkte liefern, die unsere Werte von Handwerkskunst und Umweltverantwortung widerspiegeln. Material: 100% Baumwolle Gewicht: ca. 140 g/m² Maße: 38 x 42 cm, Öko-Tex 100 Standard zertifiziert Pflege: Bei stark verschmutzten Taschen wird eine Handwäsche (max. 30 °C) mit kaltem Wasser empfohlen. (NUR HANDWÄSCHE)",
+      "description_chars": 553,
+      "brand": "LYRVON",
+      "color": "Beige",
+      "material_listed": "100 % Baumwolle / 100% Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "38 x 42 cm",
+      "pack_listed": "10",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "oben offen"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Schulterriemen"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "oben offen"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Schulterriemen"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Marke",
+          "value": "LYRVON"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "5"
+        },
+        {
+          "label": "Hersteller",
+          "value": "LYRVON"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Pakistan"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "Schulterriemen"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Einkauftasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Premium Baumwolltasche Bordeaux 38x42"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "5"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "5.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 28.490 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 63 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0D2GJZXQJ"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,7 4,7 von 5 Sternen (72) 4,7 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "38 x 42 cm"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "38L x 2B x 77H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "70 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Kilogramm"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 2 x 77 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Beige"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Utility"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Beige"
+        },
+        {
+          "label": "Produktabmessungen",
+          "value": "38 x 2 x 77 cm"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "21. Januar 2025"
+        },
+        {
+          "label": "Hersteller",
+          "value": "LYRVON"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0DTKR1R4Z"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 28.490 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 63 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,7 4,7 von 5 Sternen (72)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Pakistan"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:48:13.859Z",
+      "http_status": 200,
+      "page_bytes": 2165653,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "AMZ-01",
+          "field_path": "content.title",
+          "original": "5 | 10er Pack PREMIUM Baumwolltasche 38 x 42 cm, Stofftaschen zum bemalen oder Besticken, Stoffbeutel mit Langen Henkeln, Unbedruckt",
+          "severity": "blocking"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b1",
+          "original": "NACHHALTIG",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b3",
+          "original": "UMWELTFREUNDLICH / Nachhaltigkeit",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.description",
+          "original": "nachhaltige",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.description",
+          "original": "Öko-Tex",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-GARANTIE-01",
+          "field_path": "content.bullet_points.b5",
+          "original": "GARANTIE",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "fail",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "needs_evidence",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B075NB2Z5N",
+      "url": "https://www.amazon.de/dp/B075NB2Z5N",
+      "fetched_url": "https://www.amazon.de/dp/B075NB2Z5N?language=de_DE",
+      "title": "Cottonbagjoe Baumwolltasche 38 x 42 cm zum Bemalen, lange Henkel",
+      "title_chars": 64,
+      "bullets": [
+        "Unbedruckt zur Gestaltung: Die blanko Stofftaschen eignen sich zum Bemalen, Bedrucken und Beplotten; bei dunklen Farben deckende Farben oder ein heller Vorplott empfohlen.",
+        "Praktisches Format: Mit ca. 38 x 42 cm bieten die Taschen viel Fläche für Motive und Platz für Einkäufe, Bücher, Giveaways oder Gruppenprojekte.",
+        "Stabile Verarbeitung: Verkettelte Innennähte unterstützen eine saubere und belastbare Verarbeitung für den regelmäßigen Einsatz im Alltag oder bei Veranstaltungen.",
+        "Lange Henkel: Die Tragetasche lässt sich bequem über der Schulter tragen; das offene Design ermöglicht schnellen Zugriff auf den Inhalt.",
+        "Vielseitig einsetzbar: Als Einkaufstasche, Stoffbeutel oder Werbeträger für Schule, Vereine, Workshops, Feiern und kreative Bastelprojekte."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        171,
+        144,
+        163,
+        136,
+        139
+      ],
+      "description": "Die Magnus Baumwolltasche von Cottonbagjoe ist eine unbedruckte Tragetasche für Alltag, Einkauf und kreative Projekte. Sie besteht aus 100 % Baumwolle mit 140 g/m² und ist nach OEKO-TEX Standard 100 zertifiziert. Das Format von ca. 38 x 42 cm bietet viel Platz und eine große Fläche für eigene Motive. Die langen Henkel ermöglichen bequemes Tragen über der Schulter, die verkettelten Innennähte sorgen für eine saubere Verarbeitung. Die Tasche wird blanko geliefert und eignet sich zum Bemalen, Bedrucken und Beplotten. Bei dunklen Farben empfehlen sich deckende Textilfarben, ein heller Vorplott oder eine geeignete Transferfolie.",
+      "description_chars": 631,
+      "brand": "Cottonbagjoe",
+      "color": "Natur",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "42 Zentimeter",
+      "pack_listed": null,
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle.,Jute"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "no_closure"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Lange Henkel, OEKO-TEX Standard 100, Unbedruckt, Zum Bedrucken und Beplotten, Zum Bemalen"
+        },
+        {
+          "label": "Beschreibung der Tasche",
+          "value": "Utility Tasche"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Bedrucken, Bemalen, Beplotten, Einkaufen, Gruppenprojekte"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Beschreibung der Ärmellänge",
+          "value": "Ärmellos"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Cotton, Long"
+        },
+        {
+          "label": "Maximale kompatible Gerätegröße",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "locker"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "16 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle.,Jute"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "no_closure"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Lange Henkel, OEKO-TEX Standard 100, Unbedruckt, Zum Bedrucken und Beplotten, Zum Bemalen"
+        },
+        {
+          "label": "Beschreibung der Tasche",
+          "value": "Utility Tasche"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Bedrucken, Bemalen, Beplotten, Einkaufen, Gruppenprojekte"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Beschreibung der Ärmellänge",
+          "value": "Ärmellos"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Cotton, Long"
+        },
+        {
+          "label": "Maximale kompatible Gerätegröße",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "locker"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "16 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Marke",
+          "value": "Cottonbagjoe"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "1"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Cottonbagjoe"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Indien"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "Aufkleber"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Einkaufstasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Magnus"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "G-1"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "10"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "G-1"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "1.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 15.062 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 37 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B075NB2Z5N"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,6 4,6 von 5 Sternen (3.639) 4,6 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "38 x 42 cm"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "38L x 42H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "16 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "13,7 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 38 x 42 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "rechteckig"
+        },
+        {
+          "label": "Gelegenheit Typ",
+          "value": "Geburtstag"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Trapez"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Minimal"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Beige"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "25. August 2026"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Cottonbagjoe"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0HGF4Q3TL"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 15.062 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 37 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,6 4,6 von 5 Sternen (3.639)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Indien"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:48:23.350Z",
+      "http_status": 200,
+      "page_bytes": 2669700,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.description",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0BDF8VVLM",
+      "url": "https://www.amazon.de/dp/B0BDF8VVLM",
+      "fetched_url": "https://www.amazon.de/dp/B0BDF8VVLM?language=de_DE",
+      "title": "TEXXILLA 10er Pack Baumwolltaschen 38 x 42 cm lange Henkel",
+      "title_chars": 58,
+      "bullets": [
+        "HOCHWERTIG: Unser Baumwolltaschen-Klassiker mit langen Trageschlaufen ist praktisch über der Schulter zu tragen. Die Henkel haben eine Länge von jeweils ca. 70 cm. Eingeschlagene und umsäumte Innennähte sorgen für Stabilität und unterstreichen die hochwertige Verarbeitung",
+        "SEIEN SIE KREATIV: Unser Beutel eignet sich perfekt zum Bemalen, Bedrucken, Bestempeln und natürlich auch für einen klassischen Siebdruck. Auch auf einem Kindergeburtstag ein Hit!",
+        "MODERNE UND ZEITLOSE ERSCHEINUNG: Diese Baumwolltasche ist ein echter Allrounder, nutzen Sie den Jutebeutel als alternative zu Ihrer herkömmlichen Tasche. Der Beutel hat geschlossen ein Fassungsvermögen von ca. 8 Liter. Er bietet genug Platz für die täglichen Dinge des Alltags.",
+        "Der Beutel besteht aus OEKO-TEX Standard 100 zertifizierter Baumwolle. Mit einer Grammatur von 140 g/m² ist er äußerst strapazierfähig. Er ist ein optimaler Begleiter für Ihren nächsten Einkauf.",
+        "MAßE: ca. 38cm x 42cm"
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        272,
+        179,
+        278,
+        194,
+        21
+      ],
+      "description": "Unser Baumwolltaschen-Klassiker mit langen Trageschlaufen ist praktisch über der Schulter zu tragen. Die Henkel haben eine Länge von jeweils ca. 70 cm. Eingeschlagene und umsäumte Innennähte sorgen für Stabilität und unterstreichen die hochwertige Verarbeitung. Erhältlich in 28 Farben!Material: 100% Baumwolle, zertifiziert nach OEKO-TEX Standard 100Gewicht: ca. 140 g/m²Größe der Tasche: ca. 38 x 42 cmDa unsere Taschen nicht vorgeschrumpft sowie chemisch vorbehandelt sind, empfehlen wir eine Handwäsche, um ein Einlaufen zu verhindern.",
+      "description_chars": 539,
+      "brand": "TEXXILLA",
+      "color": "Natur",
+      "material_listed": "Jute Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "positiv",
+      "pack_listed": "10",
+      "gsm_listed": null,
+      "availability_text": "Dieser Artikel kann nicht an den von dir ausgewählten Zustellungsort versendet werden. Bitte wähle einen anderen Zustellungsort aus.",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle, Jute"
+        },
+        {
+          "label": "Material",
+          "value": "Jute Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Jute, Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "dauerhaft, umweltfreundlich"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "keiner"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Einkaufen, Alltagsgebrauch, Umweltschutz"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Trageschlaufen"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "38 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Henkel"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle, Jute"
+        },
+        {
+          "label": "Material",
+          "value": "Jute Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Jute, Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "dauerhaft, umweltfreundlich"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "keiner"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Einkaufen, Alltagsgebrauch, Umweltschutz"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Trageschlaufen"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "38 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Henkel"
+        },
+        {
+          "label": "Marke",
+          "value": "TEXXILLA"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "10"
+        },
+        {
+          "label": "Hersteller",
+          "value": "TEXXILLA"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Tragetasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Sb-10t10011"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "10"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "10.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 7.948 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 21 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0BDF8VVLM"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (549) 4,5 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "Einheitsgröße"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "42L x 38B x 0,3H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "70 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "8,2 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "42 x 38 x 38 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rechteckige Form"
+        },
+        {
+          "label": "Rahmenfarbe",
+          "value": "natur"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Trapez"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Zeitgenössisch"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "natur"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "17. September 2026"
+        },
+        {
+          "label": "Hersteller",
+          "value": "TEXXILLA"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0HK3FXR4C"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 7.948 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 21 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,5 4,5 von 5 Sternen (549)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Nur Handwäsche"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:48:37.942Z",
+      "http_status": 200,
+      "page_bytes": 2288468,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.bullet_points.b4",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0924BTR4P",
+      "url": "https://www.amazon.de/dp/B0924BTR4P",
+      "fetched_url": "https://www.amazon.de/dp/B0924BTR4P?language=de_DE",
+      "title": "Baumwolltasche 38x42 cm unbedruckt, 25 Stück - Zwei KURZE Henkel OEKO-TEX®",
+      "title_chars": 74,
+      "bullets": [
+        "NATÜRLICHE QUALITÄT: Das Material unserer Taschen besteht zu 100% aus 140 g/m² starker Baumwolle und zeichnet sich durch eine hervorragende Beschaffenheit und Stabilität der verkettelten Nähte aus.",
+        "SELBER BEDRUCKEN UND BEMALEN: Unsere Baumwolltaschen eignen sich perfekt zum Bedrucken, Bestempeln, Bemalen oder einen Siebdruck. Perfekt also für Motivdrucke, Bildserien oder Kindermalereien, um eine ganze persönliche Tasche zu kreieren.",
+        "DAS BESONDERE GESCHENK: Mit diesem Set hast du ausreichend Möglichkeiten, um damit tolle Präsente zu übergeben. Sollten unsere Baumwolltaschen nicht deinen Vorstellungen entsprechen, erhältst du natürlich dein Geld zurück!",
+        "ZEITLOS UND ALLTAGSTAUGLICH: Die Taschen sind dank der kurzen Henkel und einer Größe von 38 x 42 cm optimal, um sie locker an der Hand zu tragen. Die optik der Tasche ist zeitlos, aber dennoch gut kombinierbar. Super als Einkaufstasche oder für einen kurzen Städtebummel.",
+        "25 JAHRE ERFAHRUNG UND MARKENQUALITÄT: Unsere Taschen sind mit dem „OEKO-TEX Standard 100“ Siegel zertifiziert und tragen damit zusätzlich zur Nachhaltigkeit und einer freundlichen Verwendung bei. Ständige Qualitätskontrollen der Produktion mit mehr als 25 JAHREN ERFAHRUNG lassen uns dieses Versprechen an dich weitergeben."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        197,
+        238,
+        222,
+        271,
+        324
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "ELES VIDA",
+      "color": "Natur | 25 Stück",
+      "material_listed": null,
+      "cotton_disclosed": true,
+      "dimensions_listed": "38x42 cm",
+      "pack_listed": "25",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle.,Jute"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle, Jute"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Größe",
+          "value": "38x42 cm"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "38L x 38B x 42H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "40 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 38 x 42 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur | 25 Stück"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rechteckig"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Täschchen"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Minimal"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "OEKO-TEX zertifiziert"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "baumwollband"
+        },
+        {
+          "label": "Passform",
+          "value": "Handheld"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "baumwollband"
+        },
+        {
+          "label": "Marke",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Hersteller",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "ab 3 Jahren"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Pakistan"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "Schulterriemen"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "25"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "Artikelnummer des Herstellers"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Kinder"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "25.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 1.163 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 3 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0924BTR4P"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (1.367) 4,5 von 5 Sternen"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:48:48.360Z",
+      "http_status": 200,
+      "page_bytes": 2678823,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b5",
+          "original": "Nachhaltigkeit",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.title",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B08FHKJP47",
+      "url": "https://www.amazon.de/dp/B08FHKJP47",
+      "fetched_url": "https://www.amazon.de/dp/B08FHKJP47?language=de_DE",
+      "title": "10 STÜCK Baumwolltasche 38x42 cm unbedruckt, zwei KURZE Henkel OEKO-TEX®",
+      "title_chars": 72,
+      "bullets": [
+        "NATÜRLICHE QUALITÄT: Das Material unserer Taschen besteht zu 100% aus 140 g/m² starker Baumwolle und zeichnet sich durch eine hervorragende Beschaffenheit und Stabilität der verkettelten Nähte aus.",
+        "SELBER BEDRUCKEN UND BEMALEN: Unsere Baumwolltaschen eignen sich perfekt zum Bedrucken, Bestempeln, Bemalen oder einen Siebdruck. Perfekt also für Motivdrucke, Bildserien oder Kindermalereien, um eine ganze persönliche Tasche zu kreieren.",
+        "DAS BESONDERE GESCHENK: Mit diesem Set hast du ausreichend Möglichkeiten, um damit tolle Präsente zu übergeben. Sollten unsere Baumwolltaschen nicht deinen Vorstellungen entsprechen, erhältst du natürlich dein Geld zurück!",
+        "ZEITLOS UND ALLTAGSTAUGLICH: Die Taschen sind dank der kurzen Henkel und einer Größe von 38 x 42 cm optimal, um sie locker an der Hand zu tragen. Die optik der Tasche ist zeitlos, aber dennoch gut kombinierbar. Super als Einkaufstasche oder für einen kurzen Städtebummel.",
+        "25 JAHRE ERFAHRUNG UND MARKENQUALITÄT: Unsere Taschen sind mit dem „OEKO-TEX Standard 100“ Siegel zertifiziert und tragen damit zusätzlich zur Nachhaltigkeit und einer freundlichen Verwendung bei. Ständige Qualitätskontrollen der Produktion mit mehr als 25 JAHREN ERFAHRUNG lassen uns dieses Versprechen an dich weitergeben."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        197,
+        238,
+        222,
+        271,
+        324
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "ELES VIDA",
+      "color": "Natur | 10 Stück",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "38x42 cm",
+      "pack_listed": "10",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle.,Jute"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle, Jute"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Größe",
+          "value": "38x42 cm"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 38 x 42 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur | 10 Stück"
+        },
+        {
+          "label": "Motivfigur",
+          "value": "Figur"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rectangular Prism with Open Top"
+        },
+        {
+          "label": "Ereignis",
+          "value": "Geburtstag"
+        },
+        {
+          "label": "Gelegenheit Typ",
+          "value": "Weihnachten"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Täschchen"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Modern"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "kurz"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "10"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Griff(e)"
+        },
+        {
+          "label": "Marke",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Hersteller",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Pakistan"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "Handtasche"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "Artikelnummer des Herstellers"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "10"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "Artikelnummer des Herstellers"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 1.163 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 3 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B08FHKJP47"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (1.367) 4,5 von 5 Sternen"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:48:55.512Z",
+      "http_status": 200,
+      "page_bytes": 2372030,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b5",
+          "original": "Nachhaltigkeit",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.title",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B07F5Y19N8",
+      "url": "https://www.amazon.de/dp/B07F5Y19N8",
+      "fetched_url": "https://www.amazon.de/dp/B07F5Y19N8?language=de_DE",
+      "title": "10 STÜCK Baumwolltasche 38x42 cm unbedruckt, zwei lange Henkel OEKO-TEX®",
+      "title_chars": 72,
+      "bullets": [
+        "NATÜRLICHE QUALITÄT: Das Material unserer Taschen besteht zu 100% aus 140 g/m² starker Baumwolle und zeichnet sich durch eine hervorragende Beschaffenheit und Stabilität der verkettelten Nähte aus.",
+        "SELBER BEDRUCKEN UND BEMALEN: Unsere Baumwolltaschen eignen sich perfekt zum Bedrucken, Bestempeln, Bemalen oder einen Siebdruck. Perfekt also für Motivdrucke, Bildserien oder Kindermalereien, um eine ganze persönliche Tasche zu kreieren.",
+        "DAS BESONDERE GESCHENK: Mit diesem 10er Set hast du ausreichend Möglichkeiten, um damit tolle Präsente zu übergeben. Sollten unsere Baumwolltaschen nicht deinen Vorstellungen entsprechen, erhältst du natürlich dein Geld zurück!",
+        "ZEITLOS UND ALLTAGSTAUGLICH: Die Taschen sind dank der langen Henkel und einer Größe von 38 x 42 cm optimal, um sie locker über den Schultern zu tragen. Die naturbelassene Farbe ist zeitlos, aber dennoch gut kombinierbar. Super als Einkaufstasche oder für einen kurzen Städtebummel.",
+        "25 JAHRE ERFAHRUNG UND MARKENQUALITÄT: Unsere Taschen sind mit dem „OEKO-TEX Standard 100“ Siegel zertifiziert und tragen damit zusätzlich zur Nachhaltigkeit und einer freundlichen Verwendung bei. Ständige Qualitätskontrollen der Produktion mit mehr als 25 JAHREN ERFAHRUNG lassen uns dieses Versprechen an dich weitergeben."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        197,
+        238,
+        227,
+        282,
+        324
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "ELES VIDA",
+      "color": "Natur",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "positiv",
+      "pack_listed": "10",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle.,Jute"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Geringe Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "Ausgezeichnete Textur und Stabilität der Nähte, geeignet zum Drucken und Malen"
+        },
+        {
+          "label": "Marke",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "1"
+        },
+        {
+          "label": "Global Trade Identification Number",
+          "value": "04260549652191"
+        },
+        {
+          "label": "Hersteller",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Geeignet für Kinder und Erwachsene"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Pakistan"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "Baumwolle - OEKO-TEX® - STANDARD 100"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "10"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "Baumwolle - OEKO-TEX® - STANDARD 100"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Allgemein"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "10.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 3.278 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 7 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B07F5Y19N8"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (4.054) 4,5 von 5 Sternen"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Einkaufen, Stadttourismus, Geschenke, Alltag"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Beschreibung der Ärmellänge",
+          "value": "Ärmellos"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Cotton"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "Regulär"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Textil"
+        },
+        {
+          "label": "Größe",
+          "value": "38 x 42 cm"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "42L x 38B x 42H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "10 x 2 x 10 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Muster",
+          "value": "Ohne Muster"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "rechteckiger Prismenkörper"
+        },
+        {
+          "label": "Rahmenfarbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Trapez"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Natur"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:49:04.561Z",
+      "http_status": 200,
+      "page_bytes": 2510868,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b5",
+          "original": "Nachhaltigkeit",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.title",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0HCZH8TRB",
+      "url": "https://www.amazon.de/dp/B0HCZH8TRB",
+      "fetched_url": "https://www.amazon.de/dp/B0HCZH8TRB?language=de_DE",
+      "title": "Stofftasche Beige, 5 Pack 34x43cm Canvas Turnbeutel zum Bemalen",
+      "title_chars": 63,
+      "bullets": [
+        "Stoffbeutel zum Bemalen --- 5er-Pack Beige Turnbeutel aus Canvas, 34x43cm (13,39 x 16,93 inch). Geeignet für den täglichen Einsatz zu Hause und auf Geschäftsreisen.",
+        "Hochwertiger Canvas--- Hergestellt aus strapazierfähigem Canvas mit einem Gewicht von 337 g/m² für hervorragende Stabilität und Langlebigkeit. Maschinen- oder handwaschbar, kein Ausbleichen oder Einlaufen.",
+        "Tragbares Design --- Dank ihrer leichten und flexiblen Konstruktion lässt sich die Sporttasche aus Segeltuch leicht transportieren. Sie lässt sich flach zusammenfalten und nimmt dann nur wenig Platz ein.",
+        "Turnbeutel zum Bemalen --- Unbedruckte Leinwand, ideal für eigene Gestaltungsideen. Geeignet für Thermotransferdruck, Bemalen, Sticken und Stempeln – für individuell gestaltete, personalisierte Geschenke.",
+        "Vielseitige Verwendung --- Geeignet für verschiedene alltägliche und gewerbliche Anwendungen zu Hause und auf Reisen. Ideal zum Ordnen von Schuhen, Toilettenartikeln, Schmuck, Kosmetikprodukten und kleinem Elektronikzubehör."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        164,
+        205,
+        203,
+        204,
+        224
+      ],
+      "description": "Einfa Canvas Turnbeutel zum Bemalen - Menge: 5 Stück - Größe: 43×34cm / 16.9×13.4 inch - Farbe: Beige - Eine faltbare, leichte Stoffbeutel mit Kordelzug, die sich platzsparend in einem Rucksack oder einer Schublade verstauen lässt. Ideal für Sport, Reisen, Arbeit, Uni, Einkaufen, als Ersatztasche oder zum Transportieren von Gegenständen. Diese Stofftaschen lassen sich zudem bemalen.",
+      "description_chars": 385,
+      "brand": "Einfa",
+      "color": "Beige",
+      "material_listed": "Leinwand",
+      "cotton_disclosed": true,
+      "dimensions_listed": "5T x 34B x 43H cm",
+      "pack_listed": "5",
+      "gsm_listed": null,
+      "availability_text": "Nur noch 4 auf Lager",
+      "details": [
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Reise"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Kordelzug"
+        },
+        {
+          "label": "Verschlussart/Schuh-Verschlussart",
+          "value": "Kordelzug"
+        },
+        {
+          "label": "Wasserbeständigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Material",
+          "value": "Leinwand"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Hauptmaterial",
+          "value": "Canvas"
+        },
+        {
+          "label": "Beschreibung des Futters",
+          "value": "Leinen"
+        },
+        {
+          "label": "Schalentyp",
+          "value": "Softshell"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "65% Polyester, 35% Baumwolle"
+        },
+        {
+          "label": "Speichervolumen",
+          "value": "2 Liter"
+        },
+        {
+          "label": "Artikel Abmessungen T x B x H",
+          "value": "5T x 34B x 43H cm"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "5.0 stück"
+        },
+        {
+          "label": "Größe",
+          "value": "34x43cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Beige"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Gelegenheit Typ",
+          "value": "Sport"
+        },
+        {
+          "label": "Stil/Form",
+          "value": "Klassisch"
+        },
+        {
+          "label": "Marke",
+          "value": "Einfa"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "565335_5x_ET"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "China"
+        },
+        {
+          "label": "Modellname",
+          "value": "565335_5x_et"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "5"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "5.0 stück"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Stoffbeutel"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Einfa"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "565335_5x_ET"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 41.349 in Sport & Freizeit (Siehe Top 100 in Sport & Freizeit) Nr. 257 in Turnbeutel"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0HCZH8TRB"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:49:45.103Z",
+      "http_status": 200,
+      "page_bytes": 1433679,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "not_checked",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0D9QWKDRZ",
+      "url": "https://www.amazon.de/dp/B0D9QWKDRZ",
+      "fetched_url": "https://www.amazon.de/dp/B0D9QWKDRZ?language=de_DE",
+      "title": "Stofftasche Zum Bemalen – 5 | 10 | 25er-Pack - aus Öko-Material – mit langen Henkeln – Stoffbeutel Unbedruckt – Baumwolltasche – Beutel für Wäsche – Tragetasche – für Geschenke",
+      "title_chars": 176,
+      "bullets": [
+        "✅ HALTBARKEIT - Mit einer Grammatur von 145 g/m² garantiert die Baumwolltasche Langlebigkeit und langfristige Nutzung, perfekt für wiederverwendbare Einkaufstaschen.",
+        "✅ SICHERHEIT - Die robuste Konstruktion dieser Tragetaschen ist ideal für den täglichen Einkauf und trägt problemlos schwerere Produkte, was sie zu verlässlichen Einkaufstaschen macht.",
+        "✅ UMWELTFREUNDLICHKEIT - Unsere 100% natürliche Baumwolltasche ist eine umweltfreundliche Alternative zu Einwegplastiktüten. Diese Stofftaschen sind nachhaltig und schonen die Umwelt.",
+        "✅ PERSONALISIERUNG - Die tragetasche eignet sich perfekt für individuelle Drucke oder Malereien und bietet eine kreative Leinwand.",
+        "✅ PFLEGEHINWEISE - Handwäsche bei maximal 30°C wird empfohlen, um Form, Struktur und Farben dieser Canvas-Taschen zu erhalten. Diese Textiltaschen sind pflegeleicht und langlebig.",
+        "OEKO-TEX STANDARD 100 zertifiziert – auf Schadstoffe geprüft und hautfreundlich."
+      ],
+      "bullet_count": 6,
+      "bullet_chars": [
+        165,
+        184,
+        183,
+        130,
+        179,
+        80
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "SCANDBAGS",
+      "color": "Natur (Beige)",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "positiv",
+      "pack_listed": "25",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwollbeutel, Jutebeutel"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Unzutreffend"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Schulter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "5"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "5"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schultertasche"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "Baumwollbeutel, Jutebeutel"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Unzutreffend"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Schulter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "5"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "5"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schultertasche"
+        },
+        {
+          "label": "Marke",
+          "value": "SCANDBAGS"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "25"
+        },
+        {
+          "label": "Hersteller",
+          "value": "SCANDBAGS"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Estland"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Einkaufstaschen"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Scandbags Baumwolltasche 38x42cm"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "25"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "25.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 43.991 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 99 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0D9QWKDRZ"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,8 4,8 von 5 Sternen (29) 4,8 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "38x42cm"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "42L x 38B x 0,3H cm"
+        },
+        {
+          "label": "Kapazität",
+          "value": "25 Kilogramm"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "42 x 38 x 0,3 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur (Beige)"
+        },
+        {
+          "label": "Muster",
+          "value": "Solid"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rechteckig"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "25 Stück"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Natur (Beige)"
+        },
+        {
+          "label": "Produktabmessungen",
+          "value": "42 x 38 x 0,3 cm"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "19. Juli 2024"
+        },
+        {
+          "label": "Hersteller",
+          "value": "SCANDBAGS"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0D9QWP1PJ"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 43.991 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 99 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,8 4,8 von 5 Sternen (29)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Estland"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:50:02.518Z",
+      "http_status": 200,
+      "page_bytes": 1895262,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "AMZ-01",
+          "field_path": "content.title",
+          "original": "Stofftasche Zum Bemalen – 5 | 10 | 25er-Pack - aus Öko-Material – mit langen Henkeln – Stoffbeutel Unbedruckt – Baumwolltasche – Beutel für Wäsche – Tragetasche – für Geschenke",
+          "severity": "blocking"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.title",
+          "original": "Öko",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b3",
+          "original": "UMWELTFREUNDLICHKEIT / umweltfreundliche / nachhaltig",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.bullet_points.b6",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "fail",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B09541HH6P",
+      "url": "https://www.amazon.de/dp/B09541HH6P",
+      "fetched_url": "https://www.amazon.de/dp/B09541HH6P?language=de_DE",
+      "title": "5 STÜCK Baumwolltaschen Natur (5er Set 38x42) ORIGINAL ÖKO-TEX® - GEPRÜFT",
+      "title_chars": 73,
+      "bullets": [
+        "NATÜRLICHE QUALITÄT: Das Material unserer Taschen besteht zu 100% aus 140 g/m² starker Baumwolle und zeichnet sich durch eine hervorragende Beschaffenheit und Stabilität der verkettelten Nähte aus.",
+        "SELBER BEDRUCKEN UND BEMALEN: Unsere Baumwolltaschen eignen sich perfekt zum Bedrucken, Bestempeln, Bemalen oder einen Siebdruck. Perfekt also für Motivdrucke, Bildserien oder Kindermalereien, um eine ganze persönliche Tasche zu kreieren.",
+        "FÜR DEN TÄGLICHEN GEBRAUCH: Mit diesen Taschen hast du ausreichend Möglichkeiten, um damit tolle Präsente zu übergeben. Sollten unsere Baumwolltaschen nicht deinen Vorstellungen entsprechen, erhältst du natürlich dein Geld zurück!",
+        "ZEITLOS UND ALLTAGSTAUGLICH: Die Taschen sind dank der langen Henkel und einer Größe von 38 x 42 cm optimal, um sie locker über den Schultern zu tragen. Die schwarze Farbe ist zeitlos, aber dennoch gut kombinierbar. Super als Einkaufstasche oder für einen kurzen Städtebummel.",
+        "25 JAHRE ERFAHRUNG UND MARKENQUALITÄT: Unsere Taschen sind mit dem „OEKO-TEX Standard 100“ Siegel zertifiziert und tragen damit zusätzlich zur Nachhaltigkeit und einer freundlichen Verwendung bei. Ständige Qualitätskontrollen der Produktion mit mehr als 25 JAHREN ERFAHRUNG lassen uns dieses Versprechen an dich weitergeben."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        197,
+        238,
+        230,
+        276,
+        324
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "ELES VIDA",
+      "color": "Natur | 5 Taschen",
+      "material_listed": "Stoff",
+      "cotton_disclosed": true,
+      "dimensions_listed": "42 Zentimeter",
+      "pack_listed": "5",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolle - OEKO-TEX® - STANDARD 100"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Stoff"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Marke",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "5"
+        },
+        {
+          "label": "Hersteller",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Pakistan"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "Schultergurt"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "Baumwolle - OEKO-TEX® - STANDARD 100"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "5"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "Baumwolle - OEKO-TEX® - STANDARD 100"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "5.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 4.096 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 8 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B09541HH6P"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (1.816) 4,5 von 5 Sternen"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Henkel"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Faltbar, wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Maximale kompatible Gerätegröße",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "Positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "locker"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schultertasche"
+        },
+        {
+          "label": "Größe",
+          "value": "Natur | 5 Taschen"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "42L x 5B x 38H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "38 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 5 x 42 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur | 5 Taschen"
+        },
+        {
+          "label": "Saison",
+          "value": "Frühling, Sommer"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Flaches Rechteck"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Landstreicher"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Minimal"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Natur"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:50:11.808Z",
+      "http_status": 200,
+      "page_bytes": 2606490,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b5",
+          "original": "Nachhaltigkeit",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.title",
+          "original": "ÖKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0CGJ16JV2",
+      "url": "https://www.amazon.de/dp/B0CGJ16JV2",
+      "fetched_url": "https://www.amazon.de/dp/B0CGJ16JV2?language=de_DE",
+      "title": "Geschenk mit Namen personalisiert by Shirtracer - Baumwolltasche - Bären - Süßer Bär",
+      "title_chars": 84,
+      "bullets": [
+        "BÄR GESCHENK: Dieses süße Motiv ist eine tolle Geschenkidee für alle Tierliebhaber und Bären-Fans",
+        "Material: Stofftasche bedruckt aus 100% Baumwolle",
+        "Trageriemen: Umhängetasche Baumwolle mit 67 cm langen Henkeln",
+        "Stil: Klassisch moderne Stofftasche Damen und Herren",
+        "Größe: Baumwoll Umhängetasche mit Abmessungen 42 x 38 cm"
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        97,
+        49,
+        61,
+        52,
+        56
+      ],
+      "description": "\"Süßer Bär I Bären I Bärenmotiv I Bear\": Ein süßes Motiv zum Thema BärenZum Thema Bär bereiten Eltern mit dieser niedlichen Grafik ihren Kleinen gerne eine Freude!Optimal ausgestattet zum Thema Bär und BärenDas Interesse am Thema Bär ist größer denn je. Diese süße Idee ist genau das Richtige zum Thema Bär.Sei perfekt ausgestattet mit dem Statement \"Süßer Bär I Bären I Bärenmotiv I Bear\" und bringe Bären-Liebhaber damit zum Lächeln.Fokus auf Qualität und VersandWir kreieren alle unsere Motive im Standort im schönen Nürnberg. Unser Fokus liegt auf Qualität und einer Fertigung zu fairen Arbeitsbedingungen.Dich interessiert das Thema Bären? Dann greif jetzt zu und sei mit dem schönen Motiv \"Süßer Bär I Bären I Bärenmotiv I Bear\" perfekt ausgestattet!Anscheinend warst du auf der Suche nach Folgendem:- wechselkleidung beutel kita- kinder einkaufstasche klein- stoffbeutel kindergarten wechselkleidung- stoffbeutel für kindergarten- wechselbeutel kindergartenUmhängetasche aus BaumwolleDieser trendige Einkaufsbeutel aus 100 % Baumwolle ist der ideale Begleiter für deinen Alltag. Mit den großzügigen Maßen von 42 x 38 cm bietet der Schulterbeutel viel Platz für alles Wichtige und ist besonders robust und stabil. Die langen Träger ermöglichen ein bequemes Tragen über der Schulter. Das zeitlose Design passt zu jedem Outfit und macht die Tasche zu einem vielseitigen und nachhaltigen Accessoire für Damen und Herren.",
+      "description_chars": 1423,
+      "brand": "Geschenk mit Namen personalisiert by Shirtracer",
+      "color": "1 Naturweiß",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "positiv",
+      "pack_listed": null,
+      "gsm_listed": null,
+      "availability_text": "Dieser Artikel kann nicht an den von dir ausgewählten Zustellungsort versendet werden. Bitte wähle einen anderen Zustellungsort aus.",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Leicht"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "dicht gewebt, natürlich"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Keiner"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Einkaufen, Bücher oder andere Gegenstände transportieren, Geschenkbeutel für verschiedene Anlässe"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Flach"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schultertasche"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Leicht"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "dicht gewebt, natürlich"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Keiner"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Einkaufen, Bücher oder andere Gegenstände transportieren, Geschenkbeutel für verschiedene Anlässe"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Flach"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schultertasche"
+        },
+        {
+          "label": "Marke",
+          "value": "Geschenk mit Namen personalisiert by Shirtracer"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Shirtracer"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Umhängetasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "1658118"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "PV-66248408"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "1"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "PV-66248408"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "1.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 138.372 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 422 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0CGJ16JV2"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,4 4,4 von 5 Sternen (30) 4,4 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "Einheitsgröße"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "37L x 2B x 42H cm"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "37 x 2 x 42 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "1 Naturweiß"
+        },
+        {
+          "label": "Muster",
+          "value": "Cartoon"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rechteckig"
+        },
+        {
+          "label": "Rahmenfarbe",
+          "value": "Naturweiß"
+        },
+        {
+          "label": "Muster",
+          "value": "Cartoon"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Scandi"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Naturweiß"
+        },
+        {
+          "label": "Text",
+          "value": "1 Texteingabe"
+        },
+        {
+          "label": "Produktabmessungen",
+          "value": "37 x 2 x 42 cm"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "24. August 2023"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Shirtracer"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0CGJDG5R1"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "SP-1658118"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 138.372 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 422 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,4 4,4 von 5 Sternen (30)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Nur Handwäsche"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:50:29.982Z",
+      "http_status": 200,
+      "page_bytes": 1866788,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "AMZ-01",
+          "field_path": "content.title",
+          "original": "Geschenk mit Namen personalisiert by Shirtracer - Baumwolltasche - Bären - Süßer Bär",
+          "severity": "blocking"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.description",
+          "original": "nachhaltigen",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "fail",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "not_checked",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0BCQYJLJR",
+      "url": "https://www.amazon.de/dp/B0BCQYJLJR",
+      "fetched_url": "https://www.amazon.de/dp/B0BCQYJLJR?language=de_DE",
+      "title": "10er Pack Apothekertasche 22x26cm",
+      "title_chars": 33,
+      "bullets": [
+        "HOCHWERTIG: Praktische, kleine Baumwolltasche mit zwei kurzen Henkeln, eingeschlagene und umsäumte Innennähte sorgen für Stabilität und unterstreichen die hochwertige Verarbeitung",
+        "SEIEN SIE KREATIV: Unser Beutel eignet sich perfekt zum Bemalen, Bedrucken, Bestempeln und natürlich auch für einen klassischen Siebdruck. Auch auf einem Kindergeburtstag ein Hit!",
+        "MODERNE UND ZEITLOSE ERSCHEINUNG: Diese Baumwolltasche ist ein echter Allrounder, nutzen Sie den Jutebeutel als alternative zu Ihrer herkömmlichen Tasche. Der Beutel hat geschlossen ein Fassungsvermögen von ca. 1,8 Liter. Er bietet genug Platz für die täglichen Dinge des Alltags.",
+        "Der Beutel besteht aus OEKO-TEX zertifizierte Baumwolle. Mit einer Grammatur von 140 g/m² ist er äußerst strapazierfähig. Er ist ein optimaler Begleiter für Ihren nächsten Einkauf.",
+        "MAßE: ca. 22 x 26 cm"
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        179,
+        179,
+        280,
+        180,
+        20
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "TEXXILLA",
+      "color": "Schwarz",
+      "material_listed": "100% Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "Einheitsgröße",
+      "pack_listed": "10",
+      "gsm_listed": null,
+      "availability_text": "Dieser Artikel kann nicht an den von dir ausgewählten Zustellungsort versendet werden. Bitte wähle einen anderen Zustellungsort aus.",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "keiner"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Strapazierfähig"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Henkel"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Hand-Tragegurt"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "keiner"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Strapazierfähig"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Henkel"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Hand-Tragegurt"
+        },
+        {
+          "label": "Marke",
+          "value": "TEXXILLA"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "10"
+        },
+        {
+          "label": "Hersteller",
+          "value": "TEXXILLA"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "10 Stück Apothekertaschen"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Apothekertasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Sb-10t10031"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "10"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 37.347 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 83 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0BCQYJLJR"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,8 4,8 von 5 Sternen (49) 4,8 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "Einheitsgröße"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "26L x 22B x 0,3H cm"
+        },
+        {
+          "label": "Kapazität",
+          "value": "1,8 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "26 x 22 x 0,3 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Schwarz"
+        },
+        {
+          "label": "Saison",
+          "value": "Jahreszeit: Sommer, Winter, Frühling, Herbst"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "rechteckiger_Prisma"
+        },
+        {
+          "label": "Rahmenfarbe",
+          "value": "Schwarz"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Modern"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Schwarz"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "25. September 2026"
+        },
+        {
+          "label": "Hersteller",
+          "value": "TEXXILLA"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0HKZL4WZ4"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 37.347 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 83 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,8 4,8 von 5 Sternen (49)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Nur Handwäsche"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:50:50.128Z",
+      "http_status": 200,
+      "page_bytes": 2118025,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.bullet_points.b4",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B07FF5JW96",
+      "url": "https://www.amazon.de/dp/B07FF5JW96",
+      "fetched_url": "https://www.amazon.de/dp/B07FF5JW96?language=de_DE",
+      "title": "Baumwolltasche klein 22x26 cm – 10 STÜCK OEKO-TEX® geprüft Natur unbedruckt",
+      "title_chars": 75,
+      "bullets": [
+        "GEPRÜFTE BAUMWOLLE: Das Material unserer Taschen besteht zu 100% aus 140 g/m² starker „OEKO-TEX Standard 100“ Baumwolle und zeichnet sich durch eine hervorragende Beschaffenheit und Stabilität der verkettelten Nähte aus.",
+        "SELBER BEDRUCKEN UND BEMALEN: Unsere Baumwolltaschen eignen sich perfekt zum Bedrucken, Bestempeln, Bemalen oder einen Siebdruck. Perfekt also für Motivdrucke, Bildserien oder Kindermalereien, um eine ganze persönliche Tasche zu kreieren.",
+        "ZEITLOS UND ALLTAGSTAUGLICH: Die Taschen sind dank der kurzen Henkel und einer kompakten Größe von 22 x 26 cm optimal, um kleine Dinge darin aufzubewahren. Die naturbelassene Farbe ist zeitlos, aber dennoch gut kombinierbar. Super als Geschenk- oder Aufbewahrungsbeutel.",
+        "25 JAHRE ERFAHRUNG UND MARKENQUALITÄT: Unsere Taschen sind mit dem „OEKO-TEX Standard 100“ Siegel zertifiziert und tragen damit zusätzlich zur alltäglichen und langfristigen Verwendung bei. Ständige Qualitätskontrollen der Produktion mit mehr als 25 JAHREN ERFAHRUNG lassen uns dieses Versprechen an dich weitergeben."
+      ],
+      "bullet_count": 4,
+      "bullet_chars": [
+        220,
+        238,
+        270,
+        317
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "ELES VIDA",
+      "color": "Natur",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "26 Zentimeter",
+      "pack_listed": "10",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle.,Jute"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "robust, dauerhaft und umweltfreundlich"
+        },
+        {
+          "label": "Marke",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Hersteller",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "ab 3 Jahren"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Pakistan"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "Schulterriemen"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "Baumwolle - OEKO-TEX® - STANDARD 100"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "10"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "Baumwolle - OEKO-TEX® - STANDARD 100"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Für alle"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "10.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 5.906 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 16 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B07FF5JW96"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,6 4,6 von 5 Sternen (1.232) 4,6 von 5 Sternen"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Öffnung oben"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Geschenke, Kleinteile aufbewahren, Kreativität (z.B. Malen, Bedrucken)"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Maximale kompatible Gerätegröße",
+          "value": "26 Zentimeter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "In der Hand und auf der Schulter gehalten"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "10"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "26 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Baumwollriemen"
+        },
+        {
+          "label": "Größe",
+          "value": "22 x 26 cm | 10 stk"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "22L x 10B x 26H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "65 Zentimeter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "22 x 10 x 26 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Saison",
+          "value": "Jahreszeit"
+        },
+        {
+          "label": "Muster",
+          "value": "Ohne Muster"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rechteckig"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Clutch"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Natur"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:51:00.236Z",
+      "http_status": 200,
+      "page_bytes": 2345636,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.title",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B078NT94SH",
+      "url": "https://www.amazon.de/dp/B078NT94SH",
+      "fetched_url": "https://www.amazon.de/dp/B078NT94SH?language=de_DE",
+      "title": "Cottonbagjoe Baumwolltasche 45x38x10 cm – Shopper mit Innentasche",
+      "title_chars": 65,
+      "bullets": [
+        "Große Tragetasche mit 45 × 38 × 10 cm bietet viel Stauraum für Alltag, Einkauf, Arbeit oder Freizeit",
+        "Gefertigt aus 100 % Baumwolle mit 220 g/m² für eine stabile, formfeste Haptik bei angenehmem Softfinish",
+        "Praktische Innentasche mit Reißverschluss zur sicheren Aufbewahrung von Schlüsseln, Handy oder Geldbörse",
+        "Zwei schwarze Henkel mit ca. 4 × 60 cm Länge ermöglichen komfortables Tragen über der Schulter oder in der Hand",
+        "OEKO-TEX STANDARD 100 zertifiziert und für den täglichen Einsatz konzipiert, langlebig und pflegeleicht"
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        100,
+        103,
+        104,
+        111,
+        103
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "Cottonbagjoe",
+      "color": "Natur",
+      "material_listed": "Stoff",
+      "cotton_disclosed": true,
+      "dimensions_listed": "45 Zentimeter",
+      "pack_listed": null,
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Stoff"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "gewebt"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "weicher Griff und umweltfreundlich"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Reißverschluss"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Beschreibung der Tasche",
+          "value": "Innentasche mit Reißverschluss"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Einkaufen, Alltagsgebrauch, Sport"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Woven"
+        },
+        {
+          "label": "Maximale kompatible Gerätegröße",
+          "value": "45 Zentimeter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "Regulär"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "gewebt"
+        },
+        {
+          "label": "Anzahl der Reißverschlussfächer",
+          "value": "1"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Stoff"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "gewebt"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Materialeigenschaften",
+          "value": "weicher Griff und umweltfreundlich"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Reißverschluss"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Beschreibung der Tasche",
+          "value": "Innentasche mit Reißverschluss"
+        },
+        {
+          "label": "Empfohlene Verw.bereiche für Produkt",
+          "value": "Einkaufen, Alltagsgebrauch, Sport"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Woven"
+        },
+        {
+          "label": "Maximale kompatible Gerätegröße",
+          "value": "45 Zentimeter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "Regulär"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "gewebt"
+        },
+        {
+          "label": "Anzahl der Reißverschlussfächer",
+          "value": "1"
+        },
+        {
+          "label": "Marke",
+          "value": "Cottonbagjoe"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Cottonbagjoe"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Alle Altersgruppen"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Indien"
+        },
+        {
+          "label": "Eingeschlossene Komponenten",
+          "value": "Schulterriemen"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Canvastasche"
+        },
+        {
+          "label": "Artikelgewicht",
+          "value": "210 Gramm"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Friederieke"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "Friederieke"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "1"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "G-21"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "unisex"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "1.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 16.619 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 39 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B078NT94SH"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (2.975) 4,5 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "45 x 38 cm"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "45L x 10B x 38H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "60 Zentimeter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 16 x 45 cm"
+        },
+        {
+          "label": "Artikelgewicht",
+          "value": "210 Gramm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Saison",
+          "value": "Frühling, Sommer"
+        },
+        {
+          "label": "Muster",
+          "value": "Kein Motiv"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "rechteckiger Prisma"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Trapez"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Minimal"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "schwarz"
+        },
+        {
+          "label": "Produktabmessungen",
+          "value": "45 x 10 x 38 cm"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "8. Januar 2026"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Cottonbag´joe"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0GFMN36D9"
+        },
+        {
+          "label": "Herstellerreferenz",
+          "value": "G-21"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 16.619 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 39 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,5 4,5 von 5 Sternen (2.975)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Indien"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:51:19.490Z",
+      "http_status": 200,
+      "page_bytes": 2455789,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.bullet_points.b5",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0D97XSBRZ",
+      "url": "https://www.amazon.de/dp/B0D97XSBRZ",
+      "fetched_url": "https://www.amazon.de/dp/B0D97XSBRZ?language=de_DE",
+      "title": "Baumwolltasche 38x42 cm 100 Stück - unbedruckt, zwei lange Henkel OEKO-TEX®",
+      "title_chars": 75,
+      "bullets": [
+        "NATÜRLICHE QUALITÄT: Das Material unserer Taschen besteht zu 100% aus 140 g/m² starker Baumwolle und zeichnet sich durch eine hervorragende Beschaffenheit und Stabilität der verkettelten Nähte aus.",
+        "SELBER BEDRUCKEN UND BEMALEN: Unsere Baumwolltaschen eignen sich perfekt zum Bedrucken, Bestempeln, Bemalen oder einen Siebdruck. Perfekt also für Motivdrucke, Bildserien oder Kindermalereien, um eine ganze persönliche Tasche zu kreieren.",
+        "DAS BESONDERE GESCHENK: Mit diesen Taschen hast du ausreichend Möglichkeiten, um damit tolle Präsente zu übergeben. Sollten unsere Baumwolltaschen nicht deinen Vorstellungen entsprechen, erhältst du natürlich dein Geld zurück!",
+        "ZEITLOS UND ALLTAGSTAUGLICH: Die Taschen sind dank der langen Henkel und einer Größe von 38 x 42 cm optimal, um sie locker über den Schultern zu tragen. Die schwarze Farbe ist zeitlos, aber dennoch gut kombinierbar. Super als Einkaufstasche oder für einen kurzen Städtebummel.",
+        "25 JAHRE ERFAHRUNG UND MARKENQUALITÄT: Unsere Taschen sind mit dem „OEKO-TEX Standard 100“ Siegel zertifiziert und tragen damit zusätzlich zur Nachhaltigkeit und einer freundlichen Verwendung bei. Ständige Qualitätskontrollen der Produktion mit mehr als 25 JAHREN ERFAHRUNG lassen uns dieses Versprechen an dich weitergeben."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        197,
+        238,
+        226,
+        276,
+        324
+      ],
+      "description": "Nur Handwäsche",
+      "description_chars": 14,
+      "brand": "ELES VIDA",
+      "color": "Natur | 38x42cm",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "100 Taschen",
+      "pack_listed": "100",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Nur Handwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Marke",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "1"
+        },
+        {
+          "label": "Hersteller",
+          "value": "ELES VIDA"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Pakistan"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "1"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "100.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 65.873 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 166 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0D97XSBRZ"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (99) 4,5 von 5 Sternen"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Henkel"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Passform",
+          "value": "Über die Schulter"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Größe",
+          "value": "100 Taschen"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "10L x 420B x 380H Millimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "10 x 420 x 380 Millimeter"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur | 38x42cm"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rechteckig"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Trapez"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Minimal"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Schwarz"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:51:26.620Z",
+      "http_status": 200,
+      "page_bytes": 1840781,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b5",
+          "original": "Nachhaltigkeit",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "field_path": "content.title",
+          "original": "OEKO-TEX",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "needs_evidence",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B08JJLMSHZ",
+      "url": "https://www.amazon.de/dp/B08JJLMSHZ",
+      "fetched_url": "https://www.amazon.de/dp/B08JJLMSHZ?language=de_DE",
+      "title": "Stoffbeutel 38x42 cm - 1 Stück - Baumwolltasche 145 g/m² - Tote Bag zum Bemalen, Bedrucken & Einkaufen - Wiederverwendbare Stofftasche Unbedruckt",
+      "title_chars": 145,
+      "bullets": [
+        "IDEAL ZUM BEMALEN & BESTICKEN: Die glatte, naturbelassene Baumwolloberfläche bietet die perfekte Leinwand für Acrylfarben, Stoffmalstifte, Stempel oder Batik. Ein kreativer Hit für Kindergeburtstage, Schulprojekte oder DIY-Workshops.",
+        "10 KG TRAGEKRAFT OHNE REIßEN: Dank robuster 145 g/m² Naturbaumwolle und kreuzweise verstärkten Henkeln (X-Stitch) hält der Jutebeutel schweren Einkäufen, Büchern oder Getränkekisten mühelos stand.",
+        "KOMFORTABEL ÜBER DER SCHULTER: Mit großzügigen Maßen von 38 x 42 cm und extra langen 70-cm-Henkeln lässt sich der Stoffbeutel auch über dicken Jacken bequem und rutschfest als Shopper tragen.",
+        "LANGLEBIG & WIEDERVERWENDBAR: Die strapazierfähige Baumwolltasche ist die ideale, stabile Alternative zu Einweg-Plastiktüten. Sie begleitet Sie zuverlässig beim Wocheneinkauf, in der Uni, bei Ausfällen oder im Alltag.",
+        "PFLEGELEICHT & FORMSTABIL: Hergestellt aus 100% Naturbaumwolle. Für eine lange Lebensdauer empfehlen wir die Handwäsche oder einen schonenden Kaltwaschgang (bitte von links bügelть, um Motive zu schützen)."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        233,
+        196,
+        191,
+        217,
+        205
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "POLHIM",
+      "color": "Natur",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "Positiv",
+      "pack_listed": "1",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Handwäsche mit kaltem Wasser, schnelles Trocknen und Maschinenwäsche vermeiden. Bitte beachten Sie, dass der Stoff nach dem Waschen möglicherweise nicht seine ursprüngliche flache Form annimmt."
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Leicht"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "no"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "Positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Handwäsche mit kaltem Wasser, schnelles Trocknen und Maschinenwäsche vermeiden. Bitte beachten Sie, dass der Stoff nach dem Waschen möglicherweise nicht seine ursprüngliche flache Form annimmt."
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Leicht"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "no"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Wiederverwendbar"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "Positiv"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Marke",
+          "value": "POLHIM"
+        },
+        {
+          "label": "UPC",
+          "value": "301650011546"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "1"
+        },
+        {
+          "label": "Hersteller",
+          "value": "POLHIM"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Polen"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Tote bag"
+        },
+        {
+          "label": "Artikelgewicht",
+          "value": "60 Gramm"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellnummer",
+          "value": "Pack_1_140"
+        },
+        {
+          "label": "Artikelnummer",
+          "value": "Pack_1_140"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 4.526 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 11 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B08JJLMSHZ"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,5 4,5 von 5 Sternen (1.728) 4,5 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "Einheitsgröße"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "42L x 38B x 1H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "70 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "16 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 42 x 0,1 cm"
+        },
+        {
+          "label": "Artikelgewicht",
+          "value": "60 Gramm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Saison",
+          "value": "Fruhling/Sommer"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "flaches Rechteck"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Täschchen"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Minimal"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Produktabmessungen",
+          "value": "38 x 0,1 x 42 cm"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "15. Juli 2025"
+        },
+        {
+          "label": "Hersteller",
+          "value": "POLHIM"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0FS931RLT"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 4.526 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 11 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,5 4,5 von 5 Sternen (1.728)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Handwäsche mit kaltem Wasser, schnelles Trocknen und Maschinenwäsche vermeiden. Bitte beachten Sie, dass der Stoff nach dem Waschen möglicherweise nicht seine ursprüngliche flache Form annimmt."
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Polen"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:51:41.744Z",
+      "http_status": 200,
+      "page_bytes": 2214174,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "AMZ-01",
+          "field_path": "content.title",
+          "original": "Stoffbeutel 38x42 cm - 1 Stück - Baumwolltasche 145 g/m² - Tote Bag zum Bemalen, Bedrucken & Einkaufen - Wiederverwendbare Stofftasche Unbedruckt",
+          "severity": "blocking"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "fail",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "not_checked",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0BNNV51YN",
+      "url": "https://www.amazon.de/dp/B0BNNV51YN",
+      "fetched_url": "https://www.amazon.de/dp/B0BNNV51YN?language=de_DE",
+      "title": "Baumwolltasche Stoffbeutel mit langen Henkeln",
+      "title_chars": 45,
+      "bullets": [
+        "Stabile Baumwolle: Der Stoffbeutel aus reiner Baumwolle bietet ein angenehmes Tragegefühl und zuverlässige Formstabilität für tägliche Wege, Einkäufe und den Einsatz unterwegs.",
+        "Lange Henkel: Die extra langen Tragegriffe lassen sich bequem über der Schulter tragen und erleichtern den Transport von Büchern, Unterlagen oder Waren im Alltag.",
+        "Vielseitig nutzbar: Als Einkaufstasche, Uni Tasche, Werbetasche oder Geschenkbeutel begleitet der Beutel viele Einsätze und lässt sich auch für kreative Projekte nutzen.",
+        "Pflegeleicht im Alltag: Der Beutel ist wiederverwendbar und lässt sich bei Bedarf waschen, damit er sich nach häufigem Gebrauch einfach reinigen und erneut verwenden lässt.",
+        "Sauber verarbeitet: Verstärkte Nähte und ein robuster Stoff sorgen für eine belastbare Nutzung im Alltag, beim Einkaufen, auf Reisen oder beim Transport kleinerer Gegenstände."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        176,
+        162,
+        169,
+        172,
+        175
+      ],
+      "description": "",
+      "description_chars": 0,
+      "brand": "Wonky Line",
+      "color": "Natur",
+      "material_listed": "Baumwolle",
+      "cotton_disclosed": true,
+      "dimensions_listed": "positiv",
+      "pack_listed": null,
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Schwer (336-403 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Kein Verschluss"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Leicht, Strapazierfähig Maximale Stärke Verstärkte Griffe Farbbeständig Farbecht Umweltfreundlich, Wiederverwendbar"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Schulter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "regulär"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Stofftyp",
+          "value": "100% Baumwolle"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Material",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Schwer (336-403 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Kein Verschluss"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Leicht, Strapazierfähig Maximale Stärke Verstärkte Griffe Farbbeständig Farbecht Umweltfreundlich, Wiederverwendbar"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Schulter"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "positiv"
+        },
+        {
+          "label": "Passform",
+          "value": "regulär"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Länge von Schulter bis Saum",
+          "value": "42 Zentimeter"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Schulter"
+        },
+        {
+          "label": "Marke",
+          "value": "Wonky Line"
+        },
+        {
+          "label": "Anzahl der Packungen",
+          "value": "1"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Wonky Line"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "Türkei"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Tragetasche"
+        },
+        {
+          "label": "Artikelgewicht",
+          "value": "70 Gramm"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "142 G Baumwolltasche"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "1"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "1.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 8.788 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 22 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0BNNV51YN"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,3 4,3 von 5 Sternen (1.101) 4,3 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "38cm x 42cm"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "42L x 1B x 38H cm"
+        },
+        {
+          "label": "Riemenlänge",
+          "value": "70 Zentimeter"
+        },
+        {
+          "label": "Kapazität",
+          "value": "10 Liter"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "38 x 1 x 42 cm"
+        },
+        {
+          "label": "Artikelgewicht",
+          "value": "70 Gramm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Natur"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig & meliert"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "Rechteckig"
+        },
+        {
+          "label": "Ereignis",
+          "value": "Geburtstag"
+        },
+        {
+          "label": "Rahmenfarbe",
+          "value": "Naturfarben"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form der Handtasche",
+          "value": "Trapez"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Minimal"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Naturfarben"
+        },
+        {
+          "label": "Produktabmessungen",
+          "value": "42 x 1 x 38 cm; 70 Gramm"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "1. Dezember 2022"
+        },
+        {
+          "label": "Hersteller",
+          "value": "Wonky Line"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0FD2L98TT"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 8.788 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 22 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,3 4,3 von 5 Sternen (1.101)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Türkei"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:52:18.318Z",
+      "http_status": 200,
+      "page_bytes": 2278697,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [],
+      "rule_states": {
+        "AMZ-01": "pass",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "not_checked",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "not_checked",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    },
+    {
+      "asin": "B0FWQPDNXV",
+      "url": "https://www.amazon.de/dp/B0FWQPDNXV",
+      "fetched_url": "https://www.amazon.de/dp/B0FWQPDNXV?language=de_DE",
+      "title": "2 Stück Baumwolltasche, 60×40×12cm Super Groß Einkaufstasche mit Verdicken Handband, Verdicken Vielseitig Stoffbeutel, Wiederverwendbare Unbedruckt Baumwollbeutel für Einkauf, Reisen, Sport",
+      "title_chars": 189,
+      "bullets": [
+        "SUPER GROSS EINKAUFSTASCHE: Diese set umfasst 2 ubergroße kapazität stofftasche mit den maßen 60 x 40 x 12 cm und bietet ausreichend platz für all ihre einkäufe, bücher, kleidung oder persönliche gegenstände. Das geräumige design sorgt dafür, dass sie ihre täglichen bedürfnisse problemlos verstauen können. Ideal für den täglichen gebrauch, reisen oder als tasche für freizeitaktivitäten. Die shopper tasche damen groß ideal zu ihrem aktiven lebensstil und erfüllt all ihre aufbewahrungsanforderungen.",
+        "HOCHWERTIGES BAUMWOLL-MATERIAL: Unsere tasche groß sind aus robustem baumwollstoff hergestellt, das im gegensatz zu den üblichen leinenstoffen atmungsfähiger und verschleißbeständiger ist, nicht leicht zu brechen und kann langfristig verwendet werden. Das material ist nicht nur stabil, sondern auch reinigbar und geruchsfrei, was zu einer umweltfreundlichen praktischen wahl für den täglichen gebrauch macht. Verstärkte nähte gewährleisten zusätzliche stabilität und haltbarkeit, auch bei häufigem einsatz unter harten bedingungen.",
+        "VERSTÄRKTE HANDGRIFFE AUS BAUMWOLLE: Die einkaufstasche groß ist mit breit und dick tragegriffe ausgestattet, die sowohl für die hand- als auch für die schultertrageweise geeignet sind. Diese tragegriffe bieten hohen komfort und tragen auch schwerere lasten mühelos. Sie sind besonders stabil, sodass sie die baumwollbeutel auch mit vielen einkäufen oder persönlichen gegenständen problemlos transportieren können.",
+        "SCHLICHTES DESIGN: Die stofftaschen zum bemalen hat ein minimalistisches, unbedrucktes design, das sich ideal an jeden stil anpasst. Ohne auffällige aufdrucke oder verzierungen bleibt die baumwolltaschen unbedruckt schlicht und elegant und kann sowohl für den alltag als auch zu besonderen anlässen verwendet werden. Dieses druckfreie design ermöglicht es ihnen auch, die taschen mit pigmenten zu dekorieren, um eine einzigartige handtasche zu schaffen.",
+        "VIELSEITIGE VERWENDUNGSMÖGLICHKEITEN: Diese geräumige big bag ist äußerst vielseitig und eignet sich für eine vielzahl von anwendungsbereichen. Sie ist ideal für den einkauf, den täglichen gebrauch, reisen, den besuch des strandes, das fitnessstudio oder als freizeit-tasche. Die strandtasche bietet ausreichend platz für all ihre essentials und ist gleichzeitig ein modisches accessoire."
+      ],
+      "bullet_count": 5,
+      "bullet_chars": [
+        502,
+        532,
+        414,
+        453,
+        388
+      ],
+      "description": "Produktspezifikation Produktname: Große Baumwolltasche Menge: 2 Stück Größe: 60 x 40 x 12cm Material: Canvas Farbe: Weiß Produktmerkmale Große Kapazität Set: Dieses set umfasst 2 geräumige einkaufstasche mit einer super größe von 60 x 40 x 12 cm, ideal für einkäufe, bücher, kleidung oder persönliche gegenstände. Das großzügige design sorgt für viel platz und hilft, alltägliche bedürfnisse mühelos zu verstauen. Hochwertiges Baumwoll-Material: Hergestellt aus stabilem, robustem baumwoll-canvas, das nicht nur strapazierfähig und waschbar ist, sondern auch umweltfreundlich und geruchsneutral bleibt. Verstärkte Handgriffe: Die shopper tasche damen groß ist mit extra breiten und dicken tragegriffen ausgestattet, die für einen hohen tragekomfort sorgen, selbst bei schwerer beladung. Die griffe sind stabil und ermöglichen ein komfortables tragen, sowohl in der hand als auch über der schulter. Schlichtes Design: Die tasche groß hat ein minimalistisches, unbedrucktes design, das vielseitig einsetzbar ist und sich ideal an jeden stil anpasst. Sie bietet auch die möglichkeit, die stoffbeutel individuell zu gestalten, indem sie bemalt oder bedruckt wird. Vielseitige Verwendungsmöglichkeiten: Die tote bag ideal für den täglichen gebrauch, einkäufe, reisen, den strandbesuch, fitnessstudio oder als freizeittasche. Diese baumwollbeutel bietet genügend platz für alle essentials und ist gleichzeitig ein modisches accessoire. Die Produktverpackung Enthält: 2 Einkaufstasche Groß",
+      "description_chars": 1482,
+      "brand": "HOCUCHELAND",
+      "color": "Weiß",
+      "material_listed": "Leinwand",
+      "cotton_disclosed": true,
+      "dimensions_listed": "Neutral",
+      "pack_listed": "2",
+      "gsm_listed": null,
+      "availability_text": "Auf Lager",
+      "details": [
+        {
+          "label": "Futterbeschreibung",
+          "value": "unlined"
+        },
+        {
+          "label": "Material",
+          "value": "Leinwand"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Segeltuchstoff"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Segeltuchstoff"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Bindegürtel"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Hochwertiges Material, Verstärkte Nähte, Super Groß, Geräumiges Design"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Hand-Tragegriff"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "Neutral"
+        },
+        {
+          "label": "Passform",
+          "value": "groß"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Hand-Tragegurt"
+        },
+        {
+          "label": "Futterbeschreibung",
+          "value": "unlined"
+        },
+        {
+          "label": "Material",
+          "value": "Leinwand"
+        },
+        {
+          "label": "Pflegehinweis",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Griffmaterial",
+          "value": "Baumwolle"
+        },
+        {
+          "label": "Elastizität des Bekleidungsstoffs",
+          "value": "Keine Elastizität"
+        },
+        {
+          "label": "Oberflächenmaterial",
+          "value": "Segeltuchstoff"
+        },
+        {
+          "label": "Innenmaterial",
+          "value": "Segeltuchstoff"
+        },
+        {
+          "label": "Materialgewicht des Bekleidungsstoffs",
+          "value": "Mittleres Gewicht (201-267 g/m²)"
+        },
+        {
+          "label": "Verschlussart",
+          "value": "Bindegürtel"
+        },
+        {
+          "label": "Besondere Merkmale",
+          "value": "Hochwertiges Material, Verstärkte Nähte, Super Groß, Geräumiges Design"
+        },
+        {
+          "label": "Anzahl der Taschen",
+          "value": "1"
+        },
+        {
+          "label": "Wasserfestigkeit",
+          "value": "Nicht wasserfest"
+        },
+        {
+          "label": "Grifftyp",
+          "value": "Hand-Tragegriff"
+        },
+        {
+          "label": "Größeneinschätzung",
+          "value": "Neutral"
+        },
+        {
+          "label": "Passform",
+          "value": "groß"
+        },
+        {
+          "label": "Anzahl der Fächer",
+          "value": "1"
+        },
+        {
+          "label": "Anzahl der Griffe",
+          "value": "2"
+        },
+        {
+          "label": "Anzahl von Bereichen",
+          "value": "1"
+        },
+        {
+          "label": "Trägerart",
+          "value": "Hand-Tragegurt"
+        },
+        {
+          "label": "Marke",
+          "value": "HOCUCHELAND"
+        },
+        {
+          "label": "Hersteller",
+          "value": "HOCUCHELAND"
+        },
+        {
+          "label": "Altersgruppe (Beschreibung)",
+          "value": "Erwachsener"
+        },
+        {
+          "label": "Herstellungsland",
+          "value": "China"
+        },
+        {
+          "label": "Artikeltypbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Modellbezeichnung",
+          "value": "Baumwolltasche"
+        },
+        {
+          "label": "Anzahl von Artikeln",
+          "value": "2"
+        },
+        {
+          "label": "Zielgruppe",
+          "value": "Unisex-Erwachsene"
+        },
+        {
+          "label": "Stückzahl",
+          "value": "2.0 stück"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 25.841 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 55 in Einkaufstaschen"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0FWQPDNXV"
+        },
+        {
+          "label": "Durchschnittliche Kundenbewertung",
+          "value": "4,8 4,8 von 5 Sternen (32) 4,8 von 5 Sternen"
+        },
+        {
+          "label": "Größe",
+          "value": "L"
+        },
+        {
+          "label": "Artikel Abmessungen L x B x H",
+          "value": "60L x 12B x 40H cm"
+        },
+        {
+          "label": "Kapazität",
+          "value": "2,27 Kilogramm"
+        },
+        {
+          "label": "Artikelabmessungen",
+          "value": "60 x 12 x 40 cm"
+        },
+        {
+          "label": "Farbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Form des Artikels",
+          "value": "rechteckig"
+        },
+        {
+          "label": "Muster",
+          "value": "Einfarbig"
+        },
+        {
+          "label": "Stilbezeichnung",
+          "value": "Zeitgenössisch"
+        },
+        {
+          "label": "Riemenfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Produktabmessungen",
+          "value": "60 x 12 x 40 cm"
+        },
+        {
+          "label": "Im Angebot von Amazon.de seit",
+          "value": "10. Februar 2026"
+        },
+        {
+          "label": "Hersteller",
+          "value": "HOCUCHELAND"
+        },
+        {
+          "label": "ASIN",
+          "value": "B0GN5W94C3"
+        },
+        {
+          "label": "Kategorie",
+          "value": "Unisex"
+        },
+        {
+          "label": "Amazon Bestseller-Rang",
+          "value": "Nr. 25.841 in Küche, Haushalt & Wohnen (Siehe Top 100 in Küche, Haushalt & Wohnen) Nr. 55 in Einkaufstaschen"
+        },
+        {
+          "label": "Kundenrezensionen",
+          "value": "4,8 4,8 von 5 Sternen (32)"
+        },
+        {
+          "label": "Pflegehinweise",
+          "value": "Maschinenwäsche"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "China"
+        }
+      ],
+      "details_rendered": true,
+      "retrieved_at": "2026-10-30T15:52:34.609Z",
+      "http_status": 200,
+      "page_bytes": 2263316,
+      "ua_index": 0,
+      "discovery": "Baumwolltasche",
+      "rules": [
+        {
+          "rule_id": "AMZ-01",
+          "field_path": "content.title",
+          "original": "2 Stück Baumwolltasche, 60×40×12cm Super Groß Einkaufstasche mit Verdicken Handband, Verdicken Vielseitig Stoffbeutel, Wiederverwendbare Unbedruckt Baumwollbeutel für Einkauf, Reisen, Sport",
+          "severity": "blocking"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.bullet_points.b2",
+          "original": "umweltfreundlichen",
+          "severity": "needs_review"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "field_path": "content.description",
+          "original": "umweltfreundlich",
+          "severity": "needs_review"
+        }
+      ],
+      "rule_states": {
+        "AMZ-01": "fail",
+        "AMZ-02": "pass",
+        "AMZ-03": "not_checked",
+        "AMZ-04": "not_checked",
+        "AMZ-05": "not_checked",
+        "AMZ-06": "pass",
+        "DE-TITLE-02": "pass",
+        "DE-TITLE-03": "pass",
+        "DE-GPSR-19": "not_checked",
+        "DE-TEXTIL-01": "not_checked",
+        "DE-ENV-01": "needs_evidence",
+        "DE-VERPACK-01": "not_checked",
+        "DE-CERT-01": "not_checked",
+        "DE-GARANTIE-01": "not_checked",
+        "FACT-01": "not_checked",
+        "FACT-02": "not_checked",
+        "EVID-01": "not_checked",
+        "SYS-01": "pass",
+        "SYS-02": "not_checked"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "asin": "B0055TDPV2",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2562943,
+      "title": "CENTRIX Wiederverwendbare Einkaufstaschen aus natürlicher Baumwolle, 38,1 x 40,6 cm, 156 g Baumwoll-Leinen, umweltfreund"
+    },
+    {
+      "asin": "B07FF69CJ5",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2806329,
+      "title": "25 STÜCK Baumwolltasche 22x26 cm klein – Jutebeutel – Natur"
+    },
+    {
+      "asin": "B07FTVTTD1",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2183847,
+      "title": "Baumwolltasche 28x32 cm - Jutebeutel mittel – Natur - 25 STÜCK"
+    },
+    {
+      "asin": "B0DJPMWCYN",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2565443,
+      "title": "Baumwolltasche, 2 Stück Groß Einkaufstasche 45 x 35 cm Baumwollbeutel Stoffbeutel, Jutebeutel, Stoffbeutel Unbedruckt fü"
+    },
+    {
+      "asin": "B0H81VGBWR",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 1939250,
+      "title": "3 Stück unbedruckte beige Jute- und Baumwolltaschen mit Maßen 42×32×10 cm, wiederverwendbare Canvas Stoffbeutel zum Bema"
+    },
+    {
+      "asin": "B09FHMB93G",
+      "reason": "未见棉成分披露",
+      "status": 200,
+      "bytes": 2904403,
+      "title": "Groß Cord Tasche Damen Ultraleicht Umhängetasche"
+    },
+    {
+      "asin": "B0B59MTS6N",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2545377,
+      "title": "Hochwertige Stoffbeutel - Beutel für Wäsche, Sport, Shopping, Lebensmittel - Umweltfreundliche, Wiederverwendbare Jutebe"
+    },
+    {
+      "asin": "B0BCR1MNSQ",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 1607597,
+      "title": "TEXXILLA 10er Pack Baumwolltasche - OEKO-TEX 100 zertifiziert | mit zwei langen Henkeln, Boden- und Seitenfalte | 38x42c"
+    },
+    {
+      "asin": "B0F8PYNSGH",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2137121,
+      "title": "Jutebeutel Unbedruckt, Einkaufstasche groß, Jutebeutel zum bemalen, Baumwolltasche Tragetasche mit Henkel für Sport, Ein"
+    },
+    {
+      "asin": "B0H7JLWPXZ",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 1684647,
+      "title": "2 Stück Einkaufstasche Jutebeutel, 60×40×15cm Super Groß Baumwolltasche"
+    },
+    {
+      "asin": "B07FTJQMR2",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2562553,
+      "title": "25 STÜCK Baumwollbeutel Turnbeutel 38 x 42cm Sportbeutel - Rucksack Stofftasche Bag, Beutel, Baumwollbeutel, Jutebeutel "
+    },
+    {
+      "asin": "B07F5XJKK1",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 2605043,
+      "title": "25 Stück Baumwolltasche 38 x 42 cm unbedruckt lange Henkel Stofftasche Tragetasche Umhängebeutel Baumwollbeutel Jutebeut"
+    },
+    {
+      "asin": "B0GHCN366X",
+      "reason": "材质不符（含非棉纤维或非棉，如黄麻/涤纶/棉麻混纺）",
+      "status": 200,
+      "bytes": 1701264,
+      "title": "2 Stk Einkaufstasche,Canvas Tote Bags,Jutebeutel,Einkaufsbeutel"
+    },
+    {
+      "asin": "B0D9QY1MG7",
+      "reason": "同款重复",
+      "status": 200,
+      "bytes": 2229018,
+      "title": "Stofftasche Zum Bemalen – 5 | 10 | 25er-Pack - aus Öko-Material – mit langen Henkeln – Stoffbeutel Unbedruckt – Baumwoll"
+    }
+  ],
+  "fetched": 31,
+  "stats": {
+    "sample_size": 17,
+    "fetched": 31,
+    "skipped": 14,
+    "title_cap": 75,
+    "title_chars": {
+      "min": 33,
+      "median": 73,
+      "max": 189,
+      "over_cap": 5
+    },
+    "bullet_count": {
+      "min": 4,
+      "median": 5,
+      "zero": 0
+    },
+    "missing": {
+      "material": 1,
+      "dimensions": 0,
+      "color": 0,
+      "pack": 4,
+      "gsm": 17
+    },
+    "engine": {
+      "total": 19,
+      "checkable": 13,
+      "model_or_human_only": 6,
+      "checkable_ids": [
+        "AMZ-01",
+        "AMZ-02",
+        "AMZ-03",
+        "AMZ-04",
+        "AMZ-05",
+        "AMZ-06",
+        "DE-TITLE-02",
+        "DE-TITLE-03",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "partial_ids": [
+        "DE-TEXTIL-01",
+        "DE-ENV-01",
+        "DE-VERPACK-01",
+        "DE-CERT-01",
+        "DE-GARANTIE-01"
+      ],
+      "model_or_human_ids": [
+        "DE-GPSR-19",
+        "DE-TEXTIL-01",
+        "DE-ENV-01",
+        "DE-VERPACK-01",
+        "DE-CERT-01",
+        "DE-GARANTIE-01"
+      ],
+      "not_checked": {
+        "AMZ-03": 17,
+        "AMZ-04": 17,
+        "AMZ-05": 17,
+        "DE-GPSR-19": 17,
+        "DE-TEXTIL-01": 17,
+        "DE-VERPACK-01": 17,
+        "FACT-01": 17,
+        "FACT-02": 17,
+        "EVID-01": 17,
+        "SYS-02": 17,
+        "DE-ENV-01": 8,
+        "DE-GARANTIE-01": 16,
+        "DE-CERT-01": 5
+      }
+    },
+    "rule_hits": [
+      {
+        "rule_id": "AMZ-01",
+        "title": "标题长度（德国站）",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 5,
+        "rate": 0.29
+      },
+      {
+        "rule_id": "AMZ-02",
+        "title": "亮点长度",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "AMZ-03",
+        "title": "文案中的联系信息或链接",
+        "method": "patterns_with_context_review",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "AMZ-04",
+        "title": "文案中的交易与促销信息",
+        "method": "patterns_and_semantic_review",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "AMZ-05",
+        "title": "商品描述准确性",
+        "method": "structured_comparison_and_semantic_review",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "AMZ-06",
+        "title": "标题含多个包装规格",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "DE-TITLE-02",
+        "title": "标题同一个词不得超过两次（德国站）",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "DE-TITLE-03",
+        "title": "标题禁用特殊字符（德国站）",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "DE-GPSR-19",
+        "title": "GPSR 第 19 条的线上报价四要素",
+        "method": "candidate_detection_and_contextual_review",
+        "checkable": false,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "DE-TEXTIL-01",
+        "title": "纺织品纤维成分的德文标注与百分比写法",
+        "method": "patterns_with_context_review",
+        "checkable": false,
+        "partial": true,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "DE-ENV-01",
+        "title": "泛化环保与气候中性宣称（德国站，比美国站严）",
+        "method": "candidate_detection_and_contextual_review",
+        "checkable": false,
+        "partial": true,
+        "hits": 9,
+        "rate": 0.53
+      },
+      {
+        "rule_id": "DE-VERPACK-01",
+        "title": "包装法注册号是上架前提，且不能拿包装说环保",
+        "method": "explicit_field_comparison",
+        "checkable": false,
+        "partial": true,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "DE-CERT-01",
+        "title": "认证、检测标志与 CE：什么不能写",
+        "method": "candidate_detection_and_contextual_review",
+        "checkable": false,
+        "partial": true,
+        "hits": 12,
+        "rate": 0.71
+      },
+      {
+        "rule_id": "DE-GARANTIE-01",
+        "title": "Garantie（质保）宣称的法定内容",
+        "method": "candidate_detection_and_contextual_review",
+        "checkable": false,
+        "partial": true,
+        "hits": 1,
+        "rate": 0.06
+      },
+      {
+        "rule_id": "FACT-01",
+        "title": "数量单位与属性混淆",
+        "method": "typed_fact_comparison",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "FACT-02",
+        "title": "零售包装数量",
+        "method": "explicit_field_comparison",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "EVID-01",
+        "title": "商品参数与来源对照",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "SYS-01",
+        "title": "引用可追溯",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      },
+      {
+        "rule_id": "SYS-02",
+        "title": "范围与检查完成状态",
+        "method": "deterministic",
+        "checkable": true,
+        "partial": false,
+        "hits": 0,
+        "rate": 0
+      }
+    ]
+  }
+}

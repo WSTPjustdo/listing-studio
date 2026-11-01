@@ -1,0 +1,34 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.runtime/
+test-results/
+playwright-report/
+*.log
+releases/
+.feishu-*
+
+__pycache__/
+
+# Generated report distributions; shareable reports are archived under reports/.
+/output/
+.workbuddy/
+
+# Local data, credentials and generated caches must never be published.
+/tmp/
+.cache/
+cache/
+caches/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.pyc
+*.pem
+*.key
+*.pfx
+*.p12
+credentials/
+secrets/

@@ -1,0 +1,1696 @@
+{
+  "started_at": "2026-10-23T10:33:20.577Z",
+  "public_product_only": true,
+  "merchant_owned_sku_tested": false,
+  "calls": [
+    {
+      "request_id": "313a6528-27ca-4372-aa3e-345463baffb0",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4611,
+      "usage": {
+        "prompt_tokens": 7214,
+        "completion_tokens": 1063,
+        "total_tokens": 8277,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6446
+      },
+      "format_retry": null
+    },
+    {
+      "request_id": "8de39f1f-b345-4242-a9c9-af8042ae668f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8419,
+      "usage": {
+        "prompt_tokens": 7272,
+        "completion_tokens": 970,
+        "total_tokens": 8242,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6376
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": true,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "313a6528-27ca-4372-aa3e-345463baffb0",
+            "model": "deepseek-flash",
+            "elapsed_ms": 4611,
+            "usage": {
+              "prompt_tokens": 7214,
+              "completion_tokens": 1063,
+              "total_tokens": 8277,
+              "prompt_tokens_details": {
+                "cached_tokens": 768
+              },
+              "prompt_cache_hit_tokens": 768,
+              "prompt_cache_miss_tokens": 6446
+            }
+          }
+        }
+      }
+    },
+    {
+      "request_id": "7b53ad78-8a18-4464-9847-3d750724d3cb",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5412,
+      "usage": {
+        "prompt_tokens": 7214,
+        "completion_tokens": 1078,
+        "total_tokens": 8292,
+        "prompt_tokens_details": {
+          "cached_tokens": 7040
+        },
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 174
+      },
+      "format_retry": null
+    }
+  ],
+  "versions": [
+    {
+      "version": 17,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "8de39f1f-b345-4242-a9c9-af8042ae668f",
+        "model": "deepseek-flash",
+        "elapsed_ms": 8419,
+        "usage": {
+          "prompt_tokens": 7272,
+          "completion_tokens": 970,
+          "total_tokens": 8242,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 6376
+        },
+        "format_retry": {
+          "attempts": 2,
+          "recovered": true,
+          "failed_attempt": {
+            "error_code": "MODEL_INVALID_JSON",
+            "trace": {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "313a6528-27ca-4372-aa3e-345463baffb0",
+              "model": "deepseek-flash",
+              "elapsed_ms": 4611,
+              "usage": {
+                "prompt_tokens": 7214,
+                "completion_tokens": 1063,
+                "total_tokens": 8277,
+                "prompt_tokens_details": {
+                  "cached_tokens": 768
+                },
+                "prompt_cache_hit_tokens": 768,
+                "prompt_cache_miss_tokens": 6446
+              }
+            }
+          }
+        },
+        "prompt_version": "2026-10-23.parameters-v7",
+        "parameter_link_version": "structured-parameters-v1",
+        "audit_input_hash": "ef98eee43d2f8f0d41fe46bbce9acd3a3921553e8cc421fd31ed860d4465fdaf",
+        "rule_selection": "structured_scope_selection",
+        "source_ids": [
+          "AMZS-TITLE-2026",
+          "AMZS-DETAIL-US",
+          "FTCS-GREEN-SUMMARY",
+          "FTCS-AD-SUBSTANTIATION",
+          "FTCS-GUIDE-STATUS",
+          "FTCS-GUIDE-REGISTER",
+          "PROJECT-AMAZON-QUALITY",
+          "LIVE-WESTFORD-W101",
+          "evidence-0e0838ca-4bd6-4a4c-9fc2-af87f536c189",
+          "evidence-3fed154e-a8e9-48c2-acf9-5990327c96c7",
+          "evidence-4b1f3229-f49b-4ae8-bb66-d55ae8dfc9b9",
+          "evidence-4f92441e-eaa7-4f87-98f0-ec0f9c52cfbb",
+          "evidence-79c025b2-2e50-46d8-a23e-14b174e1ef9e",
+          "evidence-a4bd0c68-f7e9-4f9e-8cf9-13a35ff2ea28"
+        ]
+      },
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "W101 Westford Mill Cotton Tote Bag, 38 x 42 cm, 10 L",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "Westford Mill",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "dimensions_cm",
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "capacity_l",
+              "value": 10,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 5,
+              "end": 18,
+              "original": "Westford Mill",
+              "field": "brand",
+              "parsed_value": "Westford Mill",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "Westford Mill",
+              "value": "Westford Mill",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "original": "Cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "original": "38 x 42 cm",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              },
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "fact_status": "public_source"
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "original": "10 L",
+              "field": "capacity_l",
+              "parsed_value": 10,
+              "method": "volume_to_litres",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 10,
+              "value": 10,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.item_highlights",
+          "claim": "100% cotton, 140 gsm (4.1 oz/yd²); 38 x 42 cm; 10 L capacity; 67 cm handles.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "additional_facts.0",
+              "value": "4.1oz/yd²",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "dimensions_cm",
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "capacity_l",
+              "value": 10,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 22,
+              "end": 32,
+              "original": "4.1 oz/yd²",
+              "field": "additional_facts.0",
+              "parsed_value": "4.1oz/yd²",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "4.1oz/yd²",
+              "value": "4.1oz/yd²",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 35,
+              "end": 45,
+              "original": "38 x 42 cm",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              },
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "fact_status": "public_source"
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "original": "10 L",
+              "field": "capacity_l",
+              "parsed_value": 10,
+              "method": "volume_to_litres",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 10,
+              "value": 10,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 62,
+              "end": 75,
+              "original": "67 cm handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b1",
+          "claim": "100% cotton tote bag with a 140 gsm (4.1 oz/yd²) fabric weight.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "additional_facts.0",
+              "value": "4.1oz/yd²",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 28,
+              "end": 35,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 37,
+              "end": 47,
+              "original": "4.1 oz/yd²",
+              "field": "additional_facts.0",
+              "parsed_value": "4.1oz/yd²",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "4.1oz/yd²",
+              "value": "4.1oz/yd²",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b2",
+          "claim": "Measures approximately 38 cm wide x 42 cm high and holds about 10 litres.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "dimensions_cm",
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "capacity_l",
+              "value": 10,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 23,
+              "end": 46,
+              "original": "38 cm wide x 42 cm high",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              },
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "fact_status": "public_source"
+            },
+            {
+              "start": 63,
+              "end": 72,
+              "original": "10 litres",
+              "field": "capacity_l",
+              "parsed_value": 10,
+              "method": "volume_to_litres",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 10,
+              "value": 10,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b3",
+          "claim": "67 cm handles let you carry it by hand or over the shoulder.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 13,
+              "original": "67 cm handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b5",
+          "claim": "Westford Mill W101 cotton tote bag.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "Westford Mill",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 13,
+              "original": "Westford Mill",
+              "field": "brand",
+              "parsed_value": "Westford Mill",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "Westford Mill",
+              "value": "Westford Mill",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "original": "cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.description",
+          "claim": "The Westford Mill W101 tote bag is made from 100% cotton with a 140 gsm (4.1 oz/yd²) fabric weight.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "Westford Mill",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "additional_facts.0",
+              "value": "4.1oz/yd²",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 4,
+              "end": 17,
+              "original": "Westford Mill",
+              "field": "brand",
+              "parsed_value": "Westford Mill",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "Westford Mill",
+              "value": "Westford Mill",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 45,
+              "end": 56,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 64,
+              "end": 71,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 73,
+              "end": 83,
+              "original": "4.1 oz/yd²",
+              "field": "additional_facts.0",
+              "parsed_value": "4.1oz/yd²",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "4.1oz/yd²",
+              "value": "4.1oz/yd²",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.description",
+          "claim": "Its 67 cm handles let you carry it by hand or over the shoulder.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 4,
+              "end": 17,
+              "original": "67 cm handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ],
+      "consistency": {
+        "state": "baseline",
+        "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+      }
+    },
+    {
+      "version": 18,
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "7b53ad78-8a18-4464-9847-3d750724d3cb",
+        "model": "deepseek-flash",
+        "elapsed_ms": 5412,
+        "usage": {
+          "prompt_tokens": 7214,
+          "completion_tokens": 1078,
+          "total_tokens": 8292,
+          "prompt_tokens_details": {
+            "cached_tokens": 7040
+          },
+          "prompt_cache_hit_tokens": 7040,
+          "prompt_cache_miss_tokens": 174
+        },
+        "prompt_version": "2026-10-23.parameters-v7",
+        "parameter_link_version": "structured-parameters-v1",
+        "audit_input_hash": "ef98eee43d2f8f0d41fe46bbce9acd3a3921553e8cc421fd31ed860d4465fdaf",
+        "rule_selection": "structured_scope_selection",
+        "source_ids": [
+          "AMZS-TITLE-2026",
+          "AMZS-DETAIL-US",
+          "FTCS-GREEN-SUMMARY",
+          "FTCS-AD-SUBSTANTIATION",
+          "FTCS-GUIDE-STATUS",
+          "FTCS-GUIDE-REGISTER",
+          "PROJECT-AMAZON-QUALITY",
+          "LIVE-WESTFORD-W101",
+          "evidence-0e0838ca-4bd6-4a4c-9fc2-af87f536c189",
+          "evidence-3fed154e-a8e9-48c2-acf9-5990327c96c7",
+          "evidence-4b1f3229-f49b-4ae8-bb66-d55ae8dfc9b9",
+          "evidence-4f92441e-eaa7-4f87-98f0-ec0f9c52cfbb",
+          "evidence-79c025b2-2e50-46d8-a23e-14b174e1ef9e",
+          "evidence-a4bd0c68-f7e9-4f9e-8cf9-13a35ff2ea28"
+        ]
+      },
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "W101 Westford Mill Cotton Tote Bag, 38 x 42 cm, 10 L",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "Westford Mill",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "dimensions_cm",
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "capacity_l",
+              "value": 10,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 5,
+              "end": 18,
+              "original": "Westford Mill",
+              "field": "brand",
+              "parsed_value": "Westford Mill",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "Westford Mill",
+              "value": "Westford Mill",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "original": "Cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 36,
+              "end": 46,
+              "original": "38 x 42 cm",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              },
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "fact_status": "public_source"
+            },
+            {
+              "start": 48,
+              "end": 52,
+              "original": "10 L",
+              "field": "capacity_l",
+              "parsed_value": 10,
+              "method": "volume_to_litres",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 10,
+              "value": 10,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.item_highlights",
+          "claim": "100% cotton, 140 gsm (4.1 oz/yd²); 38 x 42 cm; 10 L capacity; 67 cm handles.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "additional_facts.0",
+              "value": "4.1oz/yd²",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "dimensions_cm",
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "capacity_l",
+              "value": 10,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 13,
+              "end": 20,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 22,
+              "end": 32,
+              "original": "4.1 oz/yd²",
+              "field": "additional_facts.0",
+              "parsed_value": "4.1oz/yd²",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "4.1oz/yd²",
+              "value": "4.1oz/yd²",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 35,
+              "end": 45,
+              "original": "38 x 42 cm",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              },
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "fact_status": "public_source"
+            },
+            {
+              "start": 47,
+              "end": 51,
+              "original": "10 L",
+              "field": "capacity_l",
+              "parsed_value": 10,
+              "method": "volume_to_litres",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 10,
+              "value": 10,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 62,
+              "end": 75,
+              "original": "67 cm handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b1",
+          "claim": "100% cotton tote bag with a 140 gsm (4.1 oz/yd²) fabric weight.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "additional_facts.0",
+              "value": "4.1oz/yd²",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 28,
+              "end": 35,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 37,
+              "end": 47,
+              "original": "4.1 oz/yd²",
+              "field": "additional_facts.0",
+              "parsed_value": "4.1oz/yd²",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "4.1oz/yd²",
+              "value": "4.1oz/yd²",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b2",
+          "claim": "Measures approximately 38 cm wide x 42 cm high and holds about 10 litres.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "dimensions_cm",
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "capacity_l",
+              "value": 10,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 23,
+              "end": 46,
+              "original": "38 cm wide x 42 cm high",
+              "field": "dimensions_cm",
+              "parsed_value": {
+                "width": 38,
+                "height": 42
+              },
+              "method": "dimension_tuple_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": {
+                "width": 38,
+                "height": 42
+              },
+              "value": {
+                "width": 38,
+                "height": 42
+              },
+              "fact_status": "public_source"
+            },
+            {
+              "start": 63,
+              "end": 72,
+              "original": "10 litres",
+              "field": "capacity_l",
+              "parsed_value": 10,
+              "method": "volume_to_litres",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 10,
+              "value": 10,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b3",
+          "claim": "67 cm handles let you carry it by hand or over the shoulder.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 13,
+              "original": "67 cm handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b5",
+          "claim": "Westford Mill W101 cotton tote bag.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "Westford Mill",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 13,
+              "original": "Westford Mill",
+              "field": "brand",
+              "parsed_value": "Westford Mill",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "Westford Mill",
+              "value": "Westford Mill",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 19,
+              "end": 25,
+              "original": "cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.description",
+          "claim": "The Westford Mill W101 tote bag is made from 100% cotton with a 140 gsm (4.1 oz/yd²) fabric weight.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "Westford Mill",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "fabric_weight_gsm",
+              "value": 140,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            },
+            {
+              "field": "additional_facts.0",
+              "value": "4.1oz/yd²",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 4,
+              "end": 17,
+              "original": "Westford Mill",
+              "field": "brand",
+              "parsed_value": "Westford Mill",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "Westford Mill",
+              "value": "Westford Mill",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 45,
+              "end": 56,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "100% cotton",
+              "value": "100% cotton",
+              "fact_status": "public_source"
+            },
+            {
+              "start": 64,
+              "end": 71,
+              "original": "140 gsm",
+              "field": "fabric_weight_gsm",
+              "parsed_value": 140,
+              "method": "fabric_mass_per_area",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 140,
+              "value": 140,
+              "fact_status": "public_source"
+            },
+            {
+              "start": 73,
+              "end": 83,
+              "original": "4.1 oz/yd²",
+              "field": "additional_facts.0",
+              "parsed_value": "4.1oz/yd²",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": "4.1oz/yd²",
+              "value": "4.1oz/yd²",
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.description",
+          "claim": "Its 67 cm handles let you carry it by hand or over the shoulder.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "handle_length_cm",
+              "value": 67,
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "parameter_links": [
+            {
+              "start": 4,
+              "end": 17,
+              "original": "67 cm handles",
+              "field": "handle_length_cm",
+              "parsed_value": 67,
+              "method": "handle_length_to_cm",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "product_ref": "REAL-WESTFORD-W101@8",
+              "expected_value": 67,
+              "value": 67,
+              "fact_status": "public_source"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ],
+      "consistency": {
+        "state": "consistent",
+        "compared_version": 17,
+        "reason": "本次与上一版相同输入的审核结论一致；单次一致不代表长期稳定性。"
+      }
+    }
+  ],
+  "checks": [
+    "live_official_source",
+    "two_real_model_rechecks",
+    "atomic_links_identical_across_rechecks",
+    "identity_omission_no_longer_product_error",
+    "actual_recorded_source_ids",
+    "immutable_old_snapshot",
+    "unknown_retail_count_preserved",
+    "json_txt_html_atomic_links",
+    "browser_source_navigation",
+    "390px_no_overflow"
+  ],
+  "source": {
+    "url": "https://westfordmill.com/products/w101",
+    "checked_at": "2026-10-23T10:33:25.554Z",
+    "verified_fields": [
+      "material",
+      "fabric_weight_gsm",
+      "dimensions_cm",
+      "capacity_l"
+    ],
+    "retail_pack_still_unknown": true
+  },
+  "completed_at": "2026-10-23T10:33:42.302Z",
+  "final_version": 18,
+  "unresolved": {
+    "issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ],
+    "unchecked": []
+  }
+}

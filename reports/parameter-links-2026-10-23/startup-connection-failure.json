@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-23T10:32:41.387Z",
+  "public_product_only": true,
+  "merchant_owned_sku_tested": false,
+  "calls": [],
+  "versions": [],
+  "checks": [],
+  "failure": {
+    "name": "TypeError",
+    "message": "fetch failed"
+  }
+}

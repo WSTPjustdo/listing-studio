@@ -1,0 +1,96 @@
+{
+  "evidence_type": "engineering_reproduction_not_model_acceptance",
+  "source_record": "reports/parameter-links-2026-10-23/actual-export.json",
+  "source_ids": [
+    "LIVE-WESTFORD-W101"
+  ],
+  "original_recorded_material": "100% cotton",
+  "controlled_translation": "100% 棉",
+  "content": {
+    "title": "100% cotton",
+    "item_highlights": "",
+    "bullet_points": [],
+    "description": ""
+  },
+  "parsed": {
+    "text": "100% 棉",
+    "ingredients": [
+      {
+        "fiber": "cotton",
+        "percent": 100
+      }
+    ],
+    "fibers": [
+      "cotton"
+    ],
+    "percents": {
+      "cotton": 100
+    },
+    "totalPercent": 100,
+    "blend": false
+  },
+  "comparison": {
+    "state": "match",
+    "note": ""
+  },
+  "evidence": [
+    {
+      "field_path": "content.title",
+      "claim": "100% cotton",
+      "state": "parameters_aligned",
+      "facts": [
+        {
+          "field": "material",
+          "value": "100% 棉",
+          "source_ids": [
+            "LIVE-WESTFORD-W101"
+          ]
+        }
+      ],
+      "mapped": true,
+      "model_mapped": false,
+      "association_method": "structured-parameters-v2.4",
+      "product_ref": "REAL-WESTFORD-W101@8",
+      "parameter_links": [
+        {
+          "start": 0,
+          "end": 4,
+          "original": "100%",
+          "field": "material",
+          "parsed_value": "100% 棉",
+          "method": "material_percentage",
+          "status": "matched",
+          "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+          "source_ids": [
+            "LIVE-WESTFORD-W101"
+          ],
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "expected_value": "100% 棉",
+          "value": "100% 棉",
+          "fact_status": "public_source"
+        }
+      ],
+      "unresolved_parameters": [],
+      "not_covered_parameters": [],
+      "parameter_coverage": {
+        "recognized": 1,
+        "matched": 1,
+        "unresolved": 0,
+        "not_covered": 0,
+        "whole_sentence_proven": false
+      },
+      "semantic_status": "separate_review_required",
+      "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+    }
+  ],
+  "engineering_test_command": "node --test tests/chinese-cotton-evidence.test.mjs tests/parameter-integration.test.mjs tests/decimal-percent-evidence.test.mjs tests/evidence.test.mjs tests/de-rules.test.mjs tests/fr-fibre.test.mjs tests/de-textil.test.mjs tests/domain.test.mjs",
+  "engineering_test_result": {
+    "pass": 79,
+    "fail": 0
+  },
+  "limitations": [
+    "Chinese recognition is restricted to independent 棉 / 棉纤维 tokens.",
+    "Unknown composition remains manual review, never inferred absence.",
+    "This is deterministic engineering reproduction, not a paid model acceptance."
+  ]
+}

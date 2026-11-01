@@ -1,0 +1,1229 @@
+{
+  "updated_at": "2026-10-23T10:11:58.307Z",
+  "actual_response_count": 33,
+  "total_tokens": 215760,
+  "notice": "含开发排错、格式重试与多次复验，不是每个商品的常规成本；金额未知。未调用模拟模型。",
+  "public_product_cases_only": true,
+  "merchant_trial_completed": false,
+  "source_timeout_record": "source-timeout.json",
+  "failed_runs": [
+    {
+      "run_id": "run-8dfced8f-2ba7-42bd-a9c5-fe45f5d49152",
+      "error": {
+        "code": "MODEL_INVALID_JSON",
+        "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。"
+      },
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "261faedd-0cca-40d4-893d-f40fcd030cb3",
+        "model": "deepseek-flash",
+        "elapsed_ms": 4205,
+        "usage": {
+          "prompt_tokens": 7165,
+          "completion_tokens": 936,
+          "total_tokens": 8101,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 6269
+        }
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": false,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "c67c15f1-6be3-4852-ac84-cbb1e0c22a3c",
+            "model": "deepseek-flash",
+            "elapsed_ms": 4681,
+            "usage": {
+              "prompt_tokens": 7107,
+              "completion_tokens": 1032,
+              "total_tokens": 8139,
+              "prompt_tokens_details": {
+                "cached_tokens": 6912
+              },
+              "prompt_cache_hit_tokens": 6912,
+              "prompt_cache_miss_tokens": 195
+            }
+          }
+        }
+      }
+    }
+  ],
+  "calls": [
+    {
+      "request_id": "225d4812-8bad-4ab9-ba0f-d120e1498f1b",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2255,
+      "usage": {
+        "prompt_tokens": 4180,
+        "completion_tokens": 326,
+        "total_tokens": 4506,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3412
+      },
+      "context": "live-acceptance-1792748696976 / 真实商品生成与独立审核",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "ea51b316-f686-4879-a895-0d4f474e5bd7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6173,
+      "usage": {
+        "prompt_tokens": 4448,
+        "completion_tokens": 1519,
+        "total_tokens": 5967,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3680
+      },
+      "context": "live-acceptance-1792748696976 / 真实商品生成与独立审核",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "28c054d7-5db4-4c2a-8c53-235960331860",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1654,
+      "usage": {
+        "prompt_tokens": 5839,
+        "completion_tokens": 302,
+        "total_tokens": 6141,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5071
+      },
+      "context": "live-acceptance-1792748696976 / 真实问题审查修复与复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "f0a27e03-ef1a-4869-968a-0c7aa0956426",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4689,
+      "usage": {
+        "prompt_tokens": 4424,
+        "completion_tokens": 1023,
+        "total_tokens": 5447,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 3272
+      },
+      "context": "live-acceptance-1792748696976 / 真实问题审查修复与复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "578ef3bb-c093-40f3-a161-32985ec0c93f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4134,
+      "usage": {
+        "prompt_tokens": 4461,
+        "completion_tokens": 989,
+        "total_tokens": 5450,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3693
+      },
+      "context": "live-acceptance-1792748696976 / 补充真实规格后原任务复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "cee0b549-0c39-47ef-8324-4df5123ff7f5",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1921,
+      "usage": {
+        "prompt_tokens": 4204,
+        "completion_tokens": 259,
+        "total_tokens": 4463,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3436
+      },
+      "context": "live-acceptance-1792749604793 / 真实商品生成与独立审核",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "d3def903-789a-45bf-b6f1-567bf97ba4d2",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5421,
+      "usage": {
+        "prompt_tokens": 4405,
+        "completion_tokens": 1174,
+        "total_tokens": 5579,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3637
+      },
+      "context": "live-acceptance-1792749604793 / 真实商品生成与独立审核",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "f8914c70-90ae-4dd4-ae9f-ac33fd94253f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2483,
+      "usage": {
+        "prompt_tokens": 5401,
+        "completion_tokens": 263,
+        "total_tokens": 5664,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 4633
+      },
+      "context": "live-acceptance-1792749604793 / 真实问题审查修复与复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "2a03eeb3-c8b9-4bc4-884c-f7aacfe8f361",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4364,
+      "usage": {
+        "prompt_tokens": 4409,
+        "completion_tokens": 964,
+        "total_tokens": 5373,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3001
+      },
+      "context": "live-acceptance-1792749604793 / 真实问题审查修复与复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "cb27d6fe-a5c4-4624-ab5a-cc299bedc878",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4836,
+      "usage": {
+        "prompt_tokens": 4446,
+        "completion_tokens": 1005,
+        "total_tokens": 5451,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 3550
+      },
+      "context": "live-acceptance-1792749604793 / 补充真实规格后原任务复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "922cd863-0bd0-4dbe-a674-8f315549df10",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2076,
+      "usage": {
+        "prompt_tokens": 4204,
+        "completion_tokens": 268,
+        "total_tokens": 4472,
+        "prompt_tokens_details": {
+          "cached_tokens": 3840
+        },
+        "prompt_cache_hit_tokens": 3840,
+        "prompt_cache_miss_tokens": 364
+      },
+      "context": "live-acceptance-1792749704620 / 真实商品生成与独立审核",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "4258f3e9-969c-470e-b764-9cbe2ec151b2",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6583,
+      "usage": {
+        "prompt_tokens": 4414,
+        "completion_tokens": 1366,
+        "total_tokens": 5780,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 3134
+      },
+      "context": "live-acceptance-1792749704620 / 真实商品生成与独立审核",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "5586eb47-ce0f-4294-b280-02eca5837694",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1942,
+      "usage": {
+        "prompt_tokens": 5966,
+        "completion_tokens": 276,
+        "total_tokens": 6242,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 4686
+      },
+      "context": "live-acceptance-1792749704620 / 真实问题审查修复与复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "04859efb-f8bf-41a5-ac53-36f20084d794",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4853,
+      "usage": {
+        "prompt_tokens": 4422,
+        "completion_tokens": 999,
+        "total_tokens": 5421,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 3142
+      },
+      "context": "live-acceptance-1792749704620 / 真实问题审查修复与复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "2b26e50d-9ead-462a-8a5f-79d27b37d137",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5161,
+      "usage": {
+        "prompt_tokens": 4459,
+        "completion_tokens": 1087,
+        "total_tokens": 5546,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "prompt_cache_hit_tokens": 1280,
+        "prompt_cache_miss_tokens": 3179
+      },
+      "context": "live-acceptance-1792749704620 / 补充真实规格后原任务复检",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "9726cbc4-19ef-4343-bf22-cc099b08a43f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4821,
+      "usage": {
+        "prompt_tokens": 5866,
+        "completion_tokens": 967,
+        "total_tokens": 6833,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5098
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V8",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "0a0e3e08-74fc-4d33-adfb-b059d1f2940f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4316,
+      "usage": {
+        "prompt_tokens": 5866,
+        "completion_tokens": 1020,
+        "total_tokens": 6886,
+        "prompt_tokens_details": {
+          "cached_tokens": 5632
+        },
+        "prompt_cache_hit_tokens": 5632,
+        "prompt_cache_miss_tokens": 234
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V9",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "adf51ded-448a-4938-a9f2-b7bc6d20d1af",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1333,
+      "usage": {
+        "prompt_tokens": 5939,
+        "completion_tokens": 276,
+        "total_tokens": 6215,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5171
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V10",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "0c44c4c5-ac3b-442b-83f9-fcc28228226f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5138,
+      "usage": {
+        "prompt_tokens": 5899,
+        "completion_tokens": 1133,
+        "total_tokens": 7032,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5131
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V10",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "7abdf86e-0580-404e-83a7-5b0ac2b3807d",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1144,
+      "usage": {
+        "prompt_tokens": 5950,
+        "completion_tokens": 245,
+        "total_tokens": 6195,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5182
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V11",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "56903d31-8ffe-4302-9add-97bacc12d66c",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4328,
+      "usage": {
+        "prompt_tokens": 5868,
+        "completion_tokens": 982,
+        "total_tokens": 6850,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5100
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V11 / format_retry",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "1aec5d0d-eb47-4836-ae25-fc8acd98a4dc",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8343,
+      "usage": {
+        "prompt_tokens": 5926,
+        "completion_tokens": 905,
+        "total_tokens": 6831,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5158
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V11",
+      "format_recovered": true,
+      "elapsed_scope": "inference_operation_including_format_retry"
+    },
+    {
+      "request_id": "50a1ad33-86bf-435c-9f03-b522e839a22c",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4502,
+      "usage": {
+        "prompt_tokens": 6689,
+        "completion_tokens": 996,
+        "total_tokens": 7685,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5921
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V12 / format_retry",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "c54cf16d-45a4-41a6-8617-f9743dc85014",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8521,
+      "usage": {
+        "prompt_tokens": 6747,
+        "completion_tokens": 919,
+        "total_tokens": 7666,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 5851
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V12",
+      "format_recovered": true,
+      "elapsed_scope": "inference_operation_including_format_retry"
+    },
+    {
+      "request_id": "410270a4-0414-4789-92d7-ced78864af78",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4471,
+      "usage": {
+        "prompt_tokens": 6689,
+        "completion_tokens": 978,
+        "total_tokens": 7667,
+        "prompt_tokens_details": {
+          "cached_tokens": 6528
+        },
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 161
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V13 / format_retry",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "f5b759f0-2402-421c-b03f-68d670ca67b2",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8932,
+      "usage": {
+        "prompt_tokens": 6747,
+        "completion_tokens": 954,
+        "total_tokens": 7701,
+        "prompt_tokens_details": {
+          "cached_tokens": 6528
+        },
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 219
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V13",
+      "format_recovered": true,
+      "elapsed_scope": "inference_operation_including_format_retry"
+    },
+    {
+      "request_id": "5e4f0bb3-b3f9-4f63-bee8-ec8e52a4114a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4319,
+      "usage": {
+        "prompt_tokens": 7107,
+        "completion_tokens": 977,
+        "total_tokens": 8084,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6339
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V14",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "a75ae431-618f-49b2-8c86-3392d146790c",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4878,
+      "usage": {
+        "prompt_tokens": 7107,
+        "completion_tokens": 1020,
+        "total_tokens": 8127,
+        "prompt_tokens_details": {
+          "cached_tokens": 6912
+        },
+        "prompt_cache_hit_tokens": 6912,
+        "prompt_cache_miss_tokens": 195
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V15 / format_retry",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "fe0c711c-b71a-4b42-88f6-36814b0f9df0",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8739,
+      "usage": {
+        "prompt_tokens": 7165,
+        "completion_tokens": 913,
+        "total_tokens": 8078,
+        "prompt_tokens_details": {
+          "cached_tokens": 6912
+        },
+        "prompt_cache_hit_tokens": 6912,
+        "prompt_cache_miss_tokens": 253
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V15",
+      "format_recovered": true,
+      "elapsed_scope": "inference_operation_including_format_retry"
+    },
+    {
+      "request_id": "87632afe-e103-43c5-9091-ba7a704a34bf",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4397,
+      "usage": {
+        "prompt_tokens": 7107,
+        "completion_tokens": 977,
+        "total_tokens": 8084,
+        "prompt_tokens_details": {
+          "cached_tokens": 6912
+        },
+        "prompt_cache_hit_tokens": 6912,
+        "prompt_cache_miss_tokens": 195
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V16 / format_retry",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "cc88376c-919f-42dc-bd0d-2db4e4b7fe58",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8367,
+      "usage": {
+        "prompt_tokens": 7165,
+        "completion_tokens": 919,
+        "total_tokens": 8084,
+        "prompt_tokens_details": {
+          "cached_tokens": 6912
+        },
+        "prompt_cache_hit_tokens": 6912,
+        "prompt_cache_miss_tokens": 253
+      },
+      "context": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583 V16",
+      "format_recovered": true,
+      "elapsed_scope": "inference_operation_including_format_retry"
+    },
+    {
+      "request_id": "261faedd-0cca-40d4-893d-f40fcd030cb3",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4205,
+      "usage": {
+        "prompt_tokens": 7165,
+        "completion_tokens": 936,
+        "total_tokens": 8101,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6269
+      },
+      "context": "FAILED run-8dfced8f-2ba7-42bd-a9c5-fe45f5d49152",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    },
+    {
+      "request_id": "c67c15f1-6be3-4852-ac84-cbb1e0c22a3c",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4681,
+      "usage": {
+        "prompt_tokens": 7107,
+        "completion_tokens": 1032,
+        "total_tokens": 8139,
+        "prompt_tokens_details": {
+          "cached_tokens": 6912
+        },
+        "prompt_cache_hit_tokens": 6912,
+        "prompt_cache_miss_tokens": 195
+      },
+      "context": "FAILED run-8dfced8f-2ba7-42bd-a9c5-fe45f5d49152 / first_attempt",
+      "format_recovered": null,
+      "elapsed_scope": "single_response"
+    }
+  ],
+  "isolated_live_workflows": [
+    {
+      "run": "live-acceptance-1792748696976",
+      "source_url": "https://westfordmill.com/products/w101",
+      "completed_at": "2026-10-23T09:45:29.996Z",
+      "steps": [
+        {
+          "label": "真实商品生成与独立审核",
+          "status": "succeeded",
+          "version": 1,
+          "request_id": "ea51b316-f686-4879-a895-0d4f474e5bd7",
+          "content_brief": null,
+          "issues": [
+            {
+              "issue_id": "bfe5f8aba5cb09",
+              "rule_id": "AMZ-02",
+              "category": "platform_rules",
+              "title": "亮点长度",
+              "severity": "suggestion",
+              "field_path": "content.item_highlights",
+              "original": "100% cotton tote bag at 140gsm (4.1oz/yd²); carry by hand or over the shoulder; cut-away label for easy rebranding",
+              "reason": "亮点字段共 119 个字符，未超过 125 字符上限，长度检查通过；但该字段同时包含三项事实，若后续增补内容容易超限，建议保持精简。",
+              "suggestion": "保持现有精简表述，不再追加内容；如确需补充，先重新计数。",
+              "method": "model_assisted",
+              "source_ids": [
+                "AMZS-TITLE-2026"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "5c971c22e22969",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b2",
+              "original": "CARRY YOUR WAY: Designed to be carried by hand or over the shoulder for flexible, hands-free carrying.",
+              "reason": "官方原文仅说明可手提或肩背，未说明“hands-free（解放双手）”；该表述属于对使用方式的额外推断，超出已提供依据。",
+              "suggestion": "删除“hands-free”推断，仅保留可手提或肩背的原文表述。",
+              "method": "model_assisted",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "6960bfb7d52cca",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "suggestion",
+              "field_path": "content.bullet_points.b1",
+              "original": "100% COTTON FABRIC: Made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight for a lightweight, everyday tote.",
+              "reason": "100% 棉与 140gsm（4.1oz/yd²）有官方原文支持；“lightweight（轻量）”为未量化的主观描述，缺少对比基准。",
+              "suggestion": "保留材质与克重事实，删除或弱化无依据的“lightweight”评价。",
+              "method": "model_assisted",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "28ddd51c8cb592",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b4",
+              "original": "SIMPLE, VERSATILE DESIGN: A plain cotton tote that suits everyday carrying, shopping trips and promotional use.",
+              "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+              "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "24fd5205f1bf65",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.description",
+              "original": "A straightforward cotton tote for everyday carrying, shopping and promotional use.",
+              "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+              "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            }
+          ],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 8598
+        },
+        {
+          "label": "真实问题审查修复与复检",
+          "status": "succeeded",
+          "version": 2,
+          "request_id": "f0a27e03-ef1a-4869-968a-0c7aa0956426",
+          "content_brief": null,
+          "issues": [],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 6643
+        },
+        {
+          "label": "补充真实规格后原任务复检",
+          "status": "succeeded",
+          "version": 3,
+          "request_id": "578ef3bb-c093-40f3-a161-32985ec0c93f",
+          "content_brief": null,
+          "issues": [],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 4569
+        }
+      ]
+    },
+    {
+      "run": "live-acceptance-1792749604793",
+      "source_url": "https://westfordmill.com/products/w101",
+      "completed_at": "2026-10-23T10:00:28.259Z",
+      "steps": [
+        {
+          "label": "真实商品生成与独立审核",
+          "status": "succeeded",
+          "version": 1,
+          "request_id": "d3def903-789a-45bf-b6f1-567bf97ba4d2",
+          "content_brief": {
+            "audience": "日常购物用户",
+            "use_case": "日常携带",
+            "concern": "材质与规格",
+            "style": "参数清晰"
+          },
+          "issues": [
+            {
+              "issue_id": "b2926d839d5c29",
+              "rule_id": "AMZ-05",
+              "category": "platform_rules",
+              "title": "商品描述准确性",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b4",
+              "original": "A simple cotton tote made by Westford Mill for daily carrying.",
+              "reason": "“made by Westford Mill”暗示 Westford Mill 为生产制造商，但结构化事实仅确认品牌为 Westford Mill，未确认其为制造商；品牌归属不等于生产方。",
+              "suggestion": "改为仅陈述品牌归属，例如“Westford Mill branded cotton tote for daily carrying.”，不声称制造关系。",
+              "method": "model_assisted",
+              "source_ids": [
+                "AMZS-DETAIL-US"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "ba401be945625a",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "suggestion",
+              "field_path": "content.bullet_points.b5",
+              "original": "Check the product details above for the specifications that matter to you.",
+              "reason": "该句为无信息量的占位表述，未关联任何已确认商品参数，无法映射到结构化事实或原文依据。",
+              "suggestion": "删除该占位句，或替换为已确认事实（如 100% cotton、140gsm）的表述。",
+              "method": "model_assisted",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "6964afdc33c928",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.description",
+              "original": "A straightforward cotton tote for everyday carrying.",
+              "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+              "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            }
+          ],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 7669
+        },
+        {
+          "label": "真实问题审查修复与复检",
+          "status": "succeeded",
+          "version": 2,
+          "request_id": "2a03eeb3-c8b9-4bc4-884c-f7aacfe8f361",
+          "content_brief": {
+            "audience": "日常购物用户",
+            "use_case": "日常携带",
+            "concern": "材质与规格",
+            "style": "参数清晰"
+          },
+          "issues": [
+            {
+              "issue_id": "5140875069665c",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b4",
+              "original": "Westford Mill branded cotton tote for daily carrying.",
+              "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+              "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "a2b36b4274fe0c",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.description",
+              "original": "A cotton tote for everyday carrying.",
+              "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+              "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            }
+          ],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 7129
+        },
+        {
+          "label": "补充真实规格后原任务复检",
+          "status": "succeeded",
+          "version": 3,
+          "request_id": "cb27d6fe-a5c4-4624-ab5a-cc299bedc878",
+          "content_brief": {
+            "audience": "日常购物用户",
+            "use_case": "日常携带",
+            "concern": "材质与规格",
+            "style": "参数清晰"
+          },
+          "issues": [
+            {
+              "issue_id": "a2b36b4274fe0c",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.description",
+              "original": "A cotton tote for everyday carrying.",
+              "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+              "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            }
+          ],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 5104
+        }
+      ]
+    },
+    {
+      "run": "live-acceptance-1792749704620",
+      "source_url": "https://westfordmill.com/products/w101",
+      "completed_at": "2026-10-23T10:02:11.627Z",
+      "steps": [
+        {
+          "label": "真实商品生成与独立审核",
+          "status": "succeeded",
+          "version": 1,
+          "request_id": "4258f3e9-969c-470e-b764-9cbe2ec151b2",
+          "content_brief": {
+            "audience": "日常购物用户",
+            "use_case": "日常携带",
+            "concern": "材质与规格",
+            "style": "参数清晰"
+          },
+          "issues": [
+            {
+              "issue_id": "2e1eaa9a7014d7",
+              "rule_id": "AMZ-01",
+              "category": "platform_rules",
+              "title": "标题长度",
+              "severity": "suggestion",
+              "field_path": "content.title",
+              "original": "Westford Mill W101 100% Cotton Tote Bag, 140gsm",
+              "reason": "标题共 47 个字符（含空格），未超过 75 字符上限。",
+              "suggestion": "无需修改。",
+              "method": "model_assisted",
+              "source_ids": [
+                "AMZS-TITLE-2026"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "3888b797e9de41",
+              "rule_id": "AMZ-02",
+              "category": "platform_rules",
+              "title": "亮点长度",
+              "severity": "suggestion",
+              "field_path": "content.item_highlights",
+              "original": "100% cotton, 140gsm (4.1oz/yd²); carry by hand or over the shoulder; CutAway label for rebranding",
+              "reason": "亮点共 103 个字符（含空格），未超过 125 字符上限。",
+              "suggestion": "无需修改。",
+              "method": "model_assisted",
+              "source_ids": [
+                "AMZS-TITLE-2026"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "4d6a0854baaf2b",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b4",
+              "original": "Simple cotton construction suited to everyday carrying.",
+              "reason": "“suited to everyday carrying”属于使用场景与适用性表述，结构化事实仅确认材质为 100% cotton，未提供日常携带适用性或耐用性依据，整句缺乏可核验支撑。",
+              "suggestion": "删除该句，或改为仅陈述已确认的材质与克重事实。",
+              "method": "model_assisted",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "15b70612f0f4e7",
+              "rule_id": "EVID-01",
+              "category": "product_fact_quality",
+              "title": "卖点证据待核验",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b5",
+              "original": "Westford Mill W101 style; see the product details above for the specifications confirmed for this listing.",
+              "reason": "“see the product details above”指向页面其他位置，属于无实质信息的指引性表述，且“style”未在结构化事实中确认，整句缺乏可核验的商品信息支撑。",
+              "suggestion": "删除该句，或替换为已确认的材质、克重或携带方式事实。",
+              "method": "model_assisted",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "70e1039fc1fa59",
+              "rule_id": "SYS-01",
+              "category": "system_integrity",
+              "title": "引用可追溯",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b4",
+              "original": "Simple cotton construction suited to everyday carrying.",
+              "reason": "商品参数已对照，但模型未返回该句对应的证据映射，该句审核尚未完成；这不是缺少商品资料。",
+              "suggestion": "核对已有参数及来源后重新审阅，无需向采购重复索取相同资料。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            },
+            {
+              "issue_id": "1cdad79cc050c1",
+              "rule_id": "SYS-01",
+              "category": "system_integrity",
+              "title": "引用可追溯",
+              "severity": "needs_review",
+              "field_path": "content.bullet_points.b5",
+              "original": "Westford Mill W101 style; see the product details above for the specifications confirmed for this listing.",
+              "reason": "商品参数已对照，但模型未返回该句对应的证据映射，该句审核尚未完成；这不是缺少商品资料。",
+              "suggestion": "核对已有参数及来源后重新审阅，无需向采购重复索取相同资料。",
+              "method": "deterministic",
+              "source_ids": [
+                "PROJECT-AMAZON-QUALITY"
+              ],
+              "status": "open"
+            }
+          ],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 8703
+        },
+        {
+          "label": "真实问题审查修复与复检",
+          "status": "succeeded",
+          "version": 2,
+          "request_id": "04859efb-f8bf-41a5-ac53-36f20084d794",
+          "content_brief": {
+            "audience": "日常购物用户",
+            "use_case": "日常携带",
+            "concern": "材质与规格",
+            "style": "参数清晰"
+          },
+          "issues": [],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 7153
+        },
+        {
+          "label": "补充真实规格后原任务复检",
+          "status": "succeeded",
+          "version": 3,
+          "request_id": "2b26e50d-9ead-462a-8a5f-79d27b37d137",
+          "content_brief": {
+            "audience": "日常购物用户",
+            "use_case": "日常携带",
+            "concern": "材质与规格",
+            "style": "参数清晰"
+          },
+          "issues": [],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "elapsed_ms": 5610
+        }
+      ]
+    }
+  ],
+  "current_listing": {
+    "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+    "version": 16,
+    "rule_pack_version": "amazon-us-tote-2026-10-23.merchant-v5",
+    "prompt_version": "2026-10-23.handoff-v6",
+    "consistency": {
+      "state": "consistent",
+      "compared_version": 15,
+      "reason": "本次与上一版相同输入的审核结论一致；单次一致不代表长期稳定性。"
+    },
+    "issues": [
+      {
+        "issue_id": "f8f267f4b8cce8",
+        "rule_id": "SYS-01",
+        "category": "system_integrity",
+        "title": "引用可追溯",
+        "severity": "needs_review",
+        "field_path": "content.bullet_points.b5",
+        "original": "Westford Mill W101 cotton tote bag.",
+        "reason": "商品参数已对照，但模型未返回该句对应的证据映射，该句审核尚未完成；这不是缺少商品资料。",
+        "suggestion": "核对已有参数及来源后重新审阅，无需向采购重复索取相同资料。",
+        "method": "deterministic",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "status": "open"
+      }
+    ],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ]
+  },
+  "same_input_observations": [
+    {
+      "version": 9,
+      "state": "changed",
+      "compared_version": 8,
+      "reason": "文案、商品资料、规则、来源和模型配置未变化，但审核结论发生变化；请人工核对两个版本。本轮未再检出不表示问题已解决。"
+    },
+    {
+      "version": 16,
+      "state": "consistent",
+      "compared_version": 15,
+      "reason": "本次与上一版相同输入的审核结论一致；单次一致不代表长期稳定性。"
+    }
+  ]
+}

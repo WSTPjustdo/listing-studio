@@ -1,0 +1,423 @@
+{
+  "generated_at": "2026-10-31T03:53:41.226Z",
+  "model": "deepseek-flash",
+  "calls": 23,
+  "measured_total_tokens": 213640,
+  "unknown_usage_calls": 0,
+  "unknown_elapsed_calls": 0,
+  "failed_calls": 8,
+  "standard_raw_response_count": 7,
+  "billing_amount": null,
+  "notice": "Actual responses including failed and retried calls; tokens are not a currency charge or reliability guarantee.",
+  "calls_detail": [
+    {
+      "request_id": "3ed61f47-989f-4c3c-bfba-8126b5ca2e97",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3776,
+      "usage": {
+        "prompt_tokens": 6017,
+        "completion_tokens": 879,
+        "total_tokens": 6896,
+        "prompt_tokens_details": {
+          "cached_tokens": 5883
+        },
+        "prompt_cache_hit_tokens": 5883,
+        "prompt_cache_miss_tokens": 134
+      },
+      "http_status": 200,
+      "scope": "standard-live",
+      "outcome": "response_recorded",
+      "error_code": null
+    },
+    {
+      "request_id": "786fcade-90c2-4550-997e-fec5ee33e6c7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3923,
+      "usage": {
+        "prompt_tokens": 6054,
+        "completion_tokens": 867,
+        "total_tokens": 6921,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4134
+      },
+      "http_status": 200,
+      "scope": "standard-live",
+      "outcome": "response_recorded",
+      "error_code": null
+    },
+    {
+      "request_id": "8145fa20-c958-4392-9119-166ab996230a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1488,
+      "usage": {
+        "prompt_tokens": 6691,
+        "completion_tokens": 209,
+        "total_tokens": 6900,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4771
+      },
+      "http_status": 200,
+      "scope": "standard-live",
+      "outcome": "response_recorded",
+      "error_code": null
+    },
+    {
+      "request_id": "a34d5b7d-840b-40a7-84ee-7dd496076e19",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6596,
+      "usage": {
+        "prompt_tokens": 6102,
+        "completion_tokens": 485,
+        "total_tokens": 6587,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "prompt_cache_hit_tokens": 2048,
+        "prompt_cache_miss_tokens": 4054
+      },
+      "http_status": 200,
+      "scope": "standard-live",
+      "outcome": "response_recorded",
+      "error_code": null
+    },
+    {
+      "request_id": "ce3f9e70-8c6c-4c7b-8324-cbd606ec8444",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1694,
+      "usage": {
+        "prompt_tokens": 5866,
+        "completion_tokens": 209,
+        "total_tokens": 6075,
+        "prompt_tokens_details": {
+          "cached_tokens": 5504
+        },
+        "prompt_cache_hit_tokens": 5504,
+        "prompt_cache_miss_tokens": 362
+      },
+      "http_status": 200,
+      "scope": "standard-live",
+      "outcome": "response_recorded",
+      "error_code": null
+    },
+    {
+      "request_id": "e12a84ba-b751-4c12-8543-16fefbb132ec",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6746,
+      "usage": {
+        "prompt_tokens": 6139,
+        "completion_tokens": 500,
+        "total_tokens": 6639,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 4603
+      },
+      "http_status": 200,
+      "scope": "standard-live",
+      "outcome": "response_recorded",
+      "error_code": null
+    },
+    {
+      "request_id": "f7fd0455-e8b6-45c4-9d49-4e83d05ebb7a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4035,
+      "usage": {
+        "prompt_tokens": 6017,
+        "completion_tokens": 912,
+        "total_tokens": 6929,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 4097
+      },
+      "http_status": 200,
+      "scope": "standard-live",
+      "outcome": "response_recorded",
+      "error_code": null
+    },
+    {
+      "request_id": "1ddb9f72-3ff5-4de9-8ef7-792d9e462390",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:45:09.000Z",
+      "elapsed_ms": 3519,
+      "usage": {
+        "prompt_tokens": 6054,
+        "completion_tokens": 517,
+        "total_tokens": 6571
+      },
+      "http_status": 200,
+      "scope": "standard-and-browser-live",
+      "operation": "diagnose",
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "request_id": "0751139d-0f39-47ed-897b-e234e0b2857b",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:45:12.242Z",
+      "elapsed_ms": 3238,
+      "usage": {
+        "prompt_tokens": 6139,
+        "completion_tokens": 565,
+        "total_tokens": 6704
+      },
+      "http_status": 200,
+      "scope": "standard-and-browser-live",
+      "operation": "diagnose",
+      "outcome": "ok",
+      "error_code": null
+    },
+    {
+      "request_id": "74cc24b6-6731-4a86-ad3c-a14fe143972f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 15201,
+      "usage": {
+        "prompt_tokens": 10786,
+        "completion_tokens": 1154,
+        "total_tokens": 11940
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "at": "2026-10-31T03:46:16.170Z",
+      "operation": "prompt_plan"
+    },
+    {
+      "request_id": "909d9758-997c-4912-867e-904734fe0fa7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 10533,
+      "usage": {
+        "prompt_tokens": 10838,
+        "completion_tokens": 1515,
+        "total_tokens": 12353
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "ok",
+      "error_code": null,
+      "at": "2026-10-31T03:46:26.718Z",
+      "operation": "prompt_plan"
+    },
+    {
+      "request_id": "797b81db-3fb4-4de0-8957-dae5bf49e686",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3100,
+      "usage": {
+        "prompt_tokens": 20705,
+        "completion_tokens": 430,
+        "total_tokens": 21135
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "ok",
+      "error_code": null,
+      "at": "2026-10-31T03:46:29.853Z",
+      "operation": "create"
+    },
+    {
+      "request_id": "5a2ede5a-b3c0-40e3-b097-9ed46e028f6b",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4903,
+      "usage": {
+        "prompt_tokens": 13803,
+        "completion_tokens": 1124,
+        "total_tokens": 14927
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "ok",
+      "error_code": null,
+      "at": "2026-10-31T03:46:34.772Z",
+      "operation": "diagnose"
+    },
+    {
+      "request_id": "efa7664f-acd0-46ab-8288-212cfc66a9f0",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:46:39.677Z",
+      "elapsed_ms": 4224,
+      "usage": {
+        "prompt_tokens": 6054,
+        "completion_tokens": 959,
+        "total_tokens": 7013
+      },
+      "http_status": 200,
+      "scope": "standard-and-browser-live",
+      "operation": "diagnose",
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON"
+    },
+    {
+      "request_id": "b0821ae6-9eb5-4636-8216-3cce1018ea50",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:46:42.906Z",
+      "elapsed_ms": 3226,
+      "usage": {
+        "prompt_tokens": 6139,
+        "completion_tokens": 501,
+        "total_tokens": 6640
+      },
+      "http_status": 200,
+      "scope": "standard-and-browser-live",
+      "operation": "diagnose",
+      "outcome": "ok",
+      "error_code": null
+    },
+    {
+      "request_id": "d90ae120-e684-4d60-ada1-c0d7dbea543c",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8756,
+      "usage": {
+        "prompt_tokens": 6579,
+        "completion_tokens": 1212,
+        "total_tokens": 7791
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "ok",
+      "error_code": null,
+      "at": "2026-10-31T03:47:59.549Z",
+      "operation": "prompt_plan"
+    },
+    {
+      "request_id": "84323310-8a0f-4510-b228-d95d71332348",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1490,
+      "usage": {
+        "prompt_tokens": 12670,
+        "completion_tokens": 274,
+        "total_tokens": 12944
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "ok",
+      "error_code": null,
+      "at": "2026-10-31T03:48:01.083Z",
+      "operation": "create"
+    },
+    {
+      "request_id": "34382747-e360-4ac0-9e85-d4e6a65950fc",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4852,
+      "usage": {
+        "prompt_tokens": 9043,
+        "completion_tokens": 1097,
+        "total_tokens": 10140
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "at": "2026-10-31T03:48:05.949Z",
+      "operation": "diagnose"
+    },
+    {
+      "request_id": "c1f603ae-9696-4982-be7d-a5b7348a7ac0",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3326,
+      "usage": {
+        "prompt_tokens": 9128,
+        "completion_tokens": 581,
+        "total_tokens": 9709
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "outcome": "ok",
+      "error_code": null,
+      "at": "2026-10-31T03:48:09.281Z",
+      "operation": "diagnose"
+    },
+    {
+      "request_id": "1fc2efaf-6f9f-4abb-845a-11148c578f21",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:48:19.911Z",
+      "elapsed_ms": 10284,
+      "usage": {
+        "prompt_tokens": 8113,
+        "completion_tokens": 1537,
+        "total_tokens": 9650,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 8113
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "operation": "prompt_plan",
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_STRUCTURE"
+    },
+    {
+      "request_id": "5150eaa1-411c-4a19-b0fa-c95ce2532564",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:48:29.788Z",
+      "elapsed_ms": 9865,
+      "usage": {
+        "prompt_tokens": 8165,
+        "completion_tokens": 1595,
+        "total_tokens": 9760,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 7525
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "operation": "prompt_plan",
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_STRUCTURE"
+    },
+    {
+      "request_id": "a8b1d9b8-0858-4735-a390-20ddd7fe76ab",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:49:04.087Z",
+      "elapsed_ms": 11953,
+      "usage": {
+        "prompt_tokens": 8113,
+        "completion_tokens": 1747,
+        "total_tokens": 9860,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "prompt_cache_hit_tokens": 7936,
+        "prompt_cache_miss_tokens": 177
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "operation": "prompt_plan",
+      "outcome": "failed",
+      "error_code": "GUIDED_TEMPLATE_INVALID"
+    },
+    {
+      "request_id": "7763d4e6-70f1-4fdc-8f96-f21b0baf3458",
+      "model": "deepseek-flash",
+      "at": "2026-10-31T03:49:13.063Z",
+      "elapsed_ms": 8973,
+      "usage": {
+        "prompt_tokens": 8165,
+        "completion_tokens": 1391,
+        "total_tokens": 9556,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "prompt_cache_hit_tokens": 7936,
+        "prompt_cache_miss_tokens": 229
+      },
+      "http_status": 200,
+      "scope": "foreign-markets-live",
+      "operation": "prompt_plan",
+      "outcome": "failed",
+      "error_code": "GUIDED_TEMPLATE_INVALID"
+    }
+  ]
+}

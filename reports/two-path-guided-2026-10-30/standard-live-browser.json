@@ -1,0 +1,110 @@
+{
+  "completed_at": "2026-10-30T09:57:07.968Z",
+  "listing_id": "listing-e9f8301e-b2d5-4045-969e-5a02bdcfe14c",
+  "version": 2,
+  "model": "deepseek-flash",
+  "request_id": "d3382077-b0ed-4b49-a3a1-0acaa50a79b1",
+  "actual_model_call": true,
+  "elapsed_ms": 4714,
+  "usage": {
+    "prompt_tokens": 8929,
+    "completion_tokens": 1186,
+    "total_tokens": 10115,
+    "prompt_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "prompt_cache_hit_tokens": 8704,
+    "prompt_cache_miss_tokens": 225
+  },
+  "issues": [
+    {
+      "issue_id": "e2fcf2bbc7a5b4",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.title",
+      "original": "100% Cotton Tote Bag with Long Handles, 140gsm",
+      "reason": "140gsm：该字段尚未确认，或来源记录不可用；不从其他字段或待核验材料推定。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "e207b43a869283",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.item_highlights",
+      "original": "100% cotton, 140gsm (4.1oz/yd²); long handles for hand or shoulder carry; cutaway label",
+      "reason": "140gsm：该字段尚未确认，或来源记录不可用；不从其他字段或待核验材料推定。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "50d0399ab0f843",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.bullet_points.b1",
+      "original": "100% COTTON FABRIC: Made from 100% cotton at 140gsm (4.1oz/yd²), a plain woven cotton tote for everyday carrying.",
+      "reason": "140gsm：该字段尚未确认，或来源记录不可用；不从其他字段或待核验材料推定。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "7d315b95d3078d",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.description",
+      "original": "This tote bag is made from 100% cotton at 140gsm (4.1oz/yd²).",
+      "reason": "140gsm：该字段尚未确认，或来源记录不可用；不从其他字段或待核验材料推定。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "brand",
+      "label": "品牌",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "checks": [
+    "invalid_product_revision_rejected",
+    "real_api_recheck",
+    "version_history_preserved",
+    "evidence_visible",
+    "html_txt_json_copy_exports"
+  ],
+  "screenshot": "standard-live-browser.png"
+}

@@ -1,0 +1,23 @@
+{
+  "before": {
+    "products": {
+      "rows": 16,
+      "sha256": "788b5ec9e1e41323f55cf2884668d5c969fe1acc965e9abb5d8a953699c6d5d4"
+    },
+    "versions": {
+      "rows": 47,
+      "sha256": "4a8310c425497c7f3ca52657cb73e060a45f8053f1ad8444f91ec1b6ebfa6711"
+    }
+  },
+  "after": {
+    "products": {
+      "rows": 16,
+      "sha256": "788b5ec9e1e41323f55cf2884668d5c969fe1acc965e9abb5d8a953699c6d5d4"
+    },
+    "versions": {
+      "rows": 47,
+      "sha256": "4a8310c425497c7f3ca52657cb73e060a45f8053f1ad8444f91ec1b6ebfa6711"
+    }
+  },
+  "unchanged": true
+}

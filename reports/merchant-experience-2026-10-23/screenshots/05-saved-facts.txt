@@ -1,0 +1,98 @@
+ListingStudio
+Amazon 上架内容审核助手
+运营工作空间
+商品内容与审核
+工作台
+工作台
+Listing 台账
+批量商品
+新品 Listing
+诊断与修复
+商品资料
+图片与竞品研究
+版本记录
+知识与依据
+规则与来源
+13
+每一处修改，都有依据
+
+商品事实、规则来源与版本记录，始终随内容保留。
+
+查看资料来源
+模型服务已配置
+deepseek-flash
+工作空间
+商品资料
+Amazon US
+· 英文
+S
+PRODUCT FACTS
+商品资料与证据
+
+先确认事实，再组织内容。资料修改会创建新版本。
+
+新增商品
+使用当前商品创建
+从 Amazon 真实商品开始
+
+读取美国站棉布袋资料，保留来源，再生成英文 Listing。
+
+公开页面接入
+导入商品
+
+仅实时读取你指定的商品页。遇到访问限制会明确报错，不自动切换快照。也可以从“商品资料”手动录入真实供应商规格。
+
+DALIX · 22" Heavy Duty Cotton Canvas Tote Bag (Zippered)
+B0732NPDRB · 资料 V2
+Amazon 商品
+DALIX · DALIX 20" Solid Color Cotton Canvas Shopping Tote Bag in Black
+B07Q3B7SG8 · 资料 V1
+Amazon 商品
+Westford Mill W101 官方公开商品
+140 g/m² · 资料 V8
+商家资料
+Westford Mill W201 官方公开参考
+200 g/m² · 资料 V1
+商家资料
+DALIX · 22" Heavy Duty Cotton Canvas Tote Bag (Zippered)
+
+AMAZON-US-B0732NPDRB · V2
+
+编辑资料
+实时页面读取
+ASIN B0732NPDRB
+
+实时读取时的页面观察；库存随地址和时间变化
+
+销售状态：In Stock。页面信息为卖家披露，待商家核实。
+
+材质
+100% cotton canvas
+商家确认
+尺寸
+见来源原始尺寸 / 未披露
+资料待补
+面料克重
+未披露
+资料待补
+容量
+未披露
+资料待补
+提手长度
+未披露
+资料待补
+零售包装
+未知
+资料待补
+品牌
+DALIX
+Amazon 页面披露
+颜色
+待确认
+资料待补
+认证与性能证据待补充
+
+当前没有关联降解、额定承重或认证证明。公开商品参数只支持相应规格描述。
+
+Listing Studio · 为准确的商品内容而设计
+Amazon US · 本地工作空间

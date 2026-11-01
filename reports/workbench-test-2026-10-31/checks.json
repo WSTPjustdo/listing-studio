@@ -1,0 +1,1087 @@
+{
+  "started_at": "2026-10-31T03:46:31.592Z",
+  "base": "http://127.0.0.1:8787",
+  "scope": "Read-only actual workbench, no model calls, no fixtures or request interception",
+  "checks": [
+    {
+      "label": "desktop-home",
+      "headings": [
+        "从你手里的材料开始。",
+        "内容工作台"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-home.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-language-options",
+      "options": [
+        {
+          "value": "US-en",
+          "text": "美国站 · 英语"
+        },
+        {
+          "value": "US-es",
+          "text": "美国站 · 西班牙语"
+        },
+        {
+          "value": "US-zh",
+          "text": "美国站 · 中文（内部核对）"
+        },
+        {
+          "value": "DE-de",
+          "text": "德国站 · 德语"
+        },
+        {
+          "value": "DE-en",
+          "text": "德国站 · 英语"
+        },
+        {
+          "value": "DE-zh",
+          "text": "德国站 · 中文（内部核对）"
+        },
+        {
+          "value": "UK-en",
+          "text": "英国站 · 英语（英式）"
+        },
+        {
+          "value": "UK-zh",
+          "text": "英国站 · 中文（内部核对）"
+        },
+        {
+          "value": "FR-fr",
+          "text": "法国站 · 法语"
+        },
+        {
+          "value": "FR-en",
+          "text": "法国站 · 英语（对照，不上架）"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-US-en",
+      "header": "工作空间\n改进提示词\nAmazon US\n· 英文\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-US-es",
+      "header": "工作空间\n改进提示词\nAmazon US\n· 西班牙语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-US-zh",
+      "header": "工作空间\n改进提示词\nAmazon US\n· 中文\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-DE-de",
+      "header": "工作空间\n改进提示词\nAmazon DE\n· 德语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-DE-en",
+      "header": "工作空间\n改进提示词\nAmazon DE\n· 英语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-DE-zh",
+      "header": "工作空间\n改进提示词\nAmazon DE\n· 中文\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-UK-en",
+      "header": "工作空间\n改进提示词\nAmazon UK\n· 英文\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-UK-zh",
+      "header": "工作空间\n改进提示词\nAmazon UK\n· 中文\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-FR-fr",
+      "header": "工作空间\n改进提示词\nAmazon FR\n· 法语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-FR-en",
+      "header": "工作空间\n改进提示词\nAmazon FR\n· 英语\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-improve-fr-en",
+      "headings": [
+        "我有提示词，帮我改进"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-improve-fr-en.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-language-options",
+      "options": [
+        {
+          "value": "US-en",
+          "text": "美国站 · 英语"
+        },
+        {
+          "value": "US-es",
+          "text": "美国站 · 西班牙语"
+        },
+        {
+          "value": "US-zh",
+          "text": "美国站 · 中文（内部核对）"
+        },
+        {
+          "value": "DE-de",
+          "text": "德国站 · 德语"
+        },
+        {
+          "value": "DE-en",
+          "text": "德国站 · 英语"
+        },
+        {
+          "value": "DE-zh",
+          "text": "德国站 · 中文（内部核对）"
+        },
+        {
+          "value": "UK-en",
+          "text": "英国站 · 英语（英式）"
+        },
+        {
+          "value": "UK-zh",
+          "text": "英国站 · 中文（内部核对）"
+        },
+        {
+          "value": "FR-fr",
+          "text": "法国站 · 法语"
+        },
+        {
+          "value": "FR-en",
+          "text": "法国站 · 英语（对照，不上架）"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-US-en",
+      "header": "工作空间\n自动整理文案\nAmazon US\n· 英文\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-US-es",
+      "header": "工作空间\n自动整理文案\nAmazon US\n· 西班牙语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-US-zh",
+      "header": "工作空间\n自动整理文案\nAmazon US\n· 中文\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-DE-de",
+      "header": "工作空间\n自动整理文案\nAmazon DE\n· 德语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-DE-en",
+      "header": "工作空间\n自动整理文案\nAmazon DE\n· 英语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-DE-zh",
+      "header": "工作空间\n自动整理文案\nAmazon DE\n· 中文\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-UK-en",
+      "header": "工作空间\n自动整理文案\nAmazon UK\n· 英文\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-UK-zh",
+      "header": "工作空间\n自动整理文案\nAmazon UK\n· 中文\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-FR-fr",
+      "header": "工作空间\n自动整理文案\nAmazon FR\n· 法语\nS",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-FR-en",
+      "header": "工作空间\n自动整理文案\nAmazon FR\n· 英语\nS",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "desktop-automatic-fr-en",
+      "headings": [
+        "我没有提示词，帮我完成"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-automatic-fr-en.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-batch",
+      "headings": [
+        "批量商品工作台"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-batch.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-batch-upload",
+      "visible": 1,
+      "note": "No file uploaded, so task and language controls remain unavailable until a genuine table is supplied."
+    },
+    {
+      "label": "desktop-create",
+      "headings": [
+        "新品 Listing 创建"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-create.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-create-language-options",
+      "options": [
+        {
+          "value": "US-en",
+          "text": "美国站 · 英语"
+        },
+        {
+          "value": "US-es",
+          "text": "美国站 · 西班牙语"
+        },
+        {
+          "value": "US-zh",
+          "text": "美国站 · 中文（内部核对）"
+        },
+        {
+          "value": "DE-de",
+          "text": "德国站 · 德语"
+        },
+        {
+          "value": "DE-en",
+          "text": "德国站 · 英语"
+        },
+        {
+          "value": "DE-zh",
+          "text": "德国站 · 中文（内部核对）"
+        },
+        {
+          "value": "UK-en",
+          "text": "英国站 · 英语（英式）"
+        },
+        {
+          "value": "UK-zh",
+          "text": "英国站 · 中文（内部核对）"
+        },
+        {
+          "value": "FR-fr",
+          "text": "法国站 · 法语"
+        },
+        {
+          "value": "FR-en",
+          "text": "法国站 · 英语（对照，不上架）"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "desktop-rule-switch-US",
+      "expected": 15,
+      "actual": 15,
+      "ids": [
+        "AMZ-01",
+        "AMZ-02",
+        "AMZ-03",
+        "AMZ-04",
+        "AMZ-05",
+        "AMZ-06",
+        "US-01",
+        "US-02",
+        "US-03",
+        "US-04",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "desktop-rule-switch-DE",
+      "expected": 19,
+      "actual": 19,
+      "ids": [
+        "AMZ-01",
+        "AMZ-02",
+        "AMZ-03",
+        "AMZ-04",
+        "AMZ-05",
+        "AMZ-06",
+        "DE-TITLE-02",
+        "DE-TITLE-03",
+        "DE-GPSR-19",
+        "DE-TEXTIL-01",
+        "DE-ENV-01",
+        "DE-VERPACK-01",
+        "DE-CERT-01",
+        "DE-GARANTIE-01",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "desktop-rule-switch-UK",
+      "expected": 16,
+      "actual": 16,
+      "ids": [
+        "UK-GREEN-01",
+        "UK-GREEN-02",
+        "UK-BAG-01",
+        "UK-GPSR-01",
+        "UK-UKCA-01",
+        "UK-TEXTIL-01",
+        "AMZ-01",
+        "AMZ-02",
+        "UK-TITLE-01",
+        "UK-TITLE-02",
+        "AMZ-05",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "desktop-rule-switch-FR",
+      "expected": 16,
+      "actual": 16,
+      "ids": [
+        "AMZ-01",
+        "AMZ-02",
+        "FR-TITLE-01",
+        "FR-TITLE-02",
+        "FR-LANG-01",
+        "FR-TEXTIL-01",
+        "FR-ENV-01",
+        "FR-TRIMAN-01",
+        "FR-EPR-01",
+        "FR-GPSR-01",
+        "AMZ-05",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "desktop-rules-fr",
+      "headings": [
+        "规则与资料来源"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-rules-fr.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-diagnose",
+      "headings": [
+        "已有 Listing 诊断与修复"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-diagnose.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-products",
+      "headings": [
+        "商品资料与证据"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-products.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-research",
+      "headings": [
+        "图片与竞品研究"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-research.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-intake",
+      "headings": [
+        "已有 Listing 诊断与修复"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-intake.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-rules",
+      "headings": [
+        "规则与资料来源"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-rules.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-history",
+      "headings": [
+        "我的结果"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-history.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-real-result",
+      "headings": [
+        "新品 Listing 创建"
+      ],
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "screenshot": "desktop-real-result.png",
+      "passed": true
+    },
+    {
+      "label": "desktop-real-result-opened",
+      "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+      "version": 6,
+      "actual_model_call": true
+    },
+    {
+      "label": "mobile-home",
+      "headings": [
+        "从你手里的材料开始。",
+        "内容工作台"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-home.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-language-options",
+      "options": [
+        {
+          "value": "US-en",
+          "text": "美国站 · 英语"
+        },
+        {
+          "value": "US-es",
+          "text": "美国站 · 西班牙语"
+        },
+        {
+          "value": "US-zh",
+          "text": "美国站 · 中文（内部核对）"
+        },
+        {
+          "value": "DE-de",
+          "text": "德国站 · 德语"
+        },
+        {
+          "value": "DE-en",
+          "text": "德国站 · 英语"
+        },
+        {
+          "value": "DE-zh",
+          "text": "德国站 · 中文（内部核对）"
+        },
+        {
+          "value": "UK-en",
+          "text": "英国站 · 英语（英式）"
+        },
+        {
+          "value": "UK-zh",
+          "text": "英国站 · 中文（内部核对）"
+        },
+        {
+          "value": "FR-fr",
+          "text": "法国站 · 法语"
+        },
+        {
+          "value": "FR-en",
+          "text": "法国站 · 英语（对照，不上架）"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-US-en",
+      "header": "工作空间\n改进提示词\nAmazon US",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-US-es",
+      "header": "工作空间\n改进提示词\nAmazon US",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-US-zh",
+      "header": "工作空间\n改进提示词\nAmazon US",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-DE-de",
+      "header": "工作空间\n改进提示词\nAmazon DE",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-DE-en",
+      "header": "工作空间\n改进提示词\nAmazon DE",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-DE-zh",
+      "header": "工作空间\n改进提示词\nAmazon DE",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-UK-en",
+      "header": "工作空间\n改进提示词\nAmazon UK",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-UK-zh",
+      "header": "工作空间\n改进提示词\nAmazon UK",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-FR-fr",
+      "header": "工作空间\n改进提示词\nAmazon FR",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-FR-en",
+      "header": "工作空间\n改进提示词\nAmazon FR",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-improve-fr-en",
+      "headings": [
+        "我有提示词，帮我改进"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-improve-fr-en.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-language-options",
+      "options": [
+        {
+          "value": "US-en",
+          "text": "美国站 · 英语"
+        },
+        {
+          "value": "US-es",
+          "text": "美国站 · 西班牙语"
+        },
+        {
+          "value": "US-zh",
+          "text": "美国站 · 中文（内部核对）"
+        },
+        {
+          "value": "DE-de",
+          "text": "德国站 · 德语"
+        },
+        {
+          "value": "DE-en",
+          "text": "德国站 · 英语"
+        },
+        {
+          "value": "DE-zh",
+          "text": "德国站 · 中文（内部核对）"
+        },
+        {
+          "value": "UK-en",
+          "text": "英国站 · 英语（英式）"
+        },
+        {
+          "value": "UK-zh",
+          "text": "英国站 · 中文（内部核对）"
+        },
+        {
+          "value": "FR-fr",
+          "text": "法国站 · 法语"
+        },
+        {
+          "value": "FR-en",
+          "text": "法国站 · 英语（对照，不上架）"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-US-en",
+      "header": "工作空间\n自动整理文案\nAmazon US",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-US-es",
+      "header": "工作空间\n自动整理文案\nAmazon US",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-US-zh",
+      "header": "工作空间\n自动整理文案\nAmazon US",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-DE-de",
+      "header": "工作空间\n自动整理文案\nAmazon DE",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-DE-en",
+      "header": "工作空间\n自动整理文案\nAmazon DE",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-DE-zh",
+      "header": "工作空间\n自动整理文案\nAmazon DE",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-UK-en",
+      "header": "工作空间\n自动整理文案\nAmazon UK",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-UK-zh",
+      "header": "工作空间\n自动整理文案\nAmazon UK",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-FR-fr",
+      "header": "工作空间\n自动整理文案\nAmazon FR",
+      "internal_notice": null,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-FR-en",
+      "header": "工作空间\n自动整理文案\nAmazon FR",
+      "internal_notice": true,
+      "passed": true
+    },
+    {
+      "label": "mobile-automatic-fr-en",
+      "headings": [
+        "我没有提示词，帮我完成"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-automatic-fr-en.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-batch",
+      "headings": [
+        "批量商品工作台"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-batch.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-batch-upload",
+      "visible": 1,
+      "note": "No file uploaded, so task and language controls remain unavailable until a genuine table is supplied."
+    },
+    {
+      "label": "mobile-create",
+      "headings": [
+        "新品 Listing 创建"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-create.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-create-language-options",
+      "options": [
+        {
+          "value": "US-en",
+          "text": "美国站 · 英语"
+        },
+        {
+          "value": "US-es",
+          "text": "美国站 · 西班牙语"
+        },
+        {
+          "value": "US-zh",
+          "text": "美国站 · 中文（内部核对）"
+        },
+        {
+          "value": "DE-de",
+          "text": "德国站 · 德语"
+        },
+        {
+          "value": "DE-en",
+          "text": "德国站 · 英语"
+        },
+        {
+          "value": "DE-zh",
+          "text": "德国站 · 中文（内部核对）"
+        },
+        {
+          "value": "UK-en",
+          "text": "英国站 · 英语（英式）"
+        },
+        {
+          "value": "UK-zh",
+          "text": "英国站 · 中文（内部核对）"
+        },
+        {
+          "value": "FR-fr",
+          "text": "法国站 · 法语"
+        },
+        {
+          "value": "FR-en",
+          "text": "法国站 · 英语（对照，不上架）"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "label": "mobile-rule-switch-US",
+      "expected": 15,
+      "actual": 15,
+      "ids": [
+        "AMZ-01",
+        "AMZ-02",
+        "AMZ-03",
+        "AMZ-04",
+        "AMZ-05",
+        "AMZ-06",
+        "US-01",
+        "US-02",
+        "US-03",
+        "US-04",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "mobile-rule-switch-DE",
+      "expected": 19,
+      "actual": 19,
+      "ids": [
+        "AMZ-01",
+        "AMZ-02",
+        "AMZ-03",
+        "AMZ-04",
+        "AMZ-05",
+        "AMZ-06",
+        "DE-TITLE-02",
+        "DE-TITLE-03",
+        "DE-GPSR-19",
+        "DE-TEXTIL-01",
+        "DE-ENV-01",
+        "DE-VERPACK-01",
+        "DE-CERT-01",
+        "DE-GARANTIE-01",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "mobile-rule-switch-UK",
+      "expected": 16,
+      "actual": 16,
+      "ids": [
+        "UK-GREEN-01",
+        "UK-GREEN-02",
+        "UK-BAG-01",
+        "UK-GPSR-01",
+        "UK-UKCA-01",
+        "UK-TEXTIL-01",
+        "AMZ-01",
+        "AMZ-02",
+        "UK-TITLE-01",
+        "UK-TITLE-02",
+        "AMZ-05",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "mobile-rule-switch-FR",
+      "expected": 16,
+      "actual": 16,
+      "ids": [
+        "AMZ-01",
+        "AMZ-02",
+        "FR-TITLE-01",
+        "FR-TITLE-02",
+        "FR-LANG-01",
+        "FR-TEXTIL-01",
+        "FR-ENV-01",
+        "FR-TRIMAN-01",
+        "FR-EPR-01",
+        "FR-GPSR-01",
+        "AMZ-05",
+        "FACT-01",
+        "FACT-02",
+        "EVID-01",
+        "SYS-01",
+        "SYS-02"
+      ],
+      "passed": true
+    },
+    {
+      "label": "mobile-rules-fr",
+      "headings": [
+        "规则与资料来源"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-rules-fr.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-diagnose",
+      "headings": [
+        "已有 Listing 诊断与修复"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-diagnose.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-products",
+      "headings": [
+        "商品资料与证据"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-products.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-research",
+      "headings": [
+        "图片与竞品研究"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-research.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-intake",
+      "headings": [
+        "已有 Listing 诊断与修复"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-intake.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-rules",
+      "headings": [
+        "规则与资料来源"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-rules.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-history",
+      "headings": [
+        "我的结果"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-history.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-real-result",
+      "headings": [
+        "新品 Listing 创建"
+      ],
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "bodyWidth": 390
+      },
+      "screenshot": "mobile-real-result.png",
+      "passed": true
+    },
+    {
+      "label": "mobile-real-result-opened",
+      "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+      "version": 6,
+      "actual_model_call": true
+    }
+  ],
+  "failures": [],
+  "pageerrors": [],
+  "write_requests": [],
+  "data_unchanged": true,
+  "completed_at": "2026-10-31T03:46:45.109Z",
+  "passed": true
+}

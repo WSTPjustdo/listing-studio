@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "case_id": "thermos-sk1005pk4-fair-rehearsal",
+  "purpose": "使用真实公开官方商品资料演示模拟业务流程；不是商家自有商品资料、库存、商家 SKU 或真实上架流程。英文文案由真实模型预先生成和审核，公开商品只作为样例。",
+  "retrieved_at": "2026-11-01T03:14:59.670Z",
+  "retrieved_at_shanghai": "2026年11月1日星期日 GMT+8 11:14:59",
+  "source": {
+    "id": "thermos-official-product",
+    "publisher": "Thermos Brand",
+    "url": "https://thermos.com/products/stainless-king-tumbler-16oz?variant=47101214425244",
+    "final_url": "https://thermos.com/products/stainless-king-tumbler-16oz?variant=47101214425244",
+    "http_status": 200,
+    "page_title": "16oz Stainless King™ Insulated Stainless Steel Tumbler | Thermos® – Thermos Brand",
+    "fetch_elapsed_ms": 1315,
+    "response_bytes": 1065736,
+    "response_sha256": "fbf257558ba87d298aae0ec4d37c27813e2c856e26546056940bde41ca9a5d07",
+    "scope": "Manufacturer product page; no independent test or platform listing validation",
+    "page_title_extraction": {
+      "selector": "head > title:first",
+      "basis": "本次成功抓取时工具输出用 <title>...</title> 正则捕获的原始真实标题片段；完整响应HTML暂存清理后未再联网。",
+      "correction": "原 $('title').text() 误合并正文所有SVG title中的导航图标标题，现仅保留文档标题。"
+    }
+  },
+  "product": {
+    "brand": "Thermos",
+    "name": "16oz Stainless King™ Tumbler",
+    "variant": "MATTE PINK",
+    "manufacturer_item_number": "SK1005PK4",
+    "category": "vacuum-insulated stainless steel tumbler",
+    "source_url": "https://thermos.com/products/stainless-king-tumbler-16oz?variant=47101214425244"
+  },
+  "facts": [
+    {
+      "field": "brand",
+      "value": "Thermos",
+      "excerpt": "The 16oz Stainless King™ Tumbler from Thermos®",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "product_name",
+      "value": "16oz Stainless King™ Tumbler",
+      "excerpt": "16oz Stainless King™ Tumbler",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "selected_variant",
+      "value": "MATTE PINK",
+      "excerpt": "Color: MATTE PINK Item Number: SK1005PK4",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "manufacturer_item_number",
+      "value": "SK1005PK4",
+      "excerpt": "Item Number: SK1005PK4",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "capacity",
+      "value": "16oz. (475 ml)",
+      "excerpt": "Capacity 16oz. (475 ml)",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "construction",
+      "value": "Double-wall vacuum insulated; 18/8 stainless steel",
+      "excerpt": "16oz capacity | Double-wall vacuum insulated | 18/8 stainless steel",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested",
+      "scope_note": "原文另有 Durable stainless steel interior and exterior，但未明确内外壁分别均为18/8。18/8仅保留整杯construction层级，不写18/8 interior and exterior或inside and out。"
+    },
+    {
+      "field": "hot_retention_manufacturer_claim",
+      "value": "up to 7 hours",
+      "excerpt": "keeps drinks hot for up to 7 hours and cold for up to 18 hours",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "cold_retention_manufacturer_claim",
+      "value": "up to 18 hours",
+      "excerpt": "keeps drinks hot for up to 7 hours and cold for up to 18 hours",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "lid",
+      "value": "DrinkLock sealing lid; leak-proof when closed and properly assembled",
+      "excerpt": "DrinkLock™ sealing lid is leak-proof when closed and properly assembled",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "tea_hook",
+      "value": "Built-in; holds tea bags or most loose leaf infusers",
+      "excerpt": "Built-in tea hook holds tea bags or most loose leaf infusers",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "cup_holder_fit",
+      "value": "Fits most standard car cup holders",
+      "excerpt": "Fits most standard car cup holders",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "care",
+      "value": "Dishwasher safe — top rack only",
+      "excerpt": "Dishwasher safe — top rack only",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "exterior",
+      "value": "Cool to the touch with hot beverages; sweat-proof with cold",
+      "excerpt": "Exterior stays cools to the touch with hot beverages and sweat-proof with cold",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "weight",
+      "value": "1.0 lb.",
+      "excerpt": "Weight 1.0 lb.",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    },
+    {
+      "field": "country_of_origin",
+      "value": "China",
+      "excerpt": "Origin China",
+      "source_id": "thermos-official-product",
+      "status": "published_by_manufacturer_not_independently_tested"
+    }
+  ],
+  "unknown_facts": [
+    {
+      "field": "dimensions_units",
+      "reason": "页面 Specs 显示 Height 7.8 / Width 3.3 / Depth 3.3，抽取正文未标明单位；不推断英寸，不进入 Listing。"
+    },
+    {
+      "field": "retention_test_conditions_and_report",
+      "reason": "未取得测试温度、环境、装液量、方法或第三方报告；7/18 小时仅为官方产品页的 up to 宣称。"
+    },
+    {
+      "field": "FDA_or_other_certification",
+      "reason": "未取得认证、监管许可或相关检测材料；不得写 FDA approved/certified、medical grade。"
+    },
+    {
+      "field": "BPA_free",
+      "reason": "本次提取的商品说明未见适用该型号的原文依据。"
+    },
+    {
+      "field": "retail_pack_count_and_packaging",
+      "reason": "未取得确认零售包装件数及包装清单的明确原文；不推断为 1 pack。"
+    },
+    {
+      "field": "warranty_terms",
+      "reason": "存在品牌 Warranty 链接，未核对适用条款与限制；不写 lifetime warranty。"
+    },
+    {
+      "field": "Amazon_ASIN_and_seller_authorization",
+      "reason": "未连接 Amazon Seller Central，未核对 ASIN、商家 SKU、品牌销售授权、上架资格或平台处理报告。"
+    },
+    {
+      "field": "all_vehicles_or_all_conditions",
+      "reason": "来源仅称 most standard car cup holders；防漏限定 closed and properly assembled。"
+    },
+    {
+      "field": "seller_inventory_and_fulfillment",
+      "reason": "官方官网当时价格/库存不代表商家在 Amazon 的库存与履约情况。"
+    },
+    {
+      "field": "interior_and_exterior_specific_steel_grade",
+      "reason": "官方仅分别写 Durable stainless steel interior and exterior 与 18/8 stainless steel construction；未明确内外壁各自钢号，不能据此声称18/8 stainless steel interior and exterior或18/8 inside and out。"
+    }
+  ],
+  "official_excerpts": [
+    {
+      "id": "thermos-product-identity",
+      "text": "16oz Stainless King™ Tumbler 18 Hours Cold 7 Hours Hot Regular Price $26.99 In Stock / Shipping calculated at checkout. Color: MATTE PINK Item Number: SK1005PK4 Color — MATTE PINK Color MATTE PINK MATTE GREEN MATTE LIGHT BLUE MATTE TEAL MIDNIGHT BLUE RUSTIC RED ARMY GREEN MATTE STAINLESS STEEL Add product to cart to see promotional pricing − + current shopping cart total Add to Cart MATTE PINK - $26.99 USD MATTE GREEN - $26.99 USD MATTE LIGHT BLUE - $26.99 USD MATTE TEAL - $26.99 USD MIDNIGHT BLUE - $26.99 USD RUSTIC RED - $26.99 USD ARMY GREEN - $26.99 USD MATTE STAINLESS STEEL - $26.99 USD"
+    },
+    {
+      "id": "thermos-features-and-specs",
+      "text": "Features Plus Minus or Close Thermos™ vacuum insulation technology for max temperature retention Durable stainless steel interior and exterior Exterior stays cools to the touch with hot beverages and sweat-proof with cold DrinkLock™ sealing lid is leak-proof when closed and properly assembled Built-in tea hook holds tea bags or most loose leaf infusers Cup holder compatible Dishwasher safe (top rack) Description Plus Minus or Close The 16oz Stainless King™ Tumbler from Thermos® keeps drinks hot for up to 7 hours and cold for up to 18 hours using double-wall vacuum insulation. Built for serious daily use — 18/8 stainless steel construction with a sweat-proof, condensation-free exterior that won't ring your desk. Fits most standard car cup holders.Specifications: 16oz capacity | Double-wall vacuum insulated | 18/8 stainless steel | Keeps drinks hot 7 hours, cold 18 hours | Sweat-proof exterior | Cup holder compatible | Dishwasher safe — top rack onlyShop all Thermos® drinkware or view best sellers. Specs Plus Minus or Close Height 7.8 Width 3.3 Depth 3.3 Weight 1.0 lb. Capacity 16oz. (475 ml) Origin China"
+    },
+    {
+      "id": "thermos-faq",
+      "text": "The 16oz Stainless King™ Tumbler keeps drinks hot for up to 7 hours and cold for up to 18 hours. Does this Stainless King™ product fit in a cup holder? Yes — designed to fit most standard car cup holders."
+    }
+  ],
+  "failed_discovery_requests": [
+    {
+      "url": "https://thermos.com/products/stainless-king-travel-tumbler-16oz",
+      "http_status": 404,
+      "note": "发现阶段候选 URL 不存在，不作为来源。"
+    },
+    {
+      "url": "https://thermos.com/products/stainless-king-travel-mug-16oz",
+      "http_status": 429,
+      "note": "发现阶段另一候选 URL 被限流，不作为来源。"
+    },
+    {
+      "url": "https://thermos.com/products/stainless-king-tumbler-16oz",
+      "http_status": 429,
+      "note": "该不带 variant 的 URL 初始两次 200；落盘前第三次读取被限流。最终使用同商品明确 variant URL 的真实 200 响应保存证据。"
+    }
+  ],
+  "review_scope": {
+    "can_assess": [
+      "English copy consistency with saved official excerpts",
+      "Unsupported, exaggerated or condition-omitting claims",
+      "Limited copy risk review"
+    ],
+    "cannot_confirm": [
+      "Food-contact legal compliance or certifications",
+      "Real-world insulation/leak test performance",
+      "Brand resale authorization",
+      "Amazon tumbler category policy coverage or approval",
+      "Seller Central acceptance or actual listing status"
+    ]
+  },
+  "business_context": {
+    "mode": "simulated_business_workflow_with_real_public_product",
+    "merchant_data_available": false,
+    "merchant_owns_product": null,
+    "merchant_inventory": null,
+    "merchant_sku": null,
+    "amazon_listing_status": "unknown_not_connected",
+    "notice": "用户没有真实商家数据。本例是公开商品模拟业务流程，不代表商家自有商品、库存、商家 SKU 或已上架；SK1005PK4 仅为官网厂家 Item Number。"
+  },
+  "precision_review": {
+    "reviewed_locally_at": "2026-11-01T03:18:20.897Z",
+    "network_requests": 0,
+    "basis": "仅核对本次已保存官方摘录和成功抓取工具中真实<title>片段；未重新联网。",
+    "unsupported_generated_copy": [
+      "18/8 stainless steel interior and exterior",
+      "18/8 stainless steel inside and out"
+    ],
+    "recommended_copy": "18/8 stainless steel construction",
+    "notice": "真实模型的先前0问题复检遗漏了材质部位限定；应修正文案后重新真实复检，不能用旧结果证明修正版通过。"
+  }
+}

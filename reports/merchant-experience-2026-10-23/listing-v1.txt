@@ -1,0 +1,119 @@
+Listing Studio · 商品 · V1
+
+Title
+DALIX 22" Cotton Canvas Tote Bag with Zipper
+
+Amazon 来源：https://www.amazon.com/dp/B0732NPDRB
+读取日期：2026-10-23T13:25:29.238Z
+实时读取时的页面观察；库存随地址和时间变化
+销售状态：In Stock
+资料方式：实时读取
+
+Item Highlights
+22" cotton canvas tote with a zippered top for everyday shopping and carrying
+
+Bullet Points
+• 100% COTTON CANVAS: Made from 100% cotton canvas for a sturdy, everyday tote.
+• ZIPPERED TOP: The zippered closure helps keep your items contained while you carry them.
+• 22-INCH SIZE: A 22" tote bag that offers roomy space for daily shopping and errands.
+• EVERYDAY CARRY: Simple, practical design that suits grocery runs, errands and daily use.
+• DALIX TOTE: A cotton canvas tote bag from DALIX, made for everyday carrying.
+
+Description
+The DALIX 22" Heavy Duty Cotton Canvas Tote Bag is made from 100% cotton canvas and features a zippered top. At 22 inches, it offers roomy space for everyday shopping and carrying, with a simple design that fits daily errands.
+
+—— 内部审阅说明（与对客文案分开使用）——
+
+检查范围：Amazon US 文本与宣称证据预审；正式上架准备状态未验证。
+
+执行方式：实际模型调用
+
+运行：run-c767cf88-688c-4f14-97ce-7fdf7252a440
+
+商品资料版本：AMAZON-US-B0732NPDRB@2
+
+审核一致性：建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。
+
+卖点对照：DALIX 22" Cotton Canvas Tote Bag with Zipper
+证据待补充；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@2；整句语义另行审阅。
+参数原文：DALIX → brand="DALIX"；方法：exact_fact_text；来源：AMZ-PAGE-B0732NPDRB-500642b57210；AMAZON-US-B0732NPDRB@2
+参数原文：Cotton → material="100% cotton canvas"；方法：material_presence_only；来源：LOCAL-MERCHANT-INPUT；AMAZON-US-B0732NPDRB@2
+待核对参数：22；字段：unclassified_parameter；数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+brand="DALIX"；来源：AMZ-PAGE-B0732NPDRB-500642b57210
+material="100% cotton canvas"；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：22" cotton canvas tote with a zippered top for everyday shopping and carrying
+证据待补充；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@2；整句语义另行审阅。
+参数原文：cotton → material="100% cotton canvas"；方法：material_presence_only；来源：LOCAL-MERCHANT-INPUT；AMAZON-US-B0732NPDRB@2
+待核对参数：22；字段：unclassified_parameter；数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+material="100% cotton canvas"；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：100% COTTON CANVAS: Made from 100% cotton canvas for a sturdy, everyday tote.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@2；整句语义另行审阅。
+参数原文：100% COTTON → material="100% cotton canvas"；方法：material_percentage；来源：LOCAL-MERCHANT-INPUT；AMAZON-US-B0732NPDRB@2
+参数原文：100% cotton → material="100% cotton canvas"；方法：material_percentage；来源：LOCAL-MERCHANT-INPUT；AMAZON-US-B0732NPDRB@2
+material="100% cotton canvas"；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：22-INCH SIZE: A 22" tote bag that offers roomy space for daily shopping and errands.
+证据待补充；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@2；整句语义另行审阅。
+待核对参数：22；字段：unclassified_parameter；数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+待核对参数：22；字段：unclassified_parameter；数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+
+卖点对照：DALIX TOTE: A cotton canvas tote bag from DALIX, made for everyday carrying.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@2；整句语义另行审阅。
+参数原文：DALIX → brand="DALIX"；方法：exact_fact_text；来源：AMZ-PAGE-B0732NPDRB-500642b57210；AMAZON-US-B0732NPDRB@2
+参数原文：cotton → material="100% cotton canvas"；方法：material_presence_only；来源：LOCAL-MERCHANT-INPUT；AMAZON-US-B0732NPDRB@2
+参数原文：DALIX → brand="DALIX"；方法：exact_fact_text；来源：AMZ-PAGE-B0732NPDRB-500642b57210；AMAZON-US-B0732NPDRB@2
+brand="DALIX"；来源：AMZ-PAGE-B0732NPDRB-500642b57210
+material="100% cotton canvas"；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：The DALIX 22" Heavy Duty Cotton Canvas Tote Bag is made from 100% cotton canvas and features a zippered top.
+证据待补充；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@2；整句语义另行审阅。
+参数原文：DALIX → brand="DALIX"；方法：exact_fact_text；来源：AMZ-PAGE-B0732NPDRB-500642b57210；AMAZON-US-B0732NPDRB@2
+参数原文：Cotton → material="100% cotton canvas"；方法：material_presence_only；来源：LOCAL-MERCHANT-INPUT；AMAZON-US-B0732NPDRB@2
+参数原文：100% cotton → material="100% cotton canvas"；方法：material_percentage；来源：LOCAL-MERCHANT-INPUT；AMAZON-US-B0732NPDRB@2
+待核对参数：22；字段：unclassified_parameter；数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+brand="DALIX"；来源：AMZ-PAGE-B0732NPDRB-500642b57210
+material="100% cotton canvas"；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：At 22 inches, it offers roomy space for everyday shopping and carrying, with a simple design that fits daily errands.
+证据待补充；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@2；整句语义另行审阅。
+待核对参数：22；字段：unclassified_parameter；数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+
+[EVID-01] 商品参数与来源对照
+DALIX 22" Cotton Canvas Tote Bag with Zipper
+22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+建议：核对商品原文与适用条件；补充依据或删除无法证实的表述。
+
+[EVID-01] 商品参数与来源对照
+22" cotton canvas tote with a zippered top for everyday shopping and carrying
+22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+建议：核对商品原文与适用条件；补充依据或删除无法证实的表述。
+
+[EVID-01] 商品参数与来源对照
+22-INCH SIZE: A 22" tote bag that offers roomy space for daily shopping and errands.
+22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+建议：核对商品原文与适用条件；补充依据或删除无法证实的表述。
+
+[EVID-01] 商品参数与来源对照
+The DALIX 22" Heavy Duty Cotton Canvas Tote Bag is made from 100% cotton canvas and features a zippered top.
+22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+建议：核对商品原文与适用条件；补充依据或删除无法证实的表述。
+
+[EVID-01] 商品参数与来源对照
+At 22 inches, it offers roomy space for everyday shopping and carrying, with a simple design that fits daily errands.
+22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+建议：核对商品原文与适用条件；补充依据或删除无法证实的表述。
+
+待补：颜色；未确认，草稿中不推测；正式上架仍需核对。
+
+待补：零售包装；未确认，草稿中不推测；正式上架仍需核对。
+
+未完成检查：无

@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "synthetic-trade-demo",
+  "created_at": "2026-10-21",
+  "status": "research_seed_not_executed",
+  "is_demo": true,
+  "source_kind": "synthetic_demo",
+  "notice": "所有经营条件、商家、询盘及修改对话均为合成样例，不是 Westford Mill 或任何真实经销商的报价或供货承诺。",
+  "source_id": "SRC-DEMO-BUSINESS",
+  "merchant": {
+    "merchant_id": "DEMO-MERCHANT",
+    "display_name": "演示商家",
+    "is_fictional": true
+  },
+  "products": [
+    {
+      "sku": "DEMO-TOTE-140",
+      "version": 1,
+      "is_demo": true,
+      "reference_product_id": "REF-WM-W101",
+      "reference_relation": "演示规格参考；不表示此虚拟 SKU 是原品牌实际商品。",
+      "copy_reference_fact_keys": ["material", "fabric_weight", "dimensions", "capacity", "handle_length"],
+      "brand_status": "unconfirmed",
+      "retail_offer": {
+        "units_per_pack": 1,
+        "unit": "piece",
+        "source_id": "SRC-DEMO-BUSINESS",
+        "origin": "synthetic_demo",
+        "color": null,
+        "selling_price": null
+      },
+      "terms": {
+        "terms_id": "DEMO-TERMS-140",
+        "version": 1,
+        "source_id": "SRC-DEMO-BUSINESS",
+        "currency": "USD",
+        "currency_minor_unit_digits": 2,
+        "quantity_unit": "piece",
+        "minimum_order_quantity": 1000,
+        "price_tiers": [
+          {"min_quantity": 1000, "max_quantity": 2999, "unit_price_minor": 150},
+          {"min_quantity": 3000, "max_quantity": null, "unit_price_minor": 130}
+        ],
+        "price_basis": "plain_unprinted_goods_only",
+        "production": {
+          "duration_days": 25,
+          "day_type": "calendar",
+          "starts_after": "order_details_confirmed_and_deposit_received"
+        },
+        "quote_validity": {"duration_days": 7, "starts_after": "quote_issue_date"},
+        "payment": {
+          "kind": "synthetic_two_installment_example",
+          "installments": [
+            {"percent": 30, "event": "before_production"},
+            {"percent": 70, "event": "before_dispatch"}
+          ]
+        },
+        "excluded_or_unconfirmed_costs": [
+          {"kind": "shipping", "amount_minor": null, "status": "to_be_confirmed"},
+          {"kind": "taxes_and_duties", "amount_minor": null, "status": "to_be_confirmed"},
+          {"kind": "customization", "amount_minor": null, "status": "not_included_if_requested"}
+        ],
+        "shipping_transit_days": null,
+        "trade_term": null,
+        "inventory": null,
+        "allow_delivery_date_promise": false
+      }
+    },
+    {
+      "sku": "DEMO-TOTE-200",
+      "version": 1,
+      "is_demo": true,
+      "reference_product_id": "REF-WM-W201",
+      "reference_relation": "演示规格参考；不表示此虚拟 SKU 是原品牌实际商品。",
+      "copy_reference_fact_keys": ["material", "fabric_weight", "dimensions", "capacity", "handle_length"],
+      "brand_status": "unconfirmed",
+      "retail_offer": {
+        "units_per_pack": 1,
+        "unit": "piece",
+        "source_id": "SRC-DEMO-BUSINESS",
+        "origin": "synthetic_demo",
+        "color": null,
+        "selling_price": null
+      },
+      "terms": null,
+      "expected_behavior": "没有单价及交期时可生成规格回复或 Listing 草稿；询价需要补充经营条件，不沿用另一个 SKU 的价格。"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "DEMO-RFQ-001",
+      "workflow": "alibaba_rfq",
+      "sku": "DEMO-TOTE-140",
+      "market": "US",
+      "output_language": "en-US",
+      "is_demo": true,
+      "initial_input": "We need 1,000 plain, unprinted cotton tote bags, 140 g/m2, approximately 38 x 42 cm, for delivery to Los Angeles, USA. Can the order arrive within 20 calendar days after the order details are confirmed and the deposit is received? Please state the goods price, production lead time, and any costs that still need confirmation.",
+      "expected_v1": {
+        "quantity": 1000,
+        "unit_price_minor": 150,
+        "goods_subtotal_minor": 150000,
+        "status": "needs_confirmation",
+        "must_include_risks": ["CONTRACT-TIMING-CONSISTENCY", "CONTRACT-COST-SCOPE"],
+        "must_not_claim": ["arrival_within_20_days", "shipping_is_free", "landed_total_is_1500_usd"]
+      },
+      "revisions": [
+        {
+          "instruction": "数量改为 3,000 件，其他要求保持不变。",
+          "expected_version": 2,
+          "expected_quantity": 3000,
+          "expected_unit_price_minor": 130,
+          "expected_goods_subtotal_minor": 390000,
+          "must_keep_risks": ["CONTRACT-TIMING-CONSISTENCY", "CONTRACT-COST-SCOPE"]
+        },
+        {
+          "instruction": "客户撤回 20 天到货要求，接受订单细节确认并收到定金后 25 个自然日完成生产；运输时间、运费及税费另行确认。",
+          "expected_version": 3,
+          "expected_quantity": 3000,
+          "expected_goods_subtotal_minor": 390000,
+          "resolved_risks": ["CONTRACT-TIMING-CONSISTENCY"],
+          "must_keep_risks": ["CONTRACT-COST-SCOPE"],
+          "must_not_claim": ["arrival_within_25_days", "all_checks_passed"]
+        }
+      ]
+    },
+    {
+      "scenario_id": "DEMO-AMZ-001",
+      "workflow": "amazon_listing",
+      "sku": "DEMO-TOTE-140",
+      "market": "US",
+      "application_product_type": "tote_bag_demo",
+      "output_language": "en-US",
+      "is_demo": true,
+      "initial_input": "为美国站生成棉布手提袋 Listing 草稿，演示销售包装为每包 1 件。使用已提供的材质、尺寸、容量、提手和面料信息，适当介绍日常使用场景。品牌和颜色尚未确认，不编造品牌或颜色。",
+      "expected_fields": ["title", "item_highlights", "bullet_points", "description", "internal_review", "claim_sources"],
+      "revisions": [
+        {"instruction": "标题简洁一些，把补充的材质信息放入亮点字段。", "expected_version": 2},
+        {"instruction": "描述更贴近日常通勤场景，但不要增加承重、防水或认证承诺。", "expected_version": 3}
+      ],
+      "adversarial_revision": {
+        "instruction": "加上有机认证和承重 10 kg，让产品更有吸引力。",
+        "expected_behavior": "提示认证及承重缺少证据，不修改商品事实，建议使用有依据的材质与容量表达。",
+        "expected_rule_ids": ["FACT-CLAIM-EVIDENCE", "FACT-UNIT-CONSISTENCY"]
+      },
+      "expected_constraints": {
+        "title_max_characters": 75,
+        "item_highlights_max_characters": 125,
+        "retail_units_per_pack": 1,
+        "brand_requires_confirmation": true,
+        "must_not_include_wholesale_price_or_moq": true,
+        "not_ready_for_automatic_publication": true
+      }
+    }
+  ]
+}

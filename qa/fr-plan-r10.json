@@ -1,0 +1,56 @@
+{
+  "notice": "真实 DeepSeek 调用（本轮最后 1 次计费，只跑写作方案）。目的是验证：修正后的方案提示能不能让法语模板通过「不许固化商品数据」的校验。同轮前两次调用（方案）都因 GUIDED_TEMPLATE_INVALID 被拒，请求 ID 记在 failed_attempts 里。商品、品牌、尺寸均为占位样例。不含任何密钥。",
+  "run": {
+    "label": "第 10 轮 · 法语写作方案（模板校验修正后）",
+    "language": "fr",
+    "marketplace": "US",
+    "at": "2026-10-30T22:12:33.116Z"
+  },
+  "failed_attempts": [
+    {
+      "error_code": "GUIDED_TEMPLATE_INVALID",
+      "provider_request_id": "184f2af3-36df-4550-b8b8-a6869ff53349",
+      "note": "第 1 次（严格重试前）"
+    },
+    {
+      "error_code": "GUIDED_TEMPLATE_INVALID",
+      "provider_request_id": "2b50c334-a220-460d-bfae-741d5e561bac",
+      "note": "第 2 次（strict 重试仍被拒）"
+    }
+  ],
+  "status": 502,
+  "error": {
+    "error": {
+      "code": "GUIDED_TEMPLATE_INVALID",
+      "message": "模型模板固化了具体商品信息或规则阈值（命中：fixed_units「20 percent」），未保存；请重新生成可复用模板。",
+      "action": "先核对失败原因；确认后可重试此行。",
+      "details": {
+        "failure_id": "guided-failure-af2125e4-cb9f-46c2-8143-51e252c5268d",
+        "request_id": "45cb7887-351b-46ca-b242-1d098e48c943"
+      }
+    }
+  },
+  "calls_used_this_round": 3,
+  "calls_attempted": [
+    {
+      "n": 1,
+      "error_code": "GUIDED_TEMPLATE_INVALID",
+      "provider_request_id": "184f2af3-36df-4550-b8b8-a6869ff53349",
+      "note": "方案，严格重试前"
+    },
+    {
+      "n": 2,
+      "error_code": "GUIDED_TEMPLATE_INVALID",
+      "provider_request_id": "2b50c334-a220-460d-bfae-741d5e561bac",
+      "note": "方案，strict 重试仍被拒"
+    },
+    {
+      "n": 3,
+      "error_code": "GUIDED_TEMPLATE_INVALID",
+      "provider_request_id": "45cb7887-351b-46ca-b242-1d098e48c943",
+      "note": "加过「别抄示例数字」禁令后仍被拒，但报错已说清命中项"
+    }
+  ],
+  "conclusion": "法语写作方案连续三次被模板校验拒绝。第 3 次因为改了报错（说出命中项）才定位到根因：提示里那句「French runs 15 to 20 percent longer than English」被模型原样抄进模板，校验把 20 percent 当成硬编码百分比。已把「单词形式 + 比较级」的百分比从判据里去掉（散文，不是商品数据），符号形式照旧拦；但本轮 3 次付费调用已用完，修正后没有再做真实调用验证。因此 qa/fr-plan-r10.json 只证明到「根因已定位」，不证明「已修好」。",
+  "next_step": "下一轮先用 1 次调用重跑法语方案（验证修正是否放行），再用 1 次调用跑生成。若仍被拒，考虑到德语/法语提示里的示例字面量（99,5 %、38 × 42 cm、140 g/m²、100 % coton、75/125）本身就被校验拒，需要人工决定是否授权把那几条断言改成用文字描述惯例。"
+}

@@ -1,0 +1,133 @@
+Listing Studio · 商品 · V4
+
+Title
+Westford Mill W101 100% Cotton Tote Bag, 140gsm, 38 x 42 cm
+
+Item Highlights
+100% cotton tote, 140gsm (4.1oz/yd²); 38 x 42 cm; 10 L capacity; 67 cm handles for hand or shoulder carry
+
+Bullet Points
+• 100% cotton fabric at 140gsm (4.1oz/yd²)
+• Measures 38 cm wide x 42 cm high, with a 10 litre capacity
+• 67 cm handle length lets it be carried by hand or over the shoulder
+• CutAway label for ease of rebranding
+
+Description
+Westford Mill W101 is a 100% cotton tote bag made from 140gsm (4.1oz/yd²) fabric. It measures 38 cm wide by 42 cm high and has a 10 litre capacity. The 67 cm handles allow it to be carried by hand or over the shoulder. A CutAway label makes it easy to rebrand.
+
+—— 内部审阅说明（与对客文案分开使用）——
+
+检查范围：Amazon US 文本与宣称证据预审；正式上架准备状态未验证。
+
+执行方式：实际模型调用
+
+运行：run-92ce7447-1bb0-4db7-98ff-c396022e4d2f
+
+商品资料版本：REAL-WESTFORD-W101@1
+
+导入材料与关键词
+材料角色：竞品参考，不能作为自家商品事实
+来源工具：Westford Mill 官方公开参考原文
+来源地址：https://westfordmill.com/products/w201-premium-cotton-tote
+来源 ASIN：未提供
+来源文件：未提供
+本机接收时间：2026-10-30T04:42:55.968Z；不代表来源独立核验时间。
+本次已确认范围：Amazon 美国站棉布手提袋；来源与关键词不证明商品事实。
+词条：cotton；输入/前版 4 处，本版 4 处；仍有使用
+词条：CutAway；输入/前版 2 处，本版 2 处；仍有使用
+词条：4.1oz/yd²；输入/前版 3 处，本版 3 处；仍有使用
+出现次数仅为文案匹配，不是搜索量、排名、相关性或合规结论。保留词须服从自家商品事实和适用规则。
+
+审核一致性：本次与上一版相同输入的审核结论一致；单次一致不代表长期稳定性。
+
+卖点对照：Westford Mill W101 100% Cotton Tote Bag, 140gsm, 38 x 42 cm
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：Westford Mill → brand="Westford Mill"；方法：exact_fact_text；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：100% → material="100% cotton"；方法：material_percentage；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：140gsm → fabric_weight_gsm=140；方法：fabric_mass_per_area；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：38 x 42 cm → dimensions_cm={"width":38,"height":42}；方法：dimension_tuple_to_cm；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+brand="Westford Mill"；来源：LIVE-WESTFORD-W101
+material="100% cotton"；来源：LIVE-WESTFORD-W101
+fabric_weight_gsm=140；来源：LIVE-WESTFORD-W101
+dimensions_cm={"width":38,"height":42}；来源：LIVE-WESTFORD-W101
+
+卖点对照：100% cotton tote, 140gsm (4.1oz/yd²); 38 x 42 cm; 10 L capacity; 67 cm handles for hand or shoulder carry
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：100% → material="100% cotton"；方法：material_percentage；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：140gsm → fabric_weight_gsm=140；方法：fabric_mass_per_area；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：4.1oz/yd² → additional_facts.0="4.1oz/yd²"；方法：recorded_original_parameter；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：38 x 42 cm → dimensions_cm={"width":38,"height":42}；方法：dimension_tuple_to_cm；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：10 L → capacity_l=10；方法：volume_to_litres；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：67 cm handles → handle_length_cm=67；方法：handle_length_to_cm；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+material="100% cotton"；来源：LIVE-WESTFORD-W101
+fabric_weight_gsm=140；来源：LIVE-WESTFORD-W101
+additional_facts.0="4.1oz/yd²"；来源：LIVE-WESTFORD-W101
+dimensions_cm={"width":38,"height":42}；来源：LIVE-WESTFORD-W101
+capacity_l=10；来源：LIVE-WESTFORD-W101
+handle_length_cm=67；来源：LIVE-WESTFORD-W101
+
+卖点对照：100% cotton fabric at 140gsm (4.1oz/yd²)
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：100% → material="100% cotton"；方法：material_percentage；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：140gsm → fabric_weight_gsm=140；方法：fabric_mass_per_area；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：4.1oz/yd² → additional_facts.0="4.1oz/yd²"；方法：recorded_original_parameter；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+material="100% cotton"；来源：LIVE-WESTFORD-W101
+fabric_weight_gsm=140；来源：LIVE-WESTFORD-W101
+additional_facts.0="4.1oz/yd²"；来源：LIVE-WESTFORD-W101
+
+卖点对照：Measures 38 cm wide x 42 cm high, with a 10 litre capacity
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：38 cm wide x 42 cm high → dimensions_cm={"width":38,"height":42}；方法：dimension_pair_by_axis_label；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：10 litre → capacity_l=10；方法：volume_to_litres；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+dimensions_cm={"width":38,"height":42}；来源：LIVE-WESTFORD-W101
+capacity_l=10；来源：LIVE-WESTFORD-W101
+
+卖点对照：67 cm handle length lets it be carried by hand or over the shoulder
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：67 cm handle → handle_length_cm=67；方法：handle_length_to_cm；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+handle_length_cm=67；来源：LIVE-WESTFORD-W101
+
+卖点对照：CutAway label for ease of rebranding
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：CutAway label for ease of rebranding → additional_facts.2="CutAway label for ease of rebranding"；方法：recorded_excerpt_spacing_only；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+additional_facts.2="CutAway label for ease of rebranding"；来源：LIVE-WESTFORD-W101
+
+卖点对照：Westford Mill W101 is a 100% cotton tote bag made from 140gsm (4.1oz/yd²) fabric.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：Westford Mill → brand="Westford Mill"；方法：exact_fact_text；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：100% → material="100% cotton"；方法：material_percentage；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：140gsm → fabric_weight_gsm=140；方法：fabric_mass_per_area；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：4.1oz/yd² → additional_facts.0="4.1oz/yd²"；方法：recorded_original_parameter；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+brand="Westford Mill"；来源：LIVE-WESTFORD-W101
+material="100% cotton"；来源：LIVE-WESTFORD-W101
+fabric_weight_gsm=140；来源：LIVE-WESTFORD-W101
+additional_facts.0="4.1oz/yd²"；来源：LIVE-WESTFORD-W101
+
+卖点对照：It measures 38 cm wide by 42 cm high and has a 10 litre capacity.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：38 cm wide by 42 cm high → dimensions_cm={"width":38,"height":42}；方法：dimension_pair_by_axis_label；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+参数原文：10 litre → capacity_l=10；方法：volume_to_litres；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+dimensions_cm={"width":38,"height":42}；来源：LIVE-WESTFORD-W101
+capacity_l=10；来源：LIVE-WESTFORD-W101
+
+卖点对照：The 67 cm handles allow it to be carried by hand or over the shoulder.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：REAL-WESTFORD-W101@1；整句语义另行审阅。
+参数原文：67 cm handles → handle_length_cm=67；方法：handle_length_to_cm；来源：LIVE-WESTFORD-W101；REAL-WESTFORD-W101@1
+handle_length_cm=67；来源：LIVE-WESTFORD-W101
+
+未覆盖参数：0 处；参数关联不证明整句，未覆盖项未核对。
+
+待补：颜色；未确认，草稿中不推测；正式上架仍需核对。
+
+待补：零售包装；未确认，草稿中不推测；正式上架仍需核对。
+
+未完成检查：无

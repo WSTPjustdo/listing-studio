@@ -1,0 +1,671 @@
+{
+  "started_at": "2026-10-31T06:06:17.405Z",
+  "base": "http://127.0.0.1:8787",
+  "source": "Existing real official Westford Mill W101 listing V20",
+  "scope": "Read-only UI, local unsaved input and emulated accessibility preferences; no saved product change or model request.",
+  "model_calls": [],
+  "mutation_requests": [],
+  "page_errors": [],
+  "checks": [
+    {
+      "name": "home_layout_390",
+      "passed": true,
+      "actual": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "sidebar": "390px",
+        "mainMargin": "0px"
+      }
+    },
+    {
+      "name": "home_layout_760",
+      "passed": true,
+      "actual": {
+        "viewport": 760,
+        "documentWidth": 760,
+        "sidebar": "760px",
+        "mainMargin": "0px"
+      }
+    },
+    {
+      "name": "home_layout_761",
+      "passed": true,
+      "actual": {
+        "viewport": 761,
+        "documentWidth": 761,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "tablet_sidebar_761",
+      "passed": true,
+      "actual": {
+        "viewport": 761,
+        "documentWidth": 761,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "home_layout_800",
+      "passed": true,
+      "actual": {
+        "viewport": 800,
+        "documentWidth": 800,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "tablet_sidebar_800",
+      "passed": true,
+      "actual": {
+        "viewport": 800,
+        "documentWidth": 800,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "home_layout_1000",
+      "passed": true,
+      "actual": {
+        "viewport": 1000,
+        "documentWidth": 1000,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "tablet_sidebar_1000",
+      "passed": true,
+      "actual": {
+        "viewport": 1000,
+        "documentWidth": 1000,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "home_layout_1001",
+      "passed": true,
+      "actual": {
+        "viewport": 1001,
+        "documentWidth": 1001,
+        "sidebar": "238px",
+        "mainMargin": "238px"
+      }
+    },
+    {
+      "name": "home_layout_1280",
+      "passed": true,
+      "actual": {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "sidebar": "238px",
+        "mainMargin": "238px"
+      }
+    },
+    {
+      "name": "home_layout_1440",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": "238px",
+        "mainMargin": "238px"
+      }
+    },
+    {
+      "name": "glass_materials",
+      "passed": true,
+      "actual": {
+        ".sidebar": {
+          "background": "rgba(241, 245, 236, 0.78)",
+          "blur": "saturate(1.7) blur(22px)",
+          "radius": "0px"
+        },
+        ".topbar": {
+          "background": "rgba(251, 252, 249, 0.76)",
+          "blur": "saturate(1.7) blur(20px)",
+          "radius": "0px"
+        },
+        ".guided-choice": {
+          "background": "rgba(238, 246, 239, 0.82)",
+          "blur": "saturate(1.45) blur(18px)",
+          "radius": "20px"
+        }
+      }
+    },
+    {
+      "name": "button_press_feedback",
+      "passed": true,
+      "actual": "matrix(0.98, 0, 0, 0.98, 0, 0)"
+    },
+    {
+      "name": "desktop_collapse_after_mouse_leaves",
+      "passed": true,
+      "actual": {
+        "sidebar": "78px",
+        "margin": "78px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_390",
+      "passed": true,
+      "actual": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "sidebar": "390px",
+        "mainMargin": "0px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_760",
+      "passed": true,
+      "actual": {
+        "viewport": 760,
+        "documentWidth": 760,
+        "sidebar": "760px",
+        "mainMargin": "0px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_761",
+      "passed": true,
+      "actual": {
+        "viewport": 761,
+        "documentWidth": 761,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_800",
+      "passed": true,
+      "actual": {
+        "viewport": 800,
+        "documentWidth": 800,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_1000",
+      "passed": true,
+      "actual": {
+        "viewport": 1000,
+        "documentWidth": 1000,
+        "sidebar": "78px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_1001",
+      "passed": true,
+      "actual": {
+        "viewport": 1001,
+        "documentWidth": 1001,
+        "sidebar": "238px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_1280",
+      "passed": true,
+      "actual": {
+        "viewport": 1280,
+        "documentWidth": 1280,
+        "sidebar": "238px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "real_W101_result_layout_1440",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": "238px",
+        "mainMargin": "78px"
+      }
+    },
+    {
+      "name": "aplus_modal_1440",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 460,
+        "right": 980,
+        "bottom": 921.984375,
+        "viewport": 1440,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "A+ 内容（对比表）\n\n由 V20 已登记商品参数确定性生成 · 用作 A+ 模块素材\n\n对比表与图片配文候选由已登记商品参数确定性生成，不构成 A+ 营销文案，也不代表平台审核结论；A+ 模块正文与卖点措辞需用真实模型生成后独立审阅。\n\n参数\t值\t登记状态\n材质\nMaterial\n\t100% cotton\t公开来源\n尺寸\nDimensions\n\t38 × 42 cm\t公开来源\n克重\nFabric weight\n\t1"
+      }
+    },
+    {
+      "name": "aplus_focus_restored_1440",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "voc_modal_1440",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 460,
+        "right": 980,
+        "bottom": 667.96875,
+        "viewport": 1440,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "竞品差评 · 买家痛点挖掘\n\n按 V20 关联商品事实生成打痛点卖点 · 仅用已登记资料，不编造\n\n粘贴竞品 1–3 星差评（每行一条）\n分析差评"
+      }
+    },
+    {
+      "name": "voc_focus_restored_1440",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "keywords_modal_1440",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 460,
+        "right": 980,
+        "bottom": 667.96875,
+        "viewport": 1440,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "搜索词覆盖核对\n\n核对 V20 文案里哪些搜索词已覆盖、哪些缺失\n\n粘贴搜索词（每行一个，或 ABA 报告）\n核对覆盖"
+      }
+    },
+    {
+      "name": "keywords_focus_restored_1440",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "variants_modal_1440",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 460,
+        "right": 980,
+        "bottom": 595.09375,
+        "viewport": 1440,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "A/B 变体生成\n\n同一商品事实 · 三版卖点角度 · 供点击/转化测试\n\n用同一商品事实生成三版不同卖点角度的文案，供 A/B 测试；每版都只基于已登记资料，不编造。\n\n生成三版变体"
+      }
+    },
+    {
+      "name": "variants_focus_restored_1440",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "roles_modal_1440",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 460,
+        "right": 980,
+        "bottom": 758.28125,
+        "viewport": 1440,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位经验默认分组（只读）；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无"
+      }
+    },
+    {
+      "name": "roles_notice_1440",
+      "passed": true,
+      "actual": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位经验默认分组（只读）；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无"
+    },
+    {
+      "name": "roles_focus_restored_1440",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "aplus_modal_800",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 140,
+        "right": 660,
+        "bottom": 921.984375,
+        "viewport": 800,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "A+ 内容（对比表）\n\n由 V20 已登记商品参数确定性生成 · 用作 A+ 模块素材\n\n对比表与图片配文候选由已登记商品参数确定性生成，不构成 A+ 营销文案，也不代表平台审核结论；A+ 模块正文与卖点措辞需用真实模型生成后独立审阅。\n\n参数\t值\t登记状态\n材质\nMaterial\n\t100% cotton\t公开来源\n尺寸\nDimensions\n\t38 × 42 cm\t公开来源\n克重\nFabric weight\n\t1"
+      }
+    },
+    {
+      "name": "aplus_focus_restored_800",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "voc_modal_800",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 140,
+        "right": 660,
+        "bottom": 667.96875,
+        "viewport": 800,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "竞品差评 · 买家痛点挖掘\n\n按 V20 关联商品事实生成打痛点卖点 · 仅用已登记资料，不编造\n\n粘贴竞品 1–3 星差评（每行一条）\n分析差评"
+      }
+    },
+    {
+      "name": "voc_focus_restored_800",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "keywords_modal_800",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 140,
+        "right": 660,
+        "bottom": 667.96875,
+        "viewport": 800,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "搜索词覆盖核对\n\n核对 V20 文案里哪些搜索词已覆盖、哪些缺失\n\n粘贴搜索词（每行一个，或 ABA 报告）\n核对覆盖"
+      }
+    },
+    {
+      "name": "keywords_focus_restored_800",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "variants_modal_800",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 140,
+        "right": 660,
+        "bottom": 595.09375,
+        "viewport": 800,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "A/B 变体生成\n\n同一商品事实 · 三版卖点角度 · 供点击/转化测试\n\n用同一商品事实生成三版不同卖点角度的文案，供 A/B 测试；每版都只基于已登记资料，不编造。\n\n生成三版变体"
+      }
+    },
+    {
+      "name": "variants_focus_restored_800",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "roles_modal_800",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 520,
+        "left": 140,
+        "right": 660,
+        "bottom": 758.28125,
+        "viewport": 800,
+        "viewportHeight": 1000,
+        "clientWidth": 518,
+        "scrollWidth": 518,
+        "text": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位经验默认分组（只读）；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无"
+      }
+    },
+    {
+      "name": "roles_notice_800",
+      "passed": true,
+      "actual": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位经验默认分组（只读）；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无"
+    },
+    {
+      "name": "roles_focus_restored_800",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "aplus_modal_390",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 366,
+        "left": 12,
+        "right": 378,
+        "bottom": 832,
+        "viewport": 390,
+        "viewportHeight": 844,
+        "clientWidth": 364,
+        "scrollWidth": 364,
+        "text": "A+ 内容（对比表）\n\n由 V20 已登记商品参数确定性生成 · 用作 A+ 模块素材\n\n对比表与图片配文候选由已登记商品参数确定性生成，不构成 A+ 营销文案，也不代表平台审核结论；A+ 模块正文与卖点措辞需用真实模型生成后独立审阅。\n\n参数\t值\t登记状态\n材质\nMaterial\n\t100% cotton\t公开来源\n尺寸\nDimensions\n\t38 × 42 cm\t公开来源\n克重\nFabric weight\n\t1"
+      }
+    },
+    {
+      "name": "aplus_focus_restored_390",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "voc_modal_390",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 366,
+        "left": 12,
+        "right": 378,
+        "bottom": 832,
+        "viewport": 390,
+        "viewportHeight": 844,
+        "clientWidth": 364,
+        "scrollWidth": 364,
+        "text": "竞品差评 · 买家痛点挖掘\n\n按 V20 关联商品事实生成打痛点卖点 · 仅用已登记资料，不编造\n\n粘贴竞品 1–3 星差评（每行一条）\n分析差评"
+      }
+    },
+    {
+      "name": "voc_focus_restored_390",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "keywords_modal_390",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 366,
+        "left": 12,
+        "right": 378,
+        "bottom": 832,
+        "viewport": 390,
+        "viewportHeight": 844,
+        "clientWidth": 364,
+        "scrollWidth": 364,
+        "text": "搜索词覆盖核对\n\n核对 V20 文案里哪些搜索词已覆盖、哪些缺失\n\n粘贴搜索词（每行一个，或 ABA 报告）\n核对覆盖"
+      }
+    },
+    {
+      "name": "keywords_focus_restored_390",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "variants_modal_390",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 366,
+        "left": 12,
+        "right": 378,
+        "bottom": 832,
+        "viewport": 390,
+        "viewportHeight": 844,
+        "clientWidth": 364,
+        "scrollWidth": 364,
+        "text": "A/B 变体生成\n\n同一商品事实 · 三版卖点角度 · 供点击/转化测试\n\n用同一商品事实生成三版不同卖点角度的文案，供 A/B 测试；每版都只基于已登记资料，不编造。\n\n生成三版变体"
+      }
+    },
+    {
+      "name": "variants_focus_restored_390",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "roles_modal_390",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "background": "rgba(255, 254, 250, 0.88)",
+        "blur": "saturate(1.65) blur(24px)",
+        "width": 366,
+        "left": 12,
+        "right": 378,
+        "bottom": 832,
+        "viewport": 390,
+        "viewportHeight": 844,
+        "clientWidth": 364,
+        "scrollWidth": 364,
+        "text": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位经验默认分组（只读）；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无"
+      }
+    },
+    {
+      "name": "roles_notice_390",
+      "passed": true,
+      "actual": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位经验默认分组（只读）；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无"
+    },
+    {
+      "name": "roles_focus_restored_390",
+      "passed": true,
+      "actual": true
+    },
+    {
+      "name": "unsaved_material_veto_remains_visible",
+      "passed": true,
+      "actual": {
+        "opacity": "1",
+        "closing": false,
+        "title": "核对商品资料并重新诊断"
+      }
+    },
+    {
+      "name": "cleared_material_can_close",
+      "passed": true,
+      "actual": ""
+    },
+    {
+      "name": "modal_entrance_motion",
+      "passed": true,
+      "actual": {
+        "name": "ui-modal-enter",
+        "duration": "0.28s"
+      }
+    },
+    {
+      "name": "modal_exit_phase",
+      "passed": true,
+      "actual": 1
+    },
+    {
+      "name": "reduced_motion",
+      "passed": true,
+      "actual": {
+        "media": true,
+        "animation": "none",
+        "duration": "1e-05s"
+      }
+    },
+    {
+      "name": "reduced_transparency",
+      "passed": true,
+      "actual": {
+        "media": true,
+        "modal": {
+          "bg": "rgb(255, 254, 250)",
+          "blur": "none"
+        },
+        "backdrop": "none",
+        "sidebar": "none"
+      }
+    },
+    {
+      "name": "no_browser_errors",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "name": "no_saved_or_paid_requests",
+      "passed": true,
+      "actual": []
+    }
+  ],
+  "screenshots": [
+    "390-home.png",
+    "800-home.png",
+    "1440-home.png",
+    "390-W101-result.png",
+    "800-W101-result.png",
+    "1440-W101-result.png",
+    "1440-aplus.png",
+    "1440-roles.png",
+    "800-aplus.png",
+    "800-roles.png",
+    "390-aplus.png",
+    "390-roles.png"
+  ],
+  "failures": [],
+  "passed": true,
+  "completed_at": "2026-10-31T06:06:44.708Z"
+}

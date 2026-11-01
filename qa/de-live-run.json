@@ -1,0 +1,104 @@
+{
+  "note": "德国站德语的两次真实模型生成（DeepSeek deepseek-flash）。第 1 次暴露了引擎两个假警报，第 2 次是修完之后的重跑。",
+  "cost_note": "每次约 0.05 元，共 2 次付费调用。第 2 次之后的复核是拿落库正文本地重算，没有再调模型。",
+  "before_fix": {
+    "ran_at": "2026-10-30T14:43:40.283Z",
+    "status": "succeeded",
+    "marketplace": "DE",
+    "language": "de",
+    "locale": "de-DE",
+    "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+    "model": "deepseek-flash",
+    "provider": "compatible",
+    "provider_request_id": "a12c1c0a-e890-4f8f-adcf-be54a5e61ff2",
+    "actual_model_call": true,
+    "usage": {
+      "prompt_tokens": 7821,
+      "completion_tokens": 893,
+      "total_tokens": 8714
+    },
+    "elapsed_ms": 5810,
+    "title": "Westford Mill W101 Baumwolltasche, 38 × 42 cm, 140 g/m²",
+    "item_highlights": "Baumwolltasche von Westford Mill: 100 % Baumwolle, 140 g/m², 38 × 42 cm, zum Tragen in der Hand oder über der Schulter.",
+    "bullet_points": [
+      {
+        "id": "b1",
+        "text": "100 % Baumwolle, Stoffgewicht 140 g/m²"
+      },
+      {
+        "id": "b2",
+        "text": "Maße: 38 × 42 cm"
+      },
+      {
+        "id": "b3",
+        "text": "Kann in der Hand oder über der Schulter getragen werden"
+      }
+    ],
+    "description": "Baumwolltasche von Westford Mill. Der Stoff besteht aus 100 % Baumwolle mit einem Gewicht von 140 g/m². Die Tasche misst 38 × 42 cm und lässt sich in der Hand oder über der Schulter tragen.",
+    "title_char_count": 55,
+    "issue_count": 7,
+    "issue_ids": [
+      "AMZ-05",
+      "AMZ-05",
+      "AMZ-05",
+      "AMZ-05",
+      "EVID-01",
+      "EVID-01",
+      "SYS-02"
+    ],
+    "product_snapshot_problem": "这份探针把 dimensions_cm 写成字符串 \"38 x 42 cm\"，契约是 {width,height}。是我的探针造错了数据，不是引擎缺陷 —— 4 条 AMZ-05 不是引擎假警报，是快照非法。",
+    "engine_false_alarms_found": [
+      {
+        "rule_id": "EVID-01",
+        "count": 2,
+        "why": "\"100 % Baumwolle\"（(EU) 1007/2011 第 16 条要求的德语写法）被读成「百分比没说清指什么」。纤维表只有英文词，且 evidence.mjs 另抄了一份。",
+        "fixed_in": "6c4fed9"
+      },
+      {
+        "rule_id": "SYS-02",
+        "count": 1,
+        "why": "service.mjs 调 reviewContent 没传 marketplace，默认按 US 判，德国包撞上默认站点触发市场守卫。",
+        "fixed_in": "6c4fed9"
+      }
+    ]
+  },
+  "after_fix": {
+    "ran_at": "2026-10-30T15:01:57.350Z",
+    "status": "succeeded",
+    "marketplace": "DE",
+    "language": "de",
+    "locale": "de-DE",
+    "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+    "model": "deepseek-flash",
+    "provider": "compatible",
+    "provider_request_id": "e0fb5e49-9470-418c-8d3f-47313a96701d",
+    "actual_model_call": true,
+    "usage": {
+      "prompt_tokens": 7826,
+      "completion_tokens": 912,
+      "total_tokens": 8738
+    },
+    "elapsed_ms": 6061,
+    "title": "Westford Mill W101 Baumwolltasche, 38 × 42 cm, 140 g/m²",
+    "item_highlights": "100 % Baumwolle, 140 g/m²; 38 × 42 cm; in der Hand oder über der Schulter tragbar",
+    "bullet_points": [
+      {
+        "id": "b1",
+        "text": "100 % Baumwolle mit 140 g/m² Stoffgewicht."
+      },
+      {
+        "id": "b2",
+        "text": "Maße: 38 × 42 cm (Breite × Höhe)."
+      },
+      {
+        "id": "b3",
+        "text": "Kann in der Hand oder über der Schulter getragen werden."
+      }
+    ],
+    "description": "Westford Mill W101: Baumwolltasche aus 100 % Baumwolle mit einem Stoffgewicht von 140 g/m². Die Maße betragen 38 × 42 cm (Breite × Höhe). Die Tasche kann in der Hand oder über der Schulter getragen werden.",
+    "title_char_count": 55,
+    "issue_count": 0,
+    "issue_ids": []
+  },
+  "conclusion": "修完后同一份德语文案 0 条问题；19 条检查全部落地；标题 55 字符；德式写法 38 × 42 cm / 140 g/m² / 100 % Baumwolle 全部正确。"
+}

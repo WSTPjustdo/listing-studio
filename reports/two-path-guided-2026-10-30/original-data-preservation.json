@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-30T10:06:23.626Z",
+  "tables": [
+    {
+      "table": "products",
+      "before": 16,
+      "after": 16,
+      "unchanged": true
+    },
+    {
+      "table": "versions",
+      "before": 47,
+      "after": 47,
+      "unchanged": true
+    },
+    {
+      "table": "runs",
+      "before": 55,
+      "after": 55,
+      "unchanged": true
+    },
+    {
+      "table": "batches",
+      "before": 0,
+      "after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "settings",
+      "before": 1,
+      "after": 1,
+      "unchanged": true
+    }
+  ],
+  "secrets_included": false
+}

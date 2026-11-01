@@ -1,0 +1,2311 @@
+{
+  "listing_id": "listing-df10e8ba-608d-405e-829c-3e64dedb9381",
+  "version": 3,
+  "parent_version": 2,
+  "workflow": "listing_diagnose",
+  "operation": "patch",
+  "product_ref": "REAL-WESTFORD-W101@8",
+  "product_snapshot": {
+    "product_id": "REAL-WESTFORD-W101",
+    "revision": 8,
+    "name_zh": "Westford Mill W101 官方公开商品",
+    "is_demo": false,
+    "reference_product_id": "W101",
+    "material": {
+      "value": "100% cotton",
+      "status": "public_source",
+      "source_ids": [
+        "LIVE-WESTFORD-W101"
+      ]
+    },
+    "fabric_weight_gsm": {
+      "value": 140,
+      "status": "public_source",
+      "source_ids": [
+        "LIVE-WESTFORD-W101"
+      ]
+    },
+    "dimensions_cm": {
+      "value": {
+        "width": 38,
+        "height": 42
+      },
+      "status": "public_source",
+      "source_ids": [
+        "LIVE-WESTFORD-W101"
+      ]
+    },
+    "capacity_l": {
+      "value": 10,
+      "status": "public_source",
+      "source_ids": [
+        "LIVE-WESTFORD-W101"
+      ]
+    },
+    "handle_length_cm": {
+      "value": 67,
+      "status": "public_source",
+      "source_ids": [
+        "LIVE-WESTFORD-W101"
+      ]
+    },
+    "retail_pack_count": {
+      "value": null,
+      "status": "unknown",
+      "source_ids": []
+    },
+    "brand": {
+      "value": "Westford Mill",
+      "status": "public_source",
+      "source_ids": [
+        "LIVE-WESTFORD-W101"
+      ]
+    },
+    "color": {
+      "value": null,
+      "status": "unknown",
+      "source_ids": []
+    },
+    "rated_load_kg": {
+      "value": null,
+      "status": "unknown",
+      "source_ids": []
+    },
+    "additional_facts": [
+      {
+        "value": "4.1oz/yd²",
+        "status": "public_source",
+        "source_ids": [
+          "LIVE-WESTFORD-W101"
+        ],
+        "label": "官方页面原文"
+      },
+      {
+        "value": "Can be carried by hand or over the shoulder",
+        "status": "public_source",
+        "source_ids": [
+          "LIVE-WESTFORD-W101"
+        ],
+        "label": "官方页面原文"
+      },
+      {
+        "value": "CutAway label for ease of rebranding",
+        "status": "public_source",
+        "source_ids": [
+          "LIVE-WESTFORD-W101"
+        ],
+        "label": "官方页面原文"
+      }
+    ],
+    "degradation_evidence": [],
+    "certification_evidence": [],
+    "performance_evidence": [],
+    "evidence_submissions": [
+      {
+        "base_revision": 2,
+        "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+        "listing_version": 2,
+        "target": "retail_pack_count",
+        "title": "W101 官方装箱资料（不确认零售件数）",
+        "applicable_model": "Westford Mill W101",
+        "publisher": "Westford Mill 官方产品页",
+        "url": "https://westfordmill.com/products/w101",
+        "excerpt": "Approx Product Weight ( g ) 65 Dimensions ( cm ) - width x height x depth 38 x 42 Capacity ( litres ) 10 Fabric Weight (gsm) 140 Handle length ( cm ) 67 Approx Carton Weight ( kg ) 19 Carton Dimensions ( cm ) 50 x 40 x 33 Carton Quantity 250 Pricelist Pack Qty 25 Poly Bag Qty 25 Maximum Print Area ( cm ) 33 x 36 Maximum Embroidery ( cm tubular hoop ) 18 Commodity Code 4202929890",
+        "source_id": "evidence-4f92441e-eaa7-4f87-98f0-ec0f9c52cfbb",
+        "status": "submitted_unverified",
+        "submitted_at": "2026-10-23T08:07:58.745Z",
+        "target_label": "零售包装",
+        "original": "",
+        "field_path": "retail_pack_count"
+      },
+      {
+        "owner": "",
+        "due_on": "",
+        "title": "W101 官方包装表原文（零售数量仍待确认）",
+        "applicable_model": "Westford Mill W101",
+        "publisher": "Westford Mill 官方产品页",
+        "url": "https://westfordmill.com/products/w101",
+        "excerpt": "Carton Quantity 250\nPricelist Pack Qty 25\nPoly Bag Qty 25",
+        "source_id": "evidence-3fed154e-a8e9-48c2-acf9-5990327c96c7",
+        "submitted_at": "2026-10-23T09:48:47.874Z",
+        "status": "submitted_unverified",
+        "target": "retail_pack_count",
+        "target_label": "零售包装",
+        "original": "未确认，草稿中不推测；正式上架仍需核对。",
+        "field_path": "retail_pack_count",
+        "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+        "listing_version": 7,
+        "base_revision": 3,
+        "handoff_id": "handoff-5863d184-da72-44e9-8c3b-eefb9b3977e0",
+        "handoff_task_id": "task-51739ebf-22bd-469c-97e3-b26b32c26ef6"
+      },
+      {
+        "owner": "",
+        "due_on": "",
+        "title": "W101 官方包装表原文（零售数量仍待确认）",
+        "applicable_model": "Westford Mill W101",
+        "publisher": "Westford Mill 官方产品页",
+        "url": "https://westfordmill.com/products/w101",
+        "excerpt": "Poly Bag Qty 25\nPricelist Pack Qty 25\nCarton Quantity 250",
+        "source_id": "evidence-79c025b2-2e50-46d8-a23e-14b174e1ef9e",
+        "submitted_at": "2026-10-23T09:52:12.022Z",
+        "status": "submitted_unverified",
+        "target": "retail_pack_count",
+        "target_label": "零售包装",
+        "original": "未确认，草稿中不推测；正式上架仍需核对。",
+        "field_path": "retail_pack_count",
+        "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+        "listing_version": 7,
+        "base_revision": 4,
+        "handoff_id": "handoff-59f93e7d-33db-4807-bb25-85689042aa38",
+        "handoff_task_id": "task-dc8d14f6-00b1-48fb-a8da-724506a7cc2c"
+      },
+      {
+        "owner": "",
+        "due_on": "",
+        "title": "W101 官方包装表原文（零售数量仍待确认）",
+        "applicable_model": "Westford Mill W101",
+        "publisher": "Westford Mill 官方产品页",
+        "url": "https://westfordmill.com/products/w101",
+        "excerpt": "Poly Bag Qty 25\n\nPricelist Pack Qty 25\n\nCarton Quantity 250",
+        "source_id": "evidence-4b1f3229-f49b-4ae8-bb66-d55ae8dfc9b9",
+        "submitted_at": "2026-10-23T09:57:25.332Z",
+        "status": "submitted_unverified",
+        "target": "retail_pack_count",
+        "target_label": "零售包装",
+        "original": "未确认，草稿中不推测；正式上架仍需核对。",
+        "field_path": "retail_pack_count",
+        "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+        "listing_version": 11,
+        "base_revision": 5,
+        "handoff_id": "handoff-9d644612-3b33-435d-8314-4f83fddb8904",
+        "handoff_task_id": "task-034f8f67-19f1-4da9-be9a-bb5cad35e244"
+      },
+      {
+        "owner": "",
+        "due_on": "",
+        "title": "W101 官方包装表原文（零售数量仍待确认）",
+        "applicable_model": "Westford Mill W101",
+        "publisher": "Westford Mill 官方产品页",
+        "url": "https://westfordmill.com/products/w101",
+        "excerpt": "Carton Quantity 250",
+        "source_id": "evidence-a4bd0c68-f7e9-4f9e-8cf9-13a35ff2ea28",
+        "submitted_at": "2026-10-23T09:59:12.188Z",
+        "status": "submitted_unverified",
+        "target": "retail_pack_count",
+        "target_label": "零售包装",
+        "original": "未确认，草稿中不推测；正式上架仍需核对。",
+        "field_path": "retail_pack_count",
+        "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+        "listing_version": 11,
+        "base_revision": 6,
+        "handoff_id": "handoff-982c6482-d430-4aab-bfc1-8fd86b0a1669",
+        "handoff_task_id": "task-a1d7fdbb-3e9b-41f6-8de2-d1c8a520199a"
+      },
+      {
+        "owner": "",
+        "due_on": "",
+        "title": "W101 官方包装表原文（零售数量仍待确认）",
+        "applicable_model": "Westford Mill W101",
+        "publisher": "Westford Mill 官方产品页",
+        "url": "https://westfordmill.com/products/w101",
+        "excerpt": "Pricelist Pack Qty 25",
+        "source_id": "evidence-0e0838ca-4bd6-4a4c-9fc2-af87f536c189",
+        "submitted_at": "2026-10-23T10:05:09.425Z",
+        "status": "submitted_unverified",
+        "target": "retail_pack_count",
+        "target_label": "零售包装",
+        "original": "未确认，草稿中不推测；正式上架仍需核对。",
+        "field_path": "retail_pack_count",
+        "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+        "listing_version": 13,
+        "base_revision": 7,
+        "handoff_id": "handoff-63e689cf-a726-4b0c-bff8-9914c3eecf2d",
+        "handoff_task_id": "task-62cbbe0c-88b0-4a13-a79e-40e9a1fcdc12"
+      }
+    ]
+  },
+  "competitor_research": null,
+  "content_brief": null,
+  "marketplace": "US",
+  "locale": "en-US",
+  "rule_pack_version": "amazon-us-tote-2026-10-28.integration-v8",
+  "rule_pack_snapshot": {
+    "schema_version": "1.0",
+    "rule_pack_version": "amazon-us-tote-2026-10-28.integration-v8",
+    "checked_at": "2026-10-21",
+    "implementation_status": "implemented_scoped_pre_review",
+    "scope": {
+      "platform": "amazon",
+      "marketplace": "US",
+      "locale": "en-US",
+      "application_product_type": "tote_bag_demo",
+      "official_product_type_definition_loaded": false,
+      "workflows": [
+        "listing_create",
+        "listing_diagnose"
+      ]
+    },
+    "notice": "已实现限定范围的规则执行、商品参数对照与真实模型语义预审；不是完整品类、上架或法律审查。",
+    "result_states": [
+      "pass",
+      "fail",
+      "needs_evidence",
+      "not_applicable",
+      "error",
+      "not_checked"
+    ],
+    "sources": [
+      {
+        "source_id": "AMZS-TITLE-2026",
+        "kind": "official_platform_policy",
+        "publisher": "Amazon / News_Amazon",
+        "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+        "updated_on": "2026-06-10",
+        "effective_from": "2026-07-27",
+        "checked_at": "2026-10-21"
+      },
+      {
+        "source_id": "AMZS-DETAIL-US",
+        "kind": "official_platform_policy",
+        "publisher": "Amazon Seller Central",
+        "url": "https://sellercentral.amazon.com/gp/help/external/G200390640?locale=en-US",
+        "effective_from": null,
+        "checked_at": "2026-10-21",
+        "access_note": "官方正文通过搜索索引核验；直接打开可能需要 JavaScript 或登录。"
+      },
+      {
+        "source_id": "FTCS-GREEN-SUMMARY",
+        "kind": "official_regulatory_guidance",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+        "document_date": "2012-10",
+        "checked_at": "2026-10-21"
+      },
+      {
+        "source_id": "FTCS-AD-SUBSTANTIATION",
+        "kind": "official_regulatory_guidance",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+        "checked_at": "2026-10-21"
+      },
+      {
+        "source_id": "FTCS-GUIDE-STATUS",
+        "kind": "official_regulatory_guidance",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2012/10/ftc-issues-revised-green-guides",
+        "document_date": "2012-10",
+        "checked_at": "2026-10-21",
+        "note": "Green Guides 不是独立可执行的法规；不把其当作有机认证标准。"
+      },
+      {
+        "source_id": "FTCS-GUIDE-REGISTER",
+        "kind": "official_regulatory_guidance",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/legal-library/browse/rules/green-guides",
+        "checked_at": "2026-10-21"
+      },
+      {
+        "source_id": "PROJECT-AMAZON-QUALITY",
+        "kind": "project_check",
+        "url": null,
+        "local_document": "../Amazon-Listing精细化落地方案.md",
+        "note": "项目的事实一致性、来源和运行状态检查，不是平台发布的额外规定。"
+      }
+    ],
+    "rules": [
+      {
+        "rule_id": "AMZ-01",
+        "category": "platform_rules",
+        "title_zh": "标题长度",
+        "field_paths": [
+          "content.title"
+        ],
+        "scope": {
+          "marketplace": "US",
+          "media_product": false
+        },
+        "constraint": {
+          "max_characters": 75,
+          "include_spaces": true,
+          "application_counting": "unicode_code_points"
+        },
+        "effective_from": "2026-07-27",
+        "method": "deterministic",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "AMZS-TITLE-2026"
+        ],
+        "repair": "提出更短的标题，不加入新事实，重新计数。"
+      },
+      {
+        "rule_id": "AMZ-02",
+        "category": "platform_rules",
+        "title_zh": "亮点长度",
+        "field_paths": [
+          "content.item_highlights"
+        ],
+        "scope": {
+          "marketplace": "US",
+          "media_product": false
+        },
+        "constraint": {
+          "max_characters": 125,
+          "include_spaces": true,
+          "application_counting": "unicode_code_points"
+        },
+        "effective_from": "2026-07-27",
+        "method": "deterministic",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "AMZS-TITLE-2026"
+        ],
+        "repair": "提炼信息，必要时移到其他适用字段，重新计数。"
+      },
+      {
+        "rule_id": "AMZ-03",
+        "category": "platform_rules",
+        "title_zh": "文案中的联系信息或链接",
+        "field_paths": [
+          "content.title",
+          "content.item_highlights",
+          "content.bullet_points[].text",
+          "content.description"
+        ],
+        "field_basis_overrides": {
+          "content.item_highlights": {
+            "kind": "project_check",
+            "source_ids": [
+              "PROJECT-AMAZON-QUALITY"
+            ],
+            "note": "本应用保守沿用文案限制，待亮点字段具体规则核实；不作为独立官方规则计数。"
+          }
+        },
+        "scope": {
+          "marketplace": "US"
+        },
+        "constraint": {
+          "candidates": [
+            "email_address",
+            "phone_number",
+            "seller_address",
+            "website_url"
+          ]
+        },
+        "method": "patterns_with_context_review",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "AMZS-DETAIL-US"
+        ],
+        "repair": "删除受限文案中的联系信息；内部证据链接不属于检查对象。",
+        "note": "尺寸数字不因形状相似而自动判为电话号码。"
+      },
+      {
+        "rule_id": "AMZ-04",
+        "category": "platform_rules",
+        "title_zh": "文案中的交易信息",
+        "field_paths": [
+          "content.title",
+          "content.item_highlights",
+          "content.bullet_points[].text",
+          "content.description"
+        ],
+        "field_basis_overrides": {
+          "content.item_highlights": {
+            "kind": "project_check",
+            "source_ids": [
+              "PROJECT-AMAZON-QUALITY"
+            ],
+            "note": "本应用保守沿用文案限制，待亮点字段具体规则核实；不作为独立官方规则计数。"
+          }
+        },
+        "scope": {
+          "marketplace": "US"
+        },
+        "constraint": {
+          "candidates": [
+            "price",
+            "availability",
+            "condition",
+            "alternative_shipping_offer"
+          ]
+        },
+        "method": "patterns_and_semantic_review",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "AMZS-DETAIL-US"
+        ],
+        "repair": "移除文案中的交易信息，专门的售价或库存字段不适用此规则。"
+      },
+      {
+        "rule_id": "AMZ-05",
+        "category": "platform_rules",
+        "title_zh": "商品描述准确性",
+        "field_paths": [
+          "content"
+        ],
+        "scope": {
+          "marketplace": "US"
+        },
+        "constraint": {
+          "must_match_confirmed_product_facts": true
+        },
+        "method": "structured_comparison_and_semantic_review",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "AMZS-DETAIL-US"
+        ],
+        "repair": "有确定事实则建议按事实修复；无资料则标记 needs_evidence。"
+      },
+      {
+        "rule_id": "AMZ-06",
+        "category": "product_fact_quality",
+        "title_zh": "标题含多个包装规格",
+        "field_paths": [
+          "content.title"
+        ],
+        "scope": {
+          "marketplace": "US",
+          "application_product_type": "tote_bag_demo"
+        },
+        "constraint": {
+          "max_distinct_pack_counts_in_title": 1,
+          "pack_units": [
+            "pack",
+            "pcs",
+            "pieces",
+            "count",
+            "set"
+          ]
+        },
+        "method": "deterministic",
+        "severity_on_failure": "suggestion",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "repair": "标题只保留本变体的件数，其余规格放到变体选项里。",
+        "note": "标题并列多种包装规格时提醒确认当前变体的零售件数。项目内部表达建议，不是平台强制规则；不将并列选项自动登记为实际件数。"
+      },
+      {
+        "rule_id": "US-01",
+        "category": "target_country_claims_review",
+        "title_zh": "宽泛环保宣称",
+        "field_paths": [
+          "content"
+        ],
+        "scope": {
+          "marketplace": "US"
+        },
+        "constraint": {
+          "review_unqualified_general_environmental_benefit_claims": true
+        },
+        "method": "candidate_detection_and_contextual_review",
+        "severity_on_failure": "needs_review",
+        "source_ids": [
+          "FTCS-GREEN-SUMMARY"
+        ],
+        "repair": "建议移除宽泛宣称，或由人工确认支持具体限定表述的证据。",
+        "note": "关键词仅用于召回；否定、引用、限定条件和上下文影响判断。"
+      },
+      {
+        "rule_id": "US-02",
+        "category": "target_country_claims_review",
+        "title_zh": "降解宣称的证据与条件",
+        "field_paths": [
+          "content"
+        ],
+        "scope": {
+          "marketplace": "US"
+        },
+        "constraint": {
+          "require_evidence_for_claimed_degradation_conditions_and_timing": true
+        },
+        "method": "claim_extraction_and_evidence_review",
+        "severity_on_failure": "needs_review",
+        "source_ids": [
+          "FTCS-GREEN-SUMMARY"
+        ],
+        "repair": "缺证据时建议移除，或补充适用商品、测试条件和范围后人工审阅。",
+        "note": "不从棉质推导降解条件；不将风险提示当作最终法律结论。"
+      },
+      {
+        "rule_id": "US-03",
+        "category": "target_country_claims_review",
+        "title_zh": "客观性能或认证宣称依据",
+        "field_paths": [
+          "content"
+        ],
+        "scope": {
+          "marketplace": "US"
+        },
+        "constraint": {
+          "match_claim_to_appropriate_reviewed_evidence": true
+        },
+        "method": "claim_extraction_and_evidence_review",
+        "severity_on_failure": "needs_review",
+        "source_ids": [
+          "FTCS-AD-SUBSTANTIATION"
+        ],
+        "repair": "指出缺少何种证据，不补造认证，不把一般商品页当性能测试。",
+        "note": "证据标准取决于宣称；本规则不实现特定认证体系的官方核验。"
+      },
+      {
+        "rule_id": "FACT-01",
+        "category": "product_fact_quality",
+        "title_zh": "数量单位与属性混淆",
+        "field_paths": [
+          "content"
+        ],
+        "scope": {
+          "application_product_type": "tote_bag_demo"
+        },
+        "constraint": {
+          "keep_distinct": [
+            [
+              "capacity_l",
+              "rated_load_kg"
+            ],
+            [
+              "fabric_weight_gsm",
+              "unit_weight_g"
+            ]
+          ]
+        },
+        "method": "typed_fact_comparison",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "repair": "使用正确的属性和单位；缺失的性能值保持未知。"
+      },
+      {
+        "rule_id": "FACT-02",
+        "category": "product_fact_quality",
+        "title_zh": "零售包装数量",
+        "field_paths": [
+          "content"
+        ],
+        "scope": {
+          "application_product_type": "tote_bag_demo"
+        },
+        "constraint": {
+          "pack_claim_must_match": "product.retail_pack_count"
+        },
+        "method": "explicit_field_comparison",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "repair": "采用明确确认的零售件数，不沿用供应商装箱数量。"
+      },
+      {
+        "rule_id": "EVID-01",
+        "category": "product_fact_quality",
+        "title_zh": "商品参数与来源对照",
+        "field_paths": [
+          "content"
+        ],
+        "scope": {
+          "workflows": [
+            "listing_create",
+            "listing_diagnose"
+          ]
+        },
+        "constraint": {
+          "typed_parameter_links_from_recorded_product_facts": true,
+          "model_mapping_required_for_parameter_links": false,
+          "sentence_semantics_proven_by_parameter_links": false
+        },
+        "method": "deterministic",
+        "severity_on_failure": "needs_review",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "repair": "按字段、单位、商品版本关联记录来源；参数未知或冲突时补充对应资料或修改表述。模型漏引用不影响已关联参数；整句语义与复杂宣称仍需单独审阅。"
+      },
+      {
+        "rule_id": "SYS-01",
+        "category": "system_integrity",
+        "title_zh": "引用可追溯",
+        "field_paths": [
+          "issues[].source_ids",
+          "claim_map[].source_ids"
+        ],
+        "scope": {
+          "workflows": [
+            "listing_create",
+            "listing_diagnose"
+          ]
+        },
+        "constraint": {
+          "source_must_exist_and_be_supplied_to_current_run": true
+        },
+        "method": "deterministic",
+        "severity_on_failure": "blocking",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "repair": "拒绝假引用；重新检查，无法支持的结论标为待核。"
+      },
+      {
+        "rule_id": "SYS-02",
+        "category": "system_integrity",
+        "title_zh": "范围与检查完成状态",
+        "field_paths": [
+          "marketplace",
+          "rule_pack_version",
+          "review_status",
+          "check_results"
+        ],
+        "scope": {
+          "workflows": [
+            "listing_create",
+            "listing_diagnose"
+          ]
+        },
+        "constraint": {
+          "no_pass_from_error_or_missing_checks": true,
+          "require_rule_scope_match": true
+        },
+        "method": "deterministic",
+        "severity_on_failure": "needs_review",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "repair": "列出未覆盖或失败项目，保留部分完成状态。"
+      }
+    ],
+    "coverage_limits": [
+      "未取得正式商品类型 Schema；不检查完整商品属性、品牌资格、变体或商品准入。",
+      "未覆盖图片、A+、Search Terms、进口、税务、纺织品标签及各州全部要求。",
+      "Green Guides 的引用用于宣传风险预审，不宣称模型能完成法律认定。",
+      "商品事实和系统检查是补充，不单独用来计数赛题的两类校验。",
+      "本地英文长度边界已定义；尚未对接 Amazon 验证 Unicode 计数和字段提交行为。"
+    ],
+    "label": "棉布手提袋（Amazon US 文本预审）",
+    "pack_id": "amazon-us-tote"
+  },
+  "rule_citations": [
+    {
+      "rule_id": "AMZ-01",
+      "title_zh": "标题长度",
+      "category_label": "平台规则",
+      "severity_label": "阻断（blocking）",
+      "method_label": "确定性代码检查，可复现",
+      "constraint": "上限 75 字符（含空格）",
+      "repair": "提出更短的标题，不加入新事实，重新计数。",
+      "note": "",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "AMZS-TITLE-2026",
+          "publisher": "Amazon / News_Amazon",
+          "kind": "official_platform_policy",
+          "kind_label": "平台官方",
+          "is_official": true,
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+          "local_document": null,
+          "document_date": null,
+          "effective_from": "2026-07-27",
+          "updated_on": "2026-06-10",
+          "checked_at": "2026-10-21",
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "AMZ-02",
+      "title_zh": "亮点长度",
+      "category_label": "平台规则",
+      "severity_label": "阻断（blocking）",
+      "method_label": "确定性代码检查，可复现",
+      "constraint": "上限 125 字符（含空格）",
+      "repair": "提炼信息，必要时移到其他适用字段，重新计数。",
+      "note": "",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "AMZS-TITLE-2026",
+          "publisher": "Amazon / News_Amazon",
+          "kind": "official_platform_policy",
+          "kind_label": "平台官方",
+          "is_official": true,
+          "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+          "local_document": null,
+          "document_date": null,
+          "effective_from": "2026-07-27",
+          "updated_on": "2026-06-10",
+          "checked_at": "2026-10-21",
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "AMZ-03",
+      "title_zh": "文案中的联系信息或链接",
+      "category_label": "平台规则",
+      "severity_label": "阻断（blocking）",
+      "method_label": "模式匹配 + 上下文复核",
+      "constraint": "检查项：email_address / phone_number / seller_address / website_url",
+      "repair": "删除受限文案中的联系信息；内部证据链接不属于检查对象。",
+      "note": "尺寸数字不因形状相似而自动判为电话号码。",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "AMZS-DETAIL-US",
+          "publisher": "Amazon Seller Central",
+          "kind": "official_platform_policy",
+          "kind_label": "平台官方",
+          "is_official": true,
+          "url": "https://sellercentral.amazon.com/gp/help/external/G200390640?locale=en-US",
+          "local_document": null,
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": "2026-10-21",
+          "access_note": "官方正文通过搜索索引核验；直接打开可能需要 JavaScript 或登录。"
+        }
+      ],
+      "field_basis_overrides": {
+        "content.item_highlights": {
+          "rule_id": "AMZ-03",
+          "title_zh": "文案中的联系信息或链接",
+          "category_label": "平台规则",
+          "severity_label": "阻断（blocking）",
+          "method_label": "模式匹配 + 上下文复核",
+          "constraint": "检查项：email_address / phone_number / seller_address / website_url",
+          "repair": "删除受限文案中的联系信息；内部证据链接不属于检查对象。",
+          "note": "本应用保守沿用文案限制，待亮点字段具体规则核实；不作为独立官方规则计数。",
+          "external": false,
+          "basis_label": "项目内部约定",
+          "sources": [
+            {
+              "source_id": "PROJECT-AMAZON-QUALITY",
+              "kind": "project_check",
+              "url": null,
+              "local_document": "../Amazon-Listing精细化落地方案.md",
+              "note": "项目的事实一致性、来源和运行状态检查，不是平台发布的额外规定。",
+              "publisher": "PROJECT-AMAZON-QUALITY",
+              "kind_label": "项目内部约定",
+              "is_official": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rule_id": "AMZ-04",
+      "title_zh": "文案中的交易信息",
+      "category_label": "平台规则",
+      "severity_label": "阻断（blocking）",
+      "method_label": "模式匹配 + 语义复核",
+      "constraint": "检查项：price / availability / condition / alternative_shipping_offer",
+      "repair": "移除文案中的交易信息，专门的售价或库存字段不适用此规则。",
+      "note": "",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "AMZS-DETAIL-US",
+          "publisher": "Amazon Seller Central",
+          "kind": "official_platform_policy",
+          "kind_label": "平台官方",
+          "is_official": true,
+          "url": "https://sellercentral.amazon.com/gp/help/external/G200390640?locale=en-US",
+          "local_document": null,
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": "2026-10-21",
+          "access_note": "官方正文通过搜索索引核验；直接打开可能需要 JavaScript 或登录。"
+        }
+      ],
+      "field_basis_overrides": {
+        "content.item_highlights": {
+          "rule_id": "AMZ-04",
+          "title_zh": "文案中的交易信息",
+          "category_label": "平台规则",
+          "severity_label": "阻断（blocking）",
+          "method_label": "模式匹配 + 语义复核",
+          "constraint": "检查项：price / availability / condition / alternative_shipping_offer",
+          "repair": "移除文案中的交易信息，专门的售价或库存字段不适用此规则。",
+          "note": "本应用保守沿用文案限制，待亮点字段具体规则核实；不作为独立官方规则计数。",
+          "external": false,
+          "basis_label": "项目内部约定",
+          "sources": [
+            {
+              "source_id": "PROJECT-AMAZON-QUALITY",
+              "kind": "project_check",
+              "url": null,
+              "local_document": "../Amazon-Listing精细化落地方案.md",
+              "note": "项目的事实一致性、来源和运行状态检查，不是平台发布的额外规定。",
+              "publisher": "PROJECT-AMAZON-QUALITY",
+              "kind_label": "项目内部约定",
+              "is_official": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rule_id": "AMZ-05",
+      "title_zh": "商品描述准确性",
+      "category_label": "平台规则",
+      "severity_label": "阻断（blocking）",
+      "method_label": "结构化参数对照 + 语义复核",
+      "constraint": "所有数值必须与已确认的商品档案一致",
+      "repair": "有确定事实则建议按事实修复；无资料则标记 needs_evidence。",
+      "note": "",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "AMZS-DETAIL-US",
+          "publisher": "Amazon Seller Central",
+          "kind": "official_platform_policy",
+          "kind_label": "平台官方",
+          "is_official": true,
+          "url": "https://sellercentral.amazon.com/gp/help/external/G200390640?locale=en-US",
+          "local_document": null,
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": "2026-10-21",
+          "access_note": "官方正文通过搜索索引核验；直接打开可能需要 JavaScript 或登录。"
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "AMZ-06",
+      "title_zh": "标题含多个包装规格",
+      "category_label": "商品事实质量",
+      "severity_label": "表达建议（suggestion）",
+      "method_label": "确定性代码检查，可复现",
+      "constraint": "标题里不同包装件数不得超过 1 种（认 pack / pcs / pieces / count / set）",
+      "repair": "标题只保留本变体的件数，其余规格放到变体选项里。",
+      "note": "标题并列多种包装规格时提醒确认当前变体的零售件数。项目内部表达建议，不是平台强制规则；不将并列选项自动登记为实际件数。",
+      "external": false,
+      "basis_label": "项目内部约定",
+      "sources": [
+        {
+          "source_id": "PROJECT-AMAZON-QUALITY",
+          "publisher": "PROJECT-AMAZON-QUALITY",
+          "kind": "project_check",
+          "kind_label": "项目内部约定",
+          "is_official": false,
+          "url": null,
+          "local_document": "../Amazon-Listing精细化落地方案.md",
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": null,
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "US-01",
+      "title_zh": "宽泛环保宣称",
+      "category_label": "目标国宣称审查",
+      "severity_label": "待人工核（needs_review）",
+      "method_label": "候选召回 + 上下文复核",
+      "constraint": "review_unqualified_general_environmental_benefit_claims = true",
+      "repair": "建议移除宽泛宣称，或由人工确认支持具体限定表述的证据。",
+      "note": "关键词仅用于召回；否定、引用、限定条件和上下文影响判断。",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "FTCS-GREEN-SUMMARY",
+          "publisher": "Federal Trade Commission",
+          "kind": "official_regulatory_guidance",
+          "kind_label": "监管机构指南",
+          "is_official": true,
+          "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+          "local_document": null,
+          "document_date": "2012-10",
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": "2026-10-21",
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "US-02",
+      "title_zh": "降解宣称的证据与条件",
+      "category_label": "目标国宣称审查",
+      "severity_label": "待人工核（needs_review）",
+      "method_label": "宣称抽取 + 证据审查",
+      "constraint": "require_evidence_for_claimed_degradation_conditions_and_timing = true",
+      "repair": "缺证据时建议移除，或补充适用商品、测试条件和范围后人工审阅。",
+      "note": "不从棉质推导降解条件；不将风险提示当作最终法律结论。",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "FTCS-GREEN-SUMMARY",
+          "publisher": "Federal Trade Commission",
+          "kind": "official_regulatory_guidance",
+          "kind_label": "监管机构指南",
+          "is_official": true,
+          "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+          "local_document": null,
+          "document_date": "2012-10",
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": "2026-10-21",
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "US-03",
+      "title_zh": "客观性能或认证宣称依据",
+      "category_label": "目标国宣称审查",
+      "severity_label": "待人工核（needs_review）",
+      "method_label": "宣称抽取 + 证据审查",
+      "constraint": "match_claim_to_appropriate_reviewed_evidence = true",
+      "repair": "指出缺少何种证据，不补造认证，不把一般商品页当性能测试。",
+      "note": "证据标准取决于宣称；本规则不实现特定认证体系的官方核验。",
+      "external": true,
+      "basis_label": "官方文件",
+      "sources": [
+        {
+          "source_id": "FTCS-AD-SUBSTANTIATION",
+          "publisher": "Federal Trade Commission",
+          "kind": "official_regulatory_guidance",
+          "kind_label": "监管机构指南",
+          "is_official": true,
+          "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+          "local_document": null,
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": "2026-10-21",
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "FACT-01",
+      "title_zh": "数量单位与属性混淆",
+      "category_label": "商品事实质量",
+      "severity_label": "阻断（blocking）",
+      "method_label": "按字段类型对照商品事实",
+      "constraint": "不能互相替代：capacity_l ↔ rated_load_kg；fabric_weight_gsm ↔ unit_weight_g",
+      "repair": "使用正确的属性和单位；缺失的性能值保持未知。",
+      "note": "",
+      "external": false,
+      "basis_label": "项目内部约定",
+      "sources": [
+        {
+          "source_id": "PROJECT-AMAZON-QUALITY",
+          "publisher": "PROJECT-AMAZON-QUALITY",
+          "kind": "project_check",
+          "kind_label": "项目内部约定",
+          "is_official": false,
+          "url": null,
+          "local_document": "../Amazon-Listing精细化落地方案.md",
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": null,
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "FACT-02",
+      "title_zh": "零售包装数量",
+      "category_label": "商品事实质量",
+      "severity_label": "阻断（blocking）",
+      "method_label": "按明确字段对照",
+      "constraint": "件数声明必须等于 product.retail_pack_count",
+      "repair": "采用明确确认的零售件数，不沿用供应商装箱数量。",
+      "note": "",
+      "external": false,
+      "basis_label": "项目内部约定",
+      "sources": [
+        {
+          "source_id": "PROJECT-AMAZON-QUALITY",
+          "publisher": "PROJECT-AMAZON-QUALITY",
+          "kind": "project_check",
+          "kind_label": "项目内部约定",
+          "is_official": false,
+          "url": null,
+          "local_document": "../Amazon-Listing精细化落地方案.md",
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": null,
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "EVID-01",
+      "title_zh": "商品参数与来源对照",
+      "category_label": "商品事实质量",
+      "severity_label": "待人工核（needs_review）",
+      "method_label": "确定性代码检查，可复现",
+      "constraint": "typed_parameter_links_from_recorded_product_facts = true",
+      "repair": "按字段、单位、商品版本关联记录来源；参数未知或冲突时补充对应资料或修改表述。模型漏引用不影响已关联参数；整句语义与复杂宣称仍需单独审阅。",
+      "note": "",
+      "external": false,
+      "basis_label": "项目内部约定",
+      "sources": [
+        {
+          "source_id": "PROJECT-AMAZON-QUALITY",
+          "publisher": "PROJECT-AMAZON-QUALITY",
+          "kind": "project_check",
+          "kind_label": "项目内部约定",
+          "is_official": false,
+          "url": null,
+          "local_document": "../Amazon-Listing精细化落地方案.md",
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": null,
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "SYS-01",
+      "title_zh": "引用可追溯",
+      "category_label": "系统完整性",
+      "severity_label": "阻断（blocking）",
+      "method_label": "确定性代码检查，可复现",
+      "constraint": "引用必须存在于本轮输入中",
+      "repair": "拒绝假引用；重新检查，无法支持的结论标为待核。",
+      "note": "",
+      "external": false,
+      "basis_label": "项目内部约定",
+      "sources": [
+        {
+          "source_id": "PROJECT-AMAZON-QUALITY",
+          "publisher": "PROJECT-AMAZON-QUALITY",
+          "kind": "project_check",
+          "kind_label": "项目内部约定",
+          "is_official": false,
+          "url": null,
+          "local_document": "../Amazon-Listing精细化落地方案.md",
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": null,
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    },
+    {
+      "rule_id": "SYS-02",
+      "title_zh": "范围与检查完成状态",
+      "category_label": "系统完整性",
+      "severity_label": "待人工核（needs_review）",
+      "method_label": "确定性代码检查，可复现",
+      "constraint": "未执行的检查不能算通过",
+      "repair": "列出未覆盖或失败项目，保留部分完成状态。",
+      "note": "",
+      "external": false,
+      "basis_label": "项目内部约定",
+      "sources": [
+        {
+          "source_id": "PROJECT-AMAZON-QUALITY",
+          "publisher": "PROJECT-AMAZON-QUALITY",
+          "kind": "project_check",
+          "kind_label": "项目内部约定",
+          "is_official": false,
+          "url": null,
+          "local_document": "../Amazon-Listing精细化落地方案.md",
+          "document_date": null,
+          "effective_from": null,
+          "updated_on": null,
+          "checked_at": null,
+          "access_note": null
+        }
+      ],
+      "field_basis_overrides": {}
+    }
+  ],
+  "source_snapshot": [
+    {
+      "source_id": "AMZS-TITLE-2026",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon / News_Amazon",
+      "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+      "updated_on": "2026-06-10",
+      "effective_from": "2026-07-27",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "AMZS-DETAIL-US",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon Seller Central",
+      "url": "https://sellercentral.amazon.com/gp/help/external/G200390640?locale=en-US",
+      "effective_from": null,
+      "checked_at": "2026-10-21",
+      "access_note": "官方正文通过搜索索引核验；直接打开可能需要 JavaScript 或登录。"
+    },
+    {
+      "source_id": "FTCS-GREEN-SUMMARY",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+      "document_date": "2012-10",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "FTCS-AD-SUBSTANTIATION",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "FTCS-GUIDE-STATUS",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2012/10/ftc-issues-revised-green-guides",
+      "document_date": "2012-10",
+      "checked_at": "2026-10-21",
+      "note": "Green Guides 不是独立可执行的法规；不把其当作有机认证标准。"
+    },
+    {
+      "source_id": "FTCS-GUIDE-REGISTER",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/green-guides",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "PROJECT-AMAZON-QUALITY",
+      "kind": "project_check",
+      "url": null,
+      "local_document": "../Amazon-Listing精细化落地方案.md",
+      "note": "项目的事实一致性、来源和运行状态检查，不是平台发布的额外规定。"
+    },
+    {
+      "source_id": "LIVE-WESTFORD-W101",
+      "kind": "public_reference",
+      "url": "https://westfordmill.com/products/w101",
+      "publisher": "Westford Mill",
+      "checked_at": "2026-10-23T05:30:55.135Z",
+      "description": "品牌官方 W101 商品规格；真实公开商品，非商家库存或零售包装确认。",
+      "snapshot": {
+        "specifications": " Approx Product Weight ( g ) 65 Dimensions ( cm ) - width x height x depth 38 x 42 Capacity ( litres ) 10 Fabric Weight (gsm) 140 Handle length ( cm ) 67 Approx Carton Weight ( kg ) 19 Carton Dimensions ( cm ) 50 x 40 x 33 Carton Quantity 250 Pricelist Pack Qty 25 Poly Bag Qty 25 Maximum Print Area ( cm ) 33 x 36 Maximum Embroidery ( cm tubular hoop ) 18 Commodity Code 4202929890 ",
+        "excerpts": [
+          "100% Cotton - 140gsm (4.1oz/yd²)",
+          "Can be carried by hand or over the shoulder",
+          "CutAway label for ease of rebranding"
+        ]
+      }
+    },
+    {
+      "source_id": "evidence-0e0838ca-4bd6-4a4c-9fc2-af87f536c189",
+      "kind": "merchant_submission",
+      "publisher": "Westford Mill 官方产品页",
+      "url": "https://westfordmill.com/products/w101",
+      "description": "W101 官方包装表原文（零售数量仍待确认） · 适用型号：Westford Mill W101",
+      "checked_at": "2026-10-23T10:05:09.425Z",
+      "note": "交接表回传材料，尚未核验真实性、适用性或有效期，不自动确认参数。",
+      "snapshot": "Pricelist Pack Qty 25"
+    },
+    {
+      "source_id": "evidence-3fed154e-a8e9-48c2-acf9-5990327c96c7",
+      "kind": "merchant_submission",
+      "publisher": "Westford Mill 官方产品页",
+      "url": "https://westfordmill.com/products/w101",
+      "description": "W101 官方包装表原文（零售数量仍待确认） · 适用型号：Westford Mill W101",
+      "checked_at": "2026-10-23T09:48:47.874Z",
+      "note": "交接表回传材料，尚未核验真实性、适用性或有效期，不自动确认参数。",
+      "snapshot": "Carton Quantity 250\nPricelist Pack Qty 25\nPoly Bag Qty 25"
+    },
+    {
+      "source_id": "evidence-4b1f3229-f49b-4ae8-bb66-d55ae8dfc9b9",
+      "kind": "merchant_submission",
+      "publisher": "Westford Mill 官方产品页",
+      "url": "https://westfordmill.com/products/w101",
+      "description": "W101 官方包装表原文（零售数量仍待确认） · 适用型号：Westford Mill W101",
+      "checked_at": "2026-10-23T09:57:25.332Z",
+      "note": "交接表回传材料，尚未核验真实性、适用性或有效期，不自动确认参数。",
+      "snapshot": "Poly Bag Qty 25\n\nPricelist Pack Qty 25\n\nCarton Quantity 250"
+    },
+    {
+      "source_id": "evidence-4f92441e-eaa7-4f87-98f0-ec0f9c52cfbb",
+      "kind": "merchant_submission",
+      "publisher": "Westford Mill 官方产品页",
+      "url": "https://westfordmill.com/products/w101",
+      "description": "W101 官方装箱资料（不确认零售件数） · 适用型号：Westford Mill W101",
+      "checked_at": "2026-10-23T08:07:58.745Z",
+      "note": "用户提交的原文材料，尚未独立核验真实性、有效期或适用性；不可代替检测或认证结论。",
+      "snapshot": "Approx Product Weight ( g ) 65 Dimensions ( cm ) - width x height x depth 38 x 42 Capacity ( litres ) 10 Fabric Weight (gsm) 140 Handle length ( cm ) 67 Approx Carton Weight ( kg ) 19 Carton Dimensions ( cm ) 50 x 40 x 33 Carton Quantity 250 Pricelist Pack Qty 25 Poly Bag Qty 25 Maximum Print Area ( cm ) 33 x 36 Maximum Embroidery ( cm tubular hoop ) 18 Commodity Code 4202929890"
+    },
+    {
+      "source_id": "evidence-79c025b2-2e50-46d8-a23e-14b174e1ef9e",
+      "kind": "merchant_submission",
+      "publisher": "Westford Mill 官方产品页",
+      "url": "https://westfordmill.com/products/w101",
+      "description": "W101 官方包装表原文（零售数量仍待确认） · 适用型号：Westford Mill W101",
+      "checked_at": "2026-10-23T09:52:12.022Z",
+      "note": "交接表回传材料，尚未核验真实性、适用性或有效期，不自动确认参数。",
+      "snapshot": "Poly Bag Qty 25\nPricelist Pack Qty 25\nCarton Quantity 250"
+    },
+    {
+      "source_id": "evidence-a4bd0c68-f7e9-4f9e-8cf9-13a35ff2ea28",
+      "kind": "merchant_submission",
+      "publisher": "Westford Mill 官方产品页",
+      "url": "https://westfordmill.com/products/w101",
+      "description": "W101 官方包装表原文（零售数量仍待确认） · 适用型号：Westford Mill W101",
+      "checked_at": "2026-10-23T09:59:12.188Z",
+      "note": "交接表回传材料，尚未核验真实性、适用性或有效期，不自动确认参数。",
+      "snapshot": "Carton Quantity 250"
+    }
+  ],
+  "content": {
+    "title": "W101 Westford Mill Cotton Tote Bag, 38 x 42 cm, 10 L",
+    "item_highlights": "100% cotton, 140 gsm (4.1 oz/yd²); 38 x 42 cm; 10 L capacity; 67 cm handles.",
+    "bullet_points": [
+      {
+        "id": "b1",
+        "text": "100% cotton tote bag with a 140 gsm (4.1 oz/yd²) fabric weight."
+      },
+      {
+        "id": "b2",
+        "text": "Measures approximately 38 cm wide x 42 cm high and holds about 10 litres."
+      },
+      {
+        "id": "b3",
+        "text": "67 cm handles let you carry it by hand or over the shoulder."
+      },
+      {
+        "id": "b4",
+        "text": "CutAway label makes it easy to rebrand the bag with your own label."
+      },
+      {
+        "id": "b5",
+        "text": "Westford Mill W101 cotton tote bag."
+      }
+    ],
+    "description": "The Westford Mill W101 tote bag is made from 100% cotton with a 140 gsm (4.1 oz/yd²) fabric weight. Its 67 cm handles let you carry it by hand or over the shoulder."
+  },
+  "review": {
+    "evidence": [
+      {
+        "field_path": "content.title",
+        "claim": "W101 Westford Mill Cotton Tote Bag, 38 x 42 cm, 10 L",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "brand",
+            "value": "Westford Mill",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "material",
+            "value": "100% cotton",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "dimensions_cm",
+            "value": {
+              "width": 38,
+              "height": 42
+            },
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "capacity_l",
+            "value": 10,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 5,
+            "end": 18,
+            "original": "Westford Mill",
+            "field": "brand",
+            "parsed_value": "Westford Mill",
+            "method": "exact_fact_text",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "Westford Mill",
+            "value": "Westford Mill",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "original": "Cotton",
+            "field": "material",
+            "parsed_value": "100% cotton",
+            "method": "material_presence_only",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "100% cotton",
+            "value": "100% cotton",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 36,
+            "end": 46,
+            "original": "38 x 42 cm",
+            "field": "dimensions_cm",
+            "parsed_value": {
+              "width": 38,
+              "height": 42
+            },
+            "method": "dimension_tuple_to_cm",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": {
+              "width": 38,
+              "height": 42
+            },
+            "value": {
+              "width": 38,
+              "height": 42
+            },
+            "fact_status": "public_source"
+          },
+          {
+            "start": 48,
+            "end": 52,
+            "original": "10 L",
+            "field": "capacity_l",
+            "parsed_value": 10,
+            "method": "volume_to_litres",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 10,
+            "value": 10,
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 4,
+          "matched": 4,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      },
+      {
+        "field_path": "content.item_highlights",
+        "claim": "100% cotton, 140 gsm (4.1 oz/yd²); 38 x 42 cm; 10 L capacity; 67 cm handles.",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "material",
+            "value": "100% cotton",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "fabric_weight_gsm",
+            "value": 140,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "additional_facts.0",
+            "value": "4.1oz/yd²",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "dimensions_cm",
+            "value": {
+              "width": 38,
+              "height": 42
+            },
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "capacity_l",
+            "value": 10,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "handle_length_cm",
+            "value": 67,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 0,
+            "end": 4,
+            "original": "100%",
+            "field": "material",
+            "parsed_value": "100% cotton",
+            "method": "material_percentage",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "100% cotton",
+            "value": "100% cotton",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "original": "140 gsm",
+            "field": "fabric_weight_gsm",
+            "parsed_value": 140,
+            "method": "fabric_mass_per_area",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 140,
+            "value": 140,
+            "fact_status": "public_source"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "original": "4.1 oz",
+            "field": "additional_facts.0",
+            "parsed_value": "4.1oz/yd²",
+            "method": "recorded_original_parameter",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "4.1oz/yd²",
+            "value": "4.1oz/yd²",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 35,
+            "end": 45,
+            "original": "38 x 42 cm",
+            "field": "dimensions_cm",
+            "parsed_value": {
+              "width": 38,
+              "height": 42
+            },
+            "method": "dimension_tuple_to_cm",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": {
+              "width": 38,
+              "height": 42
+            },
+            "value": {
+              "width": 38,
+              "height": 42
+            },
+            "fact_status": "public_source"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "original": "10 L",
+            "field": "capacity_l",
+            "parsed_value": 10,
+            "method": "volume_to_litres",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 10,
+            "value": 10,
+            "fact_status": "public_source"
+          },
+          {
+            "start": 62,
+            "end": 75,
+            "original": "67 cm handles",
+            "field": "handle_length_cm",
+            "parsed_value": 67,
+            "method": "handle_length_to_cm",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 67,
+            "value": 67,
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 6,
+          "matched": 6,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      },
+      {
+        "field_path": "content.bullet_points.b1",
+        "claim": "100% cotton tote bag with a 140 gsm (4.1 oz/yd²) fabric weight.",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "material",
+            "value": "100% cotton",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "fabric_weight_gsm",
+            "value": 140,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "additional_facts.0",
+            "value": "4.1oz/yd²",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 0,
+            "end": 4,
+            "original": "100%",
+            "field": "material",
+            "parsed_value": "100% cotton",
+            "method": "material_percentage",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "100% cotton",
+            "value": "100% cotton",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 28,
+            "end": 35,
+            "original": "140 gsm",
+            "field": "fabric_weight_gsm",
+            "parsed_value": 140,
+            "method": "fabric_mass_per_area",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 140,
+            "value": 140,
+            "fact_status": "public_source"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "original": "4.1 oz",
+            "field": "additional_facts.0",
+            "parsed_value": "4.1oz/yd²",
+            "method": "recorded_original_parameter",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "4.1oz/yd²",
+            "value": "4.1oz/yd²",
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 3,
+          "matched": 3,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      },
+      {
+        "field_path": "content.bullet_points.b2",
+        "claim": "Measures approximately 38 cm wide x 42 cm high and holds about 10 litres.",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "dimensions_cm",
+            "value": {
+              "width": 38,
+              "height": 42
+            },
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "capacity_l",
+            "value": 10,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 23,
+            "end": 46,
+            "original": "38 cm wide x 42 cm high",
+            "field": "dimensions_cm",
+            "parsed_value": {
+              "width": 38,
+              "height": 42
+            },
+            "method": "dimension_pair_by_axis_label",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": {
+              "width": 38,
+              "height": 42
+            },
+            "value": {
+              "width": 38,
+              "height": 42
+            },
+            "fact_status": "public_source"
+          },
+          {
+            "start": 63,
+            "end": 72,
+            "original": "10 litres",
+            "field": "capacity_l",
+            "parsed_value": 10,
+            "method": "volume_to_litres",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 10,
+            "value": 10,
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 2,
+          "matched": 2,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      },
+      {
+        "field_path": "content.bullet_points.b3",
+        "claim": "67 cm handles let you carry it by hand or over the shoulder.",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "handle_length_cm",
+            "value": 67,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 0,
+            "end": 13,
+            "original": "67 cm handles",
+            "field": "handle_length_cm",
+            "parsed_value": 67,
+            "method": "handle_length_to_cm",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 67,
+            "value": 67,
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 1,
+          "matched": 1,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      },
+      {
+        "field_path": "content.bullet_points.b5",
+        "claim": "Westford Mill W101 cotton tote bag.",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "brand",
+            "value": "Westford Mill",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "material",
+            "value": "100% cotton",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 0,
+            "end": 13,
+            "original": "Westford Mill",
+            "field": "brand",
+            "parsed_value": "Westford Mill",
+            "method": "exact_fact_text",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "Westford Mill",
+            "value": "Westford Mill",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "original": "cotton",
+            "field": "material",
+            "parsed_value": "100% cotton",
+            "method": "material_presence_only",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "100% cotton",
+            "value": "100% cotton",
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 2,
+          "matched": 2,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      },
+      {
+        "field_path": "content.description",
+        "claim": "The Westford Mill W101 tote bag is made from 100% cotton with a 140 gsm (4.1 oz/yd²) fabric weight.",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "brand",
+            "value": "Westford Mill",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "material",
+            "value": "100% cotton",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "fabric_weight_gsm",
+            "value": 140,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field": "additional_facts.0",
+            "value": "4.1oz/yd²",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 4,
+            "end": 17,
+            "original": "Westford Mill",
+            "field": "brand",
+            "parsed_value": "Westford Mill",
+            "method": "exact_fact_text",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "Westford Mill",
+            "value": "Westford Mill",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "original": "100%",
+            "field": "material",
+            "parsed_value": "100% cotton",
+            "method": "material_percentage",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "100% cotton",
+            "value": "100% cotton",
+            "fact_status": "public_source"
+          },
+          {
+            "start": 64,
+            "end": 71,
+            "original": "140 gsm",
+            "field": "fabric_weight_gsm",
+            "parsed_value": 140,
+            "method": "fabric_mass_per_area",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 140,
+            "value": 140,
+            "fact_status": "public_source"
+          },
+          {
+            "start": 73,
+            "end": 79,
+            "original": "4.1 oz",
+            "field": "additional_facts.0",
+            "parsed_value": "4.1oz/yd²",
+            "method": "recorded_original_parameter",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": "4.1oz/yd²",
+            "value": "4.1oz/yd²",
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 4,
+          "matched": 4,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      },
+      {
+        "field_path": "content.description",
+        "claim": "Its 67 cm handles let you carry it by hand or over the shoulder.",
+        "state": "parameters_aligned",
+        "facts": [
+          {
+            "field": "handle_length_cm",
+            "value": 67,
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "mapped": true,
+        "model_mapped": false,
+        "association_method": "structured-parameters-v2",
+        "product_ref": "REAL-WESTFORD-W101@8",
+        "parameter_links": [
+          {
+            "start": 4,
+            "end": 17,
+            "original": "67 cm handles",
+            "field": "handle_length_cm",
+            "parsed_value": 67,
+            "method": "handle_length_to_cm",
+            "status": "matched",
+            "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ],
+            "product_ref": "REAL-WESTFORD-W101@8",
+            "expected_value": 67,
+            "value": 67,
+            "fact_status": "public_source"
+          }
+        ],
+        "unresolved_parameters": [],
+        "not_covered_parameters": [],
+        "parameter_coverage": {
+          "recognized": 1,
+          "matched": 1,
+          "unresolved": 0,
+          "not_covered": 0,
+          "whole_sentence_proven": false
+        },
+        "semantic_status": "separate_review_required",
+        "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+      }
+    ],
+    "parameter_coverage": {
+      "recognized": 23,
+      "matched": 23,
+      "unresolved": 0,
+      "not_covered": 0,
+      "whole_sentence_proven": false
+    },
+    "unmodeled_parameters": [],
+    "issues": [],
+    "checks": [
+      {
+        "rule_id": "AMZ-01",
+        "state": "pass",
+        "method": "deterministic",
+        "reason": ""
+      },
+      {
+        "rule_id": "AMZ-02",
+        "state": "pass",
+        "method": "deterministic",
+        "reason": ""
+      },
+      {
+        "rule_id": "AMZ-03",
+        "state": "pass",
+        "reason": "标题、亮点、五点描述和商品描述中均未发现邮箱、电话、卖家地址或网址。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "AMZ-04",
+        "state": "pass",
+        "reason": "文案中未出现价格、库存、商品状况或替代配送等交易信息。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "AMZ-05",
+        "state": "pass",
+        "reason": "棉含量、克重、尺寸、容量、提手长度及可手提或肩背、可拆标签等表述均与结构化事实及 additional_facts 一致，未发现冲突。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "AMZ-06",
+        "state": "pass",
+        "method": "deterministic",
+        "reason": ""
+      },
+      {
+        "rule_id": "US-01",
+        "state": "pass",
+        "reason": "文案未出现环保、可持续或可回收等宽泛环保宣称。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "US-02",
+        "state": "pass",
+        "reason": "文案未出现降解时间或降解条件相关宣称。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "US-03",
+        "state": "pass",
+        "reason": "文案未出现认证、承重或性能测试类宣称，仅陈述材质与尺寸。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "FACT-01",
+        "state": "pass",
+        "reason": "容量以 10 L 表述，克重以 140 gsm 表述，未与承重或单件重量混淆。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "FACT-02",
+        "state": "pass",
+        "reason": "文案未出现零售包装件数宣称；提交的装箱资料未核验，也未用于补全。",
+        "method": "model_assisted"
+      },
+      {
+        "rule_id": "EVID-01",
+        "state": "pass",
+        "method": "deterministic_structured_facts",
+        "reason": "仅对照可识别的商品参数与记录来源；精确单位换算不允许舍入偏差，整句语义、适用条件及宣称另行审阅。"
+      },
+      {
+        "rule_id": "SYS-01",
+        "state": "pass",
+        "method": "deterministic",
+        "reason": ""
+      },
+      {
+        "rule_id": "SYS-02",
+        "state": "pass",
+        "method": "deterministic",
+        "reason": ""
+      }
+    ],
+    "status": "needs_consistency_review",
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ],
+    "coverage": {
+      "uncovered_parameters": 0,
+      "total": 14,
+      "completed": 14,
+      "failed": 0,
+      "pending": 0
+    },
+    "publication_readiness": "not_verified",
+    "consistency_check": {
+      "state": "changed",
+      "compared_version": 2,
+      "reason": "文案、商品资料、规则、来源和模型配置未变化，但审核结论发生变化；请人工核对两个版本。本轮未再检出不表示问题已解决。"
+    }
+  },
+  "product_change": null,
+  "claim_map": [],
+  "patches": [],
+  "repair_warnings": [
+    "文案、商品资料、规则、来源和模型配置未变化，但审核结论发生变化；请人工核对两个版本。本轮未再检出不表示问题已解决。"
+  ],
+  "run_id": "run-d21caa48-cbef-4a61-8d71-f239a2846e23",
+  "trace": {
+    "provider": "compatible",
+    "actual_model_call": true,
+    "provider_request_id": "d43e8fb3-de18-4923-a438-2d3244e07580",
+    "model": "deepseek-flash",
+    "requested_model": "deepseek-flash",
+    "elapsed_ms": 8448,
+    "usage": {
+      "prompt_tokens": 7565,
+      "completion_tokens": 553,
+      "total_tokens": 8118,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 6541
+    },
+    "http_status": 200,
+    "output_mode": "audit_only_format_retry",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": true,
+      "failed_attempt": {
+        "error_code": "MODEL_INVALID_JSON",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "3b19333b-9fb7-4075-9950-5e38eb7d71ee",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 4953,
+          "usage": {
+            "prompt_tokens": 7480,
+            "completion_tokens": 1130,
+            "total_tokens": 8610,
+            "prompt_tokens_details": {
+              "cached_tokens": 7296
+            },
+            "prompt_cache_hit_tokens": 7296,
+            "prompt_cache_miss_tokens": 184
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "prompt_version": "2026-10-24.merchant-facts-v8.1",
+    "parameter_link_version": "structured-parameters-v2",
+    "audit_input_hash": "bcdd220328248cbb773d4ab8f336414c6fd5073b2fdd041fba10619aaac2935d",
+    "rule_selection": "structured_scope_selection",
+    "source_ids": [
+      "AMZS-TITLE-2026",
+      "AMZS-DETAIL-US",
+      "FTCS-GREEN-SUMMARY",
+      "FTCS-AD-SUBSTANTIATION",
+      "FTCS-GUIDE-STATUS",
+      "FTCS-GUIDE-REGISTER",
+      "PROJECT-AMAZON-QUALITY",
+      "LIVE-WESTFORD-W101",
+      "evidence-0e0838ca-4bd6-4a4c-9fc2-af87f536c189",
+      "evidence-3fed154e-a8e9-48c2-acf9-5990327c96c7",
+      "evidence-4b1f3229-f49b-4ae8-bb66-d55ae8dfc9b9",
+      "evidence-4f92441e-eaa7-4f87-98f0-ec0f9c52cfbb",
+      "evidence-79c025b2-2e50-46d8-a23e-14b174e1ef9e",
+      "evidence-a4bd0c68-f7e9-4f9e-8cf9-13a35ff2ea28"
+    ]
+  },
+  "instruction": "",
+  "created_at": "2026-10-29T01:21:34.191Z",
+  "is_demo": false,
+  "changes": [],
+  "risk_changes": {
+    "resolved": [
+      {
+        "issue_id": "0cf5e82e32205b",
+        "rule_id": "EVID-01",
+        "category": "product_fact_quality",
+        "title": "商品参数与来源对照",
+        "severity": "needs_review",
+        "field_path": "content.bullet_points.b2",
+        "original": "Measures approximately 38 cm wide x 42 cm high and holds about 10 litres.",
+        "reason": "38 cm wide：原文用 wide / length 这类字描述尺寸、没写乘号：length 指的是袋身高还是前后厚度无法确定。档案按宽 / 高 / 深三轴，硬套会把长边当高度；请商家确认轴的含义后再逐轴对照。；42：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+        "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+        "method": "deterministic",
+        "source_ids": [
+          "PROJECT-AMAZON-QUALITY"
+        ],
+        "status": "open"
+      }
+    ],
+    "remaining": [],
+    "added": []
+  }
+}

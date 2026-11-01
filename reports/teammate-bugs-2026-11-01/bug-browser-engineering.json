@@ -1,0 +1,73 @@
+{
+  "started_at": "2026-11-01T02:54:15.893Z",
+  "base_url": "http://127.0.0.1:3223",
+  "evidence_type": "actual_workbench_browser_and_isolated_config_server",
+  "notice": "Main workbench configuration and product data are read only. All configuration mutations use a separate database with noncredential test strings and no model calls. Rule entry uses a freshly fetched FTC guide and explicitly leaves policy changes and dates unknown. Browser localStorage is isolated from the user profile.",
+  "checks": [
+    "stale_batch_selection_removed",
+    "actual_batch_history_remains_accessible",
+    "missing_batch_id_not_polled_forever",
+    "empty_timeout_defaults_to_60_seconds",
+    "timeout_bounds_have_chinese_inline_validation",
+    "clear_secrets_can_be_pending_and_cancelled",
+    "main_real_model_configuration_unchanged",
+    "actual_insecure_http_has_no_native_randomUUID",
+    "manual_source_record_saves_with_uuid_fallback",
+    "unknown_policy_dates_remain_blank",
+    "clear_secrets_button_posts_true_to_real_server",
+    "all_model_keys_cleared_in_credential_free_isolated_database",
+    "empty_timeout_saves_60000_not_zero",
+    "dify_blank_fields_preserve_compatible_settings",
+    "switching_back_shows_preserved_endpoint_and_model"
+  ],
+  "screenshots": [
+    "batch-recovered.png",
+    "settings-timeout-and-clear.png",
+    "insecure-http-rule-record.png",
+    "dify-compatible-fields-preserved.png"
+  ],
+  "failures": [],
+  "page_errors": [],
+  "mutation_requests": [
+    {
+      "context": "isolated_config",
+      "method": "POST",
+      "path": "/api/settings"
+    }
+  ],
+  "model_calls": [],
+  "new_model_calls": 0,
+  "existing_real_output": {
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "version": 13,
+    "model": "deepseek-flash",
+    "request_id": "8bfde3fe-c746-4ddb-b676-fea4ba0254bc",
+    "reuse_notice": "Read only existing real output; no new inference."
+  },
+  "main_settings_before_sha256": "e2387c9921a42fd75b7a8e0ed48504456e307024962b54b7194fb5ed894880a9",
+  "batch_history": {
+    "existing_batches": 0,
+    "missing_id_requests": 1,
+    "recovered_selection": null
+  },
+  "official_source": {
+    "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+    "http_status": 200,
+    "checked_at": "2026-11-01T02:54:21.337Z",
+    "elapsed_ms": 757,
+    "title": "Environmental Claims: Summary of the Green Guides",
+    "excerpt": "Claiming \"Green, made with recycled content\" may be deceptive if the environmental costs of using recycled content outweight the environmental benefits of using it.",
+    "policy_change": "unknown",
+    "published_at": null,
+    "effective_at": null
+  },
+  "insecure_context": {
+    "isSecureContext": false,
+    "randomUUID": "undefined",
+    "getRandomValues": "function",
+    "saved_record_id": "91612827-b581-452c-b7ce-09aa246e7cb4"
+  },
+  "main_telemetry_unchanged": true,
+  "completed_at": "2026-11-01T02:54:24.058Z",
+  "acceptance": "passed_no_model_inference"
+}

@@ -1,0 +1,65 @@
+{
+  "evidence_type": "engineering_reproduction_not_model_acceptance",
+  "source_record": "reports/parameter-links-2026-10-23/actual-export.json",
+  "source_ids": [
+    "LIVE-WESTFORD-W101"
+  ],
+  "original_recorded_material": "100% cotton",
+  "controlled_translation": "100% 棉",
+  "content": {
+    "title": "100% cotton",
+    "item_highlights": "",
+    "bullet_points": [],
+    "description": ""
+  },
+  "parsed": {
+    "text": "100% 棉",
+    "ingredients": [],
+    "fibers": [],
+    "percents": {},
+    "totalPercent": 0,
+    "blend": false
+  },
+  "comparison": {
+    "state": "missing_fiber",
+    "note": "文案写的是棉，但商品资料的材质「100% 棉」里没有棉；这两句不能同时成立。"
+  },
+  "evidence": [
+    {
+      "field_path": "content.title",
+      "claim": "100% cotton",
+      "state": "needs_evidence",
+      "facts": [],
+      "mapped": false,
+      "model_mapped": false,
+      "association_method": "structured-parameters-v2.4",
+      "product_ref": "REAL-WESTFORD-W101@8",
+      "parameter_links": [],
+      "unresolved_parameters": [
+        {
+          "start": 0,
+          "end": 4,
+          "original": "100%",
+          "field": "material",
+          "parsed_value": "100% cotton",
+          "method": "material_percentage",
+          "status": "conflict",
+          "reason": "文案写的是棉，但商品资料的材质「100% 棉」里没有棉；这两句不能同时成立。",
+          "source_ids": [],
+          "product_ref": "REAL-WESTFORD-W101@8",
+          "expected_value": "100% 棉"
+        }
+      ],
+      "not_covered_parameters": [],
+      "parameter_coverage": {
+        "recognized": 1,
+        "matched": 0,
+        "unresolved": 1,
+        "not_covered": 0,
+        "whole_sentence_proven": false
+      },
+      "semantic_status": "separate_review_required",
+      "reason": "100%：文案写的是棉，但商品资料的材质「100% 棉」里没有棉；这两句不能同时成立。"
+    }
+  ]
+}

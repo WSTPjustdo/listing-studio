@@ -1,0 +1,135 @@
+{
+  "started_at": "2026-10-28T13:36:30.086Z",
+  "evidence_type": "live_official_source_and_persisted_real_model_text",
+  "model_calls_performed": 0,
+  "model_calls_this_run": [],
+  "checks": [
+    "live_official_w101_product_and_material_weight_dimensions_verified",
+    "real_persisted_content_maps_to_distinct_bullets_without_loss_or_model_substitution",
+    "missing_real_seller_sku_blocks_processing_without_auto_identifier",
+    "manufacturer_code_is_not_used_as_seller_sku_and_export_is_blocked",
+    "original_model_record_and_unknown_sku_remain_unchanged"
+  ],
+  "merchant_acceptance": "pending",
+  "merchant_original_template": {
+    "status": "pending",
+    "source": null,
+    "reason": "商家原始库存模板尚未提供。"
+  },
+  "merchant_seller_sku": {
+    "status": "unknown",
+    "value": null
+  },
+  "merchant_roundtrip": {
+    "status": "pending",
+    "reason": "没有商家原文件及已确认真实卖家 SKU，不能用厂家产品代码替代。"
+  },
+  "platform_processing_report": {
+    "status": "pending",
+    "source": null,
+    "reason": "尚未取得真实 Seller Central 处理报告。"
+  },
+  "amazon_upload": {
+    "status": "not_performed",
+    "result": null
+  },
+  "notice": "本轮仅验证实时官方公开商品数据、已有真实模型文案及缺 SKU 拦截；不是商家库存、Amazon 模板兼容或上架验收。结构测试另见 unit_fixture 报告。",
+  "reused_model_record": {
+    "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+    "version": 20,
+    "created_at": "2026-10-23T10:40:21.810Z",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "fb50ecf2-b2fd-4113-b989-57a440cf39f9",
+    "model": "deepseek-flash",
+    "elapsed_ms": 4901,
+    "usage": {
+      "prompt_tokens": 7214,
+      "completion_tokens": 1118,
+      "total_tokens": 8332,
+      "prompt_tokens_details": {
+        "cached_tokens": 7040
+      },
+      "prompt_cache_hit_tokens": 7040,
+      "prompt_cache_miss_tokens": 174
+    },
+    "actual_model_call": true,
+    "reused_record_not_new_call": true,
+    "content_sha256": "1eb7404d6c009e0e1ee2a42bc324f1d75136c629bdda1aacee68203c615d269f"
+  },
+  "unresolved": {
+    "review_issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ],
+    "unchecked": []
+  },
+  "official_source": {
+    "url": "https://westfordmill.com/products/w101",
+    "checked_at": "2026-10-28T13:36:44.639Z",
+    "status": 200,
+    "publisher": "Westford Mill",
+    "manufacturer_product_code": "W101",
+    "verified_facts": {
+      "material": "100% Cotton",
+      "fabric_weight_gsm": 140,
+      "dimensions_cm": {
+        "width": 38,
+        "height": 42
+      }
+    },
+    "merchant_sku": null,
+    "merchant_inventory": null,
+    "selected_colour": null,
+    "retail_pack_count": null
+  },
+  "file_provenance": {
+    "filename": "public-derived-w101-without-seller-sku.tsv",
+    "sha256": "ac62b8a236107ebee0d56bf510ec2e2f13c64478bf34acc19651574c3a612977",
+    "source_kind": "public_source_and_existing_model_text_derived_file",
+    "merchant_original": false,
+    "official_amazon_template": false,
+    "manufacturer_product_code": "W101",
+    "seller_sku": null
+  },
+  "import_validation": {
+    "status": "blocked",
+    "sku": null,
+    "errors": [
+      "缺少真实 SKU：请映射 SKU 列或填写商家实际货号，不会自动生成 SKU。",
+      "原表 SKU 单元格为空，请在原文件填入真实货号后重新上传，避免处理后无法回填。"
+    ],
+    "persisted": false
+  },
+  "export_validation": {
+    "safe_to_export": false,
+    "issues": [
+      {
+        "row": 2,
+        "sku": "",
+        "field": "sku",
+        "code": "SKU_REQUIRED",
+        "severity": "error",
+        "message": "原表第 2 行没有真实 SKU，不能回填或推测货号。"
+      }
+    ],
+    "warnings": [],
+    "modified_rows": [],
+    "modified_cells": 0,
+    "format": "tsv",
+    "source_format": "tsv",
+    "only_rows": false,
+    "operation": "content_backfill",
+    "upload_readiness": "not_verified"
+  },
+  "status": "passed_available_scope_merchant_validation_pending",
+  "completed_at": "2026-10-28T13:36:44.657Z"
+}

@@ -1,0 +1,454 @@
+[
+  {
+    "started_at": "2026-10-31T08:32:06.521Z",
+    "failed_at": "2026-10-31T08:32:29.397Z",
+    "failures": [
+      {
+        "label": "browser_apply_and_recheck",
+        "run": {
+          "run_id": "run-aa41fa1c-a68b-4a8c-b62b-d565e409336e",
+          "status": "failed",
+          "stage": "运行失败",
+          "created_at": "2026-10-31T08:32:16.388Z",
+          "listing_id": "listing-bdfaaf2c-da62-45e7-b1a8-05a0a9441a00",
+          "operation": "patch",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "request_id": "bd28bc6d-713a-42ce-89e7-72de2f4cdf73",
+          "product_ref": "REAL-WESTFORD-W101@1",
+          "started_at": "2026-10-31T08:32:16.394Z",
+          "finished_at": "2026-10-31T08:32:29.060Z",
+          "elapsed_ms": 12666,
+          "error": {
+            "code": "MODEL_INVALID_STRUCTURE",
+            "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。",
+            "title": "模型返回字段不符合约定",
+            "action": "可重试；持续失败请核对模型与工作流输出。",
+            "category": "format",
+            "retryable": true
+          },
+          "completed_calls": [],
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "b6386e8b-3b4f-400a-972e-fa549c210d4f",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 4837,
+            "usage": {
+              "prompt_tokens": 6235,
+              "completion_tokens": 956,
+              "total_tokens": 7191,
+              "prompt_tokens_details": {
+                "cached_tokens": 2048
+              },
+              "prompt_cache_hit_tokens": 2048,
+              "prompt_cache_miss_tokens": 4187
+            },
+            "http_status": 200,
+            "output_mode": "audit_only_format_retry"
+          },
+          "provider_request_id": "b6386e8b-3b4f-400a-972e-fa549c210d4f",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": false,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_STRUCTURE",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "1bf42153-6018-4e76-8896-5946c8a6563e",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 7798,
+                "usage": {
+                  "prompt_tokens": 6150,
+                  "completion_tokens": 1812,
+                  "total_tokens": 7962,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2048
+                  },
+                  "prompt_cache_hit_tokens": 2048,
+                  "prompt_cache_miss_tokens": 4102
+                },
+                "http_status": 200
+              }
+            }
+          }
+        }
+      },
+      {
+        "at": "2026-10-31T08:32:29.395Z",
+        "message": "browser_apply_and_recheck: MODEL_INVALID_STRUCTURE: 模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。",
+        "details": null
+      }
+    ],
+    "run": {
+      "run_id": "run-aa41fa1c-a68b-4a8c-b62b-d565e409336e",
+      "status": "failed",
+      "stage": "运行失败",
+      "created_at": "2026-10-31T08:32:16.388Z",
+      "listing_id": "listing-bdfaaf2c-da62-45e7-b1a8-05a0a9441a00",
+      "operation": "patch",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "request_id": "bd28bc6d-713a-42ce-89e7-72de2f4cdf73",
+      "product_ref": "REAL-WESTFORD-W101@1",
+      "started_at": "2026-10-31T08:32:16.394Z",
+      "finished_at": "2026-10-31T08:32:29.060Z",
+      "elapsed_ms": 12666,
+      "error": {
+        "code": "MODEL_INVALID_STRUCTURE",
+        "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。",
+        "title": "模型返回字段不符合约定",
+        "action": "可重试；持续失败请核对模型与工作流输出。",
+        "category": "format",
+        "retryable": true
+      },
+      "completed_calls": [],
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "b6386e8b-3b4f-400a-972e-fa549c210d4f",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 4837,
+        "usage": {
+          "prompt_tokens": 6235,
+          "completion_tokens": 956,
+          "total_tokens": 7191,
+          "prompt_tokens_details": {
+            "cached_tokens": 2048
+          },
+          "prompt_cache_hit_tokens": 2048,
+          "prompt_cache_miss_tokens": 4187
+        },
+        "http_status": 200,
+        "output_mode": "audit_only_format_retry"
+      },
+      "provider_request_id": "b6386e8b-3b4f-400a-972e-fa549c210d4f",
+      "format_retry": {
+        "attempts": 2,
+        "recovered": false,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_STRUCTURE",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "1bf42153-6018-4e76-8896-5946c8a6563e",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 7798,
+            "usage": {
+              "prompt_tokens": 6150,
+              "completion_tokens": 1812,
+              "total_tokens": 7962,
+              "prompt_tokens_details": {
+                "cached_tokens": 2048
+              },
+              "prompt_cache_hit_tokens": 2048,
+              "prompt_cache_miss_tokens": 4102
+            },
+            "http_status": 200
+          }
+        }
+      }
+    },
+    "calls": [
+      {
+        "at": "2026-10-31T08:32:29.048Z",
+        "operation": "diagnose",
+        "provider": "compatible",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "duration_ms": 4837,
+        "total_tokens": 7191,
+        "prompt_tokens": 6235,
+        "completion_tokens": 956,
+        "attempts": 2,
+        "json_repaired": false,
+        "json_repair_notes": [],
+        "original_error_code": null,
+        "outcome": "failed",
+        "error_code": "MODEL_INVALID_STRUCTURE",
+        "request_id": "b6386e8b-3b4f-400a-972e-fa549c210d4f",
+        "http_status": 200,
+        "batch_id": null,
+        "batch_row": null,
+        "batch_attempt": null
+      },
+      {
+        "at": "2026-10-31T08:32:24.200Z",
+        "operation": "diagnose",
+        "provider": "compatible",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "duration_ms": 7798,
+        "total_tokens": 7962,
+        "prompt_tokens": 6150,
+        "completion_tokens": 1812,
+        "attempts": 1,
+        "json_repaired": false,
+        "json_repair_notes": [],
+        "original_error_code": null,
+        "outcome": "failed",
+        "error_code": "MODEL_INVALID_STRUCTURE",
+        "request_id": "1bf42153-6018-4e76-8896-5946c8a6563e",
+        "http_status": 200,
+        "batch_id": null,
+        "batch_row": null,
+        "batch_attempt": null
+      },
+      {
+        "at": "2026-10-31T08:32:12.867Z",
+        "operation": "prompt_plan",
+        "provider": "compatible",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "duration_ms": 4539,
+        "total_tokens": 5183,
+        "prompt_tokens": 4575,
+        "completion_tokens": 608,
+        "attempts": 1,
+        "json_repaired": false,
+        "json_repair_notes": [],
+        "original_error_code": null,
+        "outcome": "ok",
+        "error_code": null,
+        "request_id": "06f5bac1-a760-4fb6-a7af-ccf5bd4482c6",
+        "http_status": 200,
+        "batch_id": null,
+        "batch_row": null,
+        "batch_attempt": null
+      }
+    ],
+    "notice": "Genuine paid attempt failed; no version saved and no demo fallback."
+  },
+  {
+    "started_at": "2026-10-31T08:38:42.295Z",
+    "failed_at": "2026-10-31T08:39:03.036Z",
+    "failures": [
+      {
+        "label": "browser_apply_and_recheck",
+        "run": {
+          "run_id": "run-88d926f6-6888-4132-a2a9-5c908c587bec",
+          "status": "failed",
+          "stage": "运行失败",
+          "created_at": "2026-10-31T08:38:47.588Z",
+          "listing_id": "listing-bdfaaf2c-da62-45e7-b1a8-05a0a9441a00",
+          "operation": "patch",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "request_id": "50114fed-859d-4a57-b67a-b0b2dfd78d65",
+          "product_ref": "REAL-WESTFORD-W101@1",
+          "started_at": "2026-10-31T08:38:47.683Z",
+          "finished_at": "2026-10-31T08:39:02.490Z",
+          "elapsed_ms": 14807,
+          "error": {
+            "code": "MODEL_INVALID_STRUCTURE",
+            "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。字段：review.issues.3.original (too_small)",
+            "title": "模型返回字段不符合约定",
+            "action": "可重试；持续失败请核对模型与工作流输出。",
+            "category": "format",
+            "retryable": true
+          },
+          "completed_calls": [],
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "68f3fc49-2a27-4237-bcab-a05f629c092c",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 7143,
+            "usage": {
+              "prompt_tokens": 6426,
+              "completion_tokens": 1486,
+              "total_tokens": 7912,
+              "prompt_tokens_details": {
+                "cached_tokens": 1408
+              },
+              "prompt_cache_hit_tokens": 1408,
+              "prompt_cache_miss_tokens": 5018
+            },
+            "http_status": 200,
+            "output_mode": "audit_only_format_retry",
+            "validation_issues": [
+              {
+                "path": "review.issues.3.original",
+                "code": "too_small"
+              }
+            ]
+          },
+          "provider_request_id": "68f3fc49-2a27-4237-bcab-a05f629c092c",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": false,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_STRUCTURE",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "86a9a900-4e78-4066-8922-f3a890593669",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 7447,
+                "usage": {
+                  "prompt_tokens": 6150,
+                  "completion_tokens": 1771,
+                  "total_tokens": 7921,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 6016
+                  },
+                  "prompt_cache_hit_tokens": 6016,
+                  "prompt_cache_miss_tokens": 134
+                },
+                "http_status": 200,
+                "validation_issues": [
+                  {
+                    "path": "review.issues.7.original",
+                    "code": "too_small"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "at": "2026-10-31T08:39:03.032Z",
+        "message": "browser_apply_and_recheck: MODEL_INVALID_STRUCTURE: 模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。字段：review.issues.3.original (too_small)",
+        "details": null
+      }
+    ],
+    "run": {
+      "run_id": "run-88d926f6-6888-4132-a2a9-5c908c587bec",
+      "status": "failed",
+      "stage": "运行失败",
+      "created_at": "2026-10-31T08:38:47.588Z",
+      "listing_id": "listing-bdfaaf2c-da62-45e7-b1a8-05a0a9441a00",
+      "operation": "patch",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "request_id": "50114fed-859d-4a57-b67a-b0b2dfd78d65",
+      "product_ref": "REAL-WESTFORD-W101@1",
+      "started_at": "2026-10-31T08:38:47.683Z",
+      "finished_at": "2026-10-31T08:39:02.490Z",
+      "elapsed_ms": 14807,
+      "error": {
+        "code": "MODEL_INVALID_STRUCTURE",
+        "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。字段：review.issues.3.original (too_small)",
+        "title": "模型返回字段不符合约定",
+        "action": "可重试；持续失败请核对模型与工作流输出。",
+        "category": "format",
+        "retryable": true
+      },
+      "completed_calls": [],
+      "trace": {
+        "provider": "compatible",
+        "actual_model_call": true,
+        "provider_request_id": "68f3fc49-2a27-4237-bcab-a05f629c092c",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "elapsed_ms": 7143,
+        "usage": {
+          "prompt_tokens": 6426,
+          "completion_tokens": 1486,
+          "total_tokens": 7912,
+          "prompt_tokens_details": {
+            "cached_tokens": 1408
+          },
+          "prompt_cache_hit_tokens": 1408,
+          "prompt_cache_miss_tokens": 5018
+        },
+        "http_status": 200,
+        "output_mode": "audit_only_format_retry",
+        "validation_issues": [
+          {
+            "path": "review.issues.3.original",
+            "code": "too_small"
+          }
+        ]
+      },
+      "provider_request_id": "68f3fc49-2a27-4237-bcab-a05f629c092c",
+      "format_retry": {
+        "attempts": 2,
+        "recovered": false,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_STRUCTURE",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "86a9a900-4e78-4066-8922-f3a890593669",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 7447,
+            "usage": {
+              "prompt_tokens": 6150,
+              "completion_tokens": 1771,
+              "total_tokens": 7921,
+              "prompt_tokens_details": {
+                "cached_tokens": 6016
+              },
+              "prompt_cache_hit_tokens": 6016,
+              "prompt_cache_miss_tokens": 134
+            },
+            "http_status": 200,
+            "validation_issues": [
+              {
+                "path": "review.issues.7.original",
+                "code": "too_small"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "calls": [
+      {
+        "at": "2026-10-31T08:39:02.354Z",
+        "operation": "diagnose",
+        "provider": "compatible",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "duration_ms": 7143,
+        "total_tokens": 7912,
+        "prompt_tokens": 6426,
+        "completion_tokens": 1486,
+        "attempts": 2,
+        "json_repaired": false,
+        "json_repair_notes": [],
+        "original_error_code": null,
+        "outcome": "failed",
+        "error_code": "MODEL_INVALID_STRUCTURE",
+        "request_id": "68f3fc49-2a27-4237-bcab-a05f629c092c",
+        "http_status": 200,
+        "batch_id": null,
+        "batch_row": null,
+        "batch_attempt": null
+      },
+      {
+        "at": "2026-10-31T08:38:55.149Z",
+        "operation": "diagnose",
+        "provider": "compatible",
+        "model": "deepseek-flash",
+        "requested_model": "deepseek-flash",
+        "duration_ms": 7447,
+        "total_tokens": 7921,
+        "prompt_tokens": 6150,
+        "completion_tokens": 1771,
+        "attempts": 1,
+        "json_repaired": false,
+        "json_repair_notes": [],
+        "original_error_code": null,
+        "outcome": "failed",
+        "error_code": "MODEL_INVALID_STRUCTURE",
+        "request_id": "86a9a900-4e78-4066-8922-f3a890593669",
+        "http_status": 200,
+        "batch_id": null,
+        "batch_row": null,
+        "batch_attempt": null
+      }
+    ],
+    "notice": "Genuine paid attempt failed; no version saved and no demo fallback."
+  }
+]

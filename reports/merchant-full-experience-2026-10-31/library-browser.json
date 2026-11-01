@@ -1,0 +1,43 @@
+{
+  "steps": [
+    {
+      "label": "history_before_click",
+      "value": {
+        "viewport": 1440,
+        "scrollY": 0,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 1000,
+          "top": 0,
+          "right": 200,
+          "bottom": 1000,
+          "left": 0
+        },
+        "style": "200px",
+        "sidebarVariable": "200px"
+      }
+    },
+    {
+      "label": "history_scrolled",
+      "value": {
+        "viewport": 1440,
+        "scrollY": 0,
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 1000,
+          "top": 0,
+          "right": 200,
+          "bottom": 1000,
+          "left": 0
+        },
+        "style": "200px",
+        "sidebarVariable": "200px"
+      }
+    }
+  ],
+  "saved_and_exported": true
+}

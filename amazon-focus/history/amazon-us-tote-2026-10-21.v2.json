@@ -1,0 +1,399 @@
+{
+  "schema_version": "1.0",
+  "rule_pack_version": "amazon-us-tote-2026-10-21.v2",
+  "checked_at": "2026-10-21",
+  "implementation_status": "specification_only",
+  "scope": {
+    "platform": "amazon",
+    "marketplace": "US",
+    "locale": "en-US",
+    "application_product_type": "tote_bag_demo",
+    "official_product_type_definition_loaded": false,
+    "workflows": [
+      "listing_create",
+      "listing_diagnose"
+    ]
+  },
+  "notice": "文本规则与宣称证据预审样例，不是完整品类、上架或法律审查；尚未实现执行引擎。",
+  "result_states": [
+    "pass",
+    "fail",
+    "needs_evidence",
+    "not_applicable",
+    "error",
+    "not_checked"
+  ],
+  "sources": [
+    {
+      "source_id": "AMZS-TITLE-2026",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon / News_Amazon",
+      "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+      "updated_on": "2026-06-10",
+      "effective_from": "2026-07-27",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "AMZS-DETAIL-US",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon Seller Central",
+      "url": "https://sellercentral.amazon.com/gp/help/external/G200390640?locale=en-US",
+      "effective_from": null,
+      "checked_at": "2026-10-21",
+      "access_note": "官方正文通过搜索索引核验；直接打开可能需要 JavaScript 或登录。"
+    },
+    {
+      "source_id": "FTCS-GREEN-SUMMARY",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+      "document_date": "2012-10",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "FTCS-AD-SUBSTANTIATION",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "FTCS-GUIDE-STATUS",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2012/10/ftc-issues-revised-green-guides",
+      "document_date": "2012-10",
+      "checked_at": "2026-10-21",
+      "note": "Green Guides 不是独立可执行的法规；不把其当作有机认证标准。"
+    },
+    {
+      "source_id": "FTCS-GUIDE-REGISTER",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Federal Trade Commission",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/green-guides",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "PROJECT-AMAZON-QUALITY",
+      "kind": "project_check",
+      "url": null,
+      "local_document": "../Amazon-Listing精细化落地方案.md",
+      "note": "项目的事实一致性、来源和运行状态检查，不是平台发布的额外规定。"
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "AMZ-01",
+      "category": "platform_rules",
+      "title_zh": "标题长度",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "US",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 75,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": "2026-07-27",
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "AMZS-TITLE-2026"
+      ],
+      "repair": "提出更短的标题，不加入新事实，重新计数。"
+    },
+    {
+      "rule_id": "AMZ-02",
+      "category": "platform_rules",
+      "title_zh": "亮点长度",
+      "field_paths": [
+        "content.item_highlights"
+      ],
+      "scope": {
+        "marketplace": "US",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 125,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": "2026-07-27",
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "AMZS-TITLE-2026"
+      ],
+      "repair": "提炼信息，必要时移到其他适用字段，重新计数。"
+    },
+    {
+      "rule_id": "AMZ-03",
+      "category": "platform_rules",
+      "title_zh": "文案中的联系信息或链接",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points[].text",
+        "content.description"
+      ],
+      "field_basis_overrides": {
+        "content.item_highlights": {
+          "kind": "project_check",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "note": "本应用保守沿用文案限制，待亮点字段具体规则核实；不作为独立官方规则计数。"
+        }
+      },
+      "scope": {
+        "marketplace": "US"
+      },
+      "constraint": {
+        "candidates": [
+          "email_address",
+          "phone_number",
+          "seller_address",
+          "website_url"
+        ]
+      },
+      "method": "patterns_with_context_review",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "AMZS-DETAIL-US"
+      ],
+      "repair": "删除受限文案中的联系信息；内部证据链接不属于检查对象。",
+      "note": "尺寸数字不因形状相似而自动判为电话号码。"
+    },
+    {
+      "rule_id": "AMZ-04",
+      "category": "platform_rules",
+      "title_zh": "文案中的交易信息",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points[].text",
+        "content.description"
+      ],
+      "field_basis_overrides": {
+        "content.item_highlights": {
+          "kind": "project_check",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "note": "本应用保守沿用文案限制，待亮点字段具体规则核实；不作为独立官方规则计数。"
+        }
+      },
+      "scope": {
+        "marketplace": "US"
+      },
+      "constraint": {
+        "candidates": [
+          "price",
+          "availability",
+          "condition",
+          "alternative_shipping_offer"
+        ]
+      },
+      "method": "patterns_and_semantic_review",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "AMZS-DETAIL-US"
+      ],
+      "repair": "移除文案中的交易信息，专门的售价或库存字段不适用此规则。"
+    },
+    {
+      "rule_id": "AMZ-05",
+      "category": "platform_rules",
+      "title_zh": "商品描述准确性",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "marketplace": "US"
+      },
+      "constraint": {
+        "must_match_confirmed_product_facts": true
+      },
+      "method": "structured_comparison_and_semantic_review",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "AMZS-DETAIL-US"
+      ],
+      "repair": "有确定事实则建议按事实修复；无资料则标记 needs_evidence。"
+    },
+    {
+      "rule_id": "US-01",
+      "category": "target_country_claims_review",
+      "title_zh": "宽泛环保宣称",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "marketplace": "US"
+      },
+      "constraint": {
+        "review_unqualified_general_environmental_benefit_claims": true
+      },
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "FTCS-GREEN-SUMMARY"
+      ],
+      "repair": "建议移除宽泛宣称，或由人工确认支持具体限定表述的证据。",
+      "note": "关键词仅用于召回；否定、引用、限定条件和上下文影响判断。"
+    },
+    {
+      "rule_id": "US-02",
+      "category": "target_country_claims_review",
+      "title_zh": "降解宣称的证据与条件",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "marketplace": "US"
+      },
+      "constraint": {
+        "require_evidence_for_claimed_degradation_conditions_and_timing": true
+      },
+      "method": "claim_extraction_and_evidence_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "FTCS-GREEN-SUMMARY"
+      ],
+      "repair": "缺证据时建议移除，或补充适用商品、测试条件和范围后人工审阅。",
+      "note": "不从棉质推导降解条件；不将风险提示当作最终法律结论。"
+    },
+    {
+      "rule_id": "US-03",
+      "category": "target_country_claims_review",
+      "title_zh": "客观性能或认证宣称依据",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "marketplace": "US"
+      },
+      "constraint": {
+        "match_claim_to_appropriate_reviewed_evidence": true
+      },
+      "method": "claim_extraction_and_evidence_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "FTCS-AD-SUBSTANTIATION"
+      ],
+      "repair": "指出缺少何种证据，不补造认证，不把一般商品页当性能测试。",
+      "note": "证据标准取决于宣称；本规则不实现特定认证体系的官方核验。"
+    },
+    {
+      "rule_id": "FACT-01",
+      "category": "product_fact_quality",
+      "title_zh": "数量单位与属性混淆",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "application_product_type": "tote_bag_demo"
+      },
+      "constraint": {
+        "keep_distinct": [
+          [
+            "capacity_l",
+            "rated_load_kg"
+          ],
+          [
+            "fabric_weight_gsm",
+            "unit_weight_g"
+          ]
+        ]
+      },
+      "method": "typed_fact_comparison",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "使用正确的属性和单位；缺失的性能值保持未知。"
+    },
+    {
+      "rule_id": "FACT-02",
+      "category": "product_fact_quality",
+      "title_zh": "零售包装数量",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "application_product_type": "tote_bag_demo"
+      },
+      "constraint": {
+        "pack_claim_must_match": "product.retail_pack_count"
+      },
+      "method": "explicit_field_comparison",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "采用明确确认的零售件数，不沿用供应商装箱数量。"
+    },
+    {
+      "rule_id": "SYS-01",
+      "category": "system_integrity",
+      "title_zh": "引用可追溯",
+      "field_paths": [
+        "issues[].source_ids",
+        "claim_map[].source_ids"
+      ],
+      "scope": {
+        "workflows": [
+          "listing_create",
+          "listing_diagnose"
+        ]
+      },
+      "constraint": {
+        "source_must_exist_and_be_supplied_to_current_run": true
+      },
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "拒绝假引用；重新检查，无法支持的结论标为待核。"
+    },
+    {
+      "rule_id": "SYS-02",
+      "category": "system_integrity",
+      "title_zh": "范围与检查完成状态",
+      "field_paths": [
+        "marketplace",
+        "rule_pack_version",
+        "review_status",
+        "check_results"
+      ],
+      "scope": {
+        "workflows": [
+          "listing_create",
+          "listing_diagnose"
+        ]
+      },
+      "constraint": {
+        "no_pass_from_error_or_missing_checks": true,
+        "require_rule_scope_match": true
+      },
+      "method": "deterministic",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "列出未覆盖或失败项目，保留部分完成状态。"
+    }
+  ],
+  "coverage_limits": [
+    "未取得正式商品类型 Schema；不检查完整商品属性、品牌资格、变体或商品准入。",
+    "未覆盖图片、A+、Search Terms、进口、税务、纺织品标签及各州全部要求。",
+    "Green Guides 的引用用于宣传风险预审，不宣称模型能完成法律认定。",
+    "商品事实和系统检查是补充，不单独用来计数赛题的两类校验。",
+    "本地英文长度边界已定义；尚未对接 Amazon 验证 Unicode 计数和字段提交行为。"
+  ]
+}

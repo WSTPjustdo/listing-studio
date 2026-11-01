@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>德国站规则跑过 17 条真实在售商品</title>
+<style>
+  @page { size: A4 portrait; margin: 11mm 10mm; }
+  :root{
+    --ink:#1a1a1a; --muted:#5f6b76; --line:#c9d2da; --de:#8a1c1c; --tint-de:#fbeeee;
+    --ok:#1f6b34; --part:#8a5410;
+  }
+  * { box-sizing: border-box; }
+  body{
+    margin:0; background:#fff; color:var(--ink);
+    font-family:"Microsoft YaHei","PingFang SC","Segoe UI",system-ui,sans-serif;
+    font-size:11px; line-height:1.5; -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .sheet{ width:190mm; margin:0 auto; padding:2mm 0 0; }
+  h1{ font-size:17px; margin:0 0 2px; }
+  .sub{ color:var(--muted); font-size:10px; margin:0 0 6px; }
+  .meta{ display:flex; gap:10px; flex-wrap:wrap; font-size:9.8px; color:var(--muted); margin:0 0 8px; }
+  .meta b{ color:var(--ink); font-weight:600; }
+  .cards{ display:flex; gap:7px; margin:0 0 9px; }
+  .card{ flex:1; border:1px solid var(--line); border-radius:3px; padding:6px 9px; }
+  .card .n{ font-size:20px; font-weight:700; line-height:1.1; color:var(--de); }
+  .card .k{ font-size:9.4px; color:var(--muted); margin-top:2px; }
+  .answer{ border:1px solid var(--line); border-left:3px solid var(--de); border-radius:3px; padding:6px 9px; margin:0 0 9px; background:#fcfcfc; font-size:10.6px; }
+  h2{ font-size:11.6px; margin:9px 0 3px; padding-bottom:2px; border-bottom:1px solid var(--line); }
+  h2 span{ font-weight:400; color:var(--muted); font-size:9.2px; margin-left:6px; }
+  table{ width:100%; border-collapse:collapse; table-layout:fixed; }
+  th,td{ border-bottom:1px solid #e3e8ed; padding:2.2px 4px; vertical-align:top; text-align:left; }
+  th{ background:#f4f6f8; font-weight:600; font-size:9.6px; color:#33414d; }
+  td{ font-size:9.8px; }
+  .id{ font-family:Consolas,"Courier New",monospace; font-size:9px; white-space:nowrap; }
+  .tag{ display:inline-block; padding:0 3px; border-radius:2px; font-size:8.2px; white-space:nowrap; }
+  .t-det{ background:#e7f2e9; color:var(--ok); }
+  .t-part{ background:#fdf1e3; color:var(--part); }
+  .t-model{ background:#eef0f3; color:#4a5560; }
+  .num{ text-align:right; font-variant-numeric:tabular-nums; }
+  .over{ color:var(--de); font-weight:600; }
+  .quote{ font-size:9.2px; color:#33414d; overflow-wrap:anywhere; }
+  .foot{ margin-top:8px; display:flex; gap:10px; }
+  .box{ flex:1; border:1px solid var(--line); border-radius:3px; padding:5px 8px; font-size:9.2px; line-height:1.38; min-width:0; }
+  .box h3{ margin:0 0 2px; font-size:9.4px; }
+  .box ul{ margin:0; padding-left:13px; } .box li{ margin:0 0 1px; }
+  .mono{ font-family:Consolas,"Courier New",monospace; font-size:8.4px; color:var(--muted); overflow-wrap:anywhere; word-break:break-word; }
+  @media print { .sheet{ width:auto; } }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <h1>德国站的规则，跑过 17 条真实在售商品</h1>
+  <p class="sub">不是「我们觉得德国站该这么写」，是拿别人正在卖的德语 listing 喂进同一套引擎，看它到底报什么。</p>
+  <p class="meta">
+    <span>语料 <b>DE · 17 条 · 2026-10-30 抓取</b></span>
+    <span>规则包 <b>amazon-de-tote / amazon-de-tote-2026-10-30.r1</b> · 19 条</span>
+    <span>来源：amazon.de 搜索页前几屏 → 逐个商品页</span>
+  </p>
+
+  <div class="cards">
+    <div class="card"><div class="n">17</div><div class="k">条在售 listing（逐条可回原页面）</div></div>
+    <div class="card"><div class="n">5/17</div><div class="k">标题超过 75 字符（29%）</div></div>
+    <div class="card"><div class="n">18/19</div><div class="k">条规则有本地检查（全判 13 / 部分 5）</div></div>
+    <div class="card"><div class="n">73</div><div class="k">标题字符中位数（范围 33–189）</div></div>
+  </div>
+
+  <div class="answer">
+    <b>最容易问的一句：这批数字能说明什么？</b> 说明<b>德国站真实卖家也会写超长标题</b>——17 条里 5 条超过 75 字符，
+    最长 189 字符；而这只是平台层最容易量的一条。法域层（GPSR 四要素、纺织品成分、环保宣称）
+    要靠人复核，本页只报「引擎判得动的那部分」，判不动的照实写未完成。
+  </div>
+
+  <h2>一、19 条规则在这批语料上的表现<span>命中 ≠ 违规：判得动的是事实，判不动的照实标未完成</span></h2>
+  <table>
+    <colgroup><col style="width:16%"><col style="width:44%"><col style="width:14%"><col style="width:12%"><col style="width:14%"></colgroup>
+    <thead><tr><th>规则</th><th>管什么</th><th>引擎</th><th class="num">命中</th><th>判定方式</th></tr></thead>
+    <tbody>
+      <tr><td class="id">AMZ-01</td><td>标题长度（德国站）</td><td><span class="tag t-det">本地可判</span></td><td class="num">5/17</td><td>确定性</td></tr>
+      <tr><td class="id">AMZ-02</td><td>亮点长度</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>确定性</td></tr>
+      <tr><td class="id">AMZ-03</td><td>文案中的联系信息或链接</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>模式+复核</td></tr>
+      <tr><td class="id">AMZ-04</td><td>文案中的交易与促销信息</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>模式+语义</td></tr>
+      <tr><td class="id">AMZ-05</td><td>商品描述准确性</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>结构+语义</td></tr>
+      <tr><td class="id">AMZ-06</td><td>标题含多个包装规格</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>确定性</td></tr>
+      <tr><td class="id">DE-TITLE-02</td><td>标题同一个词不得超过两次（德国站）</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>确定性</td></tr>
+      <tr><td class="id">DE-TITLE-03</td><td>标题禁用特殊字符（德国站）</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>确定性</td></tr>
+      <tr><td class="id">DE-GPSR-19</td><td>GPSR 第 19 条的线上报价四要素</td><td><span class="tag t-model">需人工/模型</span></td><td class="num">0/17</td><td>候选+复核</td></tr>
+      <tr><td class="id">DE-TEXTIL-01</td><td>纺织品纤维成分的德文标注与百分比写法</td><td><span class="tag t-part">部分可判</span></td><td class="num">0/17</td><td>模式+复核</td></tr>
+      <tr><td class="id">DE-ENV-01</td><td>泛化环保与气候中性宣称（德国站，比美国站严）</td><td><span class="tag t-part">部分可判</span></td><td class="num">9/17</td><td>候选+复核</td></tr>
+      <tr><td class="id">DE-VERPACK-01</td><td>包装法注册号是上架前提，且不能拿包装说环保</td><td><span class="tag t-part">部分可判</span></td><td class="num">0/17</td><td>字段比对</td></tr>
+      <tr><td class="id">DE-CERT-01</td><td>认证、检测标志与 CE：什么不能写</td><td><span class="tag t-part">部分可判</span></td><td class="num">12/17</td><td>候选+复核</td></tr>
+      <tr><td class="id">DE-GARANTIE-01</td><td>Garantie（质保）宣称的法定内容</td><td><span class="tag t-part">部分可判</span></td><td class="num">1/17</td><td>候选+复核</td></tr>
+      <tr><td class="id">FACT-01</td><td>数量单位与属性混淆</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>类型比对</td></tr>
+      <tr><td class="id">FACT-02</td><td>零售包装数量</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>字段比对</td></tr>
+      <tr><td class="id">EVID-01</td><td>商品参数与来源对照</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>确定性</td></tr>
+      <tr><td class="id">SYS-01</td><td>引用可追溯</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>确定性</td></tr>
+      <tr><td class="id">SYS-02</td><td>范围与检查完成状态</td><td><span class="tag t-det">本地可判</span></td><td class="num">0/17</td><td>确定性</td></tr>
+    </tbody>
+  </table>
+
+  <h2>二、真实标题长什么样<span>原文照抄，只截断不修改；字符数按引擎同一套口径（Unicode 码点，含空格）</span></h2>
+  <table>
+    <colgroup><col style="width:18%"><col style="width:62%"><col style="width:8%"><col style="width:12%"></colgroup>
+    <thead><tr><th>ASIN</th><th>标题（截断）</th><th class="num">字符</th><th>判定</th></tr></thead>
+    <tbody>
+      <tr><td class="id">B0FWQPDNXV</td><td class="quote">2 Stück Baumwolltasche, 60×40×12cm Super Groß Einkaufstasche mit Verdicken Handband, Verdicken Vielseitig Stoffbeutel, Wiederverwendbare Unbedruckt Baumwollbeutel für Einkauf, Reisen, Sport…</td><td class="num over">189</td><td class="over">超 75 字符</td></tr>
+      <tr><td class="id">B0D2GJZXQJ</td><td class="quote">5 | 10er Pack PREMIUM Baumwolltasche 38 x 42 cm, Stofftaschen zum bemalen oder Besticken, Stoffbeutel mit Langen Henkeln, Unbedruckt…</td><td class="num over">132</td><td class="over">超 75 字符</td></tr>
+      <tr><td class="id">B0D9QWKDRZ</td><td class="quote">Stofftasche Zum Bemalen – 5 | 10 | 25er-Pack - aus Öko-Material – mit langen Henkeln – Stoffbeutel Unbedruckt – Baumwolltasche – Beutel für Wäsche – Tragetasche – für Geschenke…</td><td class="num over">176</td><td class="over">超 75 字符</td></tr>
+      <tr><td class="id">B0CGJ16JV2</td><td class="quote">Geschenk mit Namen personalisiert by Shirtracer - Baumwolltasche - Bären - Süßer Bär…</td><td class="num over">84</td><td class="over">超 75 字符</td></tr>
+      <tr><td class="id">B0BCQYJLJR</td><td class="quote">10er Pack Apothekertasche 22x26cm</td><td class="num">33</td><td>未超</td></tr>
+    </tbody>
+  </table>
+
+  <div class="foot">
+    <div class="box">
+      <h3>这份语料能证明</h3>
+      <ul>
+        <li>同一套引擎换个规则包就能跑另一个市场，结论落在具体规则号上</li>
+        <li>德国站真实卖家也有 5/17 条标题超过 75 字符（最长 189）</li>
+        <li>每条都能回到原页面：ASIN + 抓取时间 + 页面字节数都在 json 里</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>这份语料不能证明</h3>
+      <ul>
+        <li>不能证明「德国卖家普遍违规」：样本来自搜索页前几屏，非随机抽样</li>
+        <li>不能证明 GPSR 四要素缺失：四要素多在卖家信息区，本采集器只读主商品区文本</li>
+        <li>不能替代生成验收：这里考的是「读别人的稿」，生成德语是另一次真模型验收</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>怎么复现</h3>
+      <ul>
+        <li>数字由 <span class="mono">tests/de-corpus.test.mjs</span> 重算，引擎或包一改测试就红</li>
+        <li>本页由 <span class="mono">scripts/render-de-corpus-page.mjs</span> 从同一份 json 生成</li>
+        <li>重算命中表：<span class="mono">collect-de-listings.mjs --restat</span>（同一批快照，不重新抓页）</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

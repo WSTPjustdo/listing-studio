@@ -1,0 +1,42 @@
+{
+  "completed_at": "2026-11-01T02:56:20.353Z",
+  "public_products_only": true,
+  "merchant_owned_sku_tested": false,
+  "amazon_publication_performed": false,
+  "exported_products": [
+    {
+      "product_id": "AMAZON-US-B0732NPDRB",
+      "marketplace": "US",
+      "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+      "version": 15,
+      "request_id": "a3a8ed2f-f31c-439f-a60b-571c258f3b55"
+    },
+    {
+      "product_id": "REAL-WESTFORD-W101",
+      "marketplace": "US",
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 20,
+      "request_id": "fb50ecf2-b2fd-4113-b989-57a440cf39f9"
+    },
+    {
+      "product_id": "product-d8e427e5-5c55-4883-a678-b2e155a937e5",
+      "marketplace": "US",
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 2,
+      "request_id": "0dd5e97b-35e0-4bdd-826f-a50eb14dcf96"
+    }
+  ],
+  "checks": [
+    "real_listing_version_pinned_per_marketplace",
+    "reload_persists_registration",
+    "missing_publication_confirmation_rejected",
+    "stale_registration_rejected_per_marketplace",
+    "one_click_real_xlsx_download",
+    "all_titles_bullets_descriptions_match_exactly",
+    "review_ids_match",
+    "site_links_and_languages_exported",
+    "filters_and_mobile_fit",
+    "opens_pinned_version",
+    "export_does_not_change_registration"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "completed_at": "2026-10-31T10:30:49.896Z",
+  "listing_id": "listing-511b70f9-6abd-4ff6-866b-046bd64425a5",
+  "version": 3,
+  "model": "deepseek-flash",
+  "request_id": "3a468130-57d1-4c1f-80ea-9e35c1268f30",
+  "actual_model_call": true,
+  "elapsed_ms": 2581,
+  "usage": {
+    "prompt_tokens": 8483,
+    "completion_tokens": 472,
+    "total_tokens": 8955,
+    "prompt_tokens_details": {
+      "cached_tokens": 2560
+    },
+    "prompt_cache_hit_tokens": 2560,
+    "prompt_cache_miss_tokens": 5923
+  },
+  "issues": [],
+  "missing_data": [
+    {
+      "field": "brand",
+      "label": "品牌",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "checks": [
+    "invalid_product_revision_rejected",
+    "real_api_recheck",
+    "version_history_preserved",
+    "evidence_visible",
+    "html_txt_json_copy_exports"
+  ],
+  "screenshot": "D:\\Desktop\\三城黑客松\\.runtime\\live-acceptance-browser.png"
+}

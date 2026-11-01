@@ -1,0 +1,26 @@
+
+> listing-studio@0.1.0 audit:delivery
+> node scripts/delivery-audit.mjs --strict --self-test
+
+
+## 一 · 命令对账
+文档 6 份，出现 31 条不同的 npm 命令；找不到的 0 条。
+  ✓ 全部能在 package.json 或 npm 内置命令里找到
+
+## 二 · 链接对账
+42 条站内链接，指不到的 0 条。
+  ✓ 全部指得到真实文件或目录
+
+## 三 · 数字对账
+  实测 test:integration = 31 项；文档引用 1 处，不一致 0 处。
+  ✓ 数字与实测一致
+
+## 四 · 第三方组件声明
+锁文件 351 个包；清单 351 条；清单登记的许可正文 287 个文件，缺 0 个。
+  THIRD_PARTY.md 直接依赖表 21 行；版本/许可对不上 0 处。
+  自证：改掉清单第 4 行版本 → 报 1 条；改掉「React / React DOM」的许可证 → 报 1 条。
+
+## 结论
+红 0 条
+备注 1 条：
+  · package.json 有 81 个脚本，其中 51 个文档里没提（量具与内部脚本，不必写进 README）

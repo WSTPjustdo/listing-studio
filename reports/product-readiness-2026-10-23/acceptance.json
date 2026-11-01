@@ -1,0 +1,256 @@
+{
+  "started_at": "2026-10-23T09:55:17.845Z",
+  "public_products_only": true,
+  "merchant_owned_sku_tested": false,
+  "publication_performed": false,
+  "steps": [
+    {
+      "label": "existing_real_submission_reused",
+      "source_id": "evidence-79c025b2-2e50-46d8-a23e-14b174e1ef9e"
+    },
+    {
+      "label": "补资料后真实复检",
+      "version": 8,
+      "consistency": {
+        "state": "baseline",
+        "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+      },
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "changed_fields": []
+    },
+    {
+      "label": "相同输入真实复检一致性",
+      "version": 9,
+      "consistency": {
+        "state": "changed",
+        "compared_version": 8,
+        "reason": "文案、商品资料、规则、来源和模型配置未变化，但审核结论发生变化；请人工核对两个版本。本轮未再检出不表示问题已解决。"
+      },
+      "issues": [
+        {
+          "issue_id": "e48dd387f716c0",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "卖点证据待核验",
+          "severity": "needs_review",
+          "field_path": "content.bullet_points.b5",
+          "original": "Westford Mill W101 cotton tote bag.",
+          "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        }
+      ],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "changed_fields": []
+    },
+    {
+      "label": "只改标题：把 W101 放到标题最前，保留品牌与棉布袋名称；其他字段逐字保持。不得补充任何参数。",
+      "version": 10,
+      "consistency": {
+        "state": "baseline",
+        "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+      },
+      "issues": [
+        {
+          "issue_id": "e48dd387f716c0",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "卖点证据待核验",
+          "severity": "needs_review",
+          "field_path": "content.bullet_points.b5",
+          "original": "Westford Mill W101 cotton tote bag.",
+          "reason": "该客观表述缺少与商品参数对应的审核证据映射。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        }
+      ],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "changed_fields": [
+        "content.title"
+      ]
+    },
+    {
+      "label": "只改描述：改为两句简洁的美式英文，优先说明已确认的材质与携带方式；其他字段逐字保持。不得添加认证、环保、承重、颜色或零售件数。",
+      "version": 11,
+      "consistency": {
+        "state": "baseline",
+        "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+      },
+      "issues": [],
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "changed_fields": [
+        "content.description"
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "request_id": "9726cbc4-19ef-4343-bf22-cc099b08a43f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4821,
+      "usage": {
+        "prompt_tokens": 5866,
+        "completion_tokens": 967,
+        "total_tokens": 6833,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5098
+      }
+    },
+    {
+      "request_id": "0a0e3e08-74fc-4d33-adfb-b059d1f2940f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4316,
+      "usage": {
+        "prompt_tokens": 5866,
+        "completion_tokens": 1020,
+        "total_tokens": 6886,
+        "prompt_tokens_details": {
+          "cached_tokens": 5632
+        },
+        "prompt_cache_hit_tokens": 5632,
+        "prompt_cache_miss_tokens": 234
+      }
+    },
+    {
+      "request_id": "adf51ded-448a-4938-a9f2-b7bc6d20d1af",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1333,
+      "usage": {
+        "prompt_tokens": 5939,
+        "completion_tokens": 276,
+        "total_tokens": 6215,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5171
+      }
+    },
+    {
+      "request_id": "0c44c4c5-ac3b-442b-83f9-fcc28228226f",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5138,
+      "usage": {
+        "prompt_tokens": 5899,
+        "completion_tokens": 1133,
+        "total_tokens": 7032,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5131
+      }
+    },
+    {
+      "request_id": "7abdf86e-0580-404e-83a7-5b0ac2b3807d",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1144,
+      "usage": {
+        "prompt_tokens": 5950,
+        "completion_tokens": 245,
+        "total_tokens": 6195,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5182
+      }
+    },
+    {
+      "request_id": "1aec5d0d-eb47-4836-ae25-fc8acd98a4dc",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8343,
+      "usage": {
+        "prompt_tokens": 5926,
+        "completion_tokens": 905,
+        "total_tokens": 6831,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 5158
+      }
+    }
+  ],
+  "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+  "source": {
+    "url": "https://westfordmill.com/products/w101",
+    "checked_at": "2026-10-23T09:55:21.037Z",
+    "excerpt": "Poly Bag Qty 25\nPricelist Pack Qty 25\nCarton Quantity 250",
+    "interpretation": "物流装箱与批发包装信息，不能确认商家零售每包件数。"
+  },
+  "completed_at": "2026-10-23T09:55:50.555Z",
+  "final_version": 11,
+  "unresolved": {
+    "issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ],
+    "unchecked": []
+  }
+}

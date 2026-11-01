@@ -1,0 +1,135 @@
+Listing Studio · 商品 · V2
+
+Title
+DALIX 22" Cotton Canvas Tote Bag with Zipper
+
+Amazon 来源：https://www.amazon.com/dp/B0732NPDRB
+读取日期：2026-10-24T02:17:17.457Z
+实时读取时的页面观察；库存随地址和时间变化
+销售状态：In Stock
+资料方式：实时读取
+
+Item Highlights
+100% cotton canvas tote with a top zipper and an outer pocket; measures 22" X 16" X 6".
+
+Bullet Points
+• 100% cotton canvas construction for an everyday carry tote.
+• Top zipper closure helps keep the main compartment covered when you're on the go.
+• Outer pocket gives you a separate spot for small items you want within reach.
+• Measures 22" X 16" X 6", so you can picture how it fits your daily routine.
+
+Description
+The DALIX cotton canvas tote is a simple everyday carry option made from 100% cotton canvas. It measures 22" X 16" X 6" and has a top zipper closure plus an outer pocket for small items you want close at hand. A straightforward choice for daily errands and everyday carrying.
+
+—— 内部审阅说明（与对客文案分开使用）——
+
+检查范围：Amazon US 文本与宣称证据预审；正式上架准备状态未验证。
+
+执行方式：实际模型调用
+
+运行：run-d81616b4-c729-4656-a8d4-670beb09165b
+
+商品资料版本：AMAZON-US-B0732NPDRB@4
+
+审核一致性：本次与上一版相同输入的审核结论一致；单次一致不代表长期稳定性。
+
+参数来源（商家关联，未独立核验）：material
+参数："100% cotton canvas"
+来源：DALIX；https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag
+适用型号：DALIX 22 inch zippered tote; color and retail pack not verified
+原文：12. Oz, 100% Cotton Canvas
+记录：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48；2026-10-24T02:17:19.064Z
+
+参数来源（商家关联，未独立核验）：Original dimensions
+参数："22\" X 16\" X 6\""
+来源：DALIX；https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag
+适用型号：DALIX 22 inch zippered tote; color and retail pack not verified
+原文：22" X 16" X 6"; Outer Pocket; Top Zipper Closure
+记录：MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e；2026-10-24T02:17:19.064Z
+
+参数来源（商家关联，未独立核验）：Closure
+参数："Top Zipper Closure"
+来源：DALIX；https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag
+适用型号：DALIX 22 inch zippered tote; color and retail pack not verified
+原文：22" X 16" X 6"; Outer Pocket; Top Zipper Closure
+记录：MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a；2026-10-24T02:17:19.064Z
+
+参数来源（商家关联，未独立核验）：Pocket
+参数："Outer Pocket"
+来源：DALIX；https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag
+适用型号：DALIX 22 inch zippered tote; color and retail pack not verified
+原文：22" X 16" X 6"; Outer Pocket; Top Zipper Closure
+记录：MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b；2026-10-24T02:17:19.064Z
+
+卖点对照：DALIX 22" Cotton Canvas Tote Bag with Zipper
+证据待补充；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：DALIX → brand="DALIX"；方法：exact_fact_text；来源：AMZ-PAGE-B0732NPDRB-5be602c5cfce；AMAZON-US-B0732NPDRB@4
+参数原文：Cotton → material="100% cotton canvas"；方法：material_presence_only；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48；AMAZON-US-B0732NPDRB@4
+待核对参数：22；字段：unclassified_parameter；数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+brand="DALIX"；来源：AMZ-PAGE-B0732NPDRB-5be602c5cfce
+material="100% cotton canvas"；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48
+
+卖点对照：100% cotton canvas tote with a top zipper and an outer pocket; measures 22" X 16" X 6".
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：100% cotton → material="100% cotton canvas"；方法：material_percentage；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48；AMAZON-US-B0732NPDRB@4
+参数原文：outer pocket → additional_facts.2="Outer Pocket"；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b；AMAZON-US-B0732NPDRB@4
+参数原文：22" X 16" X 6" → additional_facts.0="22\" X 16\" X 6\""；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e；AMAZON-US-B0732NPDRB@4
+material="100% cotton canvas"；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48
+additional_facts.2="Outer Pocket"；来源：MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b
+additional_facts.0="22\" X 16\" X 6\""；来源：MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e
+
+卖点对照：100% cotton canvas construction for an everyday carry tote.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：100% cotton → material="100% cotton canvas"；方法：material_percentage；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48；AMAZON-US-B0732NPDRB@4
+material="100% cotton canvas"；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48
+
+卖点对照：Top zipper closure helps keep the main compartment covered when you're on the go.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：Top zipper closure → additional_facts.1="Top Zipper Closure"；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a；AMAZON-US-B0732NPDRB@4
+additional_facts.1="Top Zipper Closure"；来源：MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a
+
+卖点对照：Outer pocket gives you a separate spot for small items you want within reach.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：Outer pocket → additional_facts.2="Outer Pocket"；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b；AMAZON-US-B0732NPDRB@4
+additional_facts.2="Outer Pocket"；来源：MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b
+
+卖点对照：Measures 22" X 16" X 6", so you can picture how it fits your daily routine.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：22" X 16" X 6" → additional_facts.0="22\" X 16\" X 6\""；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e；AMAZON-US-B0732NPDRB@4
+additional_facts.0="22\" X 16\" X 6\""；来源：MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e
+
+卖点对照：The DALIX cotton canvas tote is a simple everyday carry option made from 100% cotton canvas.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：DALIX → brand="DALIX"；方法：exact_fact_text；来源：AMZ-PAGE-B0732NPDRB-5be602c5cfce；AMAZON-US-B0732NPDRB@4
+参数原文：cotton → material="100% cotton canvas"；方法：material_presence_only；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48；AMAZON-US-B0732NPDRB@4
+参数原文：100% cotton → material="100% cotton canvas"；方法：material_percentage；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48；AMAZON-US-B0732NPDRB@4
+brand="DALIX"；来源：AMZ-PAGE-B0732NPDRB-5be602c5cfce
+material="100% cotton canvas"；来源：MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48
+
+卖点对照：It measures 22" X 16" X 6" and has a top zipper closure plus an outer pocket for small items you want close at hand.
+参数已对照；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v1；商品快照：AMAZON-US-B0732NPDRB@4；整句语义另行审阅。
+参数原文：22" X 16" X 6" → additional_facts.0="22\" X 16\" X 6\""；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e；AMAZON-US-B0732NPDRB@4
+参数原文：top zipper closure → additional_facts.1="Top Zipper Closure"；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a；AMAZON-US-B0732NPDRB@4
+参数原文：outer pocket → additional_facts.2="Outer Pocket"；方法：recorded_excerpt_spacing_only；来源：MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b；AMAZON-US-B0732NPDRB@4
+additional_facts.0="22\" X 16\" X 6\""；来源：MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e
+additional_facts.1="Top Zipper Closure"；来源：MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a
+additional_facts.2="Outer Pocket"；来源：MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b
+
+[EVID-01] 商品参数与来源对照
+DALIX 22" Cotton Canvas Tote Bag with Zipper
+22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。
+建议：核对商品原文与适用条件；补充依据或删除无法证实的表述。
+
+待补：颜色；未确认，草稿中不推测；正式上架仍需核对。
+
+待补：零售包装；未确认，草稿中不推测；正式上架仍需核对。
+
+未完成检查：无

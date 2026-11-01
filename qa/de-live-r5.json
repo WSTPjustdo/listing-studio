@@ -1,0 +1,208 @@
+{
+  "notice": "真实 DeepSeek 调用，德语（language=de / marketplace=DE）；不含任何密钥。两次都是同一份 W101 公开商品资料与同一段指令，差异只有提示词与引擎修复。",
+  "runs": [
+    {
+      "label": "第 1 次（本轮开头）",
+      "note": "提示词刚补上成分三条。产出合规（100 % Baumwolle），但描述与五点各写一遍「Lieferumfang: 1 Tasche」，被引擎报成 2 条「数值读不懂」的假警报——商家没法按这条改稿。",
+      "provider_request_id": "aa44b8ff-a03d-48d5-ac13-e803391533c9",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 8007,
+        "completion_tokens": 985,
+        "total_tokens": 8992,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 6471
+      },
+      "marketplace": "DE",
+      "locale": "de-DE",
+      "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+      "content": {
+        "title": "Westford Mill W101 Baumwolltasche, 38 × 42 cm, 140 g/m²",
+        "item_highlights": "Baumwolltasche von Westford Mill, 38 × 42 cm, 140 g/m², zum Tragen in der Hand oder über der Schulter",
+        "bullet_points": [
+          {
+            "id": "b1",
+            "text": "100 % Baumwolle, Stoffgewicht 140 g/m²"
+          },
+          {
+            "id": "b2",
+            "text": "Maße: 38 × 42 cm (Breite × Höhe)"
+          },
+          {
+            "id": "b3",
+            "text": "Kann in der Hand oder über der Schulter getragen werden"
+          },
+          {
+            "id": "b4",
+            "text": "Lieferumfang: 1 Tasche"
+          }
+        ],
+        "description": "Baumwolltasche von Westford Mill aus 100 % Baumwolle mit einem Stoffgewicht von 140 g/m². Die Tasche misst 38 × 42 cm (Breite × Höhe) und lässt sich in der Hand oder über der Schulter tragen. Lieferumfang: 1 Tasche."
+      },
+      "composition_runs": [
+        {
+          "text": "100 % Baumwolle",
+          "total": 100,
+          "descending": true,
+          "pure": false
+        },
+        {
+          "text": "100 % Baumwolle",
+          "total": 100,
+          "descending": true,
+          "pure": false
+        }
+      ],
+      "de_checks": [
+        {
+          "rule_id": "AMZ-01",
+          "state": "pass"
+        },
+        {
+          "rule_id": "DE-TITLE-02",
+          "state": "pass"
+        },
+        {
+          "rule_id": "DE-TITLE-03",
+          "state": "pass"
+        },
+        {
+          "rule_id": "DE-GPSR-19",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-TEXTIL-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-VERPACK-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-GARANTIE-01",
+          "state": "not_checked"
+        }
+      ],
+      "issues": [
+        {
+          "rule_id": "EVID-01",
+          "severity": "needs_review",
+          "original": "Lieferumfang: 1 Tasche",
+          "reason": "1：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+        },
+        {
+          "rule_id": "EVID-01",
+          "severity": "needs_review",
+          "original": "Lieferumfang: 1 Tasche.",
+          "reason": "1：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+        }
+      ]
+    },
+    {
+      "label": "第 2 次（修完德语件数识别后）",
+      "note": "同一份资料、同一段指令：0 条问题，成分仍是单一纤维 100 % Baumwolle；DE-TEXTIL-01 停在 not_checked（另半边本地判不了）。",
+      "provider_request_id": "4dd03846-41c1-43db-94c6-854c05ffee24",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 8022,
+        "completion_tokens": 880,
+        "total_tokens": 8902,
+        "prompt_tokens_details": {
+          "cached_tokens": 2176
+        },
+        "prompt_cache_hit_tokens": 2176,
+        "prompt_cache_miss_tokens": 5846
+      },
+      "marketplace": "DE",
+      "locale": "de-DE",
+      "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+      "content": {
+        "title": "Westford Mill W101 Baumwolltasche, 38 × 42 cm, 140 g/m²",
+        "item_highlights": "Baumwolltasche von Westford Mill, 38 × 42 cm, 140 g/m², zum Tragen in der Hand oder über der Schulter",
+        "bullet_points": [
+          {
+            "id": "b1",
+            "text": "Westford Mill W101: Baumwolltasche mit 100 % Baumwolle."
+          },
+          {
+            "id": "b2",
+            "text": "Fläche 38 × 42 cm (Breite × Höhe), Materialgewicht 140 g/m²."
+          },
+          {
+            "id": "b3",
+            "text": "Lässt sich in der Hand oder über der Schulter tragen."
+          },
+          {
+            "id": "b4",
+            "text": "Lieferumfang: 1 Tasche."
+          }
+        ],
+        "description": "Die Westford Mill W101 ist eine Baumwolltasche aus 100 % Baumwolle mit einem Materialgewicht von 140 g/m². Sie misst 38 × 42 cm (Breite × Höhe) und lässt sich in der Hand oder über der Schulter tragen. Lieferumfang: 1 Tasche."
+      },
+      "composition_runs": [
+        {
+          "text": "100 % Baumwolle",
+          "total": 100,
+          "descending": true,
+          "pure": false
+        },
+        {
+          "text": "100 % Baumwolle",
+          "total": 100,
+          "descending": true,
+          "pure": false
+        }
+      ],
+      "de_checks": [
+        {
+          "rule_id": "AMZ-01",
+          "state": "pass"
+        },
+        {
+          "rule_id": "DE-TITLE-02",
+          "state": "pass"
+        },
+        {
+          "rule_id": "DE-TITLE-03",
+          "state": "pass"
+        },
+        {
+          "rule_id": "DE-GPSR-19",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-TEXTIL-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-ENV-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-VERPACK-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-CERT-01",
+          "state": "not_checked"
+        },
+        {
+          "rule_id": "DE-GARANTIE-01",
+          "state": "not_checked"
+        }
+      ],
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+
+> listing-studio@0.1.0 test:intake
+> node --test tests/intake.test.mjs tests/intake-parser.test.mjs tests/fabric-weight-context.test.mjs tests/intake-dimensions.test.mjs
+
+(node:18476) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ archived real W101 keeps its complete fabric-weight source without becoming a rated load (28.7709ms)
+✔ unsupported square-yard units remain explicitly uncovered instead of borrowing gsm support (1.164ms)
+✔ a separate carrying or load clause cannot relabel product weight (1.2015ms)
+✔ explicit product weight takes precedence while genuine nearby rated loads remain checked (0.7603ms)
+(node:17960) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ recorded real intake description retains explicit wide/high axes separated by by (28.2416ms)
+✔ explicit reordered and mixed-unit by axes are checked by their labels (1.4773ms)
+✔ word separators do not infer unknown or length axes as width and height (1.0657ms)
+✔ explicit by axes still respect pocket context and missing depth (0.7927ms)
+✔ pasted real W101 copy retains title, highlights, every bullet and description (2.1063ms)
+✔ UTF-8 BOM and Windows line endings do not alter real content (1.485ms)
+✔ ordinary word prefixes are never treated as section labels (0.4477ms)
+✔ missing fields remain empty rather than copying bullets into highlights (0.3191ms)
+✔ recognized metric tables and keyword-only inputs are rejected as full copy (0.7522ms)
+✔ numbered lines inside a labelled description remain in the description (0.1838ms)
+✔ keyword input keeps phrases, deduplicates case and preserves measurement terms (0.3435ms)
+✔ empty and non-text content are not parsed (0.2474ms)
+✔ own draft intake preserves the reviewed content and provenance without creating product identity (5.8098ms)
+✔ unconfirmed scope and invalid references are rejected before lookup or inference (1.9178ms)
+✔ competitor text is reference material only and cannot be submitted without a real own product (0.7393ms)
+✔ a later repair inherits the same effective selected terms and reference snapshot as its saved record (0.3569ms)
+✔ legacy research without intake metadata also survives subsequent repair requests (0.1546ms)
+✔ raw paste and filename remain provenance while model research uses only confirmed structured text (0.2708ms)
+✔ a single existing bullet can change while every other field and bullet identity stays byte-for-byte (1.2534ms)
+✔ keyword usage reports literal changes without treating substring, cross-field text or regex as terms (3.3512ms)
+✔ provider contract treats imported material as data and preserves only facts supported by own product (0.2952ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 376.524

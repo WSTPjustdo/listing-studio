@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-30T10:08:52.500Z",
+  "base": "http://127.0.0.1:8787",
+  "two_path_home": true,
+  "products": 4,
+  "listings": 6,
+  "page_errors": [],
+  "post_requests": 0,
+  "notice": "Read-only new local service check; original database retained; no extra model call."
+}

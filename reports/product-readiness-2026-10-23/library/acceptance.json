@@ -1,0 +1,32 @@
+{
+  "completed_at": "2026-10-23T10:06:21.689Z",
+  "public_products_only": true,
+  "merchant_owned_sku_tested": false,
+  "amazon_publication_performed": false,
+  "exported_products": [
+    {
+      "product_id": "REAL-WESTFORD-W101",
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 14,
+      "request_id": "5e4f0bb3-b3f9-4f63-bee8-ec8e52a4114a"
+    },
+    {
+      "product_id": "product-d8e427e5-5c55-4883-a678-b2e155a937e5",
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 2,
+      "request_id": "0dd5e97b-35e0-4bdd-826f-a50eb14dcf96"
+    }
+  ],
+  "checks": [
+    "real_listing_version_pinned",
+    "reload_persists_registration",
+    "missing_publication_confirmation_rejected",
+    "stale_registration_rejected",
+    "one_click_real_xlsx_download",
+    "all_titles_bullets_descriptions_match_exactly",
+    "review_ids_match",
+    "filters_and_mobile_fit",
+    "opens_pinned_version",
+    "export_does_not_change_registration"
+  ]
+}

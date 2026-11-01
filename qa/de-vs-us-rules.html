@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>美国站 vs 德国站：规则差异一页对照</title>
+<style>
+  @page { size: A4 portrait; margin: 11mm 10mm; }
+  :root{
+    --ink:#1a1a1a; --muted:#5f6b76; --line:#c9d2da; --bg:#ffffff;
+    --us:#1f4e79; --de:#8a1c1c; --tint-us:#eef3f8; --tint-de:#fbeeee;
+  }
+  * { box-sizing: border-box; }
+  body{
+    margin:0; background:#fff; color:var(--ink);
+    font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", system-ui, sans-serif;
+    font-size:11px; line-height:1.5; -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .sheet{ width:190mm; margin:0 auto; padding:2mm 0 0; }
+  h1{ font-size:17px; margin:0 0 2px; letter-spacing:.2px; }
+  .sub{ color:var(--muted); font-size:10px; margin:0 0 6px; }
+  .meta{ display:flex; gap:10px; flex-wrap:wrap; font-size:9.8px; color:var(--muted); margin:0 0 7px; }
+  .meta b{ color:var(--ink); font-weight:600; }
+  .answer{
+    border:1px solid var(--line); border-left:3px solid var(--de); border-radius:3px;
+    padding:6px 9px; margin:0 0 9px; background:#fcfcfc; font-size:10.6px;
+  }
+  .answer b{ color:var(--de); }
+  h2{ font-size:11.6px; margin:9px 0 3px; padding-bottom:2px; border-bottom:1px solid var(--line); }
+  h2 span{ font-weight:400; color:var(--muted); font-size:9.2px; margin-left:6px; }
+  table{ width:100%; border-collapse:collapse; table-layout:fixed; }
+  th,td{ border-bottom:1px solid #e3e8ed; padding:2px 4px; vertical-align:top; text-align:left; }
+  th{ background:#f4f6f8; font-weight:600; font-size:9.8px; color:#33414d; }
+  td{ font-size:10px; }
+  .id{ font-family:Consolas,"Courier New",monospace; font-size:9.2px; white-space:nowrap; }
+  .us .id{ color:var(--us); } .de .id{ color:var(--de); }
+  .src{ color:var(--muted); font-size:8.9px; line-height:1.35; overflow-wrap:anywhere; }
+  .tag{ display:inline-block; padding:0 3px; border-radius:2px; font-size:8.2px; white-space:nowrap; }
+  .t-det{ background:#e7f2e9; color:#1f6b34; }
+  .t-model{ background:#fdf1e3; color:#8a5410; }
+  .t-part{ background:#fff3d6; color:#7a5b00; }
+  .foot{ margin-top:5px; display:flex; gap:10px; }
+  .box{ flex:1; border:1px solid var(--line); border-radius:3px; padding:5px 8px; font-size:9.3px; line-height:1.4; }
+  .box h3{ margin:0 0 2px; font-size:9.4px; }
+  .box ul{ margin:0; padding-left:13px; }
+  .box li{ margin:0 0 1px; }
+  .warn{ color:var(--de); }
+  @media print { .sheet{ width:auto; } }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <h1>同一个引擎，两份规则包：Amazon 美国站 vs 德国站</h1>
+  <p class="sub">不是把美国规则翻译一遍，而是按站点取不同的规则包；每一条都带发布方、原文出处与核验日期。</p>
+  <p class="meta">
+    <span>美国包 <b>amazon-us-tote-2026-10-30.integration-v9</b> · 15 条 / 8 个来源 · 核验 2026-10-21</span>
+    <span>德国包 <b>amazon-de-tote-2026-10-30.r1</b> · 19 条 / 16 个来源 · 核验 2026-10-30</span>
+    <span>品类：棉布手提袋</span>
+  </p>
+
+  <div class="answer">
+    <b>换个国家，依据从哪来？</b> 三句话：① 规则是<b>数据文件</b>（两条 JSON 包），不是散在代码里的 if；
+    ② 请求带哪个站点，引擎就只加载那一份包，报告里写明包版本，导出的纸能追到具体哪一条；
+    ③ 包里写了但程序没实现的规则，状态记 <span class="id">not_checked</span>，<b>不冒充通过</b>——宁可少一个勾，不打一个假勾<span class="src">（这一页的分档由 tests/de-vs-us-page.test.mjs 对着引擎名单核）</span>。
+  </div>
+
+  <h2>一、两边都有：规则 ID 相同，依据各按各站<span>6 条平台规则 + 5 条通用规则，两边同 ID、同实现</span></h2>
+  <table>
+    <colgroup><col style="width:13%"><col style="width:31%"><col style="width:23%"><col style="width:33%"></colgroup>
+    <thead><tr><th>规则</th><th>管什么</th><th>判定方式</th><th>依据（两边各自的官方页）</th></tr></thead>
+    <tbody>
+      <tr><td class="id">AMZ-01</td><td>标题 ≤ 75 字符（含空格，按 Unicode 码点计）</td><td><span class="tag t-det">程序检查</span> blocking</td><td class="src">US：AMZS-TITLE-2026 · DE：DE-TITLE-2026（各自 amazon 帮助页）</td></tr>
+      <tr><td class="id">AMZ-02</td><td>亮点 ≤ 125 字符</td><td><span class="tag t-det">程序检查</span> blocking</td><td class="src">同上两站帮助页</td></tr>
+      <tr><td class="id">AMZ-03</td><td>文案里不得出现邮箱 / 电话 / 卖家地址 / 网址</td><td><span class="tag t-det">程序检查</span> blocking</td><td class="src">US：AMZS-DETAIL-US · DE：DE-DETAIL-2026</td></tr>
+      <tr><td class="id">AMZ-04</td><td>不得写价格、促销、限时、免运费等交易信息</td><td><span class="tag t-det">程序检查</span> blocking</td><td class="src">US：AMZS-DETAIL-PROMO · DE：DE-DETAIL-2026</td></tr>
+      <tr><td class="id">AMZ-05</td><td>描述与已确认的商品事实一致</td><td><span class="tag t-det">结构比对</span> + 复核</td><td class="src">两站详情页规则；以商家属实档案为准</td></tr>
+      <tr><td class="id">AMZ-06</td><td>标题里只能出现一种包装件数</td><td><span class="tag t-det">程序检查</span> 建议级</td><td class="src">两站详情页规则</td></tr>
+      <tr><td class="id">FACT-01/02</td><td>容量≠承重、克重≠单件重量；包装件数须与档案一致</td><td><span class="tag t-det">类型化比对</span> blocking</td><td class="src">取自商品档案字段，不依赖站点法域</td></tr>
+      <tr><td class="id" style="white-space:normal">EVID-01 · SYS-01/02</td><td>每条参数要能追到来源；引用必须存在于本次运行；没做的检查不得记为通过</td><td><span class="tag t-det">程序检查</span></td><td class="src">系统自身约束（防假绿），两站一致</td></tr>
+    </tbody>
+  </table>
+
+  <h2>二、只有一边有：美国 4 条（FTC）· 德国 8 条（欧盟 + 德国法）</h2>
+  <table>
+    <colgroup><col style="width:14%"><col style="width:33%"><col style="width:17%"><col style="width:36%"></colgroup>
+    <thead><tr><th>规则</th><th>管什么</th><th>判定方式</th><th>依据</th></tr></thead>
+    <tbody>
+      <tr class="us"><td class="id">US-01</td><td>宽泛环保宣称（"环保""绿色"这类没有具体所指）</td><td><span class="tag t-model">候选检测</span> + 复核</td><td class="src">FTC Green Guides 汇总 · FTCS-GREEN-SUMMARY</td></tr>
+      <tr class="us"><td class="id">US-02</td><td>"可降解"之类的宣称须有证据与限定条件</td><td><span class="tag t-model">宣称提取</span> + 证据比对</td><td class="src">FTCS-GREEN-SUMMARY</td></tr>
+      <tr class="us"><td class="id">US-03</td><td>客观性能 / 认证宣称须有实证</td><td><span class="tag t-model">宣称提取</span> + 证据比对</td><td class="src">FTC 广告实证要求 · FTCS-AD-SUBSTANTIATION</td></tr>
+      <tr class="us"><td class="id">US-04</td><td>医疗、健康、抗菌类宣称</td><td><span class="tag t-model">候选检测</span> + 复核</td><td class="src">FTCS-AD-SUBSTANTIATION</td></tr>
+
+      <tr class="de"><td class="id">DE-TITLE-02</td><td>标题里同一个词最多出现 2 次（大小写不敏感，品牌名也算）</td><td><span class="tag t-det">程序检查</span> blocking</td><td class="src">amazon.de 标题帮助页 · DE-TITLE-2026</td></tr>
+      <tr class="de"><td class="id">DE-TITLE-03</td><td>标题禁用 <span class="id">! $ ? _ { } ^ ¬ ¦</span></td><td><span class="tag t-det">程序检查</span> blocking</td><td class="src">amazon.de 标题帮助页 · DE-TITLE-2026</td></tr>
+      <tr class="de"><td class="id">DE-GPSR-19</td><td>线上报价四要素：厂商名称+邮政/电子地址、欧盟责任人（厂商在欧盟外时）、产品识别（型号或批次或 EAN）+ 图片、需要时用<b>德语</b>写的警示</td><td><span class="tag t-part">只列清单</span> 本地判不了，逐项摊四要素</td><td class="src">GPSR (EU) 2023/988 第 19 条 · DE-GPSR-ART19；UWG §5a · DE-UWG-5A</td></tr>
+      <tr class="de"><td class="id">DE-TEXTIL-01</td><td>纤维成分用德语标注、名称取自 Annex I、百分比降序；纯纺才可写"100 %, rein, pur"</td><td><span class="tag t-part">本地判一半</span> 合计/降序/纯纺/德语纤维名</td><td class="src">(EU) No 1007/2011 · EU-TEXTIL-1007；TextilkennzG §4 · DE-TEXTIL-KENNZG；CJEU C-521/17</td></tr>
+      <tr class="de"><td class="id">DE-ENV-01</td><td>泛化环保词（klimaneutral / umweltfreundlich / nachhaltig / recycelbar …）须在同一媒介上给具体说明；<b>靠抵消得来的"气候中性"直接禁</b>；只说部分不能当整个产品的说法</td><td><span class="tag t-part">本地判一半</span> 词表命中 + 复核</td><td class="src">EmpCo (EU) 2024/825 · EU-2024-825；UBA 立场 · DE-UBA-GREENWASHING；BGH I ZB 26/24；UWG §5 · DE-UWG-5</td></tr>
+      <tr class="de"><td class="id">DE-VERPACK-01</td><td>包装法注册（LUCID）是上架前提，未注册不得投放市场；包装不得只用泛化环保词</td><td><span class="tag t-part">本地判一半</span> 只判「文案里写了注册号」</td><td class="src">VerpackDG §6 · DE-VERPAKGD；EmpCo (EU) 2024/825</td></tr>
+      <tr class="de"><td class="id">DE-CERT-01</td><td>CE / TÜV / GS / OEKO-TEX 只能写确实持有的；<b>棉布袋不属 CE 指令范围，标 CE 反而记风险</b>；无依据的获奖宣称属误导</td><td><span class="tag t-part">本地判一半</span> 有标志无编号 / 棉布袋标 CE</td><td class="src">(EC) No 765/2008 第 30 条 · EU-765-2008-ART30；UWG §5</td></tr>
+      <tr class="de"><td class="id">DE-GARANTIE-01</td><td>Garantie（质保）宣称须含：法定权利与免费提示、保证人名称地址、主张方式、商品名称、期限与地域</td><td><span class="tag t-part">本地判一半</span> 缺哪项法定内容</td><td class="src">BGB §479 / §443 · DE-BGB-479；UWG §5</td></tr>
+    </tbody>
+  </table>
+
+  <div class="foot">
+    <div class="box">
+      <h3>怎么判：三档状态，不许含糊</h3>
+      <ul>
+        <li><b>通过</b>——确实用足够上下文查过，才给勾</li>
+        <li><b>待补证据</b>——有说法但没资料支撑，列成待办而不是判死</li>
+        <li><b>未检查</b>——包里写了、程序没实现，或本次没传商品档案；<b class="warn">不记为通过</b></li>
+        <li><b>本地判一半</b>——确定性那半真在程序里跑，判不干净的部分只到「未检查」；<b>只列清单</b>——本地没有可判依据</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>还差什么（写在明面上，不藏）</h3>
+      <ul>
+        <li>GPSR 第 19 条：EUR-Lex 单页未取得原文，四项要件经两处独立二次来源逐字核对</li>
+        <li>BGH I ZB 26/24：未取得判决全文，仅有评述稿转述</li>
+        <li>德国站 8 条专有规则：2 条程序判完、5 条只判一半、1 条只列清单（GPSR）；判不干净一律不给通过</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>边界</h3>
+      <ul>
+        <li>这是<b>文本预审</b>，不是平台审核，也不构成法律意见</li>
+        <li>法语目前只到语言层：<b>法国站规则未接入，不能说支持法国站</b></li>
+        <li>两站结论各自按自己那份包出，不互相借用</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

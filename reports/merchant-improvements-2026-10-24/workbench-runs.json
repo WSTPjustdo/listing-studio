@@ -1,0 +1,538 @@
+[
+  {
+    "run_id": "run-bc46be64-1aa7-4d5a-937d-f2c80ec27e40",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:27:13.896Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "patch",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:27:13.899Z",
+    "finished_at": "2026-10-24T02:27:18.940Z",
+    "elapsed_ms": 5045,
+    "version": 5,
+    "provider_request_id": "de432edb-91b6-4ea4-bd95-cd0ca570e3f0",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "de432edb-91b6-4ea4-bd95-cd0ca570e3f0",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4998,
+      "usage": {
+        "prompt_tokens": 6928,
+        "completion_tokens": 1230,
+        "total_tokens": 8158,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 5904
+      }
+    }
+  },
+  {
+    "run_id": "run-628ee122-4215-417e-b840-b97a357b2c56",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:26:20.700Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "db315006-b5a9-4fdc-91c3-b19f779b8e18",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:26:20.806Z",
+    "finished_at": "2026-10-24T02:26:31.480Z",
+    "elapsed_ms": 10677,
+    "version": 4,
+    "provider_request_id": "2f355325-9945-4602-9e71-2cc1afbe9a9b",
+    "trace": {
+      "output_mode": "audit_only_format_retry",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "2f355325-9945-4602-9e71-2cc1afbe9a9b",
+      "model": "deepseek-flash",
+      "elapsed_ms": 10615,
+      "usage": {
+        "prompt_tokens": 7046,
+        "completion_tokens": 556,
+        "total_tokens": 7602,
+        "prompt_tokens_details": {
+          "cached_tokens": 2560
+        },
+        "prompt_cache_hit_tokens": 2560,
+        "prompt_cache_miss_tokens": 4486
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": true,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "454804fa-99ca-42c6-b879-660196d91ce7",
+            "model": "deepseek-flash",
+            "elapsed_ms": 5477,
+            "usage": {
+              "prompt_tokens": 6961,
+              "completion_tokens": 1293,
+              "total_tokens": 8254,
+              "prompt_tokens_details": {
+                "cached_tokens": 6784
+              },
+              "prompt_cache_hit_tokens": 6784,
+              "prompt_cache_miss_tokens": 177
+            }
+          }
+        }
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "3a45963e-bd48-411d-8a98-db396c9fb5d4",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1564,
+          "usage": {
+            "prompt_tokens": 7031,
+            "completion_tokens": 226,
+            "total_tokens": 7257,
+            "prompt_tokens_details": {
+              "cached_tokens": 2688
+            },
+            "prompt_cache_hit_tokens": 2688,
+            "prompt_cache_miss_tokens": 4343
+          }
+        },
+        {
+          "output_mode": "audit_only_format_retry",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "2f355325-9945-4602-9e71-2cc1afbe9a9b",
+          "model": "deepseek-flash",
+          "elapsed_ms": 9051,
+          "usage": {
+            "prompt_tokens": 7046,
+            "completion_tokens": 556,
+            "total_tokens": 7602,
+            "prompt_tokens_details": {
+              "cached_tokens": 2560
+            },
+            "prompt_cache_hit_tokens": 2560,
+            "prompt_cache_miss_tokens": 4486
+          },
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "454804fa-99ca-42c6-b879-660196d91ce7",
+                "model": "deepseek-flash",
+                "elapsed_ms": 5477,
+                "usage": {
+                  "prompt_tokens": 6961,
+                  "completion_tokens": 1293,
+                  "total_tokens": 8254,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 6784
+                  },
+                  "prompt_cache_hit_tokens": 6784,
+                  "prompt_cache_miss_tokens": 177
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "run_id": "run-d202fa81-5fe2-4c5c-9ff2-15c3378117d6",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:24:59.059Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "547e05c2-d5f2-4eed-88e5-5f16969292a5",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:24:59.065Z",
+    "finished_at": "2026-10-24T02:25:08.261Z",
+    "elapsed_ms": 9200,
+    "version": 3,
+    "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+    "trace": {
+      "output_mode": "audit_only_format_retry",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 9014,
+      "usage": {
+        "prompt_tokens": 7049,
+        "completion_tokens": 483,
+        "total_tokens": 7532,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6281
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": true,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "d6277f21-fb76-4546-b30b-1a2e2edac851",
+            "model": "deepseek-flash",
+            "elapsed_ms": 4883,
+            "usage": {
+              "prompt_tokens": 6964,
+              "completion_tokens": 1237,
+              "total_tokens": 8201,
+              "prompt_tokens_details": {
+                "cached_tokens": 6784
+              },
+              "prompt_cache_hit_tokens": 6784,
+              "prompt_cache_miss_tokens": 180
+            }
+          }
+        }
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "9f27f38b-c8e1-47ad-897f-e0d3222e4985",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1537,
+          "usage": {
+            "prompt_tokens": 7032,
+            "completion_tokens": 229,
+            "total_tokens": 7261,
+            "prompt_tokens_details": {
+              "cached_tokens": 6784
+            },
+            "prompt_cache_hit_tokens": 6784,
+            "prompt_cache_miss_tokens": 248
+          }
+        },
+        {
+          "output_mode": "audit_only_format_retry",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+          "model": "deepseek-flash",
+          "elapsed_ms": 7477,
+          "usage": {
+            "prompt_tokens": 7049,
+            "completion_tokens": 483,
+            "total_tokens": 7532,
+            "prompt_tokens_details": {
+              "cached_tokens": 768
+            },
+            "prompt_cache_hit_tokens": 768,
+            "prompt_cache_miss_tokens": 6281
+          },
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "d6277f21-fb76-4546-b30b-1a2e2edac851",
+                "model": "deepseek-flash",
+                "elapsed_ms": 4883,
+                "usage": {
+                  "prompt_tokens": 6964,
+                  "completion_tokens": 1237,
+                  "total_tokens": 8201,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 6784
+                  },
+                  "prompt_cache_hit_tokens": 6784,
+                  "prompt_cache_miss_tokens": 180
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "run_id": "run-5de40550-6612-4bd4-b540-b3bd9d8441ad",
+    "status": "failed",
+    "stage": "运行失败",
+    "created_at": "2026-10-24T02:22:16.754Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "86851f67-3f0d-4db0-9b41-5061f3f65dad",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:22:16.889Z",
+    "finished_at": "2026-10-24T02:22:28.121Z",
+    "elapsed_ms": 11232,
+    "error": {
+      "code": "MODEL_INVALID_JSON",
+      "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。"
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "a0fede14-17f5-49c5-8754-0671a68e205a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4547,
+      "usage": {
+        "prompt_tokens": 7022,
+        "completion_tokens": 1215,
+        "total_tokens": 8237,
+        "prompt_tokens_details": {
+          "cached_tokens": 2560
+        },
+        "prompt_cache_hit_tokens": 2560,
+        "prompt_cache_miss_tokens": 4462
+      }
+    },
+    "provider_request_id": "a0fede14-17f5-49c5-8754-0671a68e205a",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": false,
+      "failed_attempt": {
+        "error_code": "MODEL_INVALID_JSON",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "cfda662a-f95f-4d08-a607-07c352d9eb80",
+          "model": "deepseek-flash",
+          "elapsed_ms": 5051,
+          "usage": {
+            "prompt_tokens": 6964,
+            "completion_tokens": 1191,
+            "total_tokens": 8155,
+            "prompt_tokens_details": {
+              "cached_tokens": 2432
+            },
+            "prompt_cache_hit_tokens": 2432,
+            "prompt_cache_miss_tokens": 4532
+          }
+        }
+      }
+    }
+  },
+  {
+    "run_id": "run-cec70333-8c6f-4dc1-9f79-11ce1b5dd4ee",
+    "status": "failed",
+    "stage": "运行失败",
+    "created_at": "2026-10-24T02:21:03.950Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "b0679409-1b66-424e-a2b5-4d7d1c4810aa",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:21:03.955Z",
+    "finished_at": "2026-10-24T02:21:14.805Z",
+    "elapsed_ms": 10850,
+    "error": {
+      "code": "MODEL_INVALID_JSON",
+      "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。"
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "c4f907a9-e552-4e5c-915f-4de5fd9e9893",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4006,
+      "usage": {
+        "prompt_tokens": 7019,
+        "completion_tokens": 1122,
+        "total_tokens": 8141,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6123
+      }
+    },
+    "provider_request_id": "c4f907a9-e552-4e5c-915f-4de5fd9e9893",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": false,
+      "failed_attempt": {
+        "error_code": "MODEL_INVALID_JSON",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "c8101685-5be6-452f-996e-0804f682cc79",
+          "model": "deepseek-flash",
+          "elapsed_ms": 5495,
+          "usage": {
+            "prompt_tokens": 6961,
+            "completion_tokens": 1203,
+            "total_tokens": 8164,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 6065
+          }
+        }
+      }
+    }
+  },
+  {
+    "run_id": "run-d81616b4-c729-4656-a8d4-670beb09165b",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:17:31.004Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "e33bd0a4-d47f-497c-abf0-03e7cc0e255c",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:17:31.032Z",
+    "finished_at": "2026-10-24T02:17:37.442Z",
+    "elapsed_ms": 6422,
+    "version": 2,
+    "provider_request_id": "23faa566-21d6-4eb0-88fa-e88829520926",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "23faa566-21d6-4eb0-88fa-e88829520926",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6277,
+      "usage": {
+        "prompt_tokens": 6897,
+        "completion_tokens": 1255,
+        "total_tokens": 8152,
+        "prompt_tokens_details": {
+          "cached_tokens": 6656
+        },
+        "prompt_cache_hit_tokens": 6656,
+        "prompt_cache_miss_tokens": 241
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "82e14755-5e32-4217-b9f0-d69559892f10",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1141,
+          "usage": {
+            "prompt_tokens": 6962,
+            "completion_tokens": 229,
+            "total_tokens": 7191,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 6066
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "23faa566-21d6-4eb0-88fa-e88829520926",
+          "model": "deepseek-flash",
+          "elapsed_ms": 5136,
+          "usage": {
+            "prompt_tokens": 6897,
+            "completion_tokens": 1255,
+            "total_tokens": 8152,
+            "prompt_tokens_details": {
+              "cached_tokens": 6656
+            },
+            "prompt_cache_hit_tokens": 6656,
+            "prompt_cache_miss_tokens": 241
+          }
+        }
+      ]
+    }
+  },
+  {
+    "run_id": "run-b8e93b19-2846-4c74-8499-e8050376db43",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:17:19.859Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "create",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "4d65a380-bbfd-4790-a18c-13d923ef35b8",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:17:19.968Z",
+    "finished_at": "2026-10-24T02:17:27.344Z",
+    "elapsed_ms": 7384,
+    "version": 1,
+    "provider_request_id": "33d57e4d-ae48-4513-9923-243bf8a5858e",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "33d57e4d-ae48-4513-9923-243bf8a5858e",
+      "model": "deepseek-flash",
+      "elapsed_ms": 7088,
+      "usage": {
+        "prompt_tokens": 6897,
+        "completion_tokens": 1259,
+        "total_tokens": 8156,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 6001
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "6feaae1d-08db-4d6d-a597-3fad7c03e994",
+          "model": "deepseek-flash",
+          "elapsed_ms": 2137,
+          "usage": {
+            "prompt_tokens": 6771,
+            "completion_tokens": 229,
+            "total_tokens": 7000,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 5875
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "33d57e4d-ae48-4513-9923-243bf8a5858e",
+          "model": "deepseek-flash",
+          "elapsed_ms": 4951,
+          "usage": {
+            "prompt_tokens": 6897,
+            "completion_tokens": 1259,
+            "total_tokens": 8156,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 6001
+          }
+        }
+      ]
+    }
+  }
+]

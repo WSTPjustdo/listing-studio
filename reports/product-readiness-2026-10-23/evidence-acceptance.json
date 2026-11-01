@@ -1,0 +1,65 @@
+{
+  "completed_at": "2026-10-23T10:06:21.827Z",
+  "public_product_only": true,
+  "merchant_owned_sku_tested": false,
+  "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+  "listing_version": 14,
+  "product_revision": 8,
+  "source_url": "https://westfordmill.com/products/w101",
+  "source_id": "evidence-4f92441e-eaa7-4f87-98f0-ec0f9c52cfbb",
+  "reused_existing_submission": true,
+  "model": "deepseek-flash",
+  "request_id": "5e4f0bb3-b3f9-4f63-bee8-ec8e52a4114a",
+  "usage": {
+    "prompt_tokens": 7107,
+    "completion_tokens": 977,
+    "total_tokens": 8084,
+    "prompt_tokens_details": {
+      "cached_tokens": 768
+    },
+    "prompt_cache_hit_tokens": 768,
+    "prompt_cache_miss_tokens": 6339
+  },
+  "elapsed_ms": 4319,
+  "issues": [
+    {
+      "issue_id": "f8f267f4b8cce8",
+      "rule_id": "SYS-01",
+      "category": "system_integrity",
+      "title": "引用可追溯",
+      "severity": "needs_review",
+      "field_path": "content.bullet_points.b5",
+      "original": "Westford Mill W101 cotton tote bag.",
+      "reason": "商品参数已对照，但模型未返回该句对应的证据映射，该句审核尚未完成；这不是缺少商品资料。",
+      "suggestion": "核对已有参数及来源后重新审阅，无需向采购重复索取相同资料。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "checks": [
+    "real_source_excerpt_submitted_in_browser",
+    "unsubmitted_material_blocks_recheck",
+    "duplicate_stale_invalid_target_rejected",
+    "immutable_old_snapshot",
+    "real_deepseek_recheck",
+    "submitted_not_verified",
+    "retail_count_still_unknown",
+    "source_view_and_all_exports",
+    "mobile_no_horizontal_overflow"
+  ]
+}

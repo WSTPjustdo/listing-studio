@@ -1,0 +1,249 @@
+{
+  "started_at": "2026-10-31T04:09:49.369Z",
+  "base": "http://127.0.0.1:8787",
+  "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+  "version": 20,
+  "checks": [
+    {
+      "width": 1440,
+      "panel": "A+ 内容",
+      "opened": true,
+      "empty_submit_rejected": null,
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "modalLayout": {
+        "left": 460,
+        "right": 980,
+        "width": 520,
+        "scrollWidth": 518,
+        "clientWidth": 518
+      },
+      "text": "A+ 内容（对比表）\n\n由 V20 已登记商品参数确定性生成 · 用作 A+ 模块素材\n\n对比表与图片配文候选由已登记商品参数确定性生成，不构成 A+ 营销文案，也不代表平台审核结论；A+ 模块正文与卖点措辞需用真实模型生成后独立审阅。\n\n参数\t值\t登记状态\n材质\nMaterial\n\t100% cotton\t公开来源\n尺寸\nDimensions\n\t38 × 42 cm\t公开来源\n克重\nFabric weight\n\t140 g/m²\t公开来源\n容量\nCapacity\n\t10 L\t公开来源\n提手长度\nHandle length\n\t67 cm\t公开来源\n品牌\nBrand\n\tWestford Mill\t公开来源\n官方页面原文\n官方页面原文\n\t4.1oz/yd²\t公开来源\n官方页面原文\n官方页面原文\n\tCan be carried by hand or over the shoulder\t公开来源\n官方页面原文\n官方页面原文\n\tCutAway label for ease of rebranding\t公开来源\n未登记参数（可继续补充后刷新）： 承重、包装件数、颜色\nA+ 图片配文候选（纯事实，非营销文案）\nMaterial: 100% cotton\nDimensions: 38 × 42 cm\nFabric weight: 140 g/m²\nCapacity: 10 L\nHandle length: 67 cm",
+      "screenshot": "1440-aplus.png",
+      "passed": true,
+      "rows": [
+        "材质Material100% cotton公开来源",
+        "尺寸Dimensions38 × 42 cm公开来源",
+        "克重Fabric weight140 g/m²公开来源",
+        "容量Capacity10 L公开来源",
+        "提手长度Handle length67 cm公开来源",
+        "品牌BrandWestford Mill公开来源",
+        "官方页面原文官方页面原文4.1oz/yd²公开来源",
+        "官方页面原文官方页面原文Can be carried by hand or over the shoulder公开来源",
+        "官方页面原文官方页面原文CutAway label for ease of rebranding公开来源"
+      ]
+    },
+    {
+      "width": 1440,
+      "panel": "竞品差评",
+      "opened": true,
+      "empty_submit_rejected": true,
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "modalLayout": {
+        "left": 460,
+        "right": 980,
+        "width": 520,
+        "scrollWidth": 518,
+        "clientWidth": 518
+      },
+      "text": "竞品差评 · 买家痛点挖掘\n\n按 V20 关联商品事实生成打痛点卖点 · 仅用已登记资料，不编造\n\n粘贴竞品 1–3 星差评（每行一条）\n分析差评\n\n请先粘贴竞品差评（每行一条）。",
+      "screenshot": "1440-voc.png",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "panel": "搜索词",
+      "opened": true,
+      "empty_submit_rejected": true,
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "modalLayout": {
+        "left": 460,
+        "right": 980,
+        "width": 520,
+        "scrollWidth": 518,
+        "clientWidth": 518
+      },
+      "text": "搜索词覆盖核对\n\n核对 V20 文案里哪些搜索词已覆盖、哪些缺失\n\n粘贴搜索词（每行一个，或 ABA 报告）\n核对覆盖\n\n请先粘贴搜索词（每行一个，或 ABA 报告）。",
+      "screenshot": "1440-keywords.png",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "panel": "A/B 变体",
+      "opened": true,
+      "empty_submit_rejected": null,
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "modalLayout": {
+        "left": 460,
+        "right": 980,
+        "width": 520,
+        "scrollWidth": 518,
+        "clientWidth": 518
+      },
+      "text": "A/B 变体生成\n\n同一商品事实 · 三版卖点角度 · 供点击/转化测试\n\n用同一商品事实生成三版不同卖点角度的文案，供 A/B 测试；每版都只基于已登记资料，不编造。\n\n生成三版变体",
+      "screenshot": "1440-variants.png",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "panel": "协同看板",
+      "opened": true,
+      "empty_submit_rejected": null,
+      "layout": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "bodyWidth": 1440
+      },
+      "modalLayout": {
+        "left": 460,
+        "right": 980,
+        "width": 520,
+        "scrollWidth": 518,
+        "clientWidth": 518
+      },
+      "text": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位的经验默认分组，可人工调整；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无",
+      "screenshot": "1440-roles.png",
+      "passed": true,
+      "expected_missing_items": 2
+    },
+    {
+      "width": 390,
+      "panel": "A+ 内容",
+      "opened": true,
+      "empty_submit_rejected": null,
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 823,
+        "bodyWidth": 823
+      },
+      "modalLayout": {
+        "left": 12,
+        "right": 378,
+        "width": 366,
+        "scrollWidth": 364,
+        "clientWidth": 364
+      },
+      "text": "A+ 内容（对比表）\n\n由 V20 已登记商品参数确定性生成 · 用作 A+ 模块素材\n\n对比表与图片配文候选由已登记商品参数确定性生成，不构成 A+ 营销文案，也不代表平台审核结论；A+ 模块正文与卖点措辞需用真实模型生成后独立审阅。\n\n参数\t值\t登记状态\n材质\nMaterial\n\t100% cotton\t公开来源\n尺寸\nDimensions\n\t38 × 42 cm\t公开来源\n克重\nFabric weight\n\t140 g/m²\t公开来源\n容量\nCapacity\n\t10 L\t公开来源\n提手长度\nHandle length\n\t67 cm\t公开来源\n品牌\nBrand\n\tWestford Mill\t公开来源\n官方页面原文\n官方页面原文\n\t4.1oz/yd²\t公开来源\n官方页面原文\n官方页面原文\n\tCan be carried by hand or over the shoulder\t公开来源\n官方页面原文\n官方页面原文\n\tCutAway label for ease of rebranding\t公开来源\n未登记参数（可继续补充后刷新）： 承重、包装件数、颜色\nA+ 图片配文候选（纯事实，非营销文案）\nMaterial: 100% cotton\nDimensions: 38 × 42 cm\nFabric weight: 140 g/m²\nCapacity: 10 L\nHandle length: 67 cm",
+      "screenshot": "390-aplus.png",
+      "passed": false,
+      "rows": [
+        "材质Material100% cotton公开来源",
+        "尺寸Dimensions38 × 42 cm公开来源",
+        "克重Fabric weight140 g/m²公开来源",
+        "容量Capacity10 L公开来源",
+        "提手长度Handle length67 cm公开来源",
+        "品牌BrandWestford Mill公开来源",
+        "官方页面原文官方页面原文4.1oz/yd²公开来源",
+        "官方页面原文官方页面原文Can be carried by hand or over the shoulder公开来源",
+        "官方页面原文官方页面原文CutAway label for ease of rebranding公开来源"
+      ]
+    },
+    {
+      "width": 390,
+      "panel": "竞品差评",
+      "opened": true,
+      "empty_submit_rejected": true,
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 823,
+        "bodyWidth": 823
+      },
+      "modalLayout": {
+        "left": 12,
+        "right": 378,
+        "width": 366,
+        "scrollWidth": 364,
+        "clientWidth": 364
+      },
+      "text": "竞品差评 · 买家痛点挖掘\n\n按 V20 关联商品事实生成打痛点卖点 · 仅用已登记资料，不编造\n\n粘贴竞品 1–3 星差评（每行一条）\n分析差评\n\n请先粘贴竞品差评（每行一条）。",
+      "screenshot": "390-voc.png",
+      "passed": false
+    },
+    {
+      "width": 390,
+      "panel": "搜索词",
+      "opened": true,
+      "empty_submit_rejected": true,
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 823,
+        "bodyWidth": 823
+      },
+      "modalLayout": {
+        "left": 12,
+        "right": 378,
+        "width": 366,
+        "scrollWidth": 364,
+        "clientWidth": 364
+      },
+      "text": "搜索词覆盖核对\n\n核对 V20 文案里哪些搜索词已覆盖、哪些缺失\n\n粘贴搜索词（每行一个，或 ABA 报告）\n核对覆盖\n\n请先粘贴搜索词（每行一个，或 ABA 报告）。",
+      "screenshot": "390-keywords.png",
+      "passed": false
+    },
+    {
+      "width": 390,
+      "panel": "A/B 变体",
+      "opened": true,
+      "empty_submit_rejected": null,
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 823,
+        "bodyWidth": 823
+      },
+      "modalLayout": {
+        "left": 12,
+        "right": 378,
+        "width": 366,
+        "scrollWidth": 364,
+        "clientWidth": 364
+      },
+      "text": "A/B 变体生成\n\n同一商品事实 · 三版卖点角度 · 供点击/转化测试\n\n用同一商品事实生成三版不同卖点角度的文案，供 A/B 测试；每版都只基于已登记资料，不编造。\n\n生成三版变体",
+      "screenshot": "390-variants.png",
+      "passed": false
+    },
+    {
+      "width": 390,
+      "panel": "协同看板",
+      "opened": true,
+      "empty_submit_rejected": null,
+      "layout": {
+        "viewport": 390,
+        "documentWidth": 823,
+        "bodyWidth": 823
+      },
+      "modalLayout": {
+        "left": 12,
+        "right": 378,
+        "width": 366,
+        "scrollWidth": 364,
+        "clientWidth": 364
+      },
+      "text": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n按岗位的经验默认分组，可人工调整；待补项来自当次审核，分组不代表已完成核验。\n\n共 2 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（2）\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无",
+      "screenshot": "390-roles.png",
+      "passed": false,
+      "expected_missing_items": 2
+    }
+  ],
+  "errors": [],
+  "writes": [],
+  "failures": [],
+  "scope": "Existing real W101 only. No mock, model call, nonempty review/search submission, or saved user change.",
+  "user_versions_unchanged": true,
+  "completed_at": "2026-10-31T04:09:53.293Z",
+  "passed": false
+}

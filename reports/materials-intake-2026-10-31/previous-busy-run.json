@@ -1,0 +1,55 @@
+{
+  "started_at": "2026-10-31T04:23:51.938Z",
+  "base_url": "http://127.0.0.1:3221",
+  "evidence_type": "actual_browser_official_public_documents_and_public_derived_tsv",
+  "merchant_original_word": "unknown",
+  "merchant_original_excel": "unknown",
+  "merchant_wechat_screenshot": "unknown",
+  "genuine_merchant_acceptance": "pending",
+  "official_amazon_template": "unknown",
+  "seller_sku": null,
+  "paid_analysis_authorized": true,
+  "model_calls": [],
+  "checks": [
+    "home_direct_amazon_batch_import_navigation"
+  ],
+  "screenshots": [
+    "home-batch-entry-1440.png",
+    "home-batch-entry-390.png",
+    "amazon-batch-import-1440.png",
+    "amazon-batch-import-390.png"
+  ],
+  "overflow": [
+    {
+      "label": "home-batch-entry",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "home-batch-entry",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "label": "amazon-batch-import",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "amazon-batch-import",
+      "width": 390,
+      "scroll": 390
+    }
+  ],
+  "page_errors": [],
+  "mutation_requests": [],
+  "previews": [],
+  "failures": [],
+  "notice": "Uses a real official W101 PDF and literal public page text plus an existing source-derived TSV. Unsupported DOC/XLS checks rename real TXT bytes only to exercise extension rejection; these are not merchant files. No synthetic product or mocked response is used.",
+  "status": "failed",
+  "failed_at": "2026-10-31T04:23:53.595Z",
+  "failure": {
+    "message": "Expected values to be strictly equal:\n\n409 !== 201\n",
+    "code": "ERR_ASSERTION"
+  }
+}

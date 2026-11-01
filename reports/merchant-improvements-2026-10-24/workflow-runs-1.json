@@ -1,0 +1,203 @@
+[
+  {
+    "run_id": "run-27b82e91-1c42-49f7-992e-3321edc22330",
+    "status": "failed",
+    "stage": "运行失败",
+    "created_at": "2026-10-24T02:15:53.562Z",
+    "listing_id": "listing-07e33ebd-d951-4b2d-8bce-b06d64bed3c3",
+    "operation": "patch",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "REAL-WESTFORD-W101@2",
+    "started_at": "2026-10-24T02:15:53.569Z",
+    "finished_at": "2026-10-24T02:16:01.624Z",
+    "elapsed_ms": 8055,
+    "error": {
+      "code": "MODEL_INVALID_JSON",
+      "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。"
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "b10d89a8-b2c0-4c63-8cdc-abee8523b466",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3953,
+      "usage": {
+        "prompt_tokens": 4598,
+        "completion_tokens": 870,
+        "total_tokens": 5468,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3830
+      }
+    },
+    "provider_request_id": "b10d89a8-b2c0-4c63-8cdc-abee8523b466",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": false,
+      "failed_attempt": {
+        "error_code": "MODEL_INVALID_JSON",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "7e67f3b6-c6f6-42fa-86c9-74898ef476cc",
+          "model": "deepseek-flash",
+          "elapsed_ms": 4094,
+          "usage": {
+            "prompt_tokens": 4540,
+            "completion_tokens": 909,
+            "total_tokens": 5449,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 3644
+          }
+        }
+      }
+    }
+  },
+  {
+    "run_id": "run-d2a9350b-a334-473a-b56b-7d96a99c16f1",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:15:47.624Z",
+    "listing_id": "listing-07e33ebd-d951-4b2d-8bce-b06d64bed3c3",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "REAL-WESTFORD-W101@1",
+    "started_at": "2026-10-24T02:15:47.758Z",
+    "finished_at": "2026-10-24T02:15:53.100Z",
+    "elapsed_ms": 5346,
+    "version": 2,
+    "provider_request_id": "ca3ea5cf-1424-486d-b062-8ae4f09dbdc8",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "ca3ea5cf-1424-486d-b062-8ae4f09dbdc8",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5298,
+      "usage": {
+        "prompt_tokens": 4503,
+        "completion_tokens": 879,
+        "total_tokens": 5382,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "prompt_cache_hit_tokens": 4352,
+        "prompt_cache_miss_tokens": 151
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "ac609bd6-7613-4523-9127-80de27bc56f8",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1366,
+          "usage": {
+            "prompt_tokens": 5100,
+            "completion_tokens": 194,
+            "total_tokens": 5294,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 4204
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "ca3ea5cf-1424-486d-b062-8ae4f09dbdc8",
+          "model": "deepseek-flash",
+          "elapsed_ms": 3932,
+          "usage": {
+            "prompt_tokens": 4503,
+            "completion_tokens": 879,
+            "total_tokens": 5382,
+            "prompt_tokens_details": {
+              "cached_tokens": 4352
+            },
+            "prompt_cache_hit_tokens": 4352,
+            "prompt_cache_miss_tokens": 151
+          }
+        }
+      ]
+    }
+  },
+  {
+    "run_id": "run-4330a8bf-b326-4976-a8f4-996e39a5cbb4",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:15:41.958Z",
+    "listing_id": "listing-07e33ebd-d951-4b2d-8bce-b06d64bed3c3",
+    "operation": "create",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "REAL-WESTFORD-W101@1",
+    "started_at": "2026-10-24T02:15:41.962Z",
+    "finished_at": "2026-10-24T02:15:47.420Z",
+    "elapsed_ms": 5461,
+    "version": 1,
+    "provider_request_id": "7c90d0b9-ab8b-4737-ac99-823e8eacc881",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "7c90d0b9-ab8b-4737-ac99-823e8eacc881",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5297,
+      "usage": {
+        "prompt_tokens": 4503,
+        "completion_tokens": 884,
+        "total_tokens": 5387,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3735
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "8d911716-7170-409c-8fe6-b0491f7187ab",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1440,
+          "usage": {
+            "prompt_tokens": 4367,
+            "completion_tokens": 194,
+            "total_tokens": 4561,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "prompt_cache_hit_tokens": 0,
+            "prompt_cache_miss_tokens": 4367
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "7c90d0b9-ab8b-4737-ac99-823e8eacc881",
+          "model": "deepseek-flash",
+          "elapsed_ms": 3857,
+          "usage": {
+            "prompt_tokens": 4503,
+            "completion_tokens": 884,
+            "total_tokens": 5387,
+            "prompt_tokens_details": {
+              "cached_tokens": 768
+            },
+            "prompt_cache_hit_tokens": 768,
+            "prompt_cache_miss_tokens": 3735
+          }
+        }
+      ]
+    }
+  }
+]

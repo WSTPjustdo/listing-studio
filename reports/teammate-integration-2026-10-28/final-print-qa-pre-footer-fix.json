@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-10-29T01:31:38.125080+00:00",
+  "evidence_type": "independent_real_pdf_visual_and_geometry_review",
+  "model_calls_performed": 0,
+  "version": 4,
+  "algorithm_version": "structured-parameters-v2.1",
+  "rendering": "All 8 pages rendered with Poppler and visually inspected. Coordinates measured independently using pdfplumber.",
+  "files": [
+    {
+      "name": "followup-html.pdf",
+      "sha256": "28cb33e89f6371d5e44a899defd2afe7f1087490b85d5c54eb9f207cb7a12901",
+      "pages": 7,
+      "page_results": [
+        {
+          "page": 1,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 762.915,
+          "body_clearance_to_footer_pt": -4.665,
+          "body_overlapped_by_footer": true
+        },
+        {
+          "page": 2,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 761.671,
+          "body_clearance_to_footer_pt": -3.421,
+          "body_overlapped_by_footer": true
+        },
+        {
+          "page": 3,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 725.415,
+          "body_clearance_to_footer_pt": 32.835,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 4,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 713.671,
+          "body_clearance_to_footer_pt": 44.579,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 5,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 744.915,
+          "body_clearance_to_footer_pt": 13.335,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 6,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 741.421,
+          "body_clearance_to_footer_pt": 16.829,
+          "body_overlapped_by_footer": false
+        },
+        {
+          "page": 7,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 712.171,
+          "body_clearance_to_footer_pt": 46.079,
+          "body_overlapped_by_footer": false
+        }
+      ],
+      "visual_note": "Readable except fixed-footer overlap on report pages 1 and 2."
+    },
+    {
+      "name": "followup-worklist.pdf",
+      "sha256": "01095cb27bf0f351ff3ccd4d087675f704b72e3b416387767d2131c710120855",
+      "pages": 1,
+      "page_results": [
+        {
+          "page": 1,
+          "paper_points": [
+            594.95996,
+            841.91998
+          ],
+          "footer_background_top_pt": 758.25,
+          "last_body_text_bottom_pt": 725.671,
+          "body_clearance_to_footer_pt": 32.579,
+          "body_overlapped_by_footer": false
+        }
+      ],
+      "visual_note": "Single-page worklist visually readable with no observed overlap."
+    }
+  ],
+  "status": "failed_print_footer_overlap",
+  "source_code_changed_by_reviewer": false,
+  "findings": [
+    {
+      "severity": "P2",
+      "file": "followup-html.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "description": "Fixed footer white background masks lower portions of body text. Page 1 V3 trend row overlaps about 4.67 pt; page 2 last paragraph overlaps about 3.42 pt.",
+      "recommendation": "Reserve a real per-page footer region, then re-export these real records. Additional model inference is not needed."
+    }
+  ]
+}

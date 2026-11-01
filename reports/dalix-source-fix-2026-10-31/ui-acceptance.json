@@ -1,0 +1,17 @@
+{
+  "completed_at": "2026-10-31T12:13:11.927Z",
+  "model_calls": 0,
+  "checks": [
+    "remaining_color_and_pack_unknown_explained",
+    "zero_current_copy_findings",
+    "raw_dimension_axis_boundary_visible",
+    "original_source_opens",
+    "mobile_no_horizontal_overflow"
+  ],
+  "screenshots": [
+    "01-remaining-unknown-fields.png",
+    "02-original-dimensions-source.png",
+    "03-source-record.png",
+    "04-mobile-missing-fields.png"
+  ]
+}

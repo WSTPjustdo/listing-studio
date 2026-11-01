@@ -1,0 +1,63 @@
+[
+  {
+    "run_id": "run-eecba4b8-0da9-42ee-9a93-1089fd8ebbac",
+    "status": "failed",
+    "stage": "运行失败",
+    "created_at": "2026-10-23T10:38:37.602Z",
+    "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+    "operation": "patch",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "REAL-WESTFORD-W101@8",
+    "started_at": "2026-10-23T10:38:37.606Z",
+    "finished_at": "2026-10-23T10:38:46.361Z",
+    "elapsed_ms": 8755,
+    "error": {
+      "code": "MODEL_INVALID_JSON",
+      "message": "模型连续两次返回了不符合要求的数据格式，自动重试未恢复。原文和历史版本未改动，请稍后重试或在模型设置中更换模型。"
+    },
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "b29dc99d-64d5-4850-bec9-d9abe0990518",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4228,
+      "usage": {
+        "prompt_tokens": 7272,
+        "completion_tokens": 1019,
+        "total_tokens": 8291,
+        "prompt_tokens_details": {
+          "cached_tokens": 7040
+        },
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 232
+      }
+    },
+    "provider_request_id": "b29dc99d-64d5-4850-bec9-d9abe0990518",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": false,
+      "failed_attempt": {
+        "error_code": "MODEL_INVALID_JSON",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "c0779821-9e50-4c7a-9933-d5ff436356af",
+          "model": "deepseek-flash",
+          "elapsed_ms": 4516,
+          "usage": {
+            "prompt_tokens": 7214,
+            "completion_tokens": 1060,
+            "total_tokens": 8274,
+            "prompt_tokens_details": {
+              "cached_tokens": 7040
+            },
+            "prompt_cache_hit_tokens": 7040,
+            "prompt_cache_miss_tokens": 174
+          }
+        }
+      }
+    }
+  }
+]

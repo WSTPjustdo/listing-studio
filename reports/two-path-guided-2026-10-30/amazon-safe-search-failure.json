@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-10-30T09:41:47.272Z",
+  "query": "cotton tote bag",
+  "provider": "local",
+  "postal_code": "10001",
+  "verification_handling": "stop_without_submitting_challenges",
+  "outcome": "failed",
+  "error": {
+    "code": "LOCAL_AMAZON_BLOCKED",
+    "message": "亚马逊返回访问限制或验证页面，本次未取得竞品资料；未绕过验证或生成替代数据。"
+  },
+  "elapsed_ms": 1200
+}

@@ -1,0 +1,456 @@
+[
+  {
+    "at": "2026-10-30T04:42:44.068Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "ce315388-9304-4ac8-9017-8feab7ed3558",
+    "elapsed_ms": 4015,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6164,
+      "completion_tokens": 898,
+      "total_tokens": 7062,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6164
+    }
+  },
+  {
+    "at": "2026-10-30T04:42:47.502Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "6ab7c1a4-b960-4dfc-b98a-656e6cd43198",
+    "elapsed_ms": 3419,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6249,
+      "completion_tokens": 529,
+      "total_tokens": 6778,
+      "prompt_tokens_details": {
+        "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 5097
+    }
+  },
+  {
+    "at": "2026-10-30T04:42:49.108Z",
+    "operation": "revise",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": [
+      "content.bullet_points.b1"
+    ],
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "0b2aaf26-e6e0-4719-95ac-e05b17efd2a9",
+    "elapsed_ms": 1347,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6250,
+      "completion_tokens": 202,
+      "total_tokens": 6452,
+      "prompt_tokens_details": {
+        "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 5098
+    }
+  },
+  {
+    "at": "2026-10-30T04:42:52.844Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": [
+      "content.bullet_points.b1"
+    ],
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "b7dec9c0-da4b-4e19-95ab-99c7ae8bc5ec",
+    "elapsed_ms": 3728,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6198,
+      "completion_tokens": 841,
+      "total_tokens": 7039,
+      "prompt_tokens_details": {
+        "cached_tokens": 1408
+      },
+      "prompt_cache_hit_tokens": 1408,
+      "prompt_cache_miss_tokens": 4790
+    }
+  },
+  {
+    "at": "2026-10-30T04:42:55.702Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": [
+      "content.bullet_points.b1"
+    ],
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "9e14d237-a5a1-494d-99c7-804953f09bbc",
+    "elapsed_ms": 2851,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6283,
+      "completion_tokens": 541,
+      "total_tokens": 6824,
+      "prompt_tokens_details": {
+        "cached_tokens": 1408
+      },
+      "prompt_cache_hit_tokens": 1408,
+      "prompt_cache_miss_tokens": 4875
+    }
+  },
+  {
+    "at": "2026-10-30T04:42:57.850Z",
+    "operation": "create",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "aecfdfcd-1a75-47d9-b5f8-2597c1513c80",
+    "elapsed_ms": 1873,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6183,
+      "completion_tokens": 275,
+      "total_tokens": 6458,
+      "prompt_tokens_details": {
+        "cached_tokens": 1408
+      },
+      "prompt_cache_hit_tokens": 1408,
+      "prompt_cache_miss_tokens": 4775
+    }
+  },
+  {
+    "at": "2026-10-30T04:43:02.245Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "58c5c202-9bce-4327-9f5a-58f3a24e2e34",
+    "elapsed_ms": 4388,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6364,
+      "completion_tokens": 985,
+      "total_tokens": 7349,
+      "prompt_tokens_details": {
+        "cached_tokens": 1792
+      },
+      "prompt_cache_hit_tokens": 1792,
+      "prompt_cache_miss_tokens": 4572
+    }
+  },
+  {
+    "at": "2026-10-30T04:44:37.876Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "2c09ece7-63fb-4f3b-a226-c4703a255a0f",
+    "elapsed_ms": 4484,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6364,
+      "completion_tokens": 1096,
+      "total_tokens": 7460,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 220
+    }
+  },
+  {
+    "at": "2026-10-30T04:44:40.989Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "98bdbc9a-4d96-4218-8941-c854d4272cb1",
+    "elapsed_ms": 3105,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6449,
+      "completion_tokens": 584,
+      "total_tokens": 7033,
+      "prompt_tokens_details": {
+        "cached_tokens": 1920
+      },
+      "prompt_cache_hit_tokens": 1920,
+      "prompt_cache_miss_tokens": 4529
+    }
+  },
+  {
+    "at": "2026-10-30T04:46:20.268Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "21c8c3c8-8bf3-4ec5-897a-489695a21940",
+    "elapsed_ms": 3476,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6151,
+      "completion_tokens": 801,
+      "total_tokens": 6952,
+      "prompt_tokens_details": {
+        "cached_tokens": 2048
+      },
+      "prompt_cache_hit_tokens": 2048,
+      "prompt_cache_miss_tokens": 4103
+    }
+  },
+  {
+    "at": "2026-10-30T04:46:21.918Z",
+    "operation": "revise",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": [
+      "content.bullet_points.b1"
+    ],
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "7cfdc699-ec04-403c-bcd8-e63a70b72519",
+    "elapsed_ms": 1422,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6235,
+      "completion_tokens": 205,
+      "total_tokens": 6440,
+      "prompt_tokens_details": {
+        "cached_tokens": 2048
+      },
+      "prompt_cache_hit_tokens": 2048,
+      "prompt_cache_miss_tokens": 4187
+    }
+  },
+  {
+    "at": "2026-10-30T04:46:25.952Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": [
+      "content.bullet_points.b1"
+    ],
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "1994c978-b5e8-4173-894a-6b6a062e0eda",
+    "elapsed_ms": 4024,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6188,
+      "completion_tokens": 931,
+      "total_tokens": 7119,
+      "prompt_tokens_details": {
+        "cached_tokens": 1920
+      },
+      "prompt_cache_hit_tokens": 1920,
+      "prompt_cache_miss_tokens": 4268
+    }
+  },
+  {
+    "at": "2026-10-30T04:46:29.010Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": [
+      "content.bullet_points.b1"
+    ],
+    "intake_role": "own_draft",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "148d063b-a94c-4798-89fd-ff3c9e47f154",
+    "elapsed_ms": 3052,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6273,
+      "completion_tokens": 539,
+      "total_tokens": 6812,
+      "prompt_tokens_details": {
+        "cached_tokens": 1920
+      },
+      "prompt_cache_hit_tokens": 1920,
+      "prompt_cache_miss_tokens": 4353
+    }
+  },
+  {
+    "at": "2026-10-30T04:51:35.172Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "085dc8bd-f2a0-4018-90c8-01c82785ff7d",
+    "elapsed_ms": 4494,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6364,
+      "completion_tokens": 1116,
+      "total_tokens": 7480,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 220
+    }
+  },
+  {
+    "at": "2026-10-30T04:51:38.308Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "c9225c2c-07c9-4638-848c-7d7e4fa3be05",
+    "elapsed_ms": 3127,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6449,
+      "completion_tokens": 544,
+      "total_tokens": 6993,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 177
+    }
+  },
+  {
+    "at": "2026-10-30T04:51:56.747Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "fbddb697-4e2b-4415-9d4d-dde46af772ed",
+    "elapsed_ms": 4182,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6364,
+      "completion_tokens": 1060,
+      "total_tokens": 7424,
+      "prompt_tokens_details": {
+        "cached_tokens": 6144
+      },
+      "prompt_cache_hit_tokens": 6144,
+      "prompt_cache_miss_tokens": 220
+    }
+  },
+  {
+    "at": "2026-10-30T04:52:00.337Z",
+    "operation": "diagnose",
+    "model": "deepseek-flash",
+    "selected_terms": [
+      "cotton",
+      "CutAway",
+      "4.1oz/yd²"
+    ],
+    "allowed_fields": null,
+    "intake_role": "competitor_reference",
+    "product_id": "REAL-WESTFORD-W101",
+    "request_id": "b32e74ae-93eb-49bf-be6e-bf2bd4687852",
+    "elapsed_ms": 3584,
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 6449,
+      "completion_tokens": 624,
+      "total_tokens": 7073,
+      "prompt_tokens_details": {
+        "cached_tokens": 6272
+      },
+      "prompt_cache_hit_tokens": 6272,
+      "prompt_cache_miss_tokens": 177
+    }
+  }
+]

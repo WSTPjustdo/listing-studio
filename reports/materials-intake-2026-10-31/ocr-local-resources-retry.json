@@ -1,0 +1,114 @@
+{
+  "started_at": "2026-10-31T04:30:59.127Z",
+  "evidence_type": "real_source_images_local_Chinese_English_OCR",
+  "actual_model_calls": 0,
+  "initial_failure_retained": "ocr-first-attempt.json",
+  "sources": [
+    {
+      "filename": "official-w101-pdf-page-1.png",
+      "source_kind": "actual_official_pdf_page_render",
+      "source_url": "https://westfordmill.com/print/pdf/node/468",
+      "source_pdf_sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+      "page": 1,
+      "bytes": 194708,
+      "sha256": "921e04f5d09a429bb94c8f09fbf07f4feb667b601832c3b4e55bebf50f886629",
+      "merchant_wechat_screenshot": false
+    },
+    {
+      "filename": "official-w101-product-photo.jpg",
+      "url": "https://mediahub.beechfieldbrands.com/asset/56a133a1-d3c1-40fa-8e60-483c1f7124d1/thumbnail/webimage-westfordmill_w101_violet-pink_flat-shot_c",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 18987,
+      "sha256": "c7aa037273c778f668ba0c5761b7f4d362576367466594f61ed05f7eb1c31411",
+      "source_kind": "official_real_product_photo",
+      "merchant_product_photo": false
+    },
+    {
+      "filename": "improve-real-analysis-confirmation-facts.png",
+      "source_kind": "unaltered_crop_of_actual_workbench_after_real_DeepSeek_analysis",
+      "origin_report": "../browser/browser-acceptance.json",
+      "sha256": "3f1a6a0462e1d50dd5eebdd23f1a0b7903dd2f1f48e1cb73b27eeb8f7f6e55bf",
+      "bytes": 12773
+    }
+  ],
+  "checks": [
+    "local_packaged_language_resources_initialize_without_runtime_CDN",
+    "official_PDF_screenshot_visible_English_text_recognized",
+    "actual_workbench_screenshot_Chinese_labels_and_original_numbers_recognized",
+    "unmarked_photo_is_not_used_to_infer_product_parameters"
+  ],
+  "unresolved": [
+    "真实商家微信截图和实拍备注原件未取得，使用真实官方资料及真实工作台截图检查 OCR，不宣称商家验收。"
+  ],
+  "http_status": 201,
+  "preview": {
+    "id": "materials-2f5af208-29a6-462c-bb21-c126cf0139d0",
+    "kind": "factory_material_preview",
+    "received_at": "2026-10-31T04:31:00.819Z",
+    "documents": [
+      {
+        "id": "material-9df3c4ee-b2c9-4569-bcd3-a6bbc2c2533a",
+        "filename": "official-w101-pdf-page-1.png",
+        "kind": "png",
+        "sha256": "921e04f5d09a429bb94c8f09fbf07f4feb667b601832c3b4e55bebf50f886629",
+        "bytes": 194708,
+        "status": "ready",
+        "text": "Source: https://westfordmillcom/products/w101\n人\nBAG FORLIFE-LONG HANDLES             [Neskter\n4\nW101                                                                                                             _NAN\nOVERVIEW\n100% Cotton - 140gsm (4.1oz/yd?)\nCan be carried by hand or over the\nshoulder\nCutAway label for ease of rebranding\nPRODUCT SPECIFICATION\nApprox Product Weight (g)                                                                           65\nDimensions ( cm ) - width x height x depth                                                     38x 42\nCapacity (litres )                                                                                        10\nFabric Weight (gsm)                                                                                      140",
+        "segments": [
+          {
+            "locator": "图片文字",
+            "text": "Source: https://westfordmillcom/products/w101\n人\nBAG FORLIFE-LONG HANDLES             [Neskter\n4\nW101                                                                                                             _NAN\nOVERVIEW\n100% Cotton - 140gsm (4.1oz/yd?)\nCan be carried by hand or over the\nshoulder\nCutAway label for ease of rebranding\nPRODUCT SPECIFICATION\nApprox Product Weight (g)                                                                           65\nDimensions ( cm ) - width x height x depth                                                     38x 42\nCapacity (litres )                                                                                        10\nFabric Weight (gsm)                                                                                      140",
+            "method": "local_ocr",
+            "confidence": 82
+          }
+        ],
+        "warnings": [
+          "本机中英文 OCR；仅识别可见文字，外观、尺寸和材质不能凭照片推断。"
+        ]
+      },
+      {
+        "id": "material-3f216ac4-9105-4848-a9e4-77f34494503b",
+        "filename": "official-w101-product-photo.jpg",
+        "kind": "jpg",
+        "sha256": "c7aa037273c778f668ba0c5761b7f4d362576367466594f61ed05f7eb1c31411",
+        "bytes": 18987,
+        "status": "needs_input",
+        "text": "",
+        "segments": [],
+        "warnings": [
+          "本机中英文 OCR；仅识别可见文字，外观、尺寸和材质不能凭照片推断。",
+          "识别置信度较低，请核对截图中的姓名、数字和单位。",
+          "未取得可用文字，请补充图片备注或直接粘贴原文。"
+        ]
+      },
+      {
+        "id": "material-b56d99db-83cf-44f6-b9de-4aeaed3abdfd",
+        "filename": "improve-real-analysis-confirmation-facts.png",
+        "kind": "png",
+        "sha256": "3f1a6a0462e1d50dd5eebdd23f1a0b7903dd2f1f48e1cb73b27eeb8f7f6e55bf",
+        "bytes": 12773,
+        "status": "ready",
+        "text": "商品名称                                                                                 真实材质\nW101 Westford Mil Cotton Tote Bag, 38 x 42 cm, 10L                         100% Cotton\n宽度 (cm) 38   高度 (cm) 42   面料克重 (gsm) 140   容量 (LU) 10   提手长度 (cm) 67",
+        "segments": [
+          {
+            "locator": "图片文字",
+            "text": "商品名称                                                                                 真实材质\nW101 Westford Mil Cotton Tote Bag, 38 x 42 cm, 10L                         100% Cotton\n宽度 (cm) 38   高度 (cm) 42   面料克重 (gsm) 140   容量 (LU) 10   提手长度 (cm) 67",
+            "method": "local_ocr",
+            "confidence": 83
+          }
+        ],
+        "warnings": [
+          "本机中英文 OCR；仅识别可见文字，外观、尺寸和材质不能凭照片推断。"
+        ]
+      }
+    ],
+    "text": "【official-w101-pdf-page-1.png / 图片文字】\nSource: https://westfordmillcom/products/w101\n人\nBAG FORLIFE-LONG HANDLES             [Neskter\n4\nW101                                                                                                             _NAN\nOVERVIEW\n100% Cotton - 140gsm (4.1oz/yd?)\nCan be carried by hand or over the\nshoulder\nCutAway label for ease of rebranding\nPRODUCT SPECIFICATION\nApprox Product Weight (g)                                                                           65\nDimensions ( cm ) - width x height x depth                                                     38x 42\nCapacity (litres )                                                                                        10\nFabric Weight (gsm)                                                                                      140\n\n【improve-real-analysis-confirmation-facts.png / 图片文字】\n商品名称                                                                                 真实材质\nW101 Westford Mil Cotton Tote Bag, 38 x 42 cm, 10L                         100% Cotton\n宽度 (cm) 38   高度 (cm) 42   面料克重 (gsm) 140   容量 (LU) 10   提手长度 (cm) 67",
+    "warnings": [
+      "材料识别不创建商品。确认属于同一商品后，再由真实模型整理；冲突和未知参数须人工核对。"
+    ]
+  },
+  "duration_ms": 1705,
+  "completed_at": "2026-10-31T04:31:00.837Z",
+  "status": "passed_available_real_image_scope"
+}

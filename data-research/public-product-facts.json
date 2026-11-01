@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "public-cotton-tote-references",
+  "checked_at": "2026-10-21",
+  "status": "research_seed_not_imported",
+  "notice": "公开参考资料，不代表库存、经销授权或真实商家报价。只摘录必要商品事实，不包含图片及整页营销文案。",
+  "sources": [
+    {
+      "source_id": "SRC-WM-W101",
+      "kind": "public_reference",
+      "publisher": "Westford Mill",
+      "url": "https://westfordmill.com/products/w101",
+      "checked_at": "2026-10-21"
+    },
+    {
+      "source_id": "SRC-WM-W201",
+      "kind": "public_reference",
+      "publisher": "Westford Mill",
+      "url": "https://westfordmill.com/products/w201-premium-cotton-tote",
+      "checked_at": "2026-10-21"
+    }
+  ],
+  "products": [
+    {
+      "product_id": "REF-WM-W101",
+      "version": 1,
+      "brand": "Westford Mill",
+      "model": "W101",
+      "display_name_zh": "长提手棉布袋公开参考样本",
+      "source_ids": ["SRC-WM-W101"],
+      "fact_provenance": "以下事实均来自 source_ids 所指官方商品页；字段名为本项目归一化名称。",
+      "facts": {
+        "material": {"fiber": "cotton", "percent": 100},
+        "fabric_weight": {"value": 140, "unit": "g/m2"},
+        "dimensions": {"width": 38, "height": 42, "depth": null, "unit": "cm"},
+        "capacity": {"value": 10, "unit": "L"},
+        "handle_length": {"value": 67, "unit": "cm"},
+        "approx_unit_weight": {"value": 65, "unit": "g", "approximate": true},
+        "supplier_carton_quantity": {"value": 250, "unit": "piece"},
+        "supplier_pricelist_pack_quantity": {"value": 25, "unit": "piece"},
+        "supplier_polybag_quantity": {"value": 25, "unit": "piece"}
+      },
+      "not_established_by_this_research": {
+        "wholesale_price": null,
+        "minimum_order_quantity": null,
+        "inventory": null,
+        "production_lead_time": null,
+        "shipping_cost": null,
+        "retail_units_per_pack": null,
+        "organic_certification_evidence": null,
+        "maximum_load_kg": null
+      }
+    },
+    {
+      "product_id": "REF-WM-W201",
+      "version": 1,
+      "brand": "Westford Mill",
+      "model": "W201",
+      "display_name_zh": "较高面料克重棉布袋公开参考样本",
+      "source_ids": ["SRC-WM-W201"],
+      "fact_provenance": "以下事实均来自 source_ids 所指官方商品页；字段名为本项目归一化名称。",
+      "facts": {
+        "material": {"fiber": "cotton", "percent": 100},
+        "fabric_weight": {"value": 200, "unit": "g/m2"},
+        "dimensions": {"width": 38, "height": 42, "depth": null, "unit": "cm"},
+        "capacity": {"value": 10, "unit": "L"},
+        "handle_length": {"value": 67, "unit": "cm"},
+        "approx_unit_weight": {"value": 93, "unit": "g", "approximate": true},
+        "supplier_carton_quantity": {"value": 150, "unit": "piece"},
+        "supplier_pricelist_pack_quantity": {"value": 25, "unit": "piece"},
+        "supplier_polybag_quantity": {"value": 25, "unit": "piece"}
+      },
+      "not_established_by_this_research": {
+        "wholesale_price": null,
+        "minimum_order_quantity": null,
+        "inventory": null,
+        "production_lead_time": null,
+        "shipping_cost": null,
+        "retail_units_per_pack": null,
+        "organic_certification_evidence": null,
+        "maximum_load_kg": null
+      }
+    }
+  ],
+  "interpretation_constraints": [
+    "null 表示本次未取得证据，不表示确认该能力或证明不存在。",
+    "g/m2 是面料克重，不能直接用作单件重量。",
+    "L 是体积容量，不能转换为额定承重 kg。",
+    "供应商的 carton/pack/polybag 数量不能自动成为 MOQ 或零售包装数量。",
+    "未选择颜色与实际包装；不能由参考页面推断具体颜色库存。"
+  ]
+}

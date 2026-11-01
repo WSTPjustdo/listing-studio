@@ -1,0 +1,148 @@
+{
+  "started_at": "2026-10-31T10:30:18.905Z",
+  "checks": [],
+  "errors": [],
+  "revision_queued": {
+    "status": "queued",
+    "run_id": "run-605202e1-d49d-4082-9a3b-1bfa81cd5fcb",
+    "stage": "等待处理",
+    "created_at": "2026-10-31T10:30:19.840Z",
+    "listing_id": "listing-511b70f9-6abd-4ff6-866b-046bd64425a5",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": false,
+    "request_id": "67913e63-84e5-429d-9562-ce6f2b986400",
+    "product_ref": "product-28f2ddaf-c35b-4c5b-ac87-d9ba5df7c08d@1"
+  },
+  "run": {
+    "run_id": "run-605202e1-d49d-4082-9a3b-1bfa81cd5fcb",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-31T10:30:19.840Z",
+    "listing_id": "listing-511b70f9-6abd-4ff6-866b-046bd64425a5",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "67913e63-84e5-429d-9562-ce6f2b986400",
+    "product_ref": "product-28f2ddaf-c35b-4c5b-ac87-d9ba5df7c08d@1",
+    "started_at": "2026-10-31T10:30:19.844Z",
+    "finished_at": "2026-10-31T10:30:30.752Z",
+    "elapsed_ms": 10914,
+    "version": 2,
+    "provider_request_id": "d386657f-f692-46d5-ba22-571c8f314012",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "d386657f-f692-46d5-ba22-571c8f314012",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "elapsed_ms": 10862,
+      "usage": {
+        "prompt_tokens": 8606,
+        "completion_tokens": 590,
+        "total_tokens": 9196,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 7070
+      },
+      "http_status": 200,
+      "output_mode": "audit_only_format_retry",
+      "format_retry": {
+        "attempts": 2,
+        "recovered": true,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "569dd776-81bd-4461-96cd-fdc3d791130b",
+            "model": "deepseek-flash",
+            "requested_model": "deepseek-flash",
+            "elapsed_ms": 5869,
+            "usage": {
+              "prompt_tokens": 8521,
+              "completion_tokens": 1649,
+              "total_tokens": 10170,
+              "prompt_tokens_details": {
+                "cached_tokens": 1536
+              },
+              "prompt_cache_hit_tokens": 1536,
+              "prompt_cache_miss_tokens": 6985
+            },
+            "http_status": 200
+          }
+        }
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "0063ba47-9d4e-49df-9d47-d9b1381976e9",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 1669,
+          "usage": {
+            "prompt_tokens": 8579,
+            "completion_tokens": 365,
+            "total_tokens": 8944,
+            "prompt_tokens_details": {
+              "cached_tokens": 1536
+            },
+            "prompt_cache_hit_tokens": 1536,
+            "prompt_cache_miss_tokens": 7043
+          },
+          "http_status": 200
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "d386657f-f692-46d5-ba22-571c8f314012",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 9193,
+          "usage": {
+            "prompt_tokens": 8606,
+            "completion_tokens": 590,
+            "total_tokens": 9196,
+            "prompt_tokens_details": {
+              "cached_tokens": 1536
+            },
+            "prompt_cache_hit_tokens": 1536,
+            "prompt_cache_miss_tokens": 7070
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "569dd776-81bd-4461-96cd-fdc3d791130b",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 5869,
+                "usage": {
+                  "prompt_tokens": 8521,
+                  "completion_tokens": 1649,
+                  "total_tokens": 10170,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 1536
+                  },
+                  "prompt_cache_hit_tokens": 1536,
+                  "prompt_cache_miss_tokens": 6985
+                },
+                "http_status": 200
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "final_text": "跳到主要内容\n工作空间\n自动整理文案\nAmazon US\n· 英文\nS\n返回首页\n\n从商品资料开始\n\n这份文案，已经为你整理好\n\n先看推荐文案，再处理需要确认的事项。\n\n交材料\n确认商品信息\n3\n查看结果\n本次参考来源：Westford Mill 官方公开商品页（official-public）\n\n仅当前登记的两款Westford Mill官方公开商品，不是Amazon竞品/全市场检索 参考页面及关键词仅供参考，不证明自家商品事实。\n\n推荐文案美国站 · 英语\n\n已保存 V2，原始资料和审阅结果随版本保留。\n\n100% Cotton Tote Bag, 140gsm, 38 x 42 cm, 10 L, 67 cm Handles\n\n100% cotton, 140gsm (4.1oz/yd²); 38 x 42 cm; 10 L capacity; 67 cm handles; cutaway label\n\n100% Cotton Fabric: Made from 100% cotton at 140gsm (4.1oz/yd²), a plain, lightweight cotton tote for everyday carrying.\nRoom for Daily Items: The bag measures 38 x 42 cm (width x height) with a 10 L capacity for groceries, books and daily essentials.\nCarry by Hand or Shoulder: 67 cm handles let you hold the tote by hand or wear it over your shoulder.\nCutAway Label: The cutaway label is designed for ease of rebranding.\nSpecifications: 100% cotton; 140gsm (4.1oz/yd²); 38 x 42 cm (width x height); 10 L capacity; 67 cm handle length.\n\nThis cotton tote bag is made from 100% cotton at 140gsm (4.1oz/yd²). It measures 38 x 42 cm (width x height) and holds 10 L, giving you space for groceries, books and everyday items. The 67 cm handles let you carry it by hand or over the shoulder, and the cutaway label can be removed for ease of rebranding.\n\n复制文案\n导出文案\n更多导出格式（五种，都不是同一份东西）\n需要你确认\n\n本次已执行的检查未发现内容问题，请继续核对缺失资料。\n\n品牌\n\n未确认，草稿中不推测；正式上架仍需核对。\n\n颜色\n\n未确认，草稿中不推测；正式上架仍需核对。\n\n零售包装\n\n未确认，草稿中不推测；正式上架仍需核对。\n\n处理问题与局部改稿\n历史样本写法对照（45 条）\n查看改进后的提示词\n完整报告与来源\nListing Studio · 为准确的商品内容而设计\nAmazon US · 本地工作空间\nV2 已保存 · 实际模型调用"
+}

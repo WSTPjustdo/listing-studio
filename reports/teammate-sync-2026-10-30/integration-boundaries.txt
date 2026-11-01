@@ -1,0 +1,49 @@
+
+> listing-studio@0.1.0 test:integration
+> node --test tests/parameter-integration.test.mjs tests/integration-report.test.mjs tests/integration-batch-ops.test.mjs tests/integration-provider-metadata.test.mjs
+
+(node:31360) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ batch denominator excludes preserved, unfinished, and records without coverage (1.4726ms)
+✔ worklist keeps unknown historical rule meaning and separates versions (9.5628ms)
+✔ retry changes selected failed rows only, retains successful and preserved identities (4.9362ms)
+✔ recovery export contains original string cells and excludes completed rows (53.1668ms)
+✔ optional concurrency is bounded; rate limiting delays dispatch even at one slot (0.6706ms)
+(node:22700) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ syntax recovery preserves literal text and exposes the original parse failure (4.0484ms)
+✔ recovery refuses truncation, omitted values, ambiguous quotes, prose and comments (0.7046ms)
+✔ telemetry allowlist removes contents and preserves missing values as unknown (1.8642ms)
+✔ telemetry retains first attempt failure separately from retry and tolerates storage errors (0.4677ms)
+✔ real-model gate and missing configuration do not create request telemetry (0.7215ms)
+✔ batch depth requires explicit units while blank seller identity remains blocked (8.6586ms)
+✔ batch updates preserve an unmapped third axis and retain its source only for the same full tuple (2.9952ms)
+✔ mapped blank or explicitly cleared depth does not inherit the old confirmed third axis (2.4833ms)
+(node:6688) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ legacy export uses its recorded rule version, not the new active pack (15.0669ms)
+✔ unknown historical pack does not acquire current limits or citations (0.9223ms)
+✔ new snapshots take precedence and remain immutable during report generation (2.3013ms)
+✔ highlight field override is project policy, while title retains official basis (0.3244ms)
+✔ trend cannot claim improvement across an algorithm or intermediate rule change (0.7694ms)
+✔ worklist includes uncovered parameters and escaped source text (0.7374ms)
+✔ 运行 ID 在身份卡里说一次就够（末尾不再重复规则/算法版本） (0.9709ms)
+✔ integration v8 fallback retains its original rules after v9 migration (0.5151ms)
+✔ v2 keeps exact conversion and gives the rule engine the same conflicts (22.9345ms)
+✔ third axis is optional, editable and source-bound without changing identity (4.7006ms)
+✔ explicit wide/high axes in recorded real model wording are compared as one tuple (2.5168ms)
+✔ saved real DALIX highlights keep the full bag tuple after a pocket clause (3.2748ms)
+✔ rated load is distinct from volume and remains a separate performance claim (2.368ms)
+✔ mixed fibers compare each composition component, not only the first (4.4114ms)
+✔ uncovered values stay visible and never masquerade as aligned parameters (0.9296ms)
+✔ every declared unit and source remains subject to verification (1.8734ms)
+✔ ambiguous pack options never become a guessed retail quantity (3.1715ms)
+✔ rated-load and depth edits invalidate only their old fact bindings (3.2167ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 968.3486

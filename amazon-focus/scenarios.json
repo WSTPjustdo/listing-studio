@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "amazon-us-tote-scenarios-v2",
+  "created_at": "2026-10-21",
+  "implementation_status": "fixtures_not_model_outputs",
+  "is_demo": true,
+  "notice": "商品档案为基于公开规格的合成演示；文案和预期问题均由方案设计，不是真实 Amazon 商品、客户数据或已执行模型结果。",
+  "sources": [
+    {
+      "source_id": "AMZ-DEMO-MERCHANT-INPUT",
+      "kind": "synthetic_demo",
+      "url": null,
+      "description": "虚拟商品名、每包 1 件及用途偏好；不代表真实供货或品牌授权。"
+    }
+  ],
+  "product_profiles": [
+    {
+      "product_id": "AMZ-DEMO-TOTE-140",
+      "revision": 1,
+      "reference_product_id": "REF-WM-W101",
+      "reference_relation": "规格参考，不是原品牌真实销售 SKU。",
+      "application_product_type": "tote_bag_demo",
+      "is_demo": true,
+      "name_zh": "长提手棉布袋演示商品",
+      "material": {"value": "100% cotton", "status": "public_source", "source_ids": ["SRC-WM-W101"]},
+      "dimensions_cm": {"value": {"width": 38, "height": 42}, "status": "public_source", "source_ids": ["SRC-WM-W101"]},
+      "fabric_weight_gsm": {"value": 140, "status": "public_source", "source_ids": ["SRC-WM-W101"]},
+      "capacity_l": {"value": 10, "status": "public_source", "source_ids": ["SRC-WM-W101"]},
+      "handle_length_cm": {"value": 67, "status": "public_source", "source_ids": ["SRC-WM-W101"]},
+      "retail_pack_count": {"value": 1, "status": "merchant_confirmed", "source_ids": ["LOCAL-MERCHANT-INPUT"], "demo_origin": "synthetic_demo"},
+      "intended_use": {"value": "everyday carrying", "status": "synthetic_demo", "source_ids": ["AMZ-DEMO-MERCHANT-INPUT"]},
+      "brand": {"value": null, "status": "unknown", "source_ids": []},
+      "color": {"value": null, "status": "unknown", "source_ids": []},
+      "rated_load_kg": {"value": null, "status": "unknown", "source_ids": []},
+      "degradation_evidence": [],
+      "certification_evidence": [],
+      "performance_evidence": [],
+      "publication_readiness": "not_verified"
+    }
+  ],
+  "listing_fixtures": [
+    {
+      "fixture_id": "AMZ-CLEAN-001",
+      "kind": "synthetic_content_example",
+      "product_ref": "AMZ-DEMO-TOTE-140@1",
+      "marketplace": "US",
+      "locale": "en-US",
+      "content": {
+        "title": "Cotton Tote Bag with Long Handles, 1 Pack",
+        "item_highlights": "100% cotton, 140 g/m2 fabric; 10 L capacity and 67 cm handles.",
+        "bullet_points": [
+          {"id": "b1", "text": "Cotton fabric: 100% cotton with a fabric weight of 140 g/m2."},
+          {"id": "b2", "text": "Dimensions: 38 x 42 cm, approximately 15.0 x 16.5 inches."},
+          {"id": "b3", "text": "Capacity: 10 L."},
+          {"id": "b4", "text": "Long handles: 67 cm handle length."},
+          {"id": "b5", "text": "Pack contents: one cotton tote bag."}
+        ],
+        "description": "A cotton tote bag with long handles for everyday carrying. The bag measures 38 x 42 cm and has a 10 L capacity. The pack contains one bag."
+      },
+      "expected": {
+        "must_pass_rules": ["AMZ-01", "AMZ-02"],
+        "must_not_raise_rules": ["AMZ-03", "AMZ-04", "US-01", "US-02", "FACT-01", "FACT-02"],
+        "missing_data": ["brand", "color"],
+        "publication_readiness": "not_verified",
+        "note": "已覆盖文本没有预置错误，不表示真实商品已满足全部上架条件。"
+      }
+    },
+    {
+      "fixture_id": "AMZ-RISKY-001",
+      "kind": "synthetic_bad_listing_for_diagnosis",
+      "product_ref": "AMZ-DEMO-TOTE-140@1",
+      "marketplace": "US",
+      "locale": "en-US",
+      "content": {
+        "title": "100% Eco-Friendly Cotton Tote Bag with Long Handles for Shopping, Travel, Work and Everyday Use",
+        "item_highlights": "Cotton tote bag with long handles.",
+        "bullet_points": [
+          {"id": "b1", "text": "Biodegrades completely in 30 days after disposal."},
+          {"id": "b2", "text": "10 kg carrying capacity."},
+          {"id": "b3", "text": "Pack of 250 bags."},
+          {"id": "b4", "text": "100% cotton with 67 cm handles."}
+        ],
+        "description": "Only $1.30. Email sales@example.com for bulk orders. Material: 100% cotton. Size: 38 x 42 cm."
+      },
+      "expected": {
+        "must_raise_rules": ["AMZ-01", "AMZ-03", "AMZ-04", "AMZ-05", "US-01", "US-02", "US-03", "FACT-01", "FACT-02"],
+        "required_issue_groups": [
+          {"field_path": "content.title", "rule_ids": ["AMZ-01", "US-01"]},
+          {"field_path": "content.bullet_points[b1].text", "rule_ids": ["US-02"]},
+          {"field_path": "content.bullet_points[b2].text", "rule_ids": ["US-03", "FACT-01"]},
+          {"field_path": "content.bullet_points[b3].text", "rule_ids": ["AMZ-05", "FACT-02"]},
+          {"field_path": "content.description", "rule_ids": ["AMZ-03", "AMZ-04"]}
+        ],
+        "preserve_if_unedited": ["content.bullet_points[b4].text"],
+        "review_status": "needs_attention",
+        "note": "相同原句的多个依据可合并展示，不按规则数量夸大独立问题数。"
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "scenario_id": "CREATE-001",
+      "workflow": "listing_create",
+      "product_ref": "AMZ-DEMO-TOTE-140@1",
+      "initial_instruction": "面向 Amazon 美国站生成英文棉布袋 Listing 草稿，使用确认的规格和每包 1 件的演示条件；品牌与颜色尚未确认。",
+      "revisions": [
+        {"expected_version": 2, "instruction": "标题更简洁，把材质补充信息移到亮点里。"},
+        {"expected_version": 3, "instruction": "描述更贴近日常通勤，保留尺寸和每包 1 件的信息，不增加防水、承重或认证承诺。"}
+      ],
+      "invariants": ["material", "dimensions_cm", "fabric_weight_gsm", "capacity_l", "handle_length_cm", "retail_pack_count"]
+    },
+    {
+      "scenario_id": "DIAGNOSE-001",
+      "workflow": "listing_diagnose",
+      "input_fixture_id": "AMZ-RISKY-001",
+      "requires_create_workflow_first": false,
+      "expected_outputs": ["diagnostic_report", "source_backed_issues", "proposed_patches"],
+      "repair_instruction": "缩短标题并移除宽泛环保宣传；删除无依据的降解和承重宣称；包装改为档案中的每包 1 件；移除价格和邮箱，保留有依据的规格。",
+      "repair_requirements": ["match_base_version", "match_expected_before", "only_allowed_content_fields", "recheck_after_patch", "preserve_original_version"],
+      "forbidden_behavior": ["invent_certification", "declare_official_amazon_approval", "change_product_facts", "mark_unexecuted_checks_passed"]
+    }
+  ],
+  "boundary_and_negative_cases": [
+    {"case_id": "TITLE-75", "rule_id": "AMZ-01", "field": "title", "generator": {"character": "A", "repeat": 75}, "expected": "pass_for_length_only"},
+    {"case_id": "TITLE-76", "rule_id": "AMZ-01", "field": "title", "generator": {"character": "A", "repeat": 76}, "expected": "fail_for_length"},
+    {"case_id": "HIGHLIGHTS-125", "rule_id": "AMZ-02", "field": "item_highlights", "generator": {"character": "A", "repeat": 125}, "expected": "pass_for_length_only"},
+    {"case_id": "HIGHLIGHTS-126", "rule_id": "AMZ-02", "field": "item_highlights", "generator": {"character": "A", "repeat": 126}, "expected": "fail_for_length"},
+    {
+      "case_id": "NEGATED-DEGRADATION",
+      "rule_id": "US-02",
+      "text": "No degradation test is provided, so we make no biodegradability claim.",
+      "expected": "do_not_flag_only_because_keyword_occurs",
+      "note": "用于检验语义误报，不建议作为商品销售文案。"
+    },
+    {
+      "case_id": "UNKNOWN-CERTIFICATION",
+      "rule_id": "US-03",
+      "text": "Certified organic cotton.",
+      "evidence": [],
+      "expected": "needs_evidence_not_proof_of_absence"
+    },
+    {
+      "case_id": "UNSUPPORTED-MARKET",
+      "rule_id": "SYS-02",
+      "marketplace": "UK",
+      "expected": "not_covered_no_review_complete_status"
+    },
+    {
+      "case_id": "STALE-PATCH",
+      "base_version": 1,
+      "current_version": 2,
+      "expected": "reject_patch_and_request_rediagnosis"
+    }
+  ],
+  "source_resolution": {
+    "public_product_sources": "../data-research/public-product-facts.json#sources",
+    "rule_sources": "rules.json#sources"
+  }
+}

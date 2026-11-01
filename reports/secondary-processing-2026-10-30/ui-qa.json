@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-30T04:43:23.191Z",
+  "source": "existing_real_DeepSeek_W101_copy",
+  "model_calls": 0,
+  "submitted_requests": [],
+  "checks": [
+    {
+      "label": "desktop-own-preview",
+      "scroll": 1440,
+      "viewport": 1440
+    },
+    {
+      "label": "competitor_requires_real_own_product",
+      "passed": true
+    },
+    {
+      "label": "mobile-competitor-preview",
+      "scroll": 390,
+      "viewport": 390
+    },
+    {
+      "label": "editing_resets_confirmation",
+      "passed": true
+    },
+    {
+      "label": "changed_source_requires_reparse",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "failed_requests": [],
+  "screenshots": [
+    "desktop-own-preview.png",
+    "mobile-competitor-preview.png"
+  ]
+}

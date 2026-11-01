@@ -1,0 +1,192 @@
+{
+  "notice": "真实 DeepSeek 调用（2 次计费：生成 + 审核），德语 / marketplace=DE。目的是核第 9 轮新加的「制造商 / 欧盟责任人」档案字段是否真的进了生成上下文、会不会被模型把邮箱抄进文案。商品与地址都是占位样例，不是真实公司。不含任何密钥。 当次输出里那 7 条 EVID-01 是两类误报（GPSR 地址里的门牌号/邮编 4 条、德语 Henkellänge 67 cm 3 条），已在同一轮修掉；修后结果见 offline_after_fix（同一份文案确定性复算，不含任何模型调用）。",
+  "run": {
+    "label": "第 9 轮 · GPSR 责任方字段进生成",
+    "marketplace": "DE",
+    "language": "de",
+    "locale": "de-DE",
+    "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+    "model": "deepseek-flash",
+    "provider_request_id": "3b0e9e2c-d318-4b42-be34-11829264d0a1",
+    "audit_request_id": null,
+    "usage": {
+      "prompt_tokens": 8561,
+      "completion_tokens": 825,
+      "total_tokens": 9386,
+      "prompt_tokens_details": {
+        "cached_tokens": 2176
+      },
+      "prompt_cache_hit_tokens": 2176,
+      "prompt_cache_miss_tokens": 6385
+    },
+    "elapsed_ms": 12802,
+    "status": "succeeded"
+  },
+  "product_facts": {
+    "manufacturer": {
+      "name": "Beispiel Textil Co., Ltd.",
+      "street": "Baogang Road 18",
+      "postal_code": "518000",
+      "city": "Shenzhen",
+      "country": "China",
+      "electronic_address": "sales@beispiel.cn"
+    },
+    "eu_responsible": {
+      "name": "Beispiel EU GmbH",
+      "street": "Hauptstraße 2",
+      "postal_code": "20095",
+      "city": "Hamburg",
+      "country": "Deutschland",
+      "electronic_address": "eu@beispiel.de"
+    }
+  },
+  "checks": {
+    "mentions_manufacturer_name": true,
+    "mentions_eu_responsible_name": true,
+    "uses_hersteller_wording": true,
+    "uses_eu_verantwortlicher_wording": true,
+    "leaks_email": false,
+    "postal_code_present": true,
+    "german_decimal_comma": false
+  },
+  "content": {
+    "title": "Beispiel Baumwolltasche, natur, 38 × 42 cm, 140 g/m²",
+    "item_highlights": "100 % Baumwolle, lange Henkel mit 67 cm, 10 l Volumen, 1 Stück",
+    "bullet_points": [
+      {
+        "id": "b1",
+        "text": "100 % Baumwolle: Die Tasche besteht aus Baumwollgewebe mit 140 g/m²."
+      },
+      {
+        "id": "b2",
+        "text": "Maße: 38 × 42 cm (Breite × Höhe), Volumen 10 l."
+      },
+      {
+        "id": "b3",
+        "text": "Lange Henkel: Die Henkellänge beträgt 67 cm."
+      },
+      {
+        "id": "b4",
+        "text": "Farbe natur, 1 Stück pro Packung."
+      },
+      {
+        "id": "b5",
+        "text": "Hersteller: Beispiel Textil Co., Ltd., Baogang Road 18, 518000 Shenzhen, China. EU-Verantwortlicher: Beispiel EU GmbH, Hauptstraße 2, 20095 Hamburg, Deutschland."
+      }
+    ],
+    "description": "Baumwolltasche von Beispiel in der Farbe natur. Die Tasche ist 38 × 42 cm groß (Breite × Höhe), hat ein Volumen von 10 l und besteht aus 100 % Baumwolle mit 140 g/m². Die Henkel sind 67 cm lang. Lieferumfang: 1 Stück.\n\nHersteller: Beispiel Textil Co., Ltd., Baogang Road 18, 518000 Shenzhen, China\nEU-Verantwortlicher: Beispiel EU GmbH, Hauptstraße 2, 20095 Hamburg, Deutschland"
+  },
+  "review": {
+    "issues": [
+      {
+        "rule_id": "EVID-01",
+        "severity": "needs_review",
+        "original": "100 % Baumwolle, lange Henkel mit 67 cm, 10 l Volumen, 1 Stück",
+        "reason": "67：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+      },
+      {
+        "rule_id": "EVID-01",
+        "severity": "needs_review",
+        "original": "Lange Henkel: Die Henkellänge beträgt 67 cm.",
+        "reason": "67：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+      },
+      {
+        "rule_id": "EVID-01",
+        "severity": "needs_review",
+        "original": "Hersteller: Beispiel Textil Co., Ltd., Baogang Road 18, 518000 Shenzhen, China.",
+        "reason": "18：数值尚不能明确关联到具体商品字段和单位，需进一步核对。；518000：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+      },
+      {
+        "rule_id": "EVID-01",
+        "severity": "needs_review",
+        "original": "EU-Verantwortlicher: Beispiel EU GmbH, Hauptstraße 2, 20095 Hamburg, Deutschland.",
+        "reason": "2：数值尚不能明确关联到具体商品字段和单位，需进一步核对。；20095：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+      },
+      {
+        "rule_id": "EVID-01",
+        "severity": "needs_review",
+        "original": "Die Henkel sind 67 cm lang.",
+        "reason": "67：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+      },
+      {
+        "rule_id": "EVID-01",
+        "severity": "needs_review",
+        "original": "Hersteller: Beispiel Textil Co., Ltd., Baogang Road 18, 518000 Shenzhen, China",
+        "reason": "18：数值尚不能明确关联到具体商品字段和单位，需进一步核对。；518000：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+      },
+      {
+        "rule_id": "EVID-01",
+        "severity": "needs_review",
+        "original": "EU-Verantwortlicher: Beispiel EU GmbH, Hauptstraße 2, 20095 Hamburg, Deutschland",
+        "reason": "2：数值尚不能明确关联到具体商品字段和单位，需进一步核对。；20095：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+      }
+    ],
+    "gpsr_check": {
+      "rule_id": "DE-GPSR-19",
+      "state": "not_checked",
+      "method": "checklist_only",
+      "reason": "这条本地判不了，只列清单。德国站要求报价页面上直接可见四要素（4 项），逐项对着商品档案看：① 制造商名称 + 邮政地址 + 电子地址：6 项齐全（名称 / 街道门牌 / 邮编 / 城市 / 国家 / 电子地址）；② 制造商在欧盟外时的欧盟责任人（同三项）：6 项齐全（名称 / 街道门牌 / 邮编 / 城市 / 国家 / 电子地址）；③ 型号 / 批次 / EAN 与图片：商品档案没有这个字段（型号/EAN 走「补充事实」）；文案里也没认出型号或 EAN 字样，图片本地看不到；④ 需要警告时的德语警告原文（棉布袋通常不需要，记不适用即可）：棉布袋通常不需要，记不适用；真要警告才需德语原文，本地判不了该不该有。数据通道：制造商 / 欧盟责任人的专门字段已经填了，「补充事实」里也没有这类记录（不影响上面的逐项结论），所以不能根据「文案里没写」判定违规。文案里能认出的相关线索：Hersteller 字样（认得出不等于合规，还要核对是否完整、是否对得上档案）。补法：商品资料页现在有「制造商 / 欧盟责任人」两块专门字段（各六项：名称、街道门牌、邮编、城市、国家、电子地址），填完这两块，生成侧就能按档案写「Hersteller: …｜EU-Verantwortlicher: …」；型号/EAN 走「补充事实」，label 用 Modell und EAN。老填法也还能用：「补充事实」里加三条，label 分别用 Hersteller / EU-Verantwortlicher / Modell und EAN，值写「名称, 街道 门牌, 邮编 城市, 邮箱」；描述末尾再补一块「Hersteller: …｜EU-Verantwortlicher: …｜Modell/EAN: …」。如果信息填在 Amazon 后台的「Herstellerinformationen」栏位，也算报价页面的一部分 —— 本工具读不到那个栏位，需人工确认。另外注意：电子地址在 Amazon 文案里属于禁止项（AMZ-03 会按阻断处理），邮箱只填后台栏位，档案字段里也只作记录、不要写进文案；文案里写制造商名称与邮政地址即可；四要素到底在哪一屏凑齐，仍需人工确认。"
+    }
+  },
+  "offline_after_fix": {
+    "note": "同一份落库文案（上面 content 就是模型当次输出，没有改动一个字）在修完两类误报后重跑一次本地审核。这是确定性复算，没有调用模型、没有额外计费。",
+    "issues_before_fix": 7,
+    "issues_after_fix": 0,
+    "remaining_issues": [],
+    "not_covered_parameters": [
+      {
+        "field": "postal_address",
+        "original": "Road 18"
+      },
+      {
+        "field": "postal_address",
+        "original": "518000 Shenzhen"
+      },
+      {
+        "field": "postal_address",
+        "original": "Hauptstraße 2"
+      },
+      {
+        "field": "postal_address",
+        "original": "20095 Hamburg"
+      },
+      {
+        "field": "postal_address",
+        "original": "Road 18"
+      },
+      {
+        "field": "postal_address",
+        "original": "518000 Shenzhen"
+      },
+      {
+        "field": "postal_address",
+        "original": "Hauptstraße 2"
+      },
+      {
+        "field": "postal_address",
+        "original": "20095 Hamburg"
+      }
+    ],
+    "checks_summary": [
+      "AMZ-01=pass",
+      "AMZ-02=pass",
+      "AMZ-03=not_checked",
+      "AMZ-04=not_checked",
+      "AMZ-05=not_checked",
+      "AMZ-06=pass",
+      "DE-TITLE-02=pass",
+      "DE-TITLE-03=pass",
+      "DE-GPSR-19=not_checked",
+      "DE-TEXTIL-01=not_checked",
+      "DE-ENV-01=not_checked",
+      "DE-VERPACK-01=not_checked",
+      "DE-CERT-01=not_checked",
+      "DE-GARANTIE-01=not_checked",
+      "FACT-01=not_checked",
+      "FACT-02=not_checked",
+      "EVID-01=not_checked",
+      "SYS-01=pass",
+      "SYS-02=not_checked"
+    ]
+  }
+}

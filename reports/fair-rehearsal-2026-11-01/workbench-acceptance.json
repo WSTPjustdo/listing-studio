@@ -1,0 +1,1131 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-01T03:19:24.431Z",
+  "scope": "既有工作台真实公开商品流程验收；标准为 Westford Mill W101，浏览器操作本机已有真实商品记录。本报告不代表保温杯品类、法规或上架资质验收。无真实商家库存、订单、销售或 Seller Central 数据。",
+  "acceptance": "existing_workbench_real_api_workflows_completed_with_unknowns_preserved",
+  "standard": {
+    "command": "npm run test:live",
+    "exit_code": 0,
+    "started_at": "2026-11-01T03:16:02.043Z",
+    "completed_at": "2026-11-01T03:16:30.624Z",
+    "source_url": "https://westfordmill.com/products/w101",
+    "source_checked_live": true,
+    "product_reference": "REAL-WESTFORD-W101",
+    "steps": [
+      {
+        "label": "真实商品生成与独立审核",
+        "status": "succeeded",
+        "elapsed_ms": 10751,
+        "listing_id": "listing-1e0fda0a-c5aa-4557-b181-1780b2b8a6e7",
+        "version": 1,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "c86495f9-7277-4c38-9315-5c7b4f3019a4",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 10301,
+          "usage": {
+            "prompt_tokens": 6263,
+            "completion_tokens": 568,
+            "total_tokens": 6831,
+            "prompt_tokens_details": {
+              "cached_tokens": 2176
+            },
+            "prompt_cache_hit_tokens": 2176,
+            "prompt_cache_miss_tokens": 4087
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "97fa16a1-14e5-4402-818b-efcc187a5170",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 4641,
+                "usage": {
+                  "prompt_tokens": 6178,
+                  "completion_tokens": 875,
+                  "total_tokens": 7053,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2048
+                  },
+                  "prompt_cache_hit_tokens": 2048,
+                  "prompt_cache_miss_tokens": 4130
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "5b631996-c60f-4e41-8625-acff227fa761",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 2228,
+              "usage": {
+                "prompt_tokens": 5949,
+                "completion_tokens": 293,
+                "total_tokens": 6242,
+                "prompt_tokens_details": {
+                  "cached_tokens": 5504
+                },
+                "prompt_cache_hit_tokens": 5504,
+                "prompt_cache_miss_tokens": 445
+              },
+              "http_status": 200
+            },
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "c86495f9-7277-4c38-9315-5c7b4f3019a4",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 8073,
+              "usage": {
+                "prompt_tokens": 6263,
+                "completion_tokens": 568,
+                "total_tokens": 6831,
+                "prompt_tokens_details": {
+                  "cached_tokens": 2176
+                },
+                "prompt_cache_hit_tokens": 2176,
+                "prompt_cache_miss_tokens": 4087
+              },
+              "http_status": 200,
+              "output_mode": "audit_only_format_retry",
+              "format_retry": {
+                "attempts": 2,
+                "recovered": true,
+                "failed_attempt": {
+                  "error_code": "MODEL_INVALID_JSON",
+                  "trace": {
+                    "provider": "compatible",
+                    "actual_model_call": true,
+                    "provider_request_id": "97fa16a1-14e5-4402-818b-efcc187a5170",
+                    "model": "deepseek-flash",
+                    "requested_model": "deepseek-flash",
+                    "elapsed_ms": 4641,
+                    "usage": {
+                      "prompt_tokens": 6178,
+                      "completion_tokens": 875,
+                      "total_tokens": 7053,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 2048
+                      },
+                      "prompt_cache_hit_tokens": 2048,
+                      "prompt_cache_miss_tokens": 4130
+                    },
+                    "http_status": 200
+                  }
+                }
+              }
+            }
+          ],
+          "prompt_version": "2026-10-31.guided-writing-v14-empty-bullet-audit",
+          "parameter_link_version": "structured-parameters-v2.6-original-dimension-tuples",
+          "audit_input_hash": "67f641b13ee7a22844945a754f12a21adffd62d187c2f1d7fb1c79f656dfb9d6",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+          }
+        ],
+        "coverage": {
+          "uncovered_parameters": 0,
+          "total": 15,
+          "completed": 15,
+          "failed": 0,
+          "pending": 0
+        },
+        "error": null
+      },
+      {
+        "label": "真实问题审查修复与复检",
+        "status": "succeeded",
+        "elapsed_ms": 9159,
+        "listing_id": "listing-1e0fda0a-c5aa-4557-b181-1780b2b8a6e7",
+        "version": 2,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "2d78d461-c9d9-468f-9928-f224fec1d43b",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 9030,
+          "usage": {
+            "prompt_tokens": 6257,
+            "completion_tokens": 575,
+            "total_tokens": 6832,
+            "prompt_tokens_details": {
+              "cached_tokens": 2176
+            },
+            "prompt_cache_hit_tokens": 2176,
+            "prompt_cache_miss_tokens": 4081
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "e953200b-fbe7-4435-9705-8b9466eb9d15",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 3895,
+                "usage": {
+                  "prompt_tokens": 6172,
+                  "completion_tokens": 851,
+                  "total_tokens": 7023,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2048
+                  },
+                  "prompt_cache_hit_tokens": 2048,
+                  "prompt_cache_miss_tokens": 4124
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "65b027d8-b31b-4e84-825d-b99cb9e686ce",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 1888,
+              "usage": {
+                "prompt_tokens": 6948,
+                "completion_tokens": 281,
+                "total_tokens": 7229,
+                "prompt_tokens_details": {
+                  "cached_tokens": 2048
+                },
+                "prompt_cache_hit_tokens": 2048,
+                "prompt_cache_miss_tokens": 4900
+              },
+              "http_status": 200
+            },
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "2d78d461-c9d9-468f-9928-f224fec1d43b",
+              "model": "deepseek-flash",
+              "requested_model": "deepseek-flash",
+              "elapsed_ms": 7142,
+              "usage": {
+                "prompt_tokens": 6257,
+                "completion_tokens": 575,
+                "total_tokens": 6832,
+                "prompt_tokens_details": {
+                  "cached_tokens": 2176
+                },
+                "prompt_cache_hit_tokens": 2176,
+                "prompt_cache_miss_tokens": 4081
+              },
+              "http_status": 200,
+              "output_mode": "audit_only_format_retry",
+              "format_retry": {
+                "attempts": 2,
+                "recovered": true,
+                "failed_attempt": {
+                  "error_code": "MODEL_INVALID_JSON",
+                  "trace": {
+                    "provider": "compatible",
+                    "actual_model_call": true,
+                    "provider_request_id": "e953200b-fbe7-4435-9705-8b9466eb9d15",
+                    "model": "deepseek-flash",
+                    "requested_model": "deepseek-flash",
+                    "elapsed_ms": 3895,
+                    "usage": {
+                      "prompt_tokens": 6172,
+                      "completion_tokens": 851,
+                      "total_tokens": 7023,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 2048
+                      },
+                      "prompt_cache_hit_tokens": 2048,
+                      "prompt_cache_miss_tokens": 4124
+                    },
+                    "http_status": 200
+                  }
+                }
+              }
+            }
+          ],
+          "prompt_version": "2026-10-31.guided-writing-v14-empty-bullet-audit",
+          "parameter_link_version": "structured-parameters-v2.6-original-dimension-tuples",
+          "audit_input_hash": "b47bbc35e2c9806e20ef3e8c840623d86fd4e29677a85d1453065670c92ea5d2",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+          }
+        ],
+        "coverage": {
+          "uncovered_parameters": 0,
+          "total": 15,
+          "completed": 15,
+          "failed": 0,
+          "pending": 0
+        },
+        "error": null
+      },
+      {
+        "label": "补充真实规格后原任务复检",
+        "status": "succeeded",
+        "elapsed_ms": 8649,
+        "listing_id": "listing-1e0fda0a-c5aa-4557-b181-1780b2b8a6e7",
+        "version": 3,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "d3b0f31b-c6da-41ee-8142-29b7efcb4d7a",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 8369,
+          "usage": {
+            "prompt_tokens": 6294,
+            "completion_tokens": 532,
+            "total_tokens": 6826,
+            "prompt_tokens_details": {
+              "cached_tokens": 2176
+            },
+            "prompt_cache_hit_tokens": 2176,
+            "prompt_cache_miss_tokens": 4118
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "032ca631-f42f-45f6-96f2-ac14bfaec9b9",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 4644,
+                "usage": {
+                  "prompt_tokens": 6209,
+                  "completion_tokens": 929,
+                  "total_tokens": 7138,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 2048
+                  },
+                  "prompt_cache_hit_tokens": 2048,
+                  "prompt_cache_miss_tokens": 4161
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "prompt_version": "2026-10-31.guided-writing-v14-empty-bullet-audit",
+          "parameter_link_version": "structured-parameters-v2.6-original-dimension-tuples",
+          "audit_input_hash": "7014c4df4f4559da382db06321527d123ef153582b4e0da4afd455d75e444c4e",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+          }
+        ],
+        "coverage": {
+          "uncovered_parameters": 0,
+          "total": 15,
+          "completed": 15,
+          "failed": 0,
+          "pending": 0
+        },
+        "error": null
+      }
+    ]
+  },
+  "browser": {
+    "command": "npm run test:live:browser",
+    "exit_code": 0,
+    "base_url": "http://127.0.0.1:8787",
+    "completed_at": "2026-11-01T03:17:17.869Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "version": 16,
+    "model": "deepseek-flash",
+    "request_id": "a01b34a7-35f5-4031-86f7-104d522a3b49",
+    "actual_model_call": true,
+    "elapsed_ms": 7621,
+    "usage": {
+      "prompt_tokens": 8496,
+      "completion_tokens": 477,
+      "total_tokens": 8973,
+      "prompt_tokens_details": {
+        "cached_tokens": 8320
+      },
+      "prompt_cache_hit_tokens": 8320,
+      "prompt_cache_miss_tokens": 176
+    },
+    "issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+      }
+    ],
+    "ab": {
+      "variant_set_id": "variant-set-973340eb-4fa0-4880-b52b-9ef3ac35b79d",
+      "base_version": 16,
+      "review_status_before_adoption": "not_reviewed",
+      "generation": {
+        "model": "deepseek-flash",
+        "request_id": "c6b0c765-0779-4d76-b215-2b2ce7ee9fbb",
+        "elapsed_ms": 3138,
+        "usage": {
+          "prompt_tokens": 697,
+          "completion_tokens": 546,
+          "total_tokens": 1243,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 185
+        },
+        "format_retry": null
+      },
+      "adopted_version": 17,
+      "angle": "spec_first",
+      "independent_review": {
+        "model": "deepseek-flash",
+        "request_id": "7e3301c0-aeb0-44d1-a57b-727680b0805c",
+        "elapsed_ms": 7805,
+        "usage": {
+          "prompt_tokens": 8493,
+          "completion_tokens": 451,
+          "total_tokens": 8944,
+          "prompt_tokens_details": {
+            "cached_tokens": 3200
+          },
+          "prompt_cache_hit_tokens": 3200,
+          "prompt_cache_miss_tokens": 5293
+        },
+        "issues": [],
+        "missing_data": [
+          {
+            "field": "color",
+            "label": "颜色",
+            "reason": "实际售卖变体的颜色未确认；请核对该 ASIN / SKU 的选定颜色及来源原文，不能采用系列可选色或页面默认色。草稿不推测，正式上架前仍需确认。"
+          },
+          {
+            "field": "retail_pack_count",
+            "label": "零售包装",
+            "reason": "该零售 SKU 每包袋子件数未确认；请核对销售包装或订单规格及来源原文，工厂装箱数、页面购买数量和单数 bag 均不能代替每包件数。草稿不推测，正式上架前仍需确认。"
+          }
+        ]
+      }
+    },
+    "checks": [
+      "guided_draft_survives_navigation",
+      "invalid_product_revision_rejected",
+      "real_api_recheck",
+      "version_history_preserved",
+      "evidence_visible",
+      "html_txt_json_copy_exports",
+      "ab_generation_blocks_escape_close_backdrop_and_navigation",
+      "real_ab_set_persisted_on_reopen",
+      "ab_adoption_saved_as_independently_reviewed_version"
+    ],
+    "transport_check": "The actual A/B server response was delayed until close guards were checked; the model request and response body were not substituted.",
+    "screenshot": "workbench-browser.png",
+    "saved_version_traces": [
+      {
+        "version": 16,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "a01b34a7-35f5-4031-86f7-104d522a3b49",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 7621,
+          "usage": {
+            "prompt_tokens": 8496,
+            "completion_tokens": 477,
+            "total_tokens": 8973,
+            "prompt_tokens_details": {
+              "cached_tokens": 8320
+            },
+            "prompt_cache_hit_tokens": 8320,
+            "prompt_cache_miss_tokens": 176
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "9aa690cd-fac8-433a-983a-6c2409753a53",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 4914,
+                "usage": {
+                  "prompt_tokens": 8411,
+                  "completion_tokens": 1268,
+                  "total_tokens": 9679,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 8192
+                  },
+                  "prompt_cache_hit_tokens": 8192,
+                  "prompt_cache_miss_tokens": 219
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "prompt_version": "2026-10-31.guided-writing-v14-empty-bullet-audit",
+          "parameter_link_version": "structured-parameters-v2.6-original-dimension-tuples",
+          "audit_input_hash": "5aa2071e8909101ae93582d84da2ed65f7768be46cafec44738f72473ee34b57",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "AMZ-PAGE-B0732NPDRB-5be602c5cfce",
+            "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e",
+            "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a",
+            "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48",
+            "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+          ]
+        }
+      },
+      {
+        "version": 17,
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "7e3301c0-aeb0-44d1-a57b-727680b0805c",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 7805,
+          "usage": {
+            "prompt_tokens": 8493,
+            "completion_tokens": 451,
+            "total_tokens": 8944,
+            "prompt_tokens_details": {
+              "cached_tokens": 3200
+            },
+            "prompt_cache_hit_tokens": 3200,
+            "prompt_cache_miss_tokens": 5293
+          },
+          "http_status": 200,
+          "output_mode": "audit_only_format_retry",
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "1b39632f-5b4d-42b6-9e92-a272e3512188",
+                "model": "deepseek-flash",
+                "requested_model": "deepseek-flash",
+                "elapsed_ms": 5010,
+                "usage": {
+                  "prompt_tokens": 8408,
+                  "completion_tokens": 1193,
+                  "total_tokens": 9601,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 3072
+                  },
+                  "prompt_cache_hit_tokens": 3072,
+                  "prompt_cache_miss_tokens": 5336
+                },
+                "http_status": 200
+              }
+            }
+          },
+          "prompt_version": "2026-10-31.guided-writing-v14-empty-bullet-audit",
+          "parameter_link_version": "structured-parameters-v2.6-original-dimension-tuples",
+          "audit_input_hash": "6595ba966ff2b895160bc54109261910f6274a6a3e4205079ac493ba93bf35c7",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "AMZS-DETAIL-PROMO",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "AMZ-PAGE-B0732NPDRB-5be602c5cfce",
+            "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e",
+            "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a",
+            "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48",
+            "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+          ]
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:04.294Z",
+      "operation": "create",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 2228,
+      "total_tokens": 6242,
+      "prompt_tokens": 5949,
+      "completion_tokens": 293,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "5b631996-c60f-4e41-8625-acff227fa761",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:08.951Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 4641,
+      "total_tokens": 7053,
+      "prompt_tokens": 6178,
+      "completion_tokens": 875,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "97fa16a1-14e5-4402-818b-efcc187a5170",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:12.378Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3422,
+      "total_tokens": 6831,
+      "prompt_tokens": 6263,
+      "completion_tokens": 568,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "c86495f9-7277-4c38-9315-5c7b4f3019a4",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:14.704Z",
+      "operation": "revise",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 1888,
+      "total_tokens": 7229,
+      "prompt_tokens": 6948,
+      "completion_tokens": 281,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "65b027d8-b31b-4e84-825d-b99cb9e686ce",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:18.614Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3895,
+      "total_tokens": 7023,
+      "prompt_tokens": 6172,
+      "completion_tokens": 851,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "e953200b-fbe7-4435-9705-8b9466eb9d15",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:21.857Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3231,
+      "total_tokens": 6832,
+      "prompt_tokens": 6257,
+      "completion_tokens": 575,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "2d78d461-c9d9-468f-9928-f224fec1d43b",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:26.624Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 4644,
+      "total_tokens": 7138,
+      "prompt_tokens": 6209,
+      "completion_tokens": 929,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "032ca631-f42f-45f6-96f2-ac14bfaec9b9",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:30.344Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3709,
+      "total_tokens": 6826,
+      "prompt_tokens": 6294,
+      "completion_tokens": 532,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "d3b0f31b-c6da-41ee-8142-29b7efcb4d7a",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "browser_existing_real_listing",
+      "at": "2026-11-01T03:17:00.084Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 4914,
+      "total_tokens": 9679,
+      "prompt_tokens": 8411,
+      "completion_tokens": 1268,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "9aa690cd-fac8-433a-983a-6c2409753a53",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "browser_existing_real_listing",
+      "at": "2026-11-01T03:17:02.786Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 2696,
+      "total_tokens": 8973,
+      "prompt_tokens": 8496,
+      "completion_tokens": 477,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "a01b34a7-35f5-4031-86f7-104d522a3b49",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "browser_existing_real_listing",
+      "at": "2026-11-01T03:17:08.336Z",
+      "operation": "ab_variants",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3134,
+      "total_tokens": 1243,
+      "prompt_tokens": 697,
+      "completion_tokens": 546,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "c6b0c765-0779-4d76-b215-2b2ce7ee9fbb",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "browser_existing_real_listing",
+      "at": "2026-11-01T03:17:14.624Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 5010,
+      "total_tokens": 9601,
+      "prompt_tokens": 8408,
+      "completion_tokens": 1193,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "1b39632f-5b4d-42b6-9e92-a272e3512188",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    },
+    {
+      "suite": "browser_existing_real_listing",
+      "at": "2026-11-01T03:17:17.408Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 2779,
+      "total_tokens": 8944,
+      "prompt_tokens": 8493,
+      "completion_tokens": 451,
+      "attempts": 2,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "ok",
+      "error_code": null,
+      "request_id": "7e3301c0-aeb0-44d1-a57b-727680b0805c",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null
+    }
+  ],
+  "call_summary": {
+    "total": 13,
+    "ok": 8,
+    "failed": 5,
+    "failed_rate": 0.385,
+    "avg_ms": 3553,
+    "slowest_ms": 5010,
+    "tokens_total": 93614,
+    "tokens_unknown_calls": 0,
+    "json_repaired": 0,
+    "retried": 5,
+    "record_failures": 0,
+    "by_operation": {
+      "create": {
+        "count": 1,
+        "failed": 0,
+        "total_ms": 2228,
+        "measured": 1,
+        "avg_ms": 2228
+      },
+      "diagnose": {
+        "count": 10,
+        "failed": 5,
+        "total_ms": 38941,
+        "measured": 10,
+        "avg_ms": 3894
+      },
+      "revise": {
+        "count": 1,
+        "failed": 0,
+        "total_ms": 1888,
+        "measured": 1,
+        "avg_ms": 1888
+      },
+      "ab_variants": {
+        "count": 1,
+        "failed": 0,
+        "total_ms": 3134,
+        "measured": 1,
+        "avg_ms": 3134
+      }
+    }
+  },
+  "failed_requests": [
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:08.951Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 4641,
+      "total_tokens": 7053,
+      "prompt_tokens": 6178,
+      "completion_tokens": 875,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "97fa16a1-14e5-4402-818b-efcc187a5170",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null,
+      "failure_reason": "真实 DeepSeek 返回的正文无法解析为约定 JSON。HTTP 200 仅代表收到响应，此次推理结果作为失败保留；随后另一次真实格式重试恢复。未替换响应或回退演示模式。",
+      "raw_response_notice": "原始模型响应只保留本机私有运行目录，不随交付包发布。"
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:18.614Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 3895,
+      "total_tokens": 7023,
+      "prompt_tokens": 6172,
+      "completion_tokens": 851,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "e953200b-fbe7-4435-9705-8b9466eb9d15",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null,
+      "failure_reason": "真实 DeepSeek 返回的正文无法解析为约定 JSON。HTTP 200 仅代表收到响应，此次推理结果作为失败保留；随后另一次真实格式重试恢复。未替换响应或回退演示模式。",
+      "raw_response_notice": "原始模型响应只保留本机私有运行目录，不随交付包发布。"
+    },
+    {
+      "suite": "standard_w101",
+      "at": "2026-11-01T03:16:26.624Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 4644,
+      "total_tokens": 7138,
+      "prompt_tokens": 6209,
+      "completion_tokens": 929,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "032ca631-f42f-45f6-96f2-ac14bfaec9b9",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null,
+      "failure_reason": "真实 DeepSeek 返回的正文无法解析为约定 JSON。HTTP 200 仅代表收到响应，此次推理结果作为失败保留；随后另一次真实格式重试恢复。未替换响应或回退演示模式。",
+      "raw_response_notice": "原始模型响应只保留本机私有运行目录，不随交付包发布。"
+    },
+    {
+      "suite": "browser_existing_real_listing",
+      "at": "2026-11-01T03:17:00.084Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 4914,
+      "total_tokens": 9679,
+      "prompt_tokens": 8411,
+      "completion_tokens": 1268,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "9aa690cd-fac8-433a-983a-6c2409753a53",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null,
+      "failure_reason": "真实 DeepSeek 返回的正文无法解析为约定 JSON。HTTP 200 仅代表收到响应，此次推理结果作为失败保留；随后另一次真实格式重试恢复。未替换响应或回退演示模式。",
+      "raw_response_notice": "原始模型响应只保留本机私有运行目录，不随交付包发布。"
+    },
+    {
+      "suite": "browser_existing_real_listing",
+      "at": "2026-11-01T03:17:14.624Z",
+      "operation": "diagnose",
+      "provider": "compatible",
+      "model": "deepseek-flash",
+      "requested_model": "deepseek-flash",
+      "duration_ms": 5010,
+      "total_tokens": 9601,
+      "prompt_tokens": 8408,
+      "completion_tokens": 1193,
+      "attempts": 1,
+      "json_repaired": false,
+      "json_repair_notes": [],
+      "original_error_code": null,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "request_id": "1b39632f-5b4d-42b6-9e92-a272e3512188",
+      "http_status": 200,
+      "batch_id": null,
+      "batch_row": null,
+      "batch_attempt": null,
+      "failure_reason": "真实 DeepSeek 返回的正文无法解析为约定 JSON。HTTP 200 仅代表收到响应，此次推理结果作为失败保留；随后另一次真实格式重试恢复。未替换响应或回退演示模式。",
+      "raw_response_notice": "原始模型响应只保留本机私有运行目录，不随交付包发布。"
+    }
+  ],
+  "unresolved": [
+    "标准 W101 及浏览器真实商品记录的实际售卖颜色、零售每包件数仍未知；未据此判定可直接上架。",
+    "此轮浏览器当前真实记录为本机已有记录；原有版本完整保留，复检与 A/B 采用新增版本，不代表真实商家交易。",
+    "本报告不覆盖保温杯食品接触、热性能实测、商标授权、品类法规、真实商家资质与 Amazon 上架。"
+  ]
+}

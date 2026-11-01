@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0",
+  "rule_set_version": "2026-10-21.v1",
+  "checked_at": "2026-10-21",
+  "implementation_status": "specification_only_not_executable",
+  "notice": "这是初始规则登记表，不是完整平台规则库或已经实现的检查引擎。通过仅指适用且成功执行的已覆盖检查。",
+  "sources": [
+    {
+      "source_id": "SRC-AMZ-US-TITLE-2026",
+      "kind": "official_policy",
+      "publisher": "Amazon / News_Amazon",
+      "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+      "published_or_updated_date": "2026-06-10",
+      "effective_date": "2026-07-27",
+      "checked_at": "2026-10-21",
+      "scope": "US non-media product title and Item Highlights length"
+    },
+    {
+      "source_id": "SRC-AMZ-US-DETAIL",
+      "kind": "official_policy",
+      "publisher": "Amazon Seller Central",
+      "url": "https://sellercentral.amazon.com/gp/help/external/G200390640?locale=en-US",
+      "effective_date": null,
+      "checked_at": "2026-10-21",
+      "verification_note": "官方页面文本经搜索索引核验；直接打开可能需要 JavaScript 或登录。",
+      "scope": "United States product detail page content; apply restrictions to relevant content fields"
+    },
+    {
+      "source_id": "SRC-ALIBABA-RFQ-GUIDE",
+      "kind": "official_guidance",
+      "publisher": "Alibaba.com",
+      "url": "https://seller.alibaba.com/businessblogs/quality-quotations-win-quality-deals-px7uo467",
+      "published_or_updated_date": "2020-02-27",
+      "effective_date": null,
+      "checked_at": "2026-10-21",
+      "scope": "RFQ quotation writing guidance; not a comprehensive current enforcement policy"
+    },
+    {
+      "source_id": "SRC-PROJECT-CONTRACT-CHECKLIST",
+      "kind": "project_checklist",
+      "url": null,
+      "local_reference": "出海业务工作台-详细方案.md#8-校验与反馈设计",
+      "version": "1.0",
+      "scope": "项目定义的报价及交易条款完整性、一致性审阅；不判断法律效力。"
+    },
+    {
+      "source_id": "SRC-PROJECT-EVIDENCE-POLICY",
+      "kind": "project_checklist",
+      "url": null,
+      "local_reference": "出海业务工作台-详细方案.md#10-技术路线",
+      "version": "1.0",
+      "scope": "事实支持、单位、来源和规则覆盖的项目检查约定。"
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "AMZ-US-TITLE-LENGTH",
+      "category": "platform_rules",
+      "basis_kind": "official_policy",
+      "scope": {"platform": "amazon", "market": "US", "media_product": false},
+      "field_paths": ["content.title"],
+      "constraint": {"max_characters_including_spaces": 75},
+      "effective_from": "2026-07-27",
+      "source_ids": ["SRC-AMZ-US-TITLE-2026"],
+      "severity": "blocking",
+      "planned_check": "deterministic_length"
+    },
+    {
+      "rule_id": "AMZ-US-HIGHLIGHTS-LENGTH",
+      "category": "platform_rules",
+      "basis_kind": "official_policy",
+      "scope": {"platform": "amazon", "market": "US", "media_product": false},
+      "field_paths": ["content.item_highlights"],
+      "constraint": {"max_characters_including_spaces": 125},
+      "effective_from": "2026-07-27",
+      "source_ids": ["SRC-AMZ-US-TITLE-2026"],
+      "severity": "blocking",
+      "planned_check": "deterministic_length"
+    },
+    {
+      "rule_id": "AMZ-US-NO-CONTACT-IN-CONTENT",
+      "category": "platform_rules",
+      "basis_kind": "official_policy",
+      "scope": {"platform": "amazon", "market": "US"},
+      "field_paths": ["content.title", "content.item_highlights", "content.bullet_points[]", "content.description"],
+      "constraint": {"exclude": ["email_address", "telephone_number", "external_order_link", "seller_contact_details"]},
+      "source_ids": ["SRC-AMZ-US-DETAIL"],
+      "severity": "blocking",
+      "planned_check": "patterns_with_context_review",
+      "note": "纯数字规格不可仅因匹配电话号码形状而直接判定违规；不作用于内部来源卡。"
+    },
+    {
+      "rule_id": "AMZ-US-NO-OFFER-TERMS-IN-CONTENT",
+      "category": "platform_rules",
+      "basis_kind": "official_policy",
+      "scope": {"platform": "amazon", "market": "US"},
+      "field_paths": ["content.title", "content.item_highlights", "content.bullet_points[]", "content.description"],
+      "constraint": {"exclude": ["price", "availability", "condition", "alternative_shipping_offer"]},
+      "source_ids": ["SRC-AMZ-US-DETAIL"],
+      "severity": "blocking",
+      "planned_check": "patterns_and_model_assisted_semantic_review",
+      "note": "这些文案限制不用于平台独立的售价、库存或商品状况字段。"
+    },
+    {
+      "rule_id": "AMZ-US-ACCURATE-DESCRIPTION",
+      "category": "platform_rules",
+      "basis_kind": "official_policy",
+      "scope": {"platform": "amazon", "market": "US"},
+      "field_paths": ["content"],
+      "constraint": {"accurately_describe_product": true},
+      "source_ids": ["SRC-AMZ-US-DETAIL"],
+      "severity": "blocking",
+      "planned_check": "fact_comparison_and_evidence_review"
+    },
+    {
+      "rule_id": "RFQ-TAILORED-REPLY",
+      "category": "business_style",
+      "basis_kind": "official_guidance",
+      "scope": {"platform": "alibaba", "workflow": "alibaba_rfq"},
+      "field_paths": ["content.reply"],
+      "constraint": {"address_buyer_requirements_and_next_steps": true},
+      "source_ids": ["SRC-ALIBABA-RFQ-GUIDE"],
+      "severity": "suggestion",
+      "planned_check": "model_assisted_review",
+      "note": "写作建议，不冒充平台处罚规则。"
+    },
+    {
+      "rule_id": "CONTRACT-REQUIRED-TERMS",
+      "category": "contract_terms",
+      "basis_kind": "project_checklist",
+      "scope": {"workflow": "alibaba_rfq"},
+      "field_paths": ["content.quote"],
+      "constraint": {"review_fields": ["product", "quantity", "unit", "currency", "unit_price", "goods_subtotal", "cost_scope", "production_timing", "payment", "validity"]},
+      "source_ids": ["SRC-PROJECT-CONTRACT-CHECKLIST"],
+      "severity": "needs_confirmation",
+      "planned_check": "required_field_checks",
+      "note": "可以对缺失字段明确待确认，不允许把其当作已确定条件。"
+    },
+    {
+      "rule_id": "CONTRACT-TIMING-CONSISTENCY",
+      "category": "contract_terms",
+      "basis_kind": "project_checklist",
+      "scope": {"workflow": "alibaba_rfq"},
+      "field_paths": ["requirements.delivery", "content.quote.production", "content.reply"],
+      "constraint": {"distinguish_production_from_arrival": true, "compare_only_compatible_time_anchors_and_day_types": true},
+      "source_ids": ["SRC-PROJECT-CONTRACT-CHECKLIST"],
+      "severity": "blocking",
+      "planned_check": "structured_time_comparison_and_claim_review"
+    },
+    {
+      "rule_id": "CONTRACT-COST-SCOPE",
+      "category": "contract_terms",
+      "basis_kind": "project_checklist",
+      "scope": {"workflow": "alibaba_rfq"},
+      "field_paths": ["content.quote", "content.reply"],
+      "constraint": {"unknown_costs_must_not_be_zero": true, "goods_subtotal_must_not_be_landed_total": true},
+      "source_ids": ["SRC-PROJECT-CONTRACT-CHECKLIST"],
+      "severity": "needs_confirmation",
+      "planned_check": "cost_status_and_total_label_checks"
+    },
+    {
+      "rule_id": "CONTRACT-PAYMENT-CONSISTENCY",
+      "category": "contract_terms",
+      "basis_kind": "project_checklist",
+      "scope": {"workflow": "alibaba_rfq", "payment_type": "percentage_installments"},
+      "field_paths": ["content.quote.payment"],
+      "constraint": {"sum_of_installment_percentages": 100, "require_payment_events": true},
+      "source_ids": ["SRC-PROJECT-CONTRACT-CHECKLIST"],
+      "severity": "blocking",
+      "planned_check": "deterministic_sum_and_required_events",
+      "note": "仅检查当前百分比分期方案，不声称所有交易须采用该方案。"
+    },
+    {
+      "rule_id": "BIZ-MOQ",
+      "category": "merchant_business_rules",
+      "basis_kind": "merchant_input",
+      "scope": {"workflow": "alibaba_rfq"},
+      "field_paths": ["requirements.quantity"],
+      "constraint": {"minimum_from": "business_terms.minimum_order_quantity"},
+      "source_ids": ["SRC-DEMO-BUSINESS"],
+      "severity": "blocking",
+      "planned_check": "deterministic_comparison",
+      "note": "此次数据来自合成商家条件；真实接入时绑定当前商家版本。"
+    },
+    {
+      "rule_id": "BIZ-PRICE-CONSISTENCY",
+      "category": "merchant_business_rules",
+      "basis_kind": "merchant_input",
+      "scope": {"workflow": "alibaba_rfq"},
+      "field_paths": ["content.quote", "content.reply"],
+      "constraint": {"use_integer_minor_units": true, "tier_from": "business_terms.price_tiers", "subtotal_formula": "quantity * unit_price_minor"},
+      "source_ids": ["SRC-DEMO-BUSINESS"],
+      "severity": "blocking",
+      "planned_check": "deterministic_calculation_and_cross_field_comparison"
+    },
+    {
+      "rule_id": "FACT-CLAIM-EVIDENCE",
+      "category": "product_fact_consistency",
+      "basis_kind": "project_checklist",
+      "scope": {"workflows": ["alibaba_rfq", "amazon_listing"]},
+      "field_paths": ["content"],
+      "constraint": {"require_support_for_certification_and_performance_claims": true, "missing_evidence_is_not_proof_of_absence": true},
+      "source_ids": ["SRC-PROJECT-EVIDENCE-POLICY"],
+      "severity": "needs_confirmation",
+      "planned_check": "claim_to_fact_evidence_matching"
+    },
+    {
+      "rule_id": "FACT-UNIT-CONSISTENCY",
+      "category": "product_fact_consistency",
+      "basis_kind": "project_checklist",
+      "scope": {"workflows": ["alibaba_rfq", "amazon_listing"]},
+      "field_paths": ["content"],
+      "constraint": {"forbid_confusion_between": [["g/m2", "g"], ["L", "rated_load_kg"], ["supplier_carton_quantity", "retail_units_per_pack"], ["production_days", "delivery_days"]]},
+      "source_ids": ["SRC-PROJECT-EVIDENCE-POLICY"],
+      "severity": "blocking",
+      "planned_check": "typed_field_and_fact_comparison"
+    },
+    {
+      "rule_id": "EVIDENCE-VALID-SOURCE-ID",
+      "category": "system_integrity",
+      "basis_kind": "project_checklist",
+      "scope": {"workflows": ["alibaba_rfq", "amazon_listing"]},
+      "field_paths": ["source_ids", "risks[].source_ids", "content.claim_sources"],
+      "constraint": {"source_must_exist_and_be_used_in_this_run": true},
+      "source_ids": ["SRC-PROJECT-EVIDENCE-POLICY"],
+      "severity": "blocking",
+      "planned_check": "source_id_allowlist"
+    },
+    {
+      "rule_id": "RULE-APPLICABILITY-COVERAGE",
+      "category": "system_integrity",
+      "basis_kind": "project_checklist",
+      "scope": {"workflows": ["alibaba_rfq", "amazon_listing"]},
+      "field_paths": ["market", "product_type", "rule_set_version", "status"],
+      "constraint": {"uncovered_or_failed_checks_prevent_pass_status": true},
+      "source_ids": ["SRC-PROJECT-EVIDENCE-POLICY"],
+      "severity": "needs_confirmation",
+      "planned_check": "scope_and_execution_status_checks"
+    }
+  ],
+  "source_resolution": {
+    "SRC-DEMO-BUSINESS": "demo-business-fixtures.json#source_id",
+    "product_fact_sources": "public-product-facts.json#sources"
+  },
+  "coverage_limits": [
+    "未覆盖全部 Amazon 品类属性、图片规范、品牌授权、商品准入、税务或国家认证要求。",
+    "tote_bag_demo 是应用内场景标识，不冒充 SP-API Product Type Definitions 的正式类型标识。",
+    "阿里 RFQ 来源是商务写作指导，不构成完整现行平台规则清单。",
+    "合同条款检查使用本项目公开声明的审阅清单，不输出法律有效性结论。",
+    "两个平台的规则检查仍只算平台规则一类；本方案另以报价及交易条款检查覆盖第二类。"
+  ]
+}

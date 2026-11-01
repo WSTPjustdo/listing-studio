@@ -1,0 +1,824 @@
+[
+  {
+    "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+    "version": 2,
+    "parent_version": 1,
+    "workflow": "listing_create",
+    "operation": "revise",
+    "product_ref": "AMAZON-US-B0732NPDRB@2",
+    "product_snapshot": {
+      "product_id": "AMAZON-US-B0732NPDRB",
+      "revision": 2,
+      "name_zh": "DALIX · 22\" Heavy Duty Cotton Canvas Tote Bag (Zippered)",
+      "is_demo": false,
+      "reference_product_id": "B0732NPDRB",
+      "application_product_type": "tote_bag_demo",
+      "material": {
+        "value": "100% cotton canvas",
+        "status": "merchant_confirmed",
+        "source_ids": [
+          "LOCAL-MERCHANT-INPUT"
+        ]
+      },
+      "dimensions_cm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "fabric_weight_gsm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "capacity_l": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "handle_length_cm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "retail_pack_count": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "brand": {
+        "value": "DALIX",
+        "status": "amazon_listing_claim",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      "color": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "rated_load_kg": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "additional_facts": [],
+      "amazon": {
+        "asin": "B0732NPDRB",
+        "url": "https://www.amazon.com/dp/B0732NPDRB",
+        "title": "22\" Heavy Duty Cotton Canvas Tote Bag (Zippered)",
+        "brand": "DALIX",
+        "color": null,
+        "material": null,
+        "pack_count": null,
+        "fabric_weight_gsm": null,
+        "facts": [],
+        "availability": "in_stock_observed",
+        "availability_text": "In Stock",
+        "checked_at": "2026-10-23T13:25:29.238Z",
+        "retrieval": "direct_http",
+        "freshness": "实时读取时的页面观察；库存随地址和时间变化",
+        "import_mode": "live",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      "degradation_evidence": [],
+      "certification_evidence": [],
+      "performance_evidence": [],
+      "publication_readiness": "not_verified"
+    },
+    "competitor_research": null,
+    "content_brief": {
+      "audience": "日常购物用户",
+      "use_case": "日常携带",
+      "concern": "尺寸与使用便利",
+      "style": "简洁自然"
+    },
+    "marketplace": "US",
+    "locale": "en-US",
+    "rule_pack_version": "amazon-us-tote-2026-10-23.merchant-v6",
+    "content": {
+      "title": "DALIX Cotton Canvas Tote Bag with Zipper",
+      "item_highlights": "Cotton canvas tote with a zippered top for everyday shopping and carrying",
+      "bullet_points": [
+        {
+          "id": "b1",
+          "text": "100% cotton canvas: The bag is made from 100% cotton canvas."
+        },
+        {
+          "id": "b2",
+          "text": "Zippered top: A zipper closure runs along the top of the bag."
+        },
+        {
+          "id": "b3",
+          "text": "Everyday carry: A simple tote for shopping, errands and daily use."
+        },
+        {
+          "id": "b4",
+          "text": "DALIX tote: A cotton canvas tote bag from DALIX."
+        },
+        {
+          "id": "b5",
+          "text": "Easy to use: Open the zippered top to load the bag and close it when you carry it."
+        }
+      ],
+      "description": "The DALIX Cotton Canvas Tote Bag is made from 100% cotton canvas and has a zippered top. It is a simple, practical bag for everyday shopping, errands and carrying your items."
+    },
+    "review": {
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "DALIX Cotton Canvas Tote Bag with Zipper",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "DALIX",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-500642b57210"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@2",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 5,
+              "original": "DALIX",
+              "field": "brand",
+              "parsed_value": "DALIX",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-500642b57210"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "DALIX",
+              "value": "DALIX",
+              "fact_status": "amazon_listing_claim"
+            },
+            {
+              "start": 6,
+              "end": 12,
+              "original": "Cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.item_highlights",
+          "claim": "Cotton canvas tote with a zippered top for everyday shopping and carrying",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@2",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 6,
+              "original": "Cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b1",
+          "claim": "100% cotton canvas: The bag is made from 100% cotton canvas.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@2",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 41,
+              "end": 52,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b4",
+          "claim": "DALIX tote: A cotton canvas tote bag from DALIX.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "DALIX",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-500642b57210"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@2",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 5,
+              "original": "DALIX",
+              "field": "brand",
+              "parsed_value": "DALIX",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-500642b57210"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "DALIX",
+              "value": "DALIX",
+              "fact_status": "amazon_listing_claim"
+            },
+            {
+              "start": 14,
+              "end": 20,
+              "original": "cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 42,
+              "end": 47,
+              "original": "DALIX",
+              "field": "brand",
+              "parsed_value": "DALIX",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-500642b57210"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "DALIX",
+              "value": "DALIX",
+              "fact_status": "amazon_listing_claim"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.description",
+          "claim": "The DALIX Cotton Canvas Tote Bag is made from 100% cotton canvas and has a zippered top.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "DALIX",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-500642b57210"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": true,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@2",
+          "parameter_links": [
+            {
+              "start": 4,
+              "end": 9,
+              "original": "DALIX",
+              "field": "brand",
+              "parsed_value": "DALIX",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-500642b57210"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "DALIX",
+              "value": "DALIX",
+              "fact_status": "amazon_listing_claim"
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "original": "Cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 46,
+              "end": 57,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "LOCAL-MERCHANT-INPUT"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@2",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ],
+      "issues": [],
+      "checks": [
+        {
+          "rule_id": "AMZ-01",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        },
+        {
+          "rule_id": "AMZ-02",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        },
+        {
+          "rule_id": "AMZ-03",
+          "state": "pass",
+          "reason": "标题、亮点、五点描述与商品描述中未发现邮箱、电话、卖家地址或网址。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "AMZ-04",
+          "state": "pass",
+          "reason": "文案中未出现价格、库存、商品状况或替代配送等交易信息。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "AMZ-05",
+          "state": "pass",
+          "reason": "材质“100% cotton canvas”与结构化事实一致；拉链顶部与品牌 DALIX 有商品页披露支持；未出现尺寸、容量、承重等未知参数。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "US-01",
+          "state": "pass",
+          "reason": "文案未出现环保、可回收、可持续等宽泛环保宣称。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "US-02",
+          "state": "pass",
+          "reason": "文案未出现降解时间或降解条件宣称。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "US-03",
+          "state": "pass",
+          "reason": "文案未出现认证、检测或承重等客观性能宣称。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "FACT-01",
+          "state": "pass",
+          "reason": "文案未涉及容量、承重、面料克重或单位重量，不存在属性与单位混淆。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "FACT-02",
+          "state": "pass",
+          "reason": "文案未提及零售包装件数。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "EVID-01",
+          "state": "pass",
+          "method": "deterministic_structured_facts",
+          "reason": "仅对照可识别的商品参数与记录来源；整句语义、适用条件及宣称由其他语义检查审阅。"
+        },
+        {
+          "rule_id": "SYS-01",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        },
+        {
+          "rule_id": "SYS-02",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        }
+      ],
+      "status": "reviewed_within_scope",
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "coverage": {
+        "total": 13,
+        "completed": 13,
+        "failed": 0,
+        "pending": 0
+      },
+      "publication_readiness": "not_verified",
+      "consistency_check": {
+        "state": "baseline",
+        "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+      }
+    },
+    "product_change": null,
+    "claim_map": [
+      {
+        "field_path": "content.title",
+        "claim": "DALIX",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      {
+        "field_path": "content.title",
+        "claim": "Cotton Canvas Tote Bag with Zipper",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      {
+        "field_path": "content.item_highlights",
+        "claim": "Cotton canvas tote with a zippered top",
+        "source_ids": [
+          "LOCAL-MERCHANT-INPUT",
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      {
+        "field_path": "content.bullet_points.b1",
+        "claim": "100% cotton canvas",
+        "source_ids": [
+          "LOCAL-MERCHANT-INPUT"
+        ]
+      },
+      {
+        "field_path": "content.bullet_points.b2",
+        "claim": "A zipper closure runs along the top of the bag.",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      {
+        "field_path": "content.bullet_points.b4",
+        "claim": "A cotton canvas tote bag from DALIX.",
+        "source_ids": [
+          "LOCAL-MERCHANT-INPUT",
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      {
+        "field_path": "content.description",
+        "claim": "made from 100% cotton canvas",
+        "source_ids": [
+          "LOCAL-MERCHANT-INPUT"
+        ]
+      },
+      {
+        "field_path": "content.description",
+        "claim": "has a zippered top",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      }
+    ],
+    "patches": [],
+    "repair_warnings": [],
+    "run_id": "run-eb959fb1-60d8-45b1-a9a4-0866703de253",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "537f0247-a6d8-4d93-9d71-f67156fc9733",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6385,
+      "usage": {
+        "prompt_tokens": 4605,
+        "completion_tokens": 790,
+        "total_tokens": 5395,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3197
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "1cde1077-c6e7-48c1-a65e-71c5b09398b9",
+          "model": "deepseek-flash",
+          "elapsed_ms": 2413,
+          "usage": {
+            "prompt_tokens": 4854,
+            "completion_tokens": 217,
+            "total_tokens": 5071,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 3958
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "537f0247-a6d8-4d93-9d71-f67156fc9733",
+          "model": "deepseek-flash",
+          "elapsed_ms": 3972,
+          "usage": {
+            "prompt_tokens": 4605,
+            "completion_tokens": 790,
+            "total_tokens": 5395,
+            "prompt_tokens_details": {
+              "cached_tokens": 1408
+            },
+            "prompt_cache_hit_tokens": 1408,
+            "prompt_cache_miss_tokens": 3197
+          }
+        }
+      ],
+      "prompt_version": "2026-10-23.parameters-v7",
+      "parameter_link_version": "structured-parameters-v1",
+      "audit_input_hash": "37cb6939b0f50a7ec874da5f222f9edcc8570bf36a69e8eca2734e4146bee1e8",
+      "rule_selection": "structured_scope_selection",
+      "source_ids": [
+        "AMZS-TITLE-2026",
+        "AMZS-DETAIL-US",
+        "FTCS-GREEN-SUMMARY",
+        "FTCS-AD-SUBSTANTIATION",
+        "FTCS-GUIDE-STATUS",
+        "FTCS-GUIDE-REGISTER",
+        "PROJECT-AMAZON-QUALITY",
+        "LOCAL-MERCHANT-INPUT",
+        "AMZ-PAGE-B0732NPDRB-500642b57210"
+      ]
+    },
+    "instruction": "Rewrite this listing in concise, natural US English for everyday shoppers. Use only DALIX, 100% cotton canvas and the zippered top supported by the current product record and imported title. Do not add facts from memory. Remove all 22-inch measurements because the structured dimensions are unconfirmed. Do not use heavy duty, durable, secure, roomy, waterproof, washable, organic, eco-friendly or similar unsupported performance claims. Omit color, pack count, capacity, weight, handle measurements, country of origin, certifications, price, inventory and seller SKU. Do not add an exterior pocket because it has not been saved as a verified fact in this workspace. Return one title under 100 characters, a short highlights line, five distinct bullet points, and a description under 70 words. Use plain sentence case and avoid keyword repetition. Keep missing-data notes outside customer-facing copy. Preserve all confirmed facts; do not manufacture new facts merely to fill five bullets.",
+    "created_at": "2026-10-23T15:16:30.649Z",
+    "is_demo": false,
+    "changes": [
+      {
+        "field_path": "content.title",
+        "before": "DALIX 22\" Cotton Canvas Tote Bag with Zipper",
+        "after": "DALIX Cotton Canvas Tote Bag with Zipper"
+      },
+      {
+        "field_path": "content.item_highlights",
+        "before": "22\" cotton canvas tote with a zippered top for everyday shopping and carrying",
+        "after": "Cotton canvas tote with a zippered top for everyday shopping and carrying"
+      },
+      {
+        "field_path": "content.bullet_points.b1",
+        "before": "100% COTTON CANVAS: Made from 100% cotton canvas for a sturdy, everyday tote.",
+        "after": "100% cotton canvas: The bag is made from 100% cotton canvas."
+      },
+      {
+        "field_path": "content.bullet_points.b2",
+        "before": "ZIPPERED TOP: The zippered closure helps keep your items contained while you carry them.",
+        "after": "Zippered top: A zipper closure runs along the top of the bag."
+      },
+      {
+        "field_path": "content.bullet_points.b3",
+        "before": "22-INCH SIZE: A 22\" tote bag that offers roomy space for daily shopping and errands.",
+        "after": "Everyday carry: A simple tote for shopping, errands and daily use."
+      },
+      {
+        "field_path": "content.bullet_points.b4",
+        "before": "EVERYDAY CARRY: Simple, practical design that suits grocery runs, errands and daily use.",
+        "after": "DALIX tote: A cotton canvas tote bag from DALIX."
+      },
+      {
+        "field_path": "content.bullet_points.b5",
+        "before": "DALIX TOTE: A cotton canvas tote bag from DALIX, made for everyday carrying.",
+        "after": "Easy to use: Open the zippered top to load the bag and close it when you carry it."
+      },
+      {
+        "field_path": "content.description",
+        "before": "The DALIX 22\" Heavy Duty Cotton Canvas Tote Bag is made from 100% cotton canvas and features a zippered top. At 22 inches, it offers roomy space for everyday shopping and carrying, with a simple design that fits daily errands.",
+        "after": "The DALIX Cotton Canvas Tote Bag is made from 100% cotton canvas and has a zippered top. It is a simple, practical bag for everyday shopping, errands and carrying your items."
+      }
+    ],
+    "risk_changes": {
+      "resolved": [
+        {
+          "issue_id": "ec1adc93bf9f2f",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "商品参数与来源对照",
+          "severity": "needs_review",
+          "field_path": "content.title",
+          "original": "DALIX 22\" Cotton Canvas Tote Bag with Zipper",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "91b37b04e580a2",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "商品参数与来源对照",
+          "severity": "needs_review",
+          "field_path": "content.item_highlights",
+          "original": "22\" cotton canvas tote with a zippered top for everyday shopping and carrying",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "d1480241933a7d",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "商品参数与来源对照",
+          "severity": "needs_review",
+          "field_path": "content.bullet_points.b3",
+          "original": "22-INCH SIZE: A 22\" tote bag that offers roomy space for daily shopping and errands.",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。；22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "89449eae74840a",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "商品参数与来源对照",
+          "severity": "needs_review",
+          "field_path": "content.description",
+          "original": "The DALIX 22\" Heavy Duty Cotton Canvas Tote Bag is made from 100% cotton canvas and features a zippered top.",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        },
+        {
+          "issue_id": "92c8d778db404f",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "商品参数与来源对照",
+          "severity": "needs_review",
+          "field_path": "content.description",
+          "original": "At 22 inches, it offers roomy space for everyday shopping and carrying, with a simple design that fits daily errands.",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        }
+      ],
+      "remaining": [],
+      "added": []
+    }
+  }
+]

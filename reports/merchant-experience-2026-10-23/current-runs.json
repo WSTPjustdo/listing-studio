@@ -1,0 +1,142 @@
+[
+  {
+    "run_id": "run-eb959fb1-60d8-45b1-a9a4-0866703de253",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-23T15:16:24.186Z",
+    "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "86db7c2f-b0d1-4602-9993-07feb28d0f0f",
+    "product_ref": "AMAZON-US-B0732NPDRB@2",
+    "started_at": "2026-10-23T15:16:24.194Z",
+    "finished_at": "2026-10-23T15:16:30.649Z",
+    "elapsed_ms": 6460,
+    "version": 2,
+    "provider_request_id": "537f0247-a6d8-4d93-9d71-f67156fc9733",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "537f0247-a6d8-4d93-9d71-f67156fc9733",
+      "model": "deepseek-flash",
+      "elapsed_ms": 6385,
+      "usage": {
+        "prompt_tokens": 4605,
+        "completion_tokens": 790,
+        "total_tokens": 5395,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3197
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "1cde1077-c6e7-48c1-a65e-71c5b09398b9",
+          "model": "deepseek-flash",
+          "elapsed_ms": 2413,
+          "usage": {
+            "prompt_tokens": 4854,
+            "completion_tokens": 217,
+            "total_tokens": 5071,
+            "prompt_tokens_details": {
+              "cached_tokens": 896
+            },
+            "prompt_cache_hit_tokens": 896,
+            "prompt_cache_miss_tokens": 3958
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "537f0247-a6d8-4d93-9d71-f67156fc9733",
+          "model": "deepseek-flash",
+          "elapsed_ms": 3972,
+          "usage": {
+            "prompt_tokens": 4605,
+            "completion_tokens": 790,
+            "total_tokens": 5395,
+            "prompt_tokens_details": {
+              "cached_tokens": 1408
+            },
+            "prompt_cache_hit_tokens": 1408,
+            "prompt_cache_miss_tokens": 3197
+          }
+        }
+      ]
+    }
+  },
+  {
+    "run_id": "run-c767cf88-688c-4f14-97ce-7fdf7252a440",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-23T13:38:50.960Z",
+    "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+    "operation": "create",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "86ecedee-7012-45d9-a8f8-e0dec13b16a9",
+    "product_ref": "AMAZON-US-B0732NPDRB@2",
+    "started_at": "2026-10-23T13:38:50.965Z",
+    "finished_at": "2026-10-23T13:38:58.400Z",
+    "elapsed_ms": 7438,
+    "version": 1,
+    "provider_request_id": "b0f5a5ae-3ddb-492b-a719-30ea935e0dbe",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "b0f5a5ae-3ddb-492b-a719-30ea935e0dbe",
+      "model": "deepseek-flash",
+      "elapsed_ms": 7405,
+      "usage": {
+        "prompt_tokens": 4647,
+        "completion_tokens": 976,
+        "total_tokens": 5623,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3879
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "d042cac7-9d9c-4f65-9ff4-fc3fd59b3ca4",
+          "model": "deepseek-flash",
+          "elapsed_ms": 2481,
+          "usage": {
+            "prompt_tokens": 4447,
+            "completion_tokens": 259,
+            "total_tokens": 4706,
+            "prompt_tokens_details": {
+              "cached_tokens": 768
+            },
+            "prompt_cache_hit_tokens": 768,
+            "prompt_cache_miss_tokens": 3679
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "b0f5a5ae-3ddb-492b-a719-30ea935e0dbe",
+          "model": "deepseek-flash",
+          "elapsed_ms": 4924,
+          "usage": {
+            "prompt_tokens": 4647,
+            "completion_tokens": 976,
+            "total_tokens": 5623,
+            "prompt_tokens_details": {
+              "cached_tokens": 768
+            },
+            "prompt_cache_hit_tokens": 768,
+            "prompt_cache_miss_tokens": 3879
+          }
+        }
+      ]
+    }
+  }
+]

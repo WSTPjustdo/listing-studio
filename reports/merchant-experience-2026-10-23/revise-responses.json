@@ -1,0 +1,19 @@
+[
+  {
+    "url": "http://127.0.0.1:8787/api/listings/listing-55f336f5-f8b6-435c-b240-ad75986aa8bc/revisions",
+    "status": 202,
+    "at": "2026-10-23T15:16:24.209Z",
+    "body": {
+      "run_id": "run-eb959fb1-60d8-45b1-a9a4-0866703de253",
+      "status": "queued",
+      "stage": "等待处理",
+      "created_at": "2026-10-23T15:16:24.186Z",
+      "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+      "operation": "revise",
+      "provider": "compatible",
+      "actual_model_call": false,
+      "request_id": "86db7c2f-b0d1-4602-9993-07feb28d0f0f",
+      "product_ref": "AMAZON-US-B0732NPDRB@2"
+    }
+  }
+]

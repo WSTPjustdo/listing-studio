@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-10-31T06:21:10.103Z",
+  "base": "http://127.0.0.1:8787",
+  "scope": "Read-only layout and navigation on real workbench; no synthetic products, no model calls.",
+  "checks": [
+    {
+      "name": "desktop_collapsed",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 60,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 52,
+        "sidebarRight": 60
+      }
+    },
+    {
+      "name": "desktop_expanded",
+      "passed": false,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 78.0735,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200
+      }
+    }
+  ],
+  "note": "First expanded assertion sampled main margin during its 280ms transition; final checks wait for both sidebar width and main margin.",
+  "completed_at": "2026-10-31T06:24:36.980Z"
+}

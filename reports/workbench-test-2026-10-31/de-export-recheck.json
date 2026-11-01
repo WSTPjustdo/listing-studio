@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-31T03:49:23.552Z",
+  "marketplace": "DE",
+  "listing_id": "listing-2ce3c54d-b78a-49f1-828d-774fdd3bf551",
+  "version": 1,
+  "paid_model_calls": 0,
+  "checks": [
+    {
+      "format": "json",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "format": "txt",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "format": "html",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "format": "copy",
+      "status": 200,
+      "passed": true
+    }
+  ],
+  "benchmark": {
+    "supported": false,
+    "marketplace": "DE",
+    "language": "de",
+    "baseline": null,
+    "attention": 0,
+    "facts": [],
+    "notice": "当前站点及文案语言暂无匹配的历史聚合基线，暂不提供写法对照建议。"
+  }
+}

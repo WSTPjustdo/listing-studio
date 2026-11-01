@@ -1,0 +1,86 @@
+{
+  "model": "deepseek-flash",
+  "total_tokens": 20795,
+  "total_model_elapsed_ms": 13790,
+  "calls": [
+    {
+      "version": 1,
+      "stage": "生成",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "d042cac7-9d9c-4f65-9ff4-fc3fd59b3ca4",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2481,
+      "usage": {
+        "prompt_tokens": 4447,
+        "completion_tokens": 259,
+        "total_tokens": 4706,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3679
+      }
+    },
+    {
+      "version": 1,
+      "stage": "独立审阅",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "b0f5a5ae-3ddb-492b-a719-30ea935e0dbe",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4924,
+      "usage": {
+        "prompt_tokens": 4647,
+        "completion_tokens": 976,
+        "total_tokens": 5623,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3879
+      }
+    },
+    {
+      "version": 2,
+      "stage": "改写",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "1cde1077-c6e7-48c1-a65e-71c5b09398b9",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2413,
+      "usage": {
+        "prompt_tokens": 4854,
+        "completion_tokens": 217,
+        "total_tokens": 5071,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "prompt_cache_hit_tokens": 896,
+        "prompt_cache_miss_tokens": 3958
+      }
+    },
+    {
+      "version": 2,
+      "stage": "独立审阅",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "537f0247-a6d8-4d93-9d71-f67156fc9733",
+      "model": "deepseek-flash",
+      "elapsed_ms": 3972,
+      "usage": {
+        "prompt_tokens": 4605,
+        "completion_tokens": 790,
+        "total_tokens": 5395,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3197
+      }
+    }
+  ],
+  "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+  "publication_readiness": "not_verified",
+  "app_code_changed": false
+}

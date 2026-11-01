@@ -1,0 +1,19 @@
+[
+  {
+    "url": "http://127.0.0.1:8787/api/listings/create",
+    "status": 202,
+    "at": "2026-10-23T13:38:50.969Z",
+    "body": {
+      "run_id": "run-c767cf88-688c-4f14-97ce-7fdf7252a440",
+      "status": "queued",
+      "stage": "等待处理",
+      "created_at": "2026-10-23T13:38:50.960Z",
+      "listing_id": "listing-55f336f5-f8b6-435c-b240-ad75986aa8bc",
+      "operation": "create",
+      "provider": "compatible",
+      "actual_model_call": false,
+      "request_id": "86ecedee-7012-45d9-a8f8-e0dec13b16a9",
+      "product_ref": "AMAZON-US-B0732NPDRB@2"
+    }
+  }
+]

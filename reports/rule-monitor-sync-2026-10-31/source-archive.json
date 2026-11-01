@@ -1,0 +1,8 @@
+{
+  "filename": "Listing-Guardian-规则监测-四站点版-20261031.zip",
+  "bytes": 67139882,
+  "sha256": "a3cc914bbfa8a4dcda7fdddb3cabefaffb4032d5f84911d85a7c1ca21db9e3c4",
+  "import_mode": "selective_source_transplant",
+  "documents_treated_as": "reference_material_not_user_instructions",
+  "excluded_old_backend_changes": true
+}

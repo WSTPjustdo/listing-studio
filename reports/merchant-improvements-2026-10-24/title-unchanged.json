@@ -1,0 +1,1100 @@
+{
+  "started_at": "2026-10-24T02:24:57.372Z",
+  "checks": [
+    "original_v1_five_findings_grouped_and_expandable"
+  ],
+  "run": {
+    "run_id": "run-d202fa81-5fe2-4c5c-9ff2-15c3378117d6",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:24:59.059Z",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": "547e05c2-d5f2-4eed-88e5-5f16969292a5",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "started_at": "2026-10-24T02:24:59.065Z",
+    "finished_at": "2026-10-24T02:25:08.261Z",
+    "elapsed_ms": 9200,
+    "version": 3,
+    "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+    "trace": {
+      "output_mode": "audit_only_format_retry",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 9014,
+      "usage": {
+        "prompt_tokens": 7049,
+        "completion_tokens": 483,
+        "total_tokens": 7532,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6281
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": true,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "d6277f21-fb76-4546-b30b-1a2e2edac851",
+            "model": "deepseek-flash",
+            "elapsed_ms": 4883,
+            "usage": {
+              "prompt_tokens": 6964,
+              "completion_tokens": 1237,
+              "total_tokens": 8201,
+              "prompt_tokens_details": {
+                "cached_tokens": 6784
+              },
+              "prompt_cache_hit_tokens": 6784,
+              "prompt_cache_miss_tokens": 180
+            }
+          }
+        }
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "9f27f38b-c8e1-47ad-897f-e0d3222e4985",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1537,
+          "usage": {
+            "prompt_tokens": 7032,
+            "completion_tokens": 229,
+            "total_tokens": 7261,
+            "prompt_tokens_details": {
+              "cached_tokens": 6784
+            },
+            "prompt_cache_hit_tokens": 6784,
+            "prompt_cache_miss_tokens": 248
+          }
+        },
+        {
+          "output_mode": "audit_only_format_retry",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+          "model": "deepseek-flash",
+          "elapsed_ms": 7477,
+          "usage": {
+            "prompt_tokens": 7049,
+            "completion_tokens": 483,
+            "total_tokens": 7532,
+            "prompt_tokens_details": {
+              "cached_tokens": 768
+            },
+            "prompt_cache_hit_tokens": 768,
+            "prompt_cache_miss_tokens": 6281
+          },
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "d6277f21-fb76-4546-b30b-1a2e2edac851",
+                "model": "deepseek-flash",
+                "elapsed_ms": 4883,
+                "usage": {
+                  "prompt_tokens": 6964,
+                  "completion_tokens": 1237,
+                  "total_tokens": 8201,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 6784
+                  },
+                  "prompt_cache_hit_tokens": 6784,
+                  "prompt_cache_miss_tokens": 180
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "record": {
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "version": 3,
+    "parent_version": 2,
+    "workflow": "listing_create",
+    "operation": "revise",
+    "product_ref": "AMAZON-US-B0732NPDRB@4",
+    "product_snapshot": {
+      "product_id": "AMAZON-US-B0732NPDRB",
+      "revision": 4,
+      "name_zh": "DALIX · 22\" Heavy Duty Cotton Canvas Tote Bag (Zippered)",
+      "is_demo": false,
+      "reference_product_id": "B0732NPDRB",
+      "application_product_type": "tote_bag_demo",
+      "material": {
+        "value": "100% cotton canvas",
+        "status": "merchant_confirmed",
+        "source_ids": [
+          "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+        ]
+      },
+      "dimensions_cm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "fabric_weight_gsm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "capacity_l": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "handle_length_cm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "retail_pack_count": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "brand": {
+        "value": "DALIX",
+        "status": "amazon_listing_claim",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-5be602c5cfce"
+        ]
+      },
+      "color": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "rated_load_kg": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "additional_facts": [
+        {
+          "id": "fact-53069f46-4e20-4d63-a359-c9bdb3342452",
+          "label": "Original dimensions",
+          "value": "22\" X 16\" X 6\"",
+          "status": "merchant_confirmed",
+          "source_ids": [
+            "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+          ],
+          "source": {
+            "url": "https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag",
+            "publisher": "DALIX",
+            "applicable_model": "DALIX 22 inch zippered tote; color and retail pack not verified",
+            "excerpt": "22\" X 16\" X 6\"; Outer Pocket; Top Zipper Closure",
+            "source_id": "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e",
+            "recorded_at": "2026-10-24T02:17:19.064Z",
+            "value": "22\" X 16\" X 6\"",
+            "field": "additional_facts.fact-53069f46-4e20-4d63-a359-c9bdb3342452",
+            "product_ref": "AMAZON-US-B0732NPDRB@4"
+          }
+        },
+        {
+          "id": "fact-417847f9-b978-4331-aaf0-d5e989ef5625",
+          "label": "Closure",
+          "value": "Top Zipper Closure",
+          "status": "merchant_confirmed",
+          "source_ids": [
+            "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a"
+          ],
+          "source": {
+            "url": "https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag",
+            "publisher": "DALIX",
+            "applicable_model": "DALIX 22 inch zippered tote; color and retail pack not verified",
+            "excerpt": "22\" X 16\" X 6\"; Outer Pocket; Top Zipper Closure",
+            "source_id": "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a",
+            "recorded_at": "2026-10-24T02:17:19.064Z",
+            "value": "Top Zipper Closure",
+            "field": "additional_facts.fact-417847f9-b978-4331-aaf0-d5e989ef5625",
+            "product_ref": "AMAZON-US-B0732NPDRB@4"
+          }
+        },
+        {
+          "id": "fact-89dc394d-a664-40c5-9808-ec605a26eb38",
+          "label": "Pocket",
+          "value": "Outer Pocket",
+          "status": "merchant_confirmed",
+          "source_ids": [
+            "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+          ],
+          "source": {
+            "url": "https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag",
+            "publisher": "DALIX",
+            "applicable_model": "DALIX 22 inch zippered tote; color and retail pack not verified",
+            "excerpt": "22\" X 16\" X 6\"; Outer Pocket; Top Zipper Closure",
+            "source_id": "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b",
+            "recorded_at": "2026-10-24T02:17:19.064Z",
+            "value": "Outer Pocket",
+            "field": "additional_facts.fact-89dc394d-a664-40c5-9808-ec605a26eb38",
+            "product_ref": "AMAZON-US-B0732NPDRB@4"
+          }
+        }
+      ],
+      "amazon": {
+        "asin": "B0732NPDRB",
+        "url": "https://www.amazon.com/dp/B0732NPDRB",
+        "title": "22\" Heavy Duty Cotton Canvas Tote Bag (Zippered)",
+        "brand": "DALIX",
+        "color": null,
+        "material": null,
+        "pack_count": null,
+        "fabric_weight_gsm": null,
+        "facts": [],
+        "availability": "in_stock_observed",
+        "availability_text": "In Stock",
+        "checked_at": "2026-10-24T02:17:17.457Z",
+        "retrieval": "direct_http",
+        "freshness": "实时读取时的页面观察；库存随地址和时间变化",
+        "import_mode": "live",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-5be602c5cfce"
+        ]
+      },
+      "degradation_evidence": [],
+      "certification_evidence": [],
+      "performance_evidence": [],
+      "publication_readiness": "not_verified",
+      "fact_sources": {
+        "material": {
+          "url": "https://www.dalix.com/products/heavy-duty-cotton-canvas-tote-bag",
+          "publisher": "DALIX",
+          "applicable_model": "DALIX 22 inch zippered tote; color and retail pack not verified",
+          "excerpt": "12. Oz, 100% Cotton Canvas",
+          "source_id": "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48",
+          "recorded_at": "2026-10-24T02:17:19.064Z",
+          "value": "100% cotton canvas",
+          "field": "material",
+          "product_ref": "AMAZON-US-B0732NPDRB@4"
+        }
+      }
+    },
+    "competitor_research": null,
+    "content_brief": {
+      "audience": "日常购物用户",
+      "use_case": "日常携带",
+      "concern": "尺寸与使用便利",
+      "style": "简洁自然"
+    },
+    "marketplace": "US",
+    "locale": "en-US",
+    "rule_pack_version": "amazon-us-tote-2026-10-23.merchant-v6",
+    "content": {
+      "title": "DALIX 22\" Cotton Canvas Tote Bag with Zipper",
+      "item_highlights": "100% cotton canvas tote with a top zipper and an outer pocket; measures 22\" X 16\" X 6\".",
+      "bullet_points": [
+        {
+          "id": "b1",
+          "text": "100% cotton canvas construction for an everyday carry tote."
+        },
+        {
+          "id": "b2",
+          "text": "Top zipper closure helps keep the main compartment covered when you're on the go."
+        },
+        {
+          "id": "b3",
+          "text": "Outer pocket gives you a separate spot for small items you want within reach."
+        },
+        {
+          "id": "b4",
+          "text": "Measures 22\" X 16\" X 6\", so you can picture how it fits your daily routine."
+        }
+      ],
+      "description": "The DALIX cotton canvas tote is a simple everyday carry option made from 100% cotton canvas. It measures 22\" X 16\" X 6\" and has a top zipper closure plus an outer pocket for small items you want close at hand. A straightforward choice for daily errands and everyday carrying."
+    },
+    "review": {
+      "evidence": [
+        {
+          "field_path": "content.title",
+          "claim": "DALIX 22\" Cotton Canvas Tote Bag with Zipper",
+          "state": "needs_evidence",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "DALIX",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-5be602c5cfce"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ]
+            }
+          ],
+          "mapped": false,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 5,
+              "original": "DALIX",
+              "field": "brand",
+              "parsed_value": "DALIX",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-5be602c5cfce"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "DALIX",
+              "value": "DALIX",
+              "fact_status": "amazon_listing_claim"
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "original": "Cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [
+            {
+              "start": 6,
+              "end": 8,
+              "original": "22",
+              "field": "unclassified_parameter",
+              "parsed_value": "22",
+              "method": "unclassified_number",
+              "status": "needs_review",
+              "reason": "数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+              "source_ids": [],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": null
+            }
+          ],
+          "semantic_status": "separate_review_required",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+        },
+        {
+          "field_path": "content.item_highlights",
+          "claim": "100% cotton canvas tote with a top zipper and an outer pocket; measures 22\" X 16\" X 6\".",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ]
+            },
+            {
+              "field": "additional_facts.2",
+              "value": "Outer Pocket",
+              "source_ids": [
+                "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+              ]
+            },
+            {
+              "field": "additional_facts.0",
+              "value": "22\" X 16\" X 6\"",
+              "source_ids": [
+                "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 49,
+              "end": 61,
+              "original": "outer pocket",
+              "field": "additional_facts.2",
+              "parsed_value": "Outer Pocket",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "Outer Pocket",
+              "value": "Outer Pocket",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 72,
+              "end": 86,
+              "original": "22\" X 16\" X 6\"",
+              "field": "additional_facts.0",
+              "parsed_value": "22\" X 16\" X 6\"",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "22\" X 16\" X 6\"",
+              "value": "22\" X 16\" X 6\"",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b1",
+          "claim": "100% cotton canvas construction for an everyday carry tote.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 11,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b2",
+          "claim": "Top zipper closure helps keep the main compartment covered when you're on the go.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "additional_facts.1",
+              "value": "Top Zipper Closure",
+              "source_ids": [
+                "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 18,
+              "original": "Top zipper closure",
+              "field": "additional_facts.1",
+              "parsed_value": "Top Zipper Closure",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "Top Zipper Closure",
+              "value": "Top Zipper Closure",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b3",
+          "claim": "Outer pocket gives you a separate spot for small items you want within reach.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "additional_facts.2",
+              "value": "Outer Pocket",
+              "source_ids": [
+                "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 0,
+              "end": 12,
+              "original": "Outer pocket",
+              "field": "additional_facts.2",
+              "parsed_value": "Outer Pocket",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "Outer Pocket",
+              "value": "Outer Pocket",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.bullet_points.b4",
+          "claim": "Measures 22\" X 16\" X 6\", so you can picture how it fits your daily routine.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "additional_facts.0",
+              "value": "22\" X 16\" X 6\"",
+              "source_ids": [
+                "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 9,
+              "end": 23,
+              "original": "22\" X 16\" X 6\"",
+              "field": "additional_facts.0",
+              "parsed_value": "22\" X 16\" X 6\"",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "22\" X 16\" X 6\"",
+              "value": "22\" X 16\" X 6\"",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.description",
+          "claim": "The DALIX cotton canvas tote is a simple everyday carry option made from 100% cotton canvas.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "brand",
+              "value": "DALIX",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-5be602c5cfce"
+              ]
+            },
+            {
+              "field": "material",
+              "value": "100% cotton canvas",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 4,
+              "end": 9,
+              "original": "DALIX",
+              "field": "brand",
+              "parsed_value": "DALIX",
+              "method": "exact_fact_text",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "AMZ-PAGE-B0732NPDRB-5be602c5cfce"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "DALIX",
+              "value": "DALIX",
+              "fact_status": "amazon_listing_claim"
+            },
+            {
+              "start": 10,
+              "end": 16,
+              "original": "cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_presence_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 73,
+              "end": 84,
+              "original": "100% cotton",
+              "field": "material",
+              "parsed_value": "100% cotton canvas",
+              "method": "material_percentage",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "100% cotton canvas",
+              "value": "100% cotton canvas",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        },
+        {
+          "field_path": "content.description",
+          "claim": "It measures 22\" X 16\" X 6\" and has a top zipper closure plus an outer pocket for small items you want close at hand.",
+          "state": "parameters_aligned",
+          "facts": [
+            {
+              "field": "additional_facts.0",
+              "value": "22\" X 16\" X 6\"",
+              "source_ids": [
+                "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+              ]
+            },
+            {
+              "field": "additional_facts.1",
+              "value": "Top Zipper Closure",
+              "source_ids": [
+                "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a"
+              ]
+            },
+            {
+              "field": "additional_facts.2",
+              "value": "Outer Pocket",
+              "source_ids": [
+                "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+              ]
+            }
+          ],
+          "mapped": true,
+          "model_mapped": false,
+          "association_method": "structured-parameters-v1",
+          "product_ref": "AMAZON-US-B0732NPDRB@4",
+          "parameter_links": [
+            {
+              "start": 12,
+              "end": 26,
+              "original": "22\" X 16\" X 6\"",
+              "field": "additional_facts.0",
+              "parsed_value": "22\" X 16\" X 6\"",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "22\" X 16\" X 6\"",
+              "value": "22\" X 16\" X 6\"",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 37,
+              "end": 55,
+              "original": "top zipper closure",
+              "field": "additional_facts.1",
+              "parsed_value": "Top Zipper Closure",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "Top Zipper Closure",
+              "value": "Top Zipper Closure",
+              "fact_status": "merchant_confirmed"
+            },
+            {
+              "start": 64,
+              "end": 76,
+              "original": "outer pocket",
+              "field": "additional_facts.2",
+              "parsed_value": "Outer Pocket",
+              "method": "recorded_excerpt_spacing_only",
+              "status": "matched",
+              "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+              "source_ids": [
+                "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+              ],
+              "product_ref": "AMAZON-US-B0732NPDRB@4",
+              "expected_value": "Outer Pocket",
+              "value": "Outer Pocket",
+              "fact_status": "merchant_confirmed"
+            }
+          ],
+          "unresolved_parameters": [],
+          "semantic_status": "separate_review_required",
+          "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+        }
+      ],
+      "issues": [
+        {
+          "issue_id": "ec1adc93bf9f2f",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "商品参数与来源对照",
+          "severity": "needs_review",
+          "field_path": "content.title",
+          "original": "DALIX 22\" Cotton Canvas Tote Bag with Zipper",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        }
+      ],
+      "checks": [
+        {
+          "rule_id": "AMZ-01",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        },
+        {
+          "rule_id": "AMZ-02",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        },
+        {
+          "rule_id": "AMZ-03",
+          "state": "pass",
+          "reason": "标题、亮点、五点描述和商品描述中均未发现邮箱、电话、卖家地址或网址。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "AMZ-04",
+          "state": "pass",
+          "reason": "文案中未出现价格、库存、商品状况或替代配送等交易信息。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "AMZ-05",
+          "state": "pass",
+          "reason": "材质（100% 棉帆布）、尺寸（22\" X 16\" X 6\"）、顶部拉链和外部口袋均与商家确认的结构化事实一致；未发现与已确认事实冲突的表述。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "US-01",
+          "state": "pass",
+          "reason": "文案未出现可降解、环保、可持续等宽泛环保宣称。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "US-02",
+          "state": "pass",
+          "reason": "文案未出现降解条件或降解时间相关宣称。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "US-03",
+          "state": "pass",
+          "reason": "文案未出现承重、防水等性能宣称或认证宣称，无需额外证据。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "FACT-01",
+          "state": "pass",
+          "reason": "文案未将容量、承重或面料克重等属性混用或错误标注单位。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "FACT-02",
+          "state": "pass",
+          "reason": "文案未提及零售包装数量，不存在与 retail_pack_count 冲突的表述。",
+          "method": "model_assisted"
+        },
+        {
+          "rule_id": "EVID-01",
+          "state": "needs_evidence",
+          "method": "deterministic",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。"
+        },
+        {
+          "rule_id": "SYS-01",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        },
+        {
+          "rule_id": "SYS-02",
+          "state": "pass",
+          "method": "deterministic",
+          "reason": ""
+        }
+      ],
+      "status": "needs_attention",
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ],
+      "coverage": {
+        "total": 13,
+        "completed": 13,
+        "failed": 0,
+        "pending": 1
+      },
+      "publication_readiness": "not_verified",
+      "consistency_check": {
+        "state": "baseline",
+        "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+      }
+    },
+    "product_change": null,
+    "claim_map": [],
+    "patches": [],
+    "repair_warnings": [
+      "模型本轮没有修改正文，仅保存了复检结果；如需修改，请明确字段和目标。"
+    ],
+    "run_id": "run-d202fa81-5fe2-4c5c-9ff2-15c3378117d6",
+    "trace": {
+      "output_mode": "audit_only_format_retry",
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+      "model": "deepseek-flash",
+      "elapsed_ms": 9014,
+      "usage": {
+        "prompt_tokens": 7049,
+        "completion_tokens": 483,
+        "total_tokens": 7532,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 6281
+      },
+      "format_retry": {
+        "attempts": 2,
+        "recovered": true,
+        "failed_attempt": {
+          "error_code": "MODEL_INVALID_JSON",
+          "trace": {
+            "provider": "compatible",
+            "actual_model_call": true,
+            "provider_request_id": "d6277f21-fb76-4546-b30b-1a2e2edac851",
+            "model": "deepseek-flash",
+            "elapsed_ms": 4883,
+            "usage": {
+              "prompt_tokens": 6964,
+              "completion_tokens": 1237,
+              "total_tokens": 8201,
+              "prompt_tokens_details": {
+                "cached_tokens": 6784
+              },
+              "prompt_cache_hit_tokens": 6784,
+              "prompt_cache_miss_tokens": 180
+            }
+          }
+        }
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "9f27f38b-c8e1-47ad-897f-e0d3222e4985",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1537,
+          "usage": {
+            "prompt_tokens": 7032,
+            "completion_tokens": 229,
+            "total_tokens": 7261,
+            "prompt_tokens_details": {
+              "cached_tokens": 6784
+            },
+            "prompt_cache_hit_tokens": 6784,
+            "prompt_cache_miss_tokens": 248
+          }
+        },
+        {
+          "output_mode": "audit_only_format_retry",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "a6e4bbe5-c9fe-49f0-a3f9-0f5c7065def7",
+          "model": "deepseek-flash",
+          "elapsed_ms": 7477,
+          "usage": {
+            "prompt_tokens": 7049,
+            "completion_tokens": 483,
+            "total_tokens": 7532,
+            "prompt_tokens_details": {
+              "cached_tokens": 768
+            },
+            "prompt_cache_hit_tokens": 768,
+            "prompt_cache_miss_tokens": 6281
+          },
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "d6277f21-fb76-4546-b30b-1a2e2edac851",
+                "model": "deepseek-flash",
+                "elapsed_ms": 4883,
+                "usage": {
+                  "prompt_tokens": 6964,
+                  "completion_tokens": 1237,
+                  "total_tokens": 8201,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 6784
+                  },
+                  "prompt_cache_hit_tokens": 6784,
+                  "prompt_cache_miss_tokens": 180
+                }
+              }
+            }
+          }
+        }
+      ],
+      "prompt_version": "2026-10-24.merchant-facts-v8.1",
+      "parameter_link_version": "structured-parameters-v1",
+      "audit_input_hash": "dbcfd27eb11de2af37dfdfca4d823014b8828edfeb22fc6017534146472fe98f",
+      "rule_selection": "structured_scope_selection",
+      "source_ids": [
+        "AMZS-TITLE-2026",
+        "AMZS-DETAIL-US",
+        "FTCS-GREEN-SUMMARY",
+        "FTCS-AD-SUBSTANTIATION",
+        "FTCS-GUIDE-STATUS",
+        "FTCS-GUIDE-REGISTER",
+        "PROJECT-AMAZON-QUALITY",
+        "AMZ-PAGE-B0732NPDRB-5be602c5cfce",
+        "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e",
+        "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a",
+        "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48",
+        "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+      ]
+    },
+    "instruction": "Shorten the title to at most 75 characters. Keep the confirmed brand, product type and the most useful supported differentiating feature. Omit single unlabeled dimension fragments from the title; preserve complete original-unit measurements in the existing specification bullets. Do not introduce new facts or unsupported performance claims.",
+    "created_at": "2026-10-24T02:25:08.261Z",
+    "is_demo": false,
+    "changes": [],
+    "risk_changes": {
+      "resolved": [],
+      "remaining": [
+        {
+          "issue_id": "ec1adc93bf9f2f",
+          "rule_id": "EVID-01",
+          "category": "product_fact_quality",
+          "title": "商品参数与来源对照",
+          "severity": "needs_review",
+          "field_path": "content.title",
+          "original": "DALIX 22\" Cotton Canvas Tote Bag with Zipper",
+          "reason": "22：数值尚不能明确关联到具体商品字段和单位，需进一步核对。",
+          "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+          "method": "deterministic",
+          "source_ids": [
+            "PROJECT-AMAZON-QUALITY"
+          ],
+          "status": "open"
+        }
+      ],
+      "added": []
+    }
+  },
+  "instruction": "Shorten the title to at most 75 characters. Keep the confirmed brand, product type and the most useful supported differentiating feature. Omit single unlabeled dimension fragments from the title; preserve complete original-unit measurements in the existing specification bullets. Do not introduce new facts or unsupported performance claims.",
+  "failure": "Expected \"actual\" to be strictly unequal to:\n\n'DALIX 22\" Cotton Canvas Tote Bag with Zipper'"
+}

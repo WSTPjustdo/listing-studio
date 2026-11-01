@@ -1,0 +1,89 @@
+{
+  "completed_at": "2026-10-28T13:37:17.406Z",
+  "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+  "version": 7,
+  "model": "deepseek-flash",
+  "request_id": "9a6154f3-6c44-4261-a1ea-cfee2f49a837",
+  "actual_model_call": true,
+  "elapsed_ms": 6235,
+  "usage": {
+    "prompt_tokens": 7104,
+    "completion_tokens": 1255,
+    "total_tokens": 8359,
+    "prompt_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "prompt_cache_hit_tokens": 3584,
+    "prompt_cache_miss_tokens": 3520
+  },
+  "issues": [
+    {
+      "issue_id": "c1989bde9634fc",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.item_highlights",
+      "original": "100% cotton canvas tote with a top zipper and an outer pocket; measures 22\" X 16\" X 6\".",
+      "reason": "22\"：原文只写了一个长度，没说这是宽、高还是深；档案按宽 / 高 / 深记录，硬套会把宽当高，所以不猜，请商家确认这是哪一轴。；16\"：原文只写了一个长度，没说这是宽、高还是深；档案按宽 / 高 / 深记录，硬套会把宽当高，所以不猜，请商家确认这是哪一轴。；6\"：原文只写了一个长度，没说这是宽、高还是深；档案按宽 / 高 / 深记录，硬套会把宽当高，所以不猜，请商家确认这是哪一轴。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "08cdba20fcd255",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.bullet_points.b4",
+      "original": "Measures 22\" X 16\" X 6\", so you can picture how it fits your daily routine.",
+      "reason": "22\" X 16\" X 6\"：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "2a45f66bae804a",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.description",
+      "original": "It measures 22\" X 16\" X 6\" and has a top zipper closure plus an outer pocket for small items you want close at hand.",
+      "reason": "22\" X 16\" X 6\" ：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "checks": [
+    "invalid_product_revision_rejected",
+    "real_api_recheck",
+    "version_history_preserved",
+    "evidence_visible",
+    "html_txt_json_copy_exports"
+  ],
+  "screenshot": "D:\\Desktop\\ListingStudio-integration-20261028\\.runtime\\live-acceptance-browser.png"
+}

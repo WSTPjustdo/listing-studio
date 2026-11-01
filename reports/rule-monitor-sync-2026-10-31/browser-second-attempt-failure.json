@@ -1,0 +1,143 @@
+{
+  "started_at": "2026-10-31T09:36:24.570Z",
+  "base_url": "http://127.0.0.1:8793",
+  "evidence_type": "actual_browser_and_live_official_FTC_source",
+  "notice": "A real FTC guide is registered only as a source-check record, with policy change unverified. Publication and effective dates remain unknown. The isolated browser does not alter the user browser or server rules. Existing real DeepSeek output is read only; this script does not perform model inference.",
+  "live_source": {
+    "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+    "final_url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+    "http_status": 200,
+    "checked_at": "2026-10-31T09:36:25.501Z",
+    "elapsed_ms": 930,
+    "title": "Environmental Claims: Summary of the Green Guides",
+    "excerpt": "Claiming \"Green, made with recycled content\" may be deceptive if the environmental costs of using recycled content outweight the environmental benefits of using it.",
+    "page_sha256": "cecf9fa5db29abff4891ac928c3cb1077f3365294b4201af2724228615fa72a5",
+    "policy_change": "unverified",
+    "published_at": null,
+    "effective_at": null
+  },
+  "checks": [
+    "fresh_official_FTC_source_and_literal_excerpt",
+    "latest_navigation_opens_monitor",
+    "all_four_live_rule_pack_versions_visible",
+    "manual_schedule_and_empty_state_are_truthful",
+    "official_external_links_are_https",
+    "real_official_excerpt_registered_as_unverified",
+    "unknown_policy_dates_remain_blank",
+    "entry_and_source_persist_in_isolated_localStorage",
+    "reload_preserves_original_record",
+    "all_four_market_filters",
+    "all_status_filters"
+  ],
+  "engineering_checks": [],
+  "screenshots": [
+    "monitor-empty-1440.png",
+    "monitor-empty-768.png",
+    "monitor-empty-390.png",
+    "monitor-form-1440.png",
+    "monitor-form-768.png",
+    "monitor-form-390.png",
+    "monitor-registered-1440.png",
+    "monitor-registered-768.png",
+    "monitor-registered-390.png"
+  ],
+  "overflow": [
+    {
+      "label": "monitor-empty",
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "monitor-empty",
+      "viewport": 768,
+      "scroll": 768
+    },
+    {
+      "label": "monitor-empty",
+      "viewport": 390,
+      "scroll": 390
+    },
+    {
+      "label": "monitor-form",
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "monitor-form",
+      "viewport": 768,
+      "scroll": 768
+    },
+    {
+      "label": "monitor-form",
+      "viewport": 390,
+      "scroll": 390
+    },
+    {
+      "label": "monitor-registered",
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "monitor-registered",
+      "viewport": 768,
+      "scroll": 768
+    },
+    {
+      "label": "monitor-registered",
+      "viewport": 390,
+      "scroll": 390
+    }
+  ],
+  "page_errors": [],
+  "mutation_requests": [],
+  "failures": [
+    {
+      "phase": "reload_filter_delete",
+      "at": "2026-10-31T09:36:57.818Z",
+      "name": "TimeoutError",
+      "message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.rm-entry').getByRole('button', { name: '删除记录', exact: true })\u001b[22m\n"
+    }
+  ],
+  "model_calls": [],
+  "new_model_calls": 0,
+  "new_tokens": 0,
+  "existing_real_listing": {
+    "listing_id": "listing-e5497dfb-af37-4090-a887-53393b946b1c",
+    "version": 4,
+    "model": "deepseek-flash",
+    "request_id": "dd1c30c2-818d-49c3-a2e8-e11a0c9bab16",
+    "elapsed_ms": 5098,
+    "usage": {
+      "prompt_tokens": 6120,
+      "completion_tokens": 858,
+      "total_tokens": 6978,
+      "prompt_tokens_details": {
+        "cached_tokens": 5888
+      },
+      "prompt_cache_hit_tokens": 5888,
+      "prompt_cache_miss_tokens": 232
+    },
+    "reuse_notice": "Existing real output read only; not a new model request."
+  },
+  "backend_before_sha256": "e1c8a7fe4d7c71c301e5add69f9564676018d0df82cd24e171acde627cbd1199",
+  "rule_pack_versions": {
+    "US": "amazon-us-tote-2026-10-30.integration-v9",
+    "DE": "amazon-de-tote-2026-10-30.r1",
+    "UK": "amazon-uk-tote-2026-10-31.r4.project-integrity-v1",
+    "FR": "amazon-fr-tote-2026-10-31.r1.project-integrity-v1"
+  },
+  "registered_record": {
+    "title": "FTC Green Guides 官方指南来源核对（政策变化待核实）",
+    "market": "US",
+    "category": "环保/性能/认证宣称",
+    "status": "待核实",
+    "publishedAt": "",
+    "effectiveAt": "",
+    "summary": "本次仅核对实时官方指南原文，不宣称发现了新政策。官方原文：Claiming \"Green, made with recycled content\" may be deceptive if the environmental costs of using recycled content outweight the environmental benefits of using it.",
+    "impact": "环保宣称需回看官方适用范围与证据；是否构成新的政策变化、发布日期与生效日期均待核实。本记录不会自动修改审核规则包。",
+    "source": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+    "id": "8695306d-7509-4cd5-8ef5-3170ae75f141",
+    "createdAt": "2026-10-31T09:36:27.270Z"
+  },
+  "acceptance": "failed_without_mock_or_demo_fallback"
+}

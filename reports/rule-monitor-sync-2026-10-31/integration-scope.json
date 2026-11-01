@@ -1,0 +1,77 @@
+{
+  "source_archive": "source-archive.json",
+  "approach": "Selective transplant onto the existing working tree. Teammate documents are reference material only.",
+  "source_components": [
+    "src/RuleMonitor.tsx",
+    "src/rule-monitor.css",
+    "src/SiteRuleProfiles.tsx"
+  ],
+  "existing_file_integration": [
+    "src/App.tsx: icon/import/navigation/breadcrumb/view plus closing the mobile menu on the rule monitor page",
+    "src/types.ts: View union only"
+  ],
+  "additional_current_changes": [
+    "scripts/validate-live-rule-monitor-browser.mjs",
+    "package.json: new browser acceptance command",
+    "docs/规则监测使用说明.md",
+    "README.md",
+    "CURRENT-STATUS.md",
+    "DELIVERY.md",
+    "reports/rule-monitor-sync-2026-10-31"
+  ],
+  "teammate_legacy_differences_not_transplanted": [
+    {
+      "path": "scripts/validate-live-deepseek.mjs",
+      "teammate_sha256": "2ff9b756b0e32a1c70076a8e59dac62404ef4f5cc578a83d4c5d7783947e8308",
+      "current_sha256_at_comparison": "d35965b6131636e4fd26088541c34a226fe6ebb20d399fd0748118ddc2ad32d0"
+    },
+    {
+      "path": "server/errors.mjs",
+      "teammate_sha256": "036339992b706192ee6c44ce7b2b9a031e0c7f6059f64b0a22dd6be60e0ca7f5",
+      "current_sha256_at_comparison": "5631874638209082e2cf2d2614e1328c92119748cbbcb665dc821d19d26956f5"
+    },
+    {
+      "path": "server/evidence.mjs",
+      "teammate_sha256": "b4e329f7647df85c23afcbe841dc493450b224305fbc0324763bccbcb835e947",
+      "current_sha256_at_comparison": "482e29b9057b9eb3df6fffc1ba8878836e09e040151aedd424a8d1dc0691f813"
+    },
+    {
+      "path": "server/guided.mjs",
+      "teammate_sha256": "4948eebfa77298eff7efe123ba8b251843c33d240cf06955b90e4265f61c18e6",
+      "current_sha256_at_comparison": "da9ec5b4df3b0856583aab4a172ebb886d9e74593e5dde8ef78f330210686b6f"
+    },
+    {
+      "path": "server/material.mjs",
+      "teammate_sha256": "58ad6572d1b3b078312ed4dcece23731d8a478e1ea6b56123630f5e8e1572a61",
+      "current_sha256_at_comparison": "451cbcb6b282c017331655ac1674e5a35ab7d20da7dc4b7bb925761dc4003774"
+    },
+    {
+      "path": "server/model-context.mjs",
+      "teammate_sha256": "a2e3353ab49c455234fa282f9ff5bd41a5280a3cc7703422efd7895e8393ca8b",
+      "current_sha256_at_comparison": "50ae0db7db9de0b4321a819fdbb1174afc441d06f220940d7b62b5e7f36f2e0d"
+    },
+    {
+      "path": "server/providers.mjs",
+      "teammate_sha256": "0866bf97f53af6b905675fe2d12e9b903fa8494c57ec18e75c5831e09a31a2e3",
+      "current_sha256_at_comparison": "e536523879f30e0b7ca3e737b1c791df2415fc8aba0a243865511e2f930d4cfd"
+    },
+    {
+      "path": "server/service.mjs",
+      "teammate_sha256": "884bce2e926e80174859bb4c85e18494595c32214588a9819ca73c2860503f1f",
+      "current_sha256_at_comparison": "6d677cacf0a6baf4ffb5a217363a6e97f831ff0295e7bd6fd814185f56ed8896"
+    },
+    {
+      "path": "server/telemetry.mjs",
+      "teammate_sha256": "86fbb19a1fd89faa61fc2a0c2936764af88a11c4c6790f7dc23af633302a5aa3",
+      "current_sha256_at_comparison": "1762fddd1f2cf1bf472d48ebc2649a81d90633dbd99543c13ed6e7d9ac460c94"
+    },
+    {
+      "path": "src/QualityView.tsx",
+      "teammate_sha256": "0a65694f60201e17e5baf631f456db13be4c8d2fb53b434dd331517cb9fff147",
+      "current_sha256_at_comparison": null
+    }
+  ],
+  "no_automatic_rule_update": true,
+  "no_database_migration": true,
+  "no_added_dependency": true
+}

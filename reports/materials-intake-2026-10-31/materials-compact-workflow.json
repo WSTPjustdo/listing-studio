@@ -1,0 +1,433 @@
+{
+  "started_at": "2026-10-31T04:32:49.041Z",
+  "completed_at": "2026-10-31T04:33:16.334Z",
+  "acceptance": "real_public_materials_to_guided_listing_and_review_completed_merchant_acceptance_pending",
+  "evidence_type": "live_official_documents_and_real_DeepSeek",
+  "notice": "真实品牌官方公开商品资料及明确标记的公开数据衍生文本；不是商家私有样表、微信记录、库存、上架或官方模板兼容验收。",
+  "sources": [
+    {
+      "url": "https://westfordmill.com/products/w101",
+      "final_url": "https://westfordmill.com/products/w101",
+      "publisher": "Westford Mill",
+      "source_kind": "official_live_product_page",
+      "filename": "official-w101.html",
+      "http_status": 200,
+      "checked_at": "2026-10-31T04:22:02.185Z",
+      "elapsed_ms": 1620,
+      "bytes": 198296,
+      "sha256": "a24cc62da7544768c200c3715a644baf5d1c0930eeb4b72cfbf5b6bc1e6146b0"
+    },
+    {
+      "filename": "official-w101-public-text.txt",
+      "source_kind": "literal_text_derived_from_live_official_page",
+      "merchant_original": false,
+      "source_url": "https://westfordmill.com/products/w101",
+      "sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+      "bytes": 537
+    },
+    {
+      "url": "https://westfordmill.com/print/pdf/node/468",
+      "final_url": "https://westfordmill.com/print/pdf/node/468",
+      "publisher": "Westford Mill",
+      "source_kind": "official_live_product_specification_pdf",
+      "filename": "official-w101-specification.pdf",
+      "http_status": 200,
+      "checked_at": "2026-10-31T04:22:06.881Z",
+      "elapsed_ms": 4656,
+      "bytes": 697226,
+      "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975"
+    },
+    {
+      "filename": "public-derived-w101-without-seller-sku.tsv",
+      "source_kind": "existing_public_source_and_real_model_text_derived_table",
+      "merchant_original": false,
+      "official_amazon_template": false,
+      "merchant_seller_sku": null,
+      "source_url": "https://westfordmill.com/products/w101",
+      "sha256": "ac62b8a236107ebee0d56bf510ec2e2f13c64478bf34acc19651574c3a612977",
+      "bytes": 762
+    }
+  ],
+  "checks": [
+    "public_product_adopted_with_material_hashes_pages_and_unknown_seller_identity",
+    "real_guided_plan_then_generation_and_independent_review_preserve_materials",
+    "json_txt_html_worklist_exports_retain_original_file_hash_and_page_clean_copy_excludes_metadata"
+  ],
+  "requests": [
+    {
+      "operation": "guided_plan",
+      "request_id": "42ab1b24-3745-4c23-ba7f-bddff9889a11",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4836,
+      "usage": {
+        "prompt_tokens": 8523,
+        "completion_tokens": 634,
+        "total_tokens": 9157,
+        "prompt_tokens_details": {
+          "cached_tokens": 1920
+        },
+        "prompt_cache_hit_tokens": 1920,
+        "prompt_cache_miss_tokens": 6603
+      },
+      "actual_model_call": true
+    },
+    {
+      "operation": "listing_generation",
+      "request_id": "c1eb1799-04d2-4984-a279-1ee207badccb",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2250,
+      "usage": {
+        "prompt_tokens": 12554,
+        "completion_tokens": 260,
+        "total_tokens": 12814,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "prompt_cache_hit_tokens": 3072,
+        "prompt_cache_miss_tokens": 9482
+      },
+      "actual_model_call": true
+    },
+    {
+      "operation": "independent_review",
+      "request_id": "fb903f78-7790-4efd-899c-63edd085084a",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8451,
+      "usage": {
+        "prompt_tokens": 10687,
+        "completion_tokens": 550,
+        "total_tokens": 11237,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "prompt_cache_hit_tokens": 3072,
+        "prompt_cache_miss_tokens": 7615
+      },
+      "actual_model_call": true
+    },
+    {
+      "operation": "independent_review_first_attempt",
+      "request_id": "ab600a8c-b7d4-479f-8bd4-9a8c5532339b",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5128,
+      "usage": {
+        "prompt_tokens": 10602,
+        "completion_tokens": 1367,
+        "total_tokens": 11969,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "prompt_cache_hit_tokens": 3072,
+        "prompt_cache_miss_tokens": 7530
+      },
+      "actual_model_call": true,
+      "outcome": "failed",
+      "error_code": "MODEL_INVALID_JSON",
+      "recovered_by_request_id": "fb903f78-7790-4efd-899c-63edd085084a"
+    }
+  ],
+  "failures": [],
+  "unresolved": {
+    "issues": [],
+    "missing_data": [
+      {
+        "field": "brand",
+        "label": "品牌",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ],
+    "unchecked": []
+  },
+  "unknown": {
+    "merchant_original_word": "not_provided",
+    "merchant_wechat_screenshot": "not_provided",
+    "merchant_amazon_template": "not_provided",
+    "seller_sku": null,
+    "stock": "unknown",
+    "amazon_upload": "not_performed"
+  },
+  "fact_confirmation": {
+    "by": "developer_public_source_verification",
+    "merchant_confirmation": false,
+    "merchant_inventory": false,
+    "notice": "仅为工程验收核对真实官方公开参数；未取得商家供货、库存、零售包装或 SKU 确认。"
+  },
+  "product_id": "product-385963ea-3019-4345-ae66-5cdf94b70510",
+  "listing_id": "listing-1cbf4228-1472-41a4-84f2-4f40b1a8557b",
+  "version": 1,
+  "source_materials": [
+    {
+      "id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+      "filename": "official-w101-specification.pdf",
+      "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+      "status": "ready",
+      "segments": 3
+    },
+    {
+      "id": "material-83698b67-9e38-483d-8198-c61492cb5789",
+      "filename": "official-w101-public-text.txt",
+      "sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+      "status": "ready",
+      "segments": 17
+    },
+    {
+      "id": "material-69503728-607a-4d6e-bf7e-c928a51c6875",
+      "filename": "public-derived-w101-without-seller-sku.tsv",
+      "sha256": "ac62b8a236107ebee0d56bf510ec2e2f13c64478bf34acc19651574c3a612977",
+      "status": "ready",
+      "segments": 2
+    }
+  ],
+  "model_facts": [
+    {
+      "label": "材质",
+      "value": "100% Cotton",
+      "source": "merchant_text",
+      "evidence": "100% Cotton - 140gsm (4.1oz/yd²)",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 1 页"
+        },
+        {
+          "document_id": "material-83698b67-9e38-483d-8198-c61492cb5789",
+          "filename": "official-w101-public-text.txt",
+          "sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+          "locator": "第 2 行"
+        }
+      ]
+    },
+    {
+      "label": "面料克重",
+      "value": "140gsm",
+      "source": "merchant_text",
+      "evidence": "100% Cotton - 140gsm (4.1oz/yd²)",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 1 页"
+        },
+        {
+          "document_id": "material-83698b67-9e38-483d-8198-c61492cb5789",
+          "filename": "official-w101-public-text.txt",
+          "sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+          "locator": "第 2 行"
+        }
+      ]
+    },
+    {
+      "label": "面料克重",
+      "value": "140",
+      "source": "merchant_text",
+      "evidence": "Fabric Weight (gsm)   140",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 1 页"
+        }
+      ]
+    },
+    {
+      "label": "尺寸（宽 x 高）",
+      "value": "38 x 42",
+      "source": "merchant_text",
+      "evidence": "Dimensions ( cm ) - width x height x depth   38 x 42",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 1 页"
+        }
+      ]
+    },
+    {
+      "label": "容量",
+      "value": "10",
+      "source": "merchant_text",
+      "evidence": "Capacity ( litres )   10",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 1 页"
+        }
+      ]
+    },
+    {
+      "label": "提手长度",
+      "value": "67",
+      "source": "merchant_text",
+      "evidence": "Handle length ( cm )   67",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    },
+    {
+      "label": "产品重量",
+      "value": "65",
+      "source": "merchant_text",
+      "evidence": "Approx Product Weight ( g )   65",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 1 页"
+        }
+      ]
+    },
+    {
+      "label": "最大印刷面积",
+      "value": "33 x 36",
+      "source": "merchant_text",
+      "evidence": "Maximum Print Area ( cm )   33 x 36",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    },
+    {
+      "label": "最大刺绣尺寸（管绷）",
+      "value": "18",
+      "source": "merchant_text",
+      "evidence": "Maximum Embroidery ( cm tubular hoop )   18",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    },
+    {
+      "label": "商品编码",
+      "value": "4202929890",
+      "source": "merchant_text",
+      "evidence": "Commodity Code   4202929890",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    },
+    {
+      "label": "原产国",
+      "value": "Pakistan",
+      "source": "merchant_text",
+      "evidence": "Country of Origin   Pakistan",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    },
+    {
+      "label": "装箱数量",
+      "value": "250",
+      "source": "merchant_text",
+      "evidence": "Carton Quantity   250",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    },
+    {
+      "label": "价格表包装数量",
+      "value": "25",
+      "source": "merchant_text",
+      "evidence": "Pricelist Pack Qty   25",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    },
+    {
+      "label": "塑料袋数量",
+      "value": "25",
+      "source": "merchant_text",
+      "evidence": "Poly Bag Qty   25",
+      "source_refs": [
+        {
+          "document_id": "material-e4d13ec6-1bee-4dc7-b350-73f3762f469e",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "locator": "第 2 页"
+        }
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "format": "json",
+      "filename": "materials-export.json",
+      "sha256": "2d60f89885f8c73c79dddebb41b4190bdf053229ace24f8f9f5fe20731477395",
+      "bytes": 217960
+    },
+    {
+      "format": "txt",
+      "filename": "materials-export.txt",
+      "sha256": "2afedcbbc01df40ab805a4044ddbeeb3943fedc7c22c2dd2cde8cf710d62d944",
+      "bytes": 15045
+    },
+    {
+      "format": "html",
+      "filename": "materials-export.html",
+      "sha256": "38a41bfa0ea85b46ce73507a6278254f1f22841e2289405a187954c77bab5b31",
+      "bytes": 23283
+    },
+    {
+      "format": "worklist",
+      "filename": "materials-export.worklist.html",
+      "sha256": "8bf567f23eee6ee947530943352314178be5c2a2422a0321cab45c6d8856e4bc",
+      "bytes": 11928
+    },
+    {
+      "format": "copy",
+      "filename": "materials-export.copy.txt",
+      "sha256": "3f3e6d16b78c8de96e9d081cc2cceb1955a9a7cd60a5837b2b678a7b4a400975",
+      "bytes": 756
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "url": "http://127.0.0.1:8787/api/products/AMAZON-US-B0732NPDRB/versions",
+    "status": 201,
+    "at": "2026-10-23T13:38:36.726Z",
+    "body": {
+      "product_id": "AMAZON-US-B0732NPDRB",
+      "revision": 2,
+      "name_zh": "DALIX · 22\" Heavy Duty Cotton Canvas Tote Bag (Zippered)",
+      "is_demo": false,
+      "reference_product_id": "B0732NPDRB",
+      "application_product_type": "tote_bag_demo",
+      "material": {
+        "value": "100% cotton canvas",
+        "status": "merchant_confirmed",
+        "source_ids": [
+          "LOCAL-MERCHANT-INPUT"
+        ]
+      },
+      "dimensions_cm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "fabric_weight_gsm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "capacity_l": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "handle_length_cm": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "retail_pack_count": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "brand": {
+        "value": "DALIX",
+        "status": "amazon_listing_claim",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      "color": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "rated_load_kg": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": []
+      },
+      "additional_facts": [],
+      "amazon": {
+        "asin": "B0732NPDRB",
+        "url": "https://www.amazon.com/dp/B0732NPDRB",
+        "title": "22\" Heavy Duty Cotton Canvas Tote Bag (Zippered)",
+        "brand": "DALIX",
+        "color": null,
+        "material": null,
+        "pack_count": null,
+        "fabric_weight_gsm": null,
+        "facts": [],
+        "availability": "in_stock_observed",
+        "availability_text": "In Stock",
+        "checked_at": "2026-10-23T13:25:29.238Z",
+        "retrieval": "direct_http",
+        "freshness": "实时读取时的页面观察；库存随地址和时间变化",
+        "import_mode": "live",
+        "source_ids": [
+          "AMZ-PAGE-B0732NPDRB-500642b57210"
+        ]
+      },
+      "degradation_evidence": [],
+      "certification_evidence": [],
+      "performance_evidence": [],
+      "publication_readiness": "not_verified"
+    }
+  }
+]

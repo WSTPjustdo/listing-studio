@@ -1,0 +1,44 @@
+{
+  "started_at": "2026-10-31T04:29:08.385Z",
+  "evidence_type": "real_source_images_local_Chinese_English_OCR",
+  "actual_model_calls": 0,
+  "initial_failure_retained": "ocr-first-attempt.json",
+  "sources": [
+    {
+      "filename": "official-w101-pdf-page-1.png",
+      "source_kind": "actual_official_pdf_page_render",
+      "source_url": "https://westfordmill.com/print/pdf/node/468",
+      "source_pdf_sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+      "page": 1,
+      "bytes": 194708,
+      "sha256": "921e04f5d09a429bb94c8f09fbf07f4feb667b601832c3b4e55bebf50f886629",
+      "merchant_wechat_screenshot": false
+    },
+    {
+      "filename": "official-w101-product-photo.jpg",
+      "url": "https://mediahub.beechfieldbrands.com/asset/56a133a1-d3c1-40fa-8e60-483c1f7124d1/thumbnail/webimage-westfordmill_w101_violet-pink_flat-shot_c",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 18987,
+      "sha256": "c7aa037273c778f668ba0c5761b7f4d362576367466594f61ed05f7eb1c31411",
+      "source_kind": "official_real_product_photo",
+      "merchant_product_photo": false
+    },
+    {
+      "filename": "improve-real-analysis-confirmation-facts.png",
+      "source_kind": "unaltered_crop_of_actual_workbench_after_real_DeepSeek_analysis",
+      "origin_report": "../browser/browser-acceptance.json",
+      "sha256": "3f1a6a0462e1d50dd5eebdd23f1a0b7903dd2f1f48e1cb73b27eeb8f7f6e55bf",
+      "bytes": 12773
+    }
+  ],
+  "checks": [],
+  "unresolved": [
+    "真实商家微信截图和实拍备注原件未取得，使用真实官方资料及真实工作台截图检查 OCR，不宣称商家验收。"
+  ],
+  "status": "failed",
+  "error": {
+    "message": "fetch failed",
+    "code": null
+  }
+}

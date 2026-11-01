@@ -1,0 +1,151 @@
+{
+  "started_at": "2026-10-31T10:32:52.223Z",
+  "checks": [
+    "actual_supplier_handoff_download_no_fabricated_reply"
+  ],
+  "panels": [
+    {
+      "name": "A+ 内容",
+      "text": "A+ 内容（对比表）\n\n由 V3 已登记商品参数确定性生成 · 用作 A+ 模块素材\n\n对比表与图片配文候选由已登记商品参数确定性生成，不构成 A+ 营销文案，也不代表平台审核结论；A+ 模块正文与卖点措辞需用真实模型生成后独立审阅。\n\n参数\t值\t登记状态\n材质\nMaterial\n\t100% Cotton\t商家确认\n尺寸\nDimensions\n\t38 × 42 cm\t商家确认\n克重\nFabric weight\n\t140 g/m²\t商家确认\n容量\nCapacity\n\t10 L\t商家确认\n提手长度\nHandle length\n\t67 cm\t商家确认\n材质\n材质\n\t100% Cotton\t商家确认\n面料克重\n面料克重\n\t140gsm\t商家确认\n面料克重（英制）\n面料克重（英制）\n\t4.1oz/yd²\t商家确认\n尺寸（宽×高，厘米）\n尺寸（宽×高，厘米）\n\t38 x 42\t商家确认\n容量\n容量\n\t10\t商家确认\n提手长度\n提手长度\n\t67\t商家确认\n携带方式\n携带方式\n\tCan be carried by hand or over the shoulder\t商家确认\n标签设计\n标签设计\n\tCutAway label for ease of rebranding\t商家确认\n未登记参数（可继续补充后刷新）： 承重、包装件数、品牌、颜色\nA+ 图片配文候选（纯事实，非营销文案）\nMaterial: 100% Cotton\nDimensions: 38 × 42 cm\nFabric weight: 140 g/m²\nCapacity: 10 L\nHandle length: 67 cm"
+    },
+    {
+      "name": "协同看板",
+      "text": "补资料协同看板\n\n按岗位分组待补资料 · 合规/美工/采购/运营各看各的\n\n风险分级按当次审核的问题与待补资料统计；责任岗位为经验建议，最终由商家确认，处理完成不等于风险已消除。\n\n0\n\n阻断问题\n\n0\n\n待核实\n\n0\n\n优化建议\n\n共 3 项待补资料。\n\n合规（0）\n\n无\n\n美工（0）\n\n无\n\n采购（3）\n品牌：未确认，草稿中不推测；正式上架仍需核对。\n颜色：未确认，草稿中不推测；正式上架仍需核对。\n零售包装：未确认，草稿中不推测；正式上架仍需核对。\n运营（0）\n\n无"
+    },
+    {
+      "name": "证据台账",
+      "text": "证据生命周期台账\n\nV3 关联商品已提交的核验材料\n\n证据状态按商品档案记录展示；文件存在不等于报告真实，也不等于某个宣称已获得充分支持，最终需人工核验。\n\n共 0 份\n已核验 0\n未核验 0\n已过期 0\n冲突 0\n\n尚未提交任何证据材料。可在「编辑资料」或补资料交接中提交。"
+    },
+    {
+      "name": "变体审核",
+      "text": "变体一致性审核\n\n核对 V3 的父子 SKU、变体主题与文案中的颜色/件数\n\n只核对能从商品档案与文案中读到的变体/父子关系字段；不推断类目规则、图片内容或平台最终审核。\n\n该商品未登记父子变体（按单件商品处理）。\n\n未发现可确定的变体一致性问题。"
+    },
+    {
+      "name": "竞品差评",
+      "text": "竞品差评 · 买家痛点挖掘\n\n按 V3 关联商品事实生成打痛点卖点 · 仅用已登记资料，不编造\n\n粘贴竞品 1–3 星差评（每行一条）\n分析差评"
+    },
+    {
+      "name": "搜索词",
+      "text": "搜索词覆盖核对\n\n核对 V3 文案里哪些搜索词已覆盖、哪些缺失\n\n粘贴搜索词（每行一个，或 ABA 报告）\n核对覆盖"
+    }
+  ],
+  "errors": [],
+  "failures": [
+    "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '管理文案与上架信息', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"secondary-button\">管理文案与上架信息</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside class=\"sidebar\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <aside class=\"sidebar\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <aside class=\"sidebar\">…</aside> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  ],
+  "ab": {
+    "status": 200,
+    "elapsed_ms": 3508,
+    "data": {
+      "variants": [
+        {
+          "angle": "spec_first",
+          "content": {
+            "title": "100% Cotton Tote Bag, 38 × 42 cm, 10 L, 140 g/m², 67 cm Handles",
+            "item_highlights": "100% cotton; 38 × 42 cm; 140 g/m²; 10 L capacity; 67 cm handles; hand or shoulder carry; CutAway label",
+            "bullet_points": [
+              {
+                "id": "b1",
+                "text": "100% cotton construction with a 140 g/m² fabric weight."
+              },
+              {
+                "id": "b2",
+                "text": "Measures 38 × 42 cm with a 10 L capacity."
+              },
+              {
+                "id": "b3",
+                "text": "67 cm handles allow carrying by hand or over the shoulder."
+              },
+              {
+                "id": "b4",
+                "text": "CutAway label design for ease of rebranding."
+              }
+            ],
+            "description": "This tote bag is made of 100% cotton with a fabric weight of 140 g/m². It measures 38 × 42 cm and offers a 10 L capacity. The 67 cm handles let you carry it by hand or over the shoulder, and the CutAway label is designed for ease of rebranding."
+          }
+        },
+        {
+          "angle": "scenario_first",
+          "content": {
+            "title": "Cotton Tote Bag for Daily Carrying, 10 L, 38 × 42 cm, 67 cm Handles",
+            "item_highlights": "Carry by hand or over the shoulder; 10 L capacity; 100% cotton; 38 × 42 cm; 140 g/m²; CutAway label",
+            "bullet_points": [
+              {
+                "id": "b1",
+                "text": "Carry it by hand or over the shoulder with 67 cm handles."
+              },
+              {
+                "id": "b2",
+                "text": "10 L capacity and 38 × 42 cm dimensions for everyday carrying."
+              },
+              {
+                "id": "b3",
+                "text": "Made of 100% cotton with a 140 g/m² fabric weight."
+              },
+              {
+                "id": "b4",
+                "text": "CutAway label makes rebranding easy when you add your own design."
+              }
+            ],
+            "description": "Keep this cotton tote bag on hand for everyday carrying. The 67 cm handles let you carry it by hand or over the shoulder, while the 10 L capacity and 38 × 42 cm dimensions give you room for daily items. It is made of 100% cotton at 140 g/m², and the CutAway label is designed for ease of rebranding."
+          }
+        },
+        {
+          "angle": "concise",
+          "content": {
+            "title": "100% Cotton Tote Bag, 10 L, 38 × 42 cm, 67 cm Handles",
+            "item_highlights": "100% cotton; 140 g/m²; 38 × 42 cm; 10 L; 67 cm handles; hand or shoulder carry; CutAway label",
+            "bullet_points": [
+              {
+                "id": "b1",
+                "text": "100% cotton, 140 g/m²."
+              },
+              {
+                "id": "b2",
+                "text": "38 × 42 cm, 10 L capacity."
+              },
+              {
+                "id": "b3",
+                "text": "67 cm handles for hand or shoulder carry."
+              },
+              {
+                "id": "b4",
+                "text": "CutAway label for easy rebranding."
+              }
+            ],
+            "description": "A 100% cotton tote bag at 140 g/m². It measures 38 × 42 cm with a 10 L capacity. The 67 cm handles allow hand or shoulder carrying, and the CutAway label is made for easy rebranding."
+          }
+        }
+      ],
+      "angles": [
+        {
+          "id": "spec_first",
+          "en": "Specification-first",
+          "zh": "参数清晰"
+        },
+        {
+          "id": "scenario_first",
+          "en": "Scenario-first",
+          "zh": "场景导向"
+        },
+        {
+          "id": "concise",
+          "en": "Concise and natural",
+          "zh": "简洁自然"
+        }
+      ],
+      "model_used": true
+    },
+    "buttons": [
+      "",
+      "生成三版变体",
+      "复制",
+      "复制",
+      "复制"
+    ],
+    "after_reopen": "A/B 变体生成\n\n同一商品事实 · 三版卖点角度 · 供点击/转化测试\n\n用同一商品事实生成三版不同卖点角度的文案，供 A/B 测试；每版都只基于已登记资料，不编造。\n\n生成三版变体"
+  },
+  "export_dialog": "导出 V3\n\n交付包保留英文内容、商品快照、审核依据与版本记录。\n\n待补充核验 · 待运营确认\n\n0 项内容风险，0 项检查未完成，3 项资料待补充。导出不代表已通过 Amazon 上架审核。\n\n在浏览器里看报告（可打印）\n不下载 · 新标签打开同一份报告，Ctrl/⌘+P 可直接另存 PDF\n仅英文文案\nTXT · 便于复制到运营工具，不含内部审阅说明\n改稿工作单（按文案顺序）\n不下载 · 标题 → 亮点 → 五点 → 描述，每条带原文与标准改法\n英文文案与审阅说明\nTXT · 对客内容与内部说明分段保留\n完整结构化结果\nJSON · 商品快照、检查、版本与调用信息\n下载可打印审阅报告\nHTML · 依据、问题、缺失项与文案\n\n当前为含模型辅助审阅的草稿结果，正式上架准备状态未验证。",
+  "library_before": "跳到主要内容\nListingStudio\nAmazon 上架内容审核助手\n开始制作\n首页\n我的结果\n更多功能\n展开侧栏\n每一处修改，都有依据\n\n商品事实、规则来源与版本记录，始终随内容保留。\n\n查看资料来源\n模型服务已配置\ndeepseek-flash\n工作空间\n我的结果\nAmazon US\n· 英文\nS\nMY RESULTS\n我的结果\n\n上面是生成过的文案，下面是批量台账（按商品登记上架信息、导出选定版本）。\n\n创建新文案\n生成过的文案\n全部任务\n新品创建\n已有文案诊断\n1 个任务\n100% Cotton Tote Bag, 140gsm, 38 x 42 cm, 10 L, 67 cm Handles\n新品创建 · Westford Mill W101 Cotton Tote · 10/31 18:30\nV3\n0 项待处理\n批量台账\n\n按商品登记上架信息，导出选定版本的 Excel。和上面那份列表是两批东西：上面按任务留版本，这里按商品管上架。\n\n导出所选 Excel（0）\n\n“已上架”为商家手动登记，尚未连接 Seller Central 核验。Excel 保留所选版本的原语言内容；“英文文案”为旧版工作表名，不会自动翻译。\n\n搜索商品 / SKU / ASIN\n管理状态\n全部\n草稿\n待上架\n已上架（商家登记）\n选择当前结果\n清空选择\n已选 0 件（含其他筛选结果）\nWestford Mill W101 Cotton Tote\n草稿\n\nSKU：未填写 · ASIN：未登记\n\n100% Cotton Tote Bag, 140gsm, 38 x 42 cm, 10 L, 67 cm Handles\n\n文案 V3 · 审核资料 V1 · 未保存台账，当前显示最新草稿\n\n0 项发现 · 3 项资料待补\n\n管理文案与上架信息\n查看此版文案与审核\nListing Studio · 为准确的商品内容而设计\nAmazon US · 本地工作空间",
+  "completed_at": "2026-10-31T10:33:36.540Z"
+}

@@ -1,0 +1,186 @@
+Listing Studio · 商品 · V1
+
+Title
+100% Cotton Tote Bag, 38 x 42 cm, 10 L, 67 cm Handles
+
+Item Highlights
+100% cotton, 140gsm; 38 x 42 cm; 10 L capacity; 67 cm handles
+
+Bullet Points
+• 100% cotton at 140gsm gives this tote a plain, lightweight fabric feel for everyday carrying.
+• Measures 38 x 42 cm (width x height) with a 10 L capacity, leaving room for groceries, books or daily essentials.
+• The 67 cm handles let you carry it by hand or over the shoulder.
+• A simple cotton tote for errands, shopping trips, the library or the beach.
+
+Description
+This tote bag is made of 100% cotton at 140gsm. It measures 38 x 42 cm (width x height) and holds about 10 L, so it fits everyday items like groceries, books and small purchases. The 67 cm handles allow hand or shoulder carrying. A plain cotton bag for shopping, errands and daily use.
+
+—— 内部审阅说明（与对客文案分开使用）——
+
+检查范围：Amazon US 文本与宣称证据预审；正式上架准备状态未验证。
+
+执行方式：实际模型调用
+
+运行：run-1bf26532-265b-4ee7-a6dd-805b669f1d13
+
+商品资料版本：product-385963ea-3019-4345-ae66-5cdf94b70510@1
+
+
+
+引导写作方案
+入口：没有提示词，依据确认的商品资料整理写作要求
+写作方案记录：guided-plan-733eea62-8172-4257-b701-3f24b866a56c
+参考资料状态：本次未使用竞品参考
+方案模型：deepseek-flash；请求 ID：42ab1b24-3745-4c23-ba7f-bddff9889a11
+可复用提示词（占位内容在实际写稿时采用本次确认的商品资料，不继承其他产品参数）：
+You are writing an Amazon US product listing for a cotton tote bag. Write in natural, clear US English for everyday shoppers. Use only the confirmed facts in {{PRODUCT_FACTS}}; treat anything not listed there as unknown and do not invent it. Use {{KEYWORDS}} only as candidate search terms: include a term only if it accurately describes the confirmed product, and drop any term that would require an unsupported claim.
+
+Produce four parts:
+1. Title: lead with what the item is, then the most useful confirmed attributes (such as material, size, capacity, handle style, or color if confirmed). Keep it readable and free of keyword stuffing, promotional language, seller contact details, URLs, and multiple pack counts.
+2. item_highlights: short scannable phrases covering the top selling points drawn only from confirmed facts.
+3. bullet_points: each bullet must have a stable ID (for example BP-1, BP-2, ...) and one clear benefit-led sentence or two. Cover material and feel, size and capacity, handles and carrying, and suggested everyday uses that follow logically from the confirmed facts. Do not state load ratings, durability test results, waterproof or antimicrobial performance, certifications, eco-friendly or degradable claims, or origin unless {{PRODUCT_FACTS}} explicitly confirms them.
+4. description: a short paragraph or two that expands on the confirmed facts and practical uses in plain language, without repeating the title verbatim and without promotional or contact content.
+
+Respect the current US rule pack supplied at use time for all length limits, character counting, and restricted content; do not assume any fixed number. If a fact needed for a claim is missing from {{PRODUCT_FACTS}}, omit the claim rather than guessing. Do not claim Amazon approval or any certification. Return the title, item_highlights, bullet_points with stable IDs, and description.
+调整说明：将商家空白提示补全为可复用的英文写作模板，覆盖标题、亮点、带稳定ID的要点和描述四部分。
+调整说明：明确只使用 {{PRODUCT_FACTS}} 中的已确认事实，{{KEYWORDS}} 仅作候选词，需与事实相符才可采用。
+调整说明：加入禁止编造承重、耐用测试、防水/抗菌、认证、环保降解、产地等未确认宣称的约束。
+调整说明：要求遵守使用时的美国规则包长度与限制，不在模板中写死任何字符数或尺寸数值。
+调整说明：要求不写促销语、联系方式、网址及多包装数量，并声明不声称平台批准或认证。
+方案待确认：商品图片缺失，无法确认外观与图案。
+方案待确认：本零售 SKU 的具体颜色未确认。
+方案待确认：尺寸仅有宽 x 高，深度未知。
+方案待确认：零售包装数量（retail_pack_count）未确认，供应商装箱数量不可用。
+方案待确认：品牌在零售链接中的标注未确认。
+方案待确认：承重、耐用性、认证及环保类证据均未提供，相关宣称须省略。
+写作方案不是商品事实或平台审核结论；最终文案仍须核对未完成检查与待补资料。
+
+审核一致性：建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。
+
+工厂原始材料（本机识别、商家确认，未独立核验）
+识别记录：materials-38142a89-5fe3-4d86-be60-9b457dd4013c；接收时间：2026-10-31T04:22:07.330Z
+
+文件：official-w101-specification.pdf
+SHA256：63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975
+位置：第 1 页、第 2 页、第 3 页
+
+
+文件：official-w101-public-text.txt
+SHA256：18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a
+位置：第 1 行、第 2 行、第 3 行、第 4 行、第 5 行、第 6 行、第 7 行、第 8 行、第 9 行、第 10 行、第 11 行、第 12 行、第 13 行、第 14 行、第 15 行、第 16 行、第 17 行
+
+
+文件：public-derived-w101-without-seller-sku.tsv
+SHA256：ac62b8a236107ebee0d56bf510ec2e2f13c64478bf34acc19651574c3a612977
+位置：第 1 条记录、第 2 条记录
+多个 SKU 的库存模板请使用批量导入；此处材料将归入同一商品。
+
+参数：材质：100% Cotton
+材料位置：official-w101-specification.pdf / 第 1 页；official-w101-public-text.txt / 第 2 行
+
+参数：面料克重：140gsm
+材料位置：official-w101-specification.pdf / 第 1 页；official-w101-public-text.txt / 第 2 行
+
+参数：面料克重：140
+材料位置：official-w101-specification.pdf / 第 1 页
+
+参数：尺寸（宽 x 高）：38 x 42
+材料位置：official-w101-specification.pdf / 第 1 页
+
+参数：容量：10
+材料位置：official-w101-specification.pdf / 第 1 页
+
+参数：提手长度：67
+材料位置：official-w101-specification.pdf / 第 2 页
+
+卖点对照：100% Cotton Tote Bag, 38 x 42 cm, 10 L, 67 cm Handles
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：100% → material="100% Cotton"；方法：material_percentage；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：38 x 42 cm → dimensions_cm={"width":38,"height":42}；方法：dimension_tuple_to_cm；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：10 L → capacity_l=10；方法：volume_to_litres；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：67 cm Handles → handle_length_cm=67；方法：handle_length_to_cm；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+material="100% Cotton"；来源：LOCAL-MERCHANT-INPUT
+dimensions_cm={"width":38,"height":42}；来源：LOCAL-MERCHANT-INPUT
+capacity_l=10；来源：LOCAL-MERCHANT-INPUT
+handle_length_cm=67；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：100% cotton, 140gsm; 38 x 42 cm; 10 L capacity; 67 cm handles
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：100% → material="100% Cotton"；方法：material_percentage；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：140gsm → fabric_weight_gsm=140；方法：fabric_mass_per_area；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：38 x 42 cm → dimensions_cm={"width":38,"height":42}；方法：dimension_tuple_to_cm；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：10 L → capacity_l=10；方法：volume_to_litres；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：67 cm handles → handle_length_cm=67；方法：handle_length_to_cm；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+material="100% Cotton"；来源：LOCAL-MERCHANT-INPUT
+fabric_weight_gsm=140；来源：LOCAL-MERCHANT-INPUT
+dimensions_cm={"width":38,"height":42}；来源：LOCAL-MERCHANT-INPUT
+capacity_l=10；来源：LOCAL-MERCHANT-INPUT
+handle_length_cm=67；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：100% cotton at 140gsm gives this tote a plain, lightweight fabric feel for everyday carrying.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：100% → material="100% Cotton"；方法：material_percentage；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：140gsm → fabric_weight_gsm=140；方法：fabric_mass_per_area；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+material="100% Cotton"；来源：LOCAL-MERCHANT-INPUT
+fabric_weight_gsm=140；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：Measures 38 x 42 cm (width x height) with a 10 L capacity, leaving room for groceries, books or daily essentials.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：38 x 42 cm  → dimensions_cm={"width":38,"height":42}；方法：dimension_pair_by_axis_label；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：10 L → capacity_l=10；方法：volume_to_litres；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+dimensions_cm={"width":38,"height":42}；来源：LOCAL-MERCHANT-INPUT
+capacity_l=10；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：The 67 cm handles let you carry it by hand or over the shoulder.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：67 cm handles → handle_length_cm=67；方法：handle_length_to_cm；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+handle_length_cm=67；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：A simple cotton tote for errands, shopping trips, the library or the beach.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：cotton → material="100% Cotton"；方法：material_presence_only；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+material="100% Cotton"；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：This tote bag is made of 100% cotton at 140gsm.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：100% → material="100% Cotton"；方法：material_percentage；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：140gsm → fabric_weight_gsm=140；方法：fabric_mass_per_area；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+material="100% Cotton"；来源：LOCAL-MERCHANT-INPUT
+fabric_weight_gsm=140；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：It measures 38 x 42 cm (width x height) and holds about 10 L, so it fits everyday items like groceries, books and small purchases.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：38 x 42 cm  → dimensions_cm={"width":38,"height":42}；方法：dimension_pair_by_axis_label；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+参数原文：10 L → capacity_l=10；方法：volume_to_litres；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+dimensions_cm={"width":38,"height":42}；来源：LOCAL-MERCHANT-INPUT
+capacity_l=10；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：The 67 cm handles allow hand or shoulder carrying.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：67 cm handles → handle_length_cm=67；方法：handle_length_to_cm；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+handle_length_cm=67；来源：LOCAL-MERCHANT-INPUT
+
+卖点对照：A plain cotton bag for shopping, errands and daily use.
+参数已关联；已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。
+参数关联方法：structured-parameters-v2.4；商品快照：product-385963ea-3019-4345-ae66-5cdf94b70510@1；整句语义另行审阅。
+参数原文：cotton → material="100% Cotton"；方法：material_presence_only；来源：LOCAL-MERCHANT-INPUT；product-385963ea-3019-4345-ae66-5cdf94b70510@1
+material="100% Cotton"；来源：LOCAL-MERCHANT-INPUT
+
+未覆盖参数：0 处；参数关联不证明整句，未覆盖项未核对。
+
+待补：品牌；未确认，草稿中不推测；正式上架仍需核对。
+
+待补：颜色；未确认，草稿中不推测；正式上架仍需核对。
+
+待补：零售包装；未确认，草稿中不推测；正式上架仍需核对。
+
+未完成检查：无

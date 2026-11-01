@@ -1,0 +1,121 @@
+{
+  "schema": "market-baseline/1",
+  "scope": {
+    "marketplace": "amazon.com",
+    "category": "cotton tote bag",
+    "sample_date": "2026-10-30",
+    "n": 45,
+    "method": "公开商品详情页快照，只做聚合统计，不收录原文",
+    "excludes": "不含评论、不含图片、不含价格"
+  },
+  "title_chars": {
+    "min": 27,
+    "p25": 62,
+    "p50": 69,
+    "p75": 114,
+    "p90": 172,
+    "max": 186,
+    "over_75": 19,
+    "over_75_share": 0.422,
+    "over_150": 7,
+    "counted": 45,
+    "sorted": [
+      27,
+      36,
+      46,
+      47,
+      48,
+      53,
+      55,
+      55,
+      56,
+      57,
+      60,
+      62,
+      62,
+      65,
+      66,
+      67,
+      67,
+      67,
+      67,
+      67,
+      68,
+      69,
+      69,
+      71,
+      71,
+      72,
+      76,
+      76,
+      81,
+      91,
+      97,
+      111,
+      111,
+      114,
+      114,
+      119,
+      133,
+      150,
+      164,
+      169,
+      172,
+      172,
+      181,
+      182,
+      186
+    ]
+  },
+  "bullet_count": {
+    "distribution": {
+      "4": 1,
+      "5": 42,
+      "7": 2
+    },
+    "five_share": 0.933
+  },
+  "eco": {
+    "claims": 13,
+    "claim_share": 0.289,
+    "with_evidence": 1,
+    "words": {
+      "recycled": 2,
+      "eco-friendly": 7,
+      "ecofriendly": 2,
+      "sustainable": 3,
+      "eco friendly": 1,
+      "environmentally friendly": 1
+    },
+    "no_evidence_examples": [
+      {
+        "asin": "B0DX7C3T18",
+        "words": [
+          "eco-friendly"
+        ]
+      },
+      {
+        "asin": "B085CC9FDL",
+        "words": [
+          "eco-friendly"
+        ]
+      },
+      {
+        "asin": "B083DHKJS5",
+        "words": [
+          "ecofriendly"
+        ]
+      }
+    ]
+  },
+  "units": {
+    "oz": 37,
+    "gsm": 0
+  },
+  "weight_unit_share": {
+    "oz": 0.822,
+    "gsm": 0
+  },
+  "pack_listed": 13,
+  "measurement_in_text": 33
+}

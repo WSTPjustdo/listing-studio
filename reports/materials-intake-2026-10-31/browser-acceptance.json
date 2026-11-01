@@ -1,0 +1,220 @@
+{
+  "started_at": "2026-10-31T04:27:27.837Z",
+  "base_url": "http://127.0.0.1:3221",
+  "evidence_type": "actual_browser_official_public_documents_and_public_derived_tsv",
+  "merchant_original_word": "unknown",
+  "merchant_original_excel": "unknown",
+  "merchant_wechat_screenshot": "unknown",
+  "genuine_merchant_acceptance": "pending",
+  "official_amazon_template": "unknown",
+  "seller_sku": null,
+  "paid_analysis_authorized": true,
+  "model_calls": [
+    {
+      "operation": "research_analyze",
+      "request_id": "d9a0f9d6-a0d6-4f2d-96bd-fc695209ee38",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4291,
+      "usage": {
+        "prompt_tokens": 1578,
+        "completion_tokens": 853,
+        "total_tokens": 2431,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 1450
+      },
+      "actual_model_call": true
+    }
+  ],
+  "checks": [
+    "home_direct_amazon_batch_import_navigation",
+    "actual_client_and_api_doc_extension_rejection",
+    "actual_client_and_api_xls_extension_rejection",
+    "improve_actual_multi_file_extraction_source_locators_confirmation_correction_and_invalidation",
+    "real_browser_material_context_to_DeepSeek_analysis_and_unconfirmed_product_gate",
+    "automatic_actual_multi_file_extraction_source_locators_confirmation_correction_and_invalidation"
+  ],
+  "screenshots": [
+    "home-batch-entry-1440.png",
+    "home-batch-entry-390.png",
+    "amazon-batch-import-1440.png",
+    "amazon-batch-import-390.png",
+    "improve-sources-1440.png",
+    "improve-sources-390.png",
+    "improve-real-analysis-confirmation-1440.png",
+    "improve-real-analysis-confirmation-390.png",
+    "automatic-sources-1440.png",
+    "automatic-sources-390.png",
+    "improve-real-analysis-confirmation-facts.png"
+  ],
+  "overflow": [
+    {
+      "label": "home-batch-entry",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "home-batch-entry",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "label": "amazon-batch-import",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "amazon-batch-import",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "label": "improve-sources",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "improve-sources",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "label": "improve-real-analysis-confirmation",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "improve-real-analysis-confirmation",
+      "width": 390,
+      "scroll": 390
+    },
+    {
+      "label": "automatic-sources",
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "automatic-sources",
+      "width": 390,
+      "scroll": 390
+    }
+  ],
+  "page_errors": [],
+  "mutation_requests": [
+    {
+      "method": "POST",
+      "path": "/api/materials/preview"
+    },
+    {
+      "method": "POST",
+      "path": "/api/research/analyze"
+    },
+    {
+      "method": "POST",
+      "path": "/api/materials/preview"
+    }
+  ],
+  "previews": [
+    {
+      "mode": "improve",
+      "id": "materials-ea628b68-2d91-48f8-8e95-234d6ceb85c2",
+      "documents": [
+        {
+          "id": "material-5b804975-b361-43be-af91-855ba7d4d708",
+          "filename": "official-w101-public-text.txt",
+          "sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+          "status": "ready",
+          "segment_count": 17,
+          "first_locator": "第 1 行"
+        },
+        {
+          "id": "material-78ba38b0-2ccf-42a5-b89f-9cd9a82ede99",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "status": "ready",
+          "segment_count": 3,
+          "first_locator": "第 1 页"
+        },
+        {
+          "id": "material-50b078bf-d3d9-4f0b-a4e8-930a323f4698",
+          "filename": "public-derived-w101-without-seller-sku.tsv",
+          "sha256": "ac62b8a236107ebee0d56bf510ec2e2f13c64478bf34acc19651574c3a612977",
+          "status": "ready",
+          "segment_count": 2,
+          "first_locator": "第 1 条记录"
+        }
+      ]
+    },
+    {
+      "mode": "automatic",
+      "id": "materials-0f8537b4-2c47-4417-a816-fc867362e179",
+      "documents": [
+        {
+          "id": "material-715bd824-0395-4c9d-a38e-529f2784f47a",
+          "filename": "official-w101-public-text.txt",
+          "sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+          "status": "ready",
+          "segment_count": 17,
+          "first_locator": "第 1 行"
+        },
+        {
+          "id": "material-78d1fbf8-fe50-4f63-968e-66f449c419a8",
+          "filename": "official-w101-specification.pdf",
+          "sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+          "status": "ready",
+          "segment_count": 3,
+          "first_locator": "第 1 页"
+        },
+        {
+          "id": "material-32155f9e-e188-49a0-bd52-67e81448fc53",
+          "filename": "public-derived-w101-without-seller-sku.tsv",
+          "sha256": "ac62b8a236107ebee0d56bf510ec2e2f13c64478bf34acc19651574c3a612977",
+          "status": "ready",
+          "segment_count": 2,
+          "first_locator": "第 1 条记录"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "kind": "intentional_unsupported_extension_check",
+      "filename": "official-text-extension-rejection.doc",
+      "source_bytes_sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+      "status": "failed",
+      "error": {
+        "code": "MATERIAL_FORMAT",
+        "message": "旧版 .doc 请另存为 .docx 或 PDF 后上传。"
+      }
+    },
+    {
+      "kind": "intentional_unsupported_extension_check",
+      "filename": "official-text-extension-rejection.xls",
+      "source_bytes_sha256": "18f610fa08e358cedb7773ce27873a646e5944b7c9deb182291ba8d5be03183a",
+      "status": "failed",
+      "error": {
+        "code": "MATERIAL_FORMAT",
+        "message": "旧版 .xls 请另存为 .xlsx 后上传。"
+      }
+    }
+  ],
+  "notice": "Uses a real official W101 PDF and literal public page text plus an existing source-derived TSV. Unsupported DOC/XLS checks rename real TXT bytes only to exercise extension rejection; these are not merchant files. No synthetic product or mocked response is used.",
+  "status": "passed_available_public_source_scope_with_real_analysis",
+  "completed_at": "2026-10-31T04:27:35.521Z",
+  "screenshot_crops": [
+    {
+      "filename": "improve-real-analysis-confirmation-facts.png",
+      "source": "improve-real-analysis-confirmation-1440.png",
+      "rectangle": {
+        "x": 388,
+        "y": 385,
+        "width": 903,
+        "height": 135
+      },
+      "method": "Pixel crop only; no DOM edits, text replacement, resizing or compositing.",
+      "visible": "Actual DeepSeek analysis confirmation labels 商品名称、真实材质、宽度、高度、面料克重、容量、提手长度 and real official W101-derived values 38、42、140、10、67."
+    }
+  ]
+}

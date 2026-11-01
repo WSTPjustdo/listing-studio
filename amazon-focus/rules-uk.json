@@ -1,0 +1,410 @@
+{
+  "schema_version": "1.0",
+  "rule_pack_version": "amazon-uk-tote-2026-10-31.r4",
+  "checked_at": "2026-10-30",
+  "implementation_status": "wired_platform_layer_only",
+  "scope": {
+    "platform": "amazon",
+    "marketplace": "UK",
+    "locale": "en-GB",
+    "application_product_type": "tote_bag_demo",
+    "official_product_type_definition_loaded": false,
+    "workflows": [
+      "listing_create",
+      "listing_diagnose"
+    ]
+  },
+  "notice": "英国站规则包（r3）：6 条脱欧后与欧盟不同的法域规则 + 4 条按 amazon.co.uk 帮助页（en-GB）核过的平台层规则（标题 75 字符 / item highlights 125 / 禁用特殊字符 / 同词不超两次）。已注册进 store.mjs 的 rulePacks，平台层 4 条由引擎按 constraint 读数执行；6 条法域规则没有本地实现，一律记 not_checked。2026-10-31 起英国站已接通界面与生成/批量链路（WORKFLOW_MARKETPLACES 含 UK），但**这不等于「英国站已合规」**：6 条法域规则只列清单不给结论，对外只能说「英国站的 4 条平台层检查能出结论」，不得声称英国法域要求已核。",
+  "result_states": [
+    "pass",
+    "fail",
+    "needs_evidence",
+    "not_applicable",
+    "error",
+    "not_checked"
+  ],
+  "sources": [
+    {
+      "source_id": "UK-CMA-GCC",
+      "kind": "official_regulator_guidance",
+      "publisher": "Competition and Markets Authority（CMA）",
+      "url": "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 直接抓取）：\"The principles are: - claims must be truthful and accurate - claims must be clear and unambiguous - claims must not omit or hide important relevant information - comparisons must be fair and meaningful - claims must consider the full life cycle of the product or service - claims must be substantiated\"；\"This guidance is about the requirements from the general laws in (b) above. It is based on consumer protection rules under the Consumer Protection from Unfair Trading Regulations 2008 and Business Protection from Misleading Marketing Regulations 2008.\"；\"Claims must not mislead consumers by giving them an inaccurate impression, even if those claims are factually correct.\""
+    },
+    {
+      "source_id": "UK-CMA-FASHION-LETTER",
+      "kind": "official_regulator_guidance",
+      "publisher": "Competition and Markets Authority（CMA），Director of Consumer Protection 署名公开信",
+      "url": "https://www.gov.uk/government/publications/open-letter-to-fashion-retail-sector-about-environmental-claims/open-letter-to-fashion-retail-sector-about-environmental-claims",
+      "updated_on": "2024-03-27",
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 直接抓取，2024-03-27 公开信）：“The Code sets out 6 key principles that businesses must adhere to in order to ensure that their environmental claims are not misleading, namely that they: are truthful and accurate are clear and unambiguous do not omit or hide important information compare goods or services in a fair and meaningful way consider the full life cycle of the product or service are substantiated”。这封公开信的对象是时尚（fashion）行业，棉布袋属其邻近品类，引作「监管者已在服装类目实际执法」的证据，不当作法律条文。"
+    },
+    {
+      "source_id": "UK-DEFRA-BAG",
+      "kind": "official_government_publication",
+      "publisher": "Department for Environment, Food & Rural Affairs（Defra）/ GOV.UK",
+      "url": "https://www.gov.uk/government/publications/carrier-bag-charge-summary-of-data-in-england/single-use-plastic-carrier-bags-charge-data-for-england-2021-to-2022",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 直接抓取）：\"For the 2021 to 2022 reporting year, large retailers were required to charge a minimum of 5 pence (before 21 May 2021) or 10 pence (after 21 May 2021) per bag\"；\"These requirements were extended to all retailers on 21 May 2021, but retailers with fewer than 250 employees are not required to report data to Defra.\"；\"Some bags are exempt from the charge, although retailers can choose to charge for them.\""
+    },
+    {
+      "source_id": "UK-GPSR-2005",
+      "kind": "official_legislation",
+      "publisher": "The National Archives / legislation.gov.uk（The General Product Safety Regulations 2005, SI 2005/1803）",
+      "url": "https://www.legislation.gov.uk/uksi/2005/1803/regulation/5",
+      "updated_on": null,
+      "effective_from": "2005-10-01",
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 直接抓取，Latest available (Revised)）：“5.—(1) No producer shall place a product on the market unless the product is a safe product.” 同条 (2)(3)(4) 分别覆盖要约投放、供应与供应准备。"
+    },
+    {
+      "source_id": "UK-UKCA-GUIDE",
+      "kind": "official_government_guidance",
+      "publisher": "Department for Business and Trade / GOV.UK（Using the UKCA marking）",
+      "url": "https://www.gov.uk/guidance/using-the-ukca-marking",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 直接抓取）：“Conformity marking is only necessary if required under sector-specific regulations. Not all products must bear a conformity marking.”；“Where the aims and requirements of product regulations meet the needs of the UK, the UK continues to recognise the CE marking, alongside or in place of the UKCA marking, for the Great Britain market under The Product Safety and Metrology (Amendment) Regulations 2024.” 页面全文未出现 textile / clothing / apparel / garment，因此不能据此断言棉布袋必须打 UKCA。"
+    },
+    {
+      "source_id": "UK-TEXTIL-SI2012",
+      "kind": "official_legislation",
+      "publisher": "The National Archives / legislation.gov.uk（The Textile Products (Labelling and Fibre Composition) Regulations 2012, SI 2012/1102）",
+      "url": "https://www.legislation.gov.uk/uksi/2012/1102/contents",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "2026-10-30 抓到目录页：该 SI 以「Market surveillance of the EU Regulation」与 Schedule 2「Provisions of EU Regulation」的方式在英国执行 (EU) No 1007/2011；条文原文本次未逐条取得，标记为未核实（见 qa/uk-market-diff.md 第 4 节）。"
+    },
+    {
+      "source_id": "EU-TEXTIL-1007",
+      "kind": "official_legislation",
+      "publisher": "European Parliament and Council（Regulation (EU) No 1007/2011，经 legislation.gov.uk 转载原文）",
+      "url": "https://www.legislation.gov.uk/eur/2011/1007/chapter/2/adopted",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "德国站已核验并登记的同一条来源：纺织品必须标注纤维成分，纤维名称须取自 Annex I，百分比按降序。英国通过 SI 2012/1102 执行同一部 EU 法规，因此这条依据在英德两站同源、但法律载体不同。"
+    },
+    {
+      "source_id": "UK-TITLE-2026",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon Seller Central UK（Product title requirements and guidelines，en-GB 版）",
+      "url": "https://sellercentral.amazon.co.uk/help/hub/reference/external/GYTR6SYGFA5E3EQC?locale=en-GB",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 抓取，en-GB 页面）：“Titles must not exceed 75 characters, including spaces.”；“Titles must not use the following special characters: !, $, ?, _, {, }, ^, ¬ and ¦.”；“Titles must not contain the same word more than twice. … Prepositions, articles and conjunctions may be used more than twice in a title. However, brand names are also subject to the two-instance limit.”；“How can I add more descriptive information about my product if the required title length is only 75 characters? … Item highlights provide an additional 125 characters for product details…”；“Title requirements apply to all product types, except media product types, listed in all store, except for Saudi Arabia, Egypt, Türkiye, and the United Arab Emirates.”"
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "UK-GREEN-01",
+      "category": "consumer_protection",
+      "title_zh": "环保宣称的六项要求（英国 Green Claims Code）",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "principles": [
+          "truthful_and_accurate",
+          "clear_and_unambiguous",
+          "no_omission_of_important_information",
+          "fair_and_meaningful_comparisons",
+          "full_life_cycle_considered",
+          "substantiated"
+        ],
+        "factually_correct_but_misleading_is_still_misleading": true
+      },
+      "effective_from": null,
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "UK-CMA-GCC",
+        "UK-CMA-FASHION-LETTER"
+      ],
+      "repair": "删掉无法逐条满足六项要求的泛化表述（eco-friendly / sustainable / green），改成可核实的材料与比例；缺证据就留空，不补事实。",
+      "note": "骨架条目，尚无程序实现，状态应为 not_checked。与德国站 DE-ENV-01 的差别：德国有 EmpCo (EU) 2024/825 明令禁止若干泛化词、并直接禁「抵消式中性」；英国靠 2008 年不公平交易条例 + CMA 指南，属原则性要求，判断更依赖上下文。"
+    },
+    {
+      "rule_id": "UK-GREEN-02",
+      "category": "consumer_protection",
+      "title_zh": "「碳中和 / 净零」类宣称须给具体依据且不得只讲单一方面",
+      "field_paths": [
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "must_consider_full_life_cycle": true,
+        "single_aspect_claim_needs_context": true,
+        "offset_based_neutrality_requires_disclosure": true
+      },
+      "effective_from": null,
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "UK-CMA-GCC"
+      ],
+      "repair": "写明覆盖范围（整只包还是某道工序）、核算依据与时间基准；无法给依据就不写。",
+      "note": "依据 Green Claims Code 原则 (c)(e)(f)。注意：英国没有德国 EmpCo 那种「抵消式中性一律禁」的明文，但「只讲一个方面而误导」同样落在原则 (e)。这条属骨架，未实现。"
+    },
+    {
+      "rule_id": "UK-BAG-01",
+      "category": "consumer_protection",
+      "title_zh": "引用塑料袋收费或「替代塑料袋」时的事实准确性",
+      "field_paths": [
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "charge_facts": {
+          "england_from": "2015（大型零售商 5p）",
+          "increased_to_10p_and_extended_to_all_retailers_on": "2021-05-21"
+        },
+        "must_not_state_wrong_amount_or_date": true,
+        "must_not_imply_the_listing_itself_replaces_the_charge": true
+      },
+      "effective_from": null,
+      "method": "explicit_fact_comparison",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "UK-DEFRA-BAG"
+      ],
+      "repair": "改成不带金额与日期的表述（例如只讲可重复使用），或按 2015 年 5p、2021-05-21 起 10p 且覆盖所有零售商来写。",
+      "note": "骨架条目。这条不是「平台规则」，而是文案里一旦引用英国政策就必须准确：写「5p bag charge」在 2026 年已经过时。另注：任务简报写的是「2022 扩到所有商家」，实际 GOV.UK 数据页写明扩围与提价同为 2021-05-21。"
+    },
+    {
+      "rule_id": "UK-GPSR-01",
+      "category": "product_safety",
+      "title_zh": "一般安全义务与随货警示（GPSR 2005）",
+      "field_paths": [
+        "content.description",
+        "content.bullet_points"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "general_safety_requirement": "No producer shall place a product on the market unless the product is a safe product.",
+        "warning_language": "en-GB",
+        "must_not_claim_safety_certification_without_evidence": true
+      },
+      "effective_from": "2005-10-01",
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "UK-GPSR-2005"
+      ],
+      "repair": "删掉无依据的安全类表述（如 child-safe、food-safe），或补上具体检测标准与报告。",
+      "note": "骨架条目。与德国站的 GPSR（EU 2023/988 第 19 条四要素）不是同一部法：英国仍用 2005 年条例，没有「欧盟责任人」这一要件。英国是否已用新法替代 2005 条例，本轮未核实。"
+    },
+    {
+      "rule_id": "UK-UKCA-01",
+      "category": "product_safety",
+      "title_zh": "CE / UKCA 标志：不是棉布袋的通行证，且 GB 仍认可 CE",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "conformity_marking_only_if_sector_regulations_require": true,
+        "ce_still_recognised_in_great_britain": true,
+        "ce_recognition_legal_basis": "The Product Safety and Metrology (Amendment) Regulations 2024",
+        "must_not_claim_marking_without_held_certificate": true
+      },
+      "effective_from": null,
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "UK-UKCA-GUIDE"
+      ],
+      "repair": "删掉 CE / UKCA 字样；不能因为「英国脱欧了所以要 UKCA」就往上加标志。",
+      "note": "骨架条目。这条推翻了一个常见误解：脱欧不等于 UKCA 强制。GOV.UK 明确写 CE 在 GB 继续被认可，且「Conformity marking is only necessary if required under sector-specific regulations」。棉布袋在页面里根本没有被列入任何需要符合性标志的品类。"
+    },
+    {
+      "rule_id": "UK-TEXTIL-01",
+      "category": "labelling",
+      "title_zh": "纺织品纤维成分标注（英国以 SI 2012/1102 执行 (EU) 1007/2011）",
+      "field_paths": [
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "fibre_composition_required": true,
+        "fibre_names_from_annex_i_only": true,
+        "percentages_in_descending_order": true,
+        "language": "en-GB",
+        "visible_before_purchase_online": true
+      },
+      "effective_from": null,
+      "method": "patterns_with_context_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "UK-TEXTIL-SI2012",
+        "EU-TEXTIL-1007"
+      ],
+      "repair": "按 Annex I 的英文纤维名写成分并给百分比，降序；未知成分不写。",
+      "note": "骨架条目，且条文原文未取得（只抓到 SI 目录页与 Schedule 2 的存在），按交接规矩标未核实。英语写法的具体形式（如 \"100% cotton\"）是否被接受，需要在英国标签实务来源上再核一遍。"
+    },
+    {
+      "rule_id": "AMZ-01",
+      "category": "platform_rules",
+      "title_zh": "标题长度（英国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 75,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "UK-TITLE-2026"
+      ],
+      "repair": "缩到 75 字符以内再提交；放不下的属性移进 item highlights。不新增商品事实。",
+      "note": "正例：\"Organic Cotton Tote Bag, 38 × 42 cm, 140 g/m²\"（44 字符，合规）。反例：\"Organic Cotton Canvas Tote Bag with Long Handles, Reusable, Foldable, Washable, Ideal for Shopping, Beach and Gifts, 10-Pack\"（超 75）。与德国站同一个帮助页（同一 reference id），en-GB 页写的也是 75 —— 平台层是同一套，法域层才不同。骨架条目：**本包未接引擎**，接入时 AMZ-01 的实现会直接读 constraint.max_characters。"
+    },
+    {
+      "rule_id": "AMZ-02",
+      "category": "platform_rules",
+      "title_zh": "item highlights 长度（英国站）",
+      "field_paths": [
+        "content.item_highlights"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 125,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "UK-TITLE-2026"
+      ],
+      "repair": "提炼成逗号分隔的短句，必要时把属性移到其他适用字段，重新计数。",
+      "note": "正例：\"100% cotton, 140 g/m², machine washable\"（37 字符）。反例：整句英文叙述堆到 200 字符以上。英国帮助页原话是 item highlights 给标题之外「additional 125 characters」，与德国站同一套。骨架条目：本包未接引擎。"
+    },
+    {
+      "rule_id": "UK-TITLE-01",
+      "category": "platform_rules",
+      "title_zh": "标题禁用特殊字符（英国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "prohibited_characters": [
+          "!",
+          "$",
+          "?",
+          "_",
+          "{",
+          "}",
+          "^",
+          "¬",
+          "¦"
+        ],
+        "brand_name_exemption": true
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "UK-TITLE-2026"
+      ],
+      "repair": "删掉这些符号；品牌名里确有这些字符时写进 Brand name 字段（帮助页明确豁免）。",
+      "note": "正例：\"Cotton Tote Bag 38 x 42 cm - Natural\"。反例：\"Cotton Tote Bag! Best_Choice {2026}\"。注意 `~ # < > *` 属于「特定语境可用」（型号、尺寸），不能一刀切禁。骨架条目：本包未接引擎；德国站对应实现挂在 DE-TITLE-03 这个 id 上，接入时要改成本包的 id，不要把德文规则号套到英国站。"
+    },
+    {
+      "rule_id": "UK-TITLE-02",
+      "category": "platform_rules",
+      "title_zh": "标题同一个词不得超过两次（英国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "UK",
+        "media_product": false
+      },
+      "constraint": {
+        "max_occurrences_per_word": 2,
+        "exempt_word_classes": [
+          "preposition",
+          "article",
+          "conjunction"
+        ],
+        "brand_name_also_limited": true
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "UK-TITLE-2026"
+      ],
+      "repair": "删掉重复词，把次要属性移进 item highlights。",
+      "note": "正例：\"Levi's Men's 501 Original Fit Jeans\"。反例：帮助页自己的例子 “Levi's Men's Jeans Men's 501 Original Fit Men's Denim Jeans”。介词/冠词/连词可超两次，品牌名同样受两次限制（帮助页明写）。骨架条目：本包未接引擎；德国站对应实现挂在 DE-TITLE-02。"
+    }
+  ],
+  "coverage_limits": [
+    "平台层只核了标题长度、item highlights 长度、禁用特殊字符、同词两次四条；联系方式、促销语、描述准确性、包装件数、类目专属 style guide 均未按 amazon.co.uk 核验，因此本包不能单独用于审阅出结论。",
+    "已注册进 rulePacks：AMZ-01 / AMZ-02 / UK-TITLE-01 / UK-TITLE-02 四条平台层规则由引擎按 constraint 执行；6 条法域规则（UK-GREEN-01/02、UK-BAG-01、UK-GPSR-01、UK-UKCA-01、UK-TEXTIL-01）没有本地实现，按引擎约定一律记 not_checked，不得计为 pass。",
+    "2026-10-31 起已接界面与生成/批量链路（WORKFLOW_MARKETPLACES 含 UK），locale 用 en-GB；但英国站的语料与类目 style guide G1641 仍未核验，6 条法域规则仍只列清单，因此可以说「支持英国站（平台层四条）」，不得声称英国法域合规已核。",
+    "未知法域状态：UK-GPSR-01 是否已被新法替代、CMA 罚款权限、类目 style guide G1641 均未核实（见 qa/uk-market-diff.md 的未核实清单）。",
+    "未覆盖图片、A+、Search Terms、进口、税务、UK REACH、包装 EPR 与塑料包装税。",
+    "规则用于上架前风险预审，不构成法律意见。"
+  ],
+  "label": "棉布手提袋（Amazon UK 文本预审 · 仅平台层）",
+  "pack_id": "amazon-uk-tote"
+}

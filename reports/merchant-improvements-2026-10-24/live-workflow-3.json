@@ -1,0 +1,2665 @@
+{
+  "started_at": "2026-10-24T02:25:12.768Z",
+  "source_url": "https://westfordmill.com/products/w101",
+  "model": "deepseek-flash",
+  "provider": "DeepSeek",
+  "source_checked_live": true,
+  "input_notice": "真实品牌官方公开商品；非用户库存，不虚构零售包装、颜色、认证与性能。",
+  "steps": [
+    {
+      "label": "真实商品生成与独立审核",
+      "status": "succeeded",
+      "elapsed_ms": 5555,
+      "record": {
+        "listing_id": "listing-664a2f23-72e2-4948-89e3-c8eef539fd75",
+        "version": 1,
+        "parent_version": null,
+        "workflow": "listing_create",
+        "operation": "create",
+        "product_ref": "REAL-WESTFORD-W101@1",
+        "product_snapshot": {
+          "product_id": "REAL-WESTFORD-W101",
+          "revision": 1,
+          "name_zh": "Westford Mill W101 官方公开商品",
+          "is_demo": false,
+          "reference_product_id": "W101",
+          "material": {
+            "value": "100% cotton",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "fabric_weight_gsm": {
+            "value": 140,
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "dimensions_cm": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "capacity_l": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "handle_length_cm": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "retail_pack_count": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "brand": {
+            "value": "Westford Mill",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "color": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "rated_load_kg": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "additional_facts": [
+            {
+              "value": "4.1oz/yd²",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            },
+            {
+              "value": "Can be carried by hand or over the shoulder",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            },
+            {
+              "value": "CutAway label for ease of rebranding",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            }
+          ],
+          "degradation_evidence": [],
+          "certification_evidence": [],
+          "performance_evidence": []
+        },
+        "competitor_research": null,
+        "content_brief": {
+          "audience": "日常购物用户",
+          "use_case": "日常携带",
+          "concern": "材质与规格",
+          "style": "参数清晰"
+        },
+        "marketplace": "US",
+        "locale": "en-US",
+        "rule_pack_version": "amazon-us-tote-2026-10-23.merchant-v6",
+        "content": {
+          "title": "Westford Mill W101 Cotton Tote Bag, 100% Cotton 140gsm",
+          "item_highlights": "100% cotton, 140gsm (4.1oz/yd²); carry by hand or over the shoulder; CutAway label for easy rebranding",
+          "bullet_points": [
+            {
+              "id": "b1",
+              "text": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight."
+            },
+            {
+              "id": "b2",
+              "text": "Designed to be carried by hand or over the shoulder."
+            },
+            {
+              "id": "b3",
+              "text": "CutAway label for ease of rebranding."
+            }
+          ],
+          "description": "Westford Mill W101 tote bag made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight. It can be carried by hand or over the shoulder, and the CutAway label makes it easy to rebrand."
+        },
+        "review": {
+          "evidence": [
+            {
+              "field_path": "content.title",
+              "claim": "Westford Mill W101 Cotton Tote Bag, 100% Cotton 140gsm",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "brand",
+                  "value": "Westford Mill",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 13,
+                  "original": "Westford Mill",
+                  "field": "brand",
+                  "parsed_value": "Westford Mill",
+                  "method": "exact_fact_text",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "Westford Mill",
+                  "value": "Westford Mill",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 19,
+                  "end": 25,
+                  "original": "Cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_presence_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 36,
+                  "end": 47,
+                  "original": "100% Cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 48,
+                  "end": 54,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.item_highlights",
+              "claim": "100% cotton, 140gsm (4.1oz/yd²); carry by hand or over the shoulder; CutAway label for easy rebranding",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 11,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 13,
+                  "end": 19,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 21,
+                  "end": 30,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.bullet_points.b1",
+              "claim": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 11,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 28,
+                  "end": 34,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 36,
+                  "end": 45,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.bullet_points.b3",
+              "claim": "CutAway label for ease of rebranding.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "additional_facts.2",
+                  "value": "CutAway label for ease of rebranding",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 36,
+                  "original": "CutAway label for ease of rebranding",
+                  "field": "additional_facts.2",
+                  "parsed_value": "CutAway label for ease of rebranding",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "CutAway label for ease of rebranding",
+                  "value": "CutAway label for ease of rebranding",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.description",
+              "claim": "Westford Mill W101 tote bag made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "brand",
+                  "value": "Westford Mill",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 13,
+                  "original": "Westford Mill",
+                  "field": "brand",
+                  "parsed_value": "Westford Mill",
+                  "method": "exact_fact_text",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "Westford Mill",
+                  "value": "Westford Mill",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 38,
+                  "end": 49,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 57,
+                  "end": 63,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 65,
+                  "end": 74,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.description",
+              "claim": "It can be carried by hand or over the shoulder, and the CutAway label makes it easy to rebrand.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "additional_facts.1",
+                  "value": "Can be carried by hand or over the shoulder",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 3,
+                  "end": 46,
+                  "original": "can be carried by hand or over the shoulder",
+                  "field": "additional_facts.1",
+                  "parsed_value": "Can be carried by hand or over the shoulder",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "Can be carried by hand or over the shoulder",
+                  "value": "Can be carried by hand or over the shoulder",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            }
+          ],
+          "issues": [],
+          "checks": [
+            {
+              "rule_id": "AMZ-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-03",
+              "state": "pass",
+              "reason": "标题、亮点、五点描述和商品描述中均未发现邮箱、电话、卖家地址或网址。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-04",
+              "state": "pass",
+              "reason": "文案中未出现价格、库存、商品状况或替代配送等交易信息。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-05",
+              "state": "pass",
+              "reason": "100% cotton、140gsm（4.1oz/yd²）、可手提或肩背、CutAway 标签均与结构化事实及 additional_facts 一致；未出现未知参数（尺寸、容量、手柄长度、颜色、包装数量、承重）。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-01",
+              "state": "pass",
+              "reason": "文案未出现环保、可持续、可回收等宽泛环保宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-02",
+              "state": "pass",
+              "reason": "文案未出现降解条件或时间相关宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-03",
+              "state": "pass",
+              "reason": "文案未出现性能测试、认证或承重类客观宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-01",
+              "state": "pass",
+              "reason": "140gsm 仅作为面料克重表述，未与单位重量或容量、承重混淆。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-02",
+              "state": "pass",
+              "reason": "文案未提及零售包装数量。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "EVID-01",
+              "state": "pass",
+              "method": "deterministic_structured_facts",
+              "reason": "仅对照可识别的商品参数与记录来源；整句语义、适用条件及宣称由其他语义检查审阅。"
+            },
+            {
+              "rule_id": "SYS-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "SYS-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            }
+          ],
+          "status": "reviewed_within_scope",
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "coverage": {
+            "total": 13,
+            "completed": 13,
+            "failed": 0,
+            "pending": 0
+          },
+          "publication_readiness": "not_verified",
+          "consistency_check": {
+            "state": "baseline",
+            "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+          }
+        },
+        "product_change": null,
+        "claim_map": [
+          {
+            "field_path": "content.title",
+            "claim": "100% Cotton",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.title",
+            "claim": "140gsm",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "100% cotton, 140gsm (4.1oz/yd²)",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "carry by hand or over the shoulder",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "CutAway label for easy rebranding",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b1",
+            "claim": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight.",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b2",
+            "claim": "Designed to be carried by hand or over the shoulder.",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b3",
+            "claim": "CutAway label for ease of rebranding.",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.description",
+            "claim": "made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.description",
+            "claim": "It can be carried by hand or over the shoulder",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.description",
+            "claim": "the CutAway label makes it easy to rebrand",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "patches": [],
+        "repair_warnings": [],
+        "run_id": "run-a15fd535-e9bd-4798-a5d7-14320a81d717",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "113ea032-3754-4aa4-bcbd-39134ce6cf03",
+          "model": "deepseek-flash",
+          "elapsed_ms": 5440,
+          "usage": {
+            "prompt_tokens": 4539,
+            "completion_tokens": 884,
+            "total_tokens": 5423,
+            "prompt_tokens_details": {
+              "cached_tokens": 1408
+            },
+            "prompt_cache_hit_tokens": 1408,
+            "prompt_cache_miss_tokens": 3131
+          },
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "71fd9aa0-0a0e-4a08-8fb6-c6eee29d9ec9",
+              "model": "deepseek-flash",
+              "elapsed_ms": 1644,
+              "usage": {
+                "prompt_tokens": 4401,
+                "completion_tokens": 196,
+                "total_tokens": 4597,
+                "prompt_tokens_details": {
+                  "cached_tokens": 3968
+                },
+                "prompt_cache_hit_tokens": 3968,
+                "prompt_cache_miss_tokens": 433
+              }
+            },
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "113ea032-3754-4aa4-bcbd-39134ce6cf03",
+              "model": "deepseek-flash",
+              "elapsed_ms": 3796,
+              "usage": {
+                "prompt_tokens": 4539,
+                "completion_tokens": 884,
+                "total_tokens": 5423,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1408
+                },
+                "prompt_cache_hit_tokens": 1408,
+                "prompt_cache_miss_tokens": 3131
+              }
+            }
+          ],
+          "prompt_version": "2026-10-24.merchant-facts-v8.1",
+          "parameter_link_version": "structured-parameters-v1",
+          "audit_input_hash": "96874780458109b9f63ae90fa5a1eea9151b3149796f802838a3cc0d3960fa75",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "instruction": "为真实公开的 Westford Mill W101 制作英文商品内容草稿，只写已有依据的信息。不推测颜色、零售包装、未知尺寸或认证；不要把缺失数据说明写进对客英文文案。",
+        "created_at": "2026-10-24T02:25:18.241Z",
+        "is_demo": false,
+        "changes": [],
+        "risk_changes": null
+      }
+    },
+    {
+      "label": "真实问题审查修复与复检",
+      "status": "succeeded",
+      "elapsed_ms": 8641,
+      "record": {
+        "listing_id": "listing-664a2f23-72e2-4948-89e3-c8eef539fd75",
+        "version": 2,
+        "parent_version": 1,
+        "workflow": "listing_create",
+        "operation": "revise",
+        "product_ref": "REAL-WESTFORD-W101@1",
+        "product_snapshot": {
+          "product_id": "REAL-WESTFORD-W101",
+          "revision": 1,
+          "name_zh": "Westford Mill W101 官方公开商品",
+          "is_demo": false,
+          "reference_product_id": "W101",
+          "material": {
+            "value": "100% cotton",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "fabric_weight_gsm": {
+            "value": 140,
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "dimensions_cm": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "capacity_l": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "handle_length_cm": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "retail_pack_count": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "brand": {
+            "value": "Westford Mill",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "color": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "rated_load_kg": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "additional_facts": [
+            {
+              "value": "4.1oz/yd²",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            },
+            {
+              "value": "Can be carried by hand or over the shoulder",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            },
+            {
+              "value": "CutAway label for ease of rebranding",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            }
+          ],
+          "degradation_evidence": [],
+          "certification_evidence": [],
+          "performance_evidence": []
+        },
+        "competitor_research": null,
+        "content_brief": {
+          "audience": "日常购物用户",
+          "use_case": "日常携带",
+          "concern": "材质与规格",
+          "style": "参数清晰"
+        },
+        "marketplace": "US",
+        "locale": "en-US",
+        "rule_pack_version": "amazon-us-tote-2026-10-23.merchant-v6",
+        "content": {
+          "title": "Westford Mill W101 Cotton Tote Bag, 100% Cotton 140gsm",
+          "item_highlights": "100% cotton, 140gsm (4.1oz/yd²); carry by hand or over the shoulder; CutAway label for easy rebranding",
+          "bullet_points": [
+            {
+              "id": "b1",
+              "text": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight."
+            },
+            {
+              "id": "b2",
+              "text": "Designed to be carried by hand or over the shoulder."
+            },
+            {
+              "id": "b3",
+              "text": "CutAway label for ease of rebranding."
+            }
+          ],
+          "description": "Westford Mill W101 tote bag made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight. It can be carried by hand or over the shoulder, and the CutAway label makes it easy to rebrand."
+        },
+        "review": {
+          "evidence": [
+            {
+              "field_path": "content.title",
+              "claim": "Westford Mill W101 Cotton Tote Bag, 100% Cotton 140gsm",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "brand",
+                  "value": "Westford Mill",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": false,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 13,
+                  "original": "Westford Mill",
+                  "field": "brand",
+                  "parsed_value": "Westford Mill",
+                  "method": "exact_fact_text",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "Westford Mill",
+                  "value": "Westford Mill",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 19,
+                  "end": 25,
+                  "original": "Cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_presence_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 36,
+                  "end": 47,
+                  "original": "100% Cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 48,
+                  "end": 54,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.item_highlights",
+              "claim": "100% cotton, 140gsm (4.1oz/yd²); carry by hand or over the shoulder; CutAway label for easy rebranding",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": false,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 11,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 13,
+                  "end": 19,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 21,
+                  "end": 30,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.bullet_points.b1",
+              "claim": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": false,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 11,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 28,
+                  "end": 34,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 36,
+                  "end": 45,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.bullet_points.b3",
+              "claim": "CutAway label for ease of rebranding.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "additional_facts.2",
+                  "value": "CutAway label for ease of rebranding",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": false,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 36,
+                  "original": "CutAway label for ease of rebranding",
+                  "field": "additional_facts.2",
+                  "parsed_value": "CutAway label for ease of rebranding",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "CutAway label for ease of rebranding",
+                  "value": "CutAway label for ease of rebranding",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.description",
+              "claim": "Westford Mill W101 tote bag made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "brand",
+                  "value": "Westford Mill",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": false,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 13,
+                  "original": "Westford Mill",
+                  "field": "brand",
+                  "parsed_value": "Westford Mill",
+                  "method": "exact_fact_text",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "Westford Mill",
+                  "value": "Westford Mill",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 38,
+                  "end": 49,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 57,
+                  "end": 63,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 65,
+                  "end": 74,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.description",
+              "claim": "It can be carried by hand or over the shoulder, and the CutAway label makes it easy to rebrand.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "additional_facts.1",
+                  "value": "Can be carried by hand or over the shoulder",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": false,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@1",
+              "parameter_links": [
+                {
+                  "start": 3,
+                  "end": 46,
+                  "original": "can be carried by hand or over the shoulder",
+                  "field": "additional_facts.1",
+                  "parsed_value": "Can be carried by hand or over the shoulder",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@1",
+                  "expected_value": "Can be carried by hand or over the shoulder",
+                  "value": "Can be carried by hand or over the shoulder",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            }
+          ],
+          "issues": [],
+          "checks": [
+            {
+              "rule_id": "AMZ-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-03",
+              "state": "pass",
+              "reason": "标题、亮点、要点和描述中均未发现邮箱、电话、卖家地址或网址。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-04",
+              "state": "pass",
+              "reason": "文案中未出现价格、库存、成色或替代配送等交易信息。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-05",
+              "state": "pass",
+              "reason": "100% cotton、140gsm、4.1oz/yd²、手提或肩背、CutAway 标签均与结构化事实及 additional_facts 一致；未补全未知的尺寸、容量、颜色或包装数量。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-01",
+              "state": "pass",
+              "reason": "文案未出现环保、可回收、可持续等宽泛环保宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-02",
+              "state": "pass",
+              "reason": "文案未出现降解条件或时间相关宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-03",
+              "state": "pass",
+              "reason": "文案未出现认证、承重或防水等客观性能宣称，仅陈述材质与克重。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-01",
+              "state": "pass",
+              "reason": "140gsm 与 4.1oz/yd² 均作为面料克重表述，未与容量或承重混淆。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-02",
+              "state": "pass",
+              "reason": "文案未提及零售包装数量。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "EVID-01",
+              "state": "pass",
+              "method": "deterministic_structured_facts",
+              "reason": "仅对照可识别的商品参数与记录来源；整句语义、适用条件及宣称由其他语义检查审阅。"
+            },
+            {
+              "rule_id": "SYS-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "SYS-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            }
+          ],
+          "status": "reviewed_within_scope",
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "coverage": {
+            "total": 13,
+            "completed": 13,
+            "failed": 0,
+            "pending": 0
+          },
+          "publication_readiness": "not_verified",
+          "consistency_check": {
+            "state": "consistent",
+            "compared_version": 1,
+            "reason": "本次与上一版相同输入的审核结论一致；单次一致不代表长期稳定性。"
+          }
+        },
+        "product_change": null,
+        "claim_map": [],
+        "patches": [],
+        "repair_warnings": [
+          "模型本轮没有修改正文，仅保存了复检结果；如需修改，请明确字段和目标。"
+        ],
+        "run_id": "run-e47ceb60-09de-4a4c-9127-686f499109a6",
+        "trace": {
+          "output_mode": "audit_only_format_retry",
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "4de1551e-0592-49e9-91f9-a025eb787de9",
+          "model": "deepseek-flash",
+          "elapsed_ms": 8180,
+          "usage": {
+            "prompt_tokens": 4624,
+            "completion_tokens": 460,
+            "total_tokens": 5084,
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "prompt_cache_hit_tokens": 1024,
+            "prompt_cache_miss_tokens": 3600
+          },
+          "format_retry": {
+            "attempts": 2,
+            "recovered": true,
+            "failed_attempt": {
+              "error_code": "MODEL_INVALID_JSON",
+              "trace": {
+                "provider": "compatible",
+                "actual_model_call": true,
+                "provider_request_id": "f6bdb3cd-e5c9-4711-b1a8-9a6a5cbf4079",
+                "model": "deepseek-flash",
+                "elapsed_ms": 3947,
+                "usage": {
+                  "prompt_tokens": 4539,
+                  "completion_tokens": 899,
+                  "total_tokens": 5438,
+                  "prompt_tokens_details": {
+                    "cached_tokens": 4352
+                  },
+                  "prompt_cache_hit_tokens": 4352,
+                  "prompt_cache_miss_tokens": 187
+                }
+              }
+            }
+          },
+          "calls": [
+            {
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "aaa303d5-2c9b-4640-9fee-e157a81f77d2",
+              "model": "deepseek-flash",
+              "elapsed_ms": 1141,
+              "usage": {
+                "prompt_tokens": 5128,
+                "completion_tokens": 196,
+                "total_tokens": 5324,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1408
+                },
+                "prompt_cache_hit_tokens": 1408,
+                "prompt_cache_miss_tokens": 3720
+              }
+            },
+            {
+              "output_mode": "audit_only_format_retry",
+              "provider": "compatible",
+              "actual_model_call": true,
+              "provider_request_id": "4de1551e-0592-49e9-91f9-a025eb787de9",
+              "model": "deepseek-flash",
+              "elapsed_ms": 7039,
+              "usage": {
+                "prompt_tokens": 4624,
+                "completion_tokens": 460,
+                "total_tokens": 5084,
+                "prompt_tokens_details": {
+                  "cached_tokens": 1024
+                },
+                "prompt_cache_hit_tokens": 1024,
+                "prompt_cache_miss_tokens": 3600
+              },
+              "format_retry": {
+                "attempts": 2,
+                "recovered": true,
+                "failed_attempt": {
+                  "error_code": "MODEL_INVALID_JSON",
+                  "trace": {
+                    "provider": "compatible",
+                    "actual_model_call": true,
+                    "provider_request_id": "f6bdb3cd-e5c9-4711-b1a8-9a6a5cbf4079",
+                    "model": "deepseek-flash",
+                    "elapsed_ms": 3947,
+                    "usage": {
+                      "prompt_tokens": 4539,
+                      "completion_tokens": 899,
+                      "total_tokens": 5438,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 4352
+                      },
+                      "prompt_cache_hit_tokens": 4352,
+                      "prompt_cache_miss_tokens": 187
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "prompt_version": "2026-10-24.merchant-facts-v8.1",
+          "parameter_link_version": "structured-parameters-v1",
+          "audit_input_hash": "96874780458109b9f63ae90fa5a1eea9151b3149796f802838a3cc0d3960fa75",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "instruction": "审查全部实际发现的问题，局部修复并保留正确的商品参数。不虚构证据或参数，无法解决的事项继续报告。",
+        "review_input": {
+          "base_version": 1,
+          "issues": [],
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "checks": [
+            {
+              "rule_id": "AMZ-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-03",
+              "state": "pass",
+              "reason": "标题、亮点、五点描述和商品描述中均未发现邮箱、电话、卖家地址或网址。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-04",
+              "state": "pass",
+              "reason": "文案中未出现价格、库存、商品状况或替代配送等交易信息。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-05",
+              "state": "pass",
+              "reason": "100% cotton、140gsm（4.1oz/yd²）、可手提或肩背、CutAway 标签均与结构化事实及 additional_facts 一致；未出现未知参数（尺寸、容量、手柄长度、颜色、包装数量、承重）。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-01",
+              "state": "pass",
+              "reason": "文案未出现环保、可持续、可回收等宽泛环保宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-02",
+              "state": "pass",
+              "reason": "文案未出现降解条件或时间相关宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-03",
+              "state": "pass",
+              "reason": "文案未出现性能测试、认证或承重类客观宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-01",
+              "state": "pass",
+              "reason": "140gsm 仅作为面料克重表述，未与单位重量或容量、承重混淆。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-02",
+              "state": "pass",
+              "reason": "文案未提及零售包装数量。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "EVID-01",
+              "state": "pass",
+              "method": "deterministic_structured_facts",
+              "reason": "仅对照可识别的商品参数与记录来源；整句语义、适用条件及宣称由其他语义检查审阅。"
+            },
+            {
+              "rule_id": "SYS-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "SYS-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            }
+          ]
+        },
+        "created_at": "2026-10-24T02:25:26.829Z",
+        "is_demo": false,
+        "changes": [],
+        "risk_changes": {
+          "resolved": [],
+          "remaining": [],
+          "added": []
+        }
+      }
+    },
+    {
+      "label": "补充真实规格后原任务复检",
+      "status": "succeeded",
+      "elapsed_ms": 4577,
+      "record": {
+        "listing_id": "listing-664a2f23-72e2-4948-89e3-c8eef539fd75",
+        "version": 3,
+        "parent_version": 2,
+        "workflow": "listing_create",
+        "operation": "patch",
+        "product_ref": "REAL-WESTFORD-W101@2",
+        "product_snapshot": {
+          "product_id": "REAL-WESTFORD-W101",
+          "revision": 2,
+          "name_zh": "Westford Mill W101 官方公开商品",
+          "is_demo": false,
+          "reference_product_id": "W101",
+          "material": {
+            "value": "100% cotton",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "fabric_weight_gsm": {
+            "value": 140,
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "dimensions_cm": {
+            "value": {
+              "width": 38,
+              "height": 42
+            },
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "capacity_l": {
+            "value": 10,
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "handle_length_cm": {
+            "value": 67,
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "retail_pack_count": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "brand": {
+            "value": "Westford Mill",
+            "status": "public_source",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          "color": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "rated_load_kg": {
+            "value": null,
+            "status": "unknown",
+            "source_ids": []
+          },
+          "additional_facts": [
+            {
+              "value": "4.1oz/yd²",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            },
+            {
+              "value": "Can be carried by hand or over the shoulder",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            },
+            {
+              "value": "CutAway label for ease of rebranding",
+              "status": "public_source",
+              "source_ids": [
+                "LIVE-WESTFORD-W101"
+              ],
+              "label": "官方页面原文"
+            }
+          ],
+          "degradation_evidence": [],
+          "certification_evidence": [],
+          "performance_evidence": []
+        },
+        "competitor_research": null,
+        "content_brief": {
+          "audience": "日常购物用户",
+          "use_case": "日常携带",
+          "concern": "材质与规格",
+          "style": "参数清晰"
+        },
+        "marketplace": "US",
+        "locale": "en-US",
+        "rule_pack_version": "amazon-us-tote-2026-10-23.merchant-v6",
+        "content": {
+          "title": "Westford Mill W101 Cotton Tote Bag, 100% Cotton 140gsm",
+          "item_highlights": "100% cotton, 140gsm (4.1oz/yd²); carry by hand or over the shoulder; CutAway label for easy rebranding",
+          "bullet_points": [
+            {
+              "id": "b1",
+              "text": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight."
+            },
+            {
+              "id": "b2",
+              "text": "Designed to be carried by hand or over the shoulder."
+            },
+            {
+              "id": "b3",
+              "text": "CutAway label for ease of rebranding."
+            }
+          ],
+          "description": "Westford Mill W101 tote bag made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight. It can be carried by hand or over the shoulder, and the CutAway label makes it easy to rebrand."
+        },
+        "review": {
+          "evidence": [
+            {
+              "field_path": "content.title",
+              "claim": "Westford Mill W101 Cotton Tote Bag, 100% Cotton 140gsm",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "brand",
+                  "value": "Westford Mill",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@2",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 13,
+                  "original": "Westford Mill",
+                  "field": "brand",
+                  "parsed_value": "Westford Mill",
+                  "method": "exact_fact_text",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "Westford Mill",
+                  "value": "Westford Mill",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 19,
+                  "end": 25,
+                  "original": "Cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_presence_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 36,
+                  "end": 47,
+                  "original": "100% Cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 48,
+                  "end": 54,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.item_highlights",
+              "claim": "100% cotton, 140gsm (4.1oz/yd²); carry by hand or over the shoulder; CutAway label for easy rebranding",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@2",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 11,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 13,
+                  "end": 19,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 21,
+                  "end": 30,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.bullet_points.b1",
+              "claim": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@2",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 11,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 28,
+                  "end": 34,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 36,
+                  "end": 45,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.bullet_points.b3",
+              "claim": "CutAway label for ease of rebranding.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "additional_facts.2",
+                  "value": "CutAway label for ease of rebranding",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@2",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 36,
+                  "original": "CutAway label for ease of rebranding",
+                  "field": "additional_facts.2",
+                  "parsed_value": "CutAway label for ease of rebranding",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "CutAway label for ease of rebranding",
+                  "value": "CutAway label for ease of rebranding",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.description",
+              "claim": "Westford Mill W101 tote bag made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "brand",
+                  "value": "Westford Mill",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "material",
+                  "value": "100% cotton",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "fabric_weight_gsm",
+                  "value": 140,
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                },
+                {
+                  "field": "additional_facts.0",
+                  "value": "4.1oz/yd²",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@2",
+              "parameter_links": [
+                {
+                  "start": 0,
+                  "end": 13,
+                  "original": "Westford Mill",
+                  "field": "brand",
+                  "parsed_value": "Westford Mill",
+                  "method": "exact_fact_text",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "Westford Mill",
+                  "value": "Westford Mill",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 38,
+                  "end": 49,
+                  "original": "100% cotton",
+                  "field": "material",
+                  "parsed_value": "100% cotton",
+                  "method": "material_percentage",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "100% cotton",
+                  "value": "100% cotton",
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 57,
+                  "end": 63,
+                  "original": "140gsm",
+                  "field": "fabric_weight_gsm",
+                  "parsed_value": 140,
+                  "method": "fabric_mass_per_area",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": 140,
+                  "value": 140,
+                  "fact_status": "public_source"
+                },
+                {
+                  "start": 65,
+                  "end": 74,
+                  "original": "4.1oz/yd²",
+                  "field": "additional_facts.0",
+                  "parsed_value": "4.1oz/yd²",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "4.1oz/yd²",
+                  "value": "4.1oz/yd²",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            },
+            {
+              "field_path": "content.description",
+              "claim": "It can be carried by hand or over the shoulder, and the CutAway label makes it easy to rebrand.",
+              "state": "parameters_aligned",
+              "facts": [
+                {
+                  "field": "additional_facts.1",
+                  "value": "Can be carried by hand or over the shoulder",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ]
+                }
+              ],
+              "mapped": true,
+              "model_mapped": true,
+              "association_method": "structured-parameters-v1",
+              "product_ref": "REAL-WESTFORD-W101@2",
+              "parameter_links": [
+                {
+                  "start": 3,
+                  "end": 46,
+                  "original": "can be carried by hand or over the shoulder",
+                  "field": "additional_facts.1",
+                  "parsed_value": "Can be carried by hand or over the shoulder",
+                  "method": "recorded_excerpt_spacing_only",
+                  "status": "matched",
+                  "reason": "已按字段、单位和商品版本关联记录来源；仅支持该参数。",
+                  "source_ids": [
+                    "LIVE-WESTFORD-W101"
+                  ],
+                  "product_ref": "REAL-WESTFORD-W101@2",
+                  "expected_value": "Can be carried by hand or over the shoulder",
+                  "value": "Can be carried by hand or over the shoulder",
+                  "fact_status": "public_source"
+                }
+              ],
+              "unresolved_parameters": [],
+              "semantic_status": "separate_review_required",
+              "reason": "已由程序逐项关联商品参数和记录来源，不依赖模型返回引用；整句语义及宣称另行审阅。"
+            }
+          ],
+          "issues": [],
+          "checks": [
+            {
+              "rule_id": "AMZ-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "AMZ-03",
+              "state": "pass",
+              "reason": "标题、亮点、要点与描述中均未发现邮箱、电话、卖家地址或网址。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-04",
+              "state": "pass",
+              "reason": "文案中未出现价格、库存、成色或替代配送等交易信息。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "AMZ-05",
+              "state": "pass",
+              "reason": "100% cotton、140gsm（4.1oz/yd²）、手提或肩背、CutAway 标签均与结构化事实及 additional_facts 一致；未出现容量、尺寸、承重或包装数量等未支持表述。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-01",
+              "state": "pass",
+              "reason": "文案未出现环保、可回收、可持续等宽泛环保宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-02",
+              "state": "pass",
+              "reason": "文案未出现降解、可堆肥或降解时间等宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "US-03",
+              "state": "pass",
+              "reason": "文案未出现认证、防水、承重等客观性能或认证宣称。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-01",
+              "state": "pass",
+              "reason": "140gsm 与 4.1oz/yd² 均为面料克重，未与单位重量或容量、承重混淆。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "FACT-02",
+              "state": "pass",
+              "reason": "文案未提及零售包装数量。",
+              "method": "model_assisted"
+            },
+            {
+              "rule_id": "EVID-01",
+              "state": "pass",
+              "method": "deterministic_structured_facts",
+              "reason": "仅对照可识别的商品参数与记录来源；整句语义、适用条件及宣称由其他语义检查审阅。"
+            },
+            {
+              "rule_id": "SYS-01",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            },
+            {
+              "rule_id": "SYS-02",
+              "state": "pass",
+              "method": "deterministic",
+              "reason": ""
+            }
+          ],
+          "status": "reviewed_within_scope",
+          "missing_data": [
+            {
+              "field": "color",
+              "label": "颜色",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            },
+            {
+              "field": "retail_pack_count",
+              "label": "零售包装",
+              "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+            }
+          ],
+          "coverage": {
+            "total": 13,
+            "completed": 13,
+            "failed": 0,
+            "pending": 0
+          },
+          "publication_readiness": "not_verified",
+          "consistency_check": {
+            "state": "baseline",
+            "reason": "建立本次输入的审核基线；旧版本或不同输入不用于稳定性判断。"
+          }
+        },
+        "product_change": {
+          "before": "REAL-WESTFORD-W101@1",
+          "after": "REAL-WESTFORD-W101@2"
+        },
+        "claim_map": [
+          {
+            "field_path": "content.title",
+            "claim": "100% Cotton",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.title",
+            "claim": "140gsm",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "100% cotton, 140gsm (4.1oz/yd²)",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "carry by hand or over the shoulder",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.item_highlights",
+            "claim": "CutAway label for easy rebranding",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b1",
+            "claim": "100% cotton tote bag with a 140gsm (4.1oz/yd²) fabric weight.",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b2",
+            "claim": "Designed to be carried by hand or over the shoulder.",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.bullet_points.b3",
+            "claim": "CutAway label for ease of rebranding.",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.description",
+            "claim": "made from 100% cotton with a 140gsm (4.1oz/yd²) fabric weight",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.description",
+            "claim": "It can be carried by hand or over the shoulder",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          },
+          {
+            "field_path": "content.description",
+            "claim": "the CutAway label makes it easy to rebrand",
+            "source_ids": [
+              "LIVE-WESTFORD-W101"
+            ]
+          }
+        ],
+        "patches": [],
+        "repair_warnings": [],
+        "run_id": "run-0375b677-e887-43ef-b0bf-cf84184dcbcf",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "a2d2033a-d1cb-479b-8f1c-979fc9efc321",
+          "model": "deepseek-flash",
+          "elapsed_ms": 4130,
+          "usage": {
+            "prompt_tokens": 4576,
+            "completion_tokens": 892,
+            "total_tokens": 5468,
+            "prompt_tokens_details": {
+              "cached_tokens": 1408
+            },
+            "prompt_cache_hit_tokens": 1408,
+            "prompt_cache_miss_tokens": 3168
+          },
+          "prompt_version": "2026-10-24.merchant-facts-v8.1",
+          "parameter_link_version": "structured-parameters-v1",
+          "audit_input_hash": "0b7bb9ecd9f59dbffa2ffe6bb22e5cd731295623ef693bef316b19a142ddabfa",
+          "rule_selection": "structured_scope_selection",
+          "source_ids": [
+            "AMZS-TITLE-2026",
+            "AMZS-DETAIL-US",
+            "FTCS-GREEN-SUMMARY",
+            "FTCS-AD-SUBSTANTIATION",
+            "FTCS-GUIDE-STATUS",
+            "FTCS-GUIDE-REGISTER",
+            "PROJECT-AMAZON-QUALITY",
+            "LIVE-WESTFORD-W101"
+          ]
+        },
+        "instruction": "",
+        "created_at": "2026-10-24T02:25:31.333Z",
+        "is_demo": false,
+        "changes": [],
+        "risk_changes": {
+          "resolved": [],
+          "remaining": [],
+          "added": []
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-10-24T02:25:31.735Z",
+  "acceptance": "real_api_workflow_completed_quality_requires_review"
+}

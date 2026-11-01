@@ -1,0 +1,532 @@
+{
+  "started_at": "2026-10-30T09:49:34.631Z",
+  "elapsed_ms": 2674,
+  "result": {
+    "id": "research-783b41f2-e022-4633-b3b7-8d43240b1bd5",
+    "provider": "official-public",
+    "query": "cotton tote bag",
+    "checked_at": "2026-10-30T09:49:37.294Z",
+    "notice": "仅当前登记的两款Westford Mill官方公开商品，不是Amazon竞品/全市场检索",
+    "status": "available",
+    "items": [
+      {
+        "reference_id": "official-wm-w101",
+        "url": "https://westfordmill.com/products/w101",
+        "publisher": "Westford Mill",
+        "http_status": 200,
+        "provider_request_id": null,
+        "asin": null,
+        "title": "Bag for Life - Long Handles",
+        "bullets": [
+          "100% Cotton - 140gsm (4.1oz/yd²)",
+          "Can be carried by hand or over the shoulder",
+          "CutAway label for ease of rebranding"
+        ],
+        "specifications": [
+          {
+            "name": "Approx Product Weight ( g )",
+            "value": "65"
+          },
+          {
+            "name": "Dimensions ( cm ) - width x height x depth",
+            "value": "38 x 42"
+          },
+          {
+            "name": "Capacity ( litres )",
+            "value": "10"
+          },
+          {
+            "name": "Fabric Weight (gsm)",
+            "value": "140"
+          },
+          {
+            "name": "Handle length ( cm )",
+            "value": "67"
+          },
+          {
+            "name": "Approx Carton Weight ( kg )",
+            "value": "19"
+          },
+          {
+            "name": "Carton Dimensions ( cm )",
+            "value": "50 x 40 x 33"
+          },
+          {
+            "name": "Carton Quantity",
+            "value": "250"
+          },
+          {
+            "name": "Pricelist Pack Qty",
+            "value": "25"
+          },
+          {
+            "name": "Poly Bag Qty",
+            "value": "25"
+          },
+          {
+            "name": "Maximum Print Area ( cm )",
+            "value": "33 x 36"
+          },
+          {
+            "name": "Maximum Embroidery ( cm tubular hoop )",
+            "value": "18"
+          },
+          {
+            "name": "Commodity Code",
+            "value": "4202929890"
+          }
+        ],
+        "description": "",
+        "brand": "",
+        "price": null,
+        "currency": "",
+        "rating": null,
+        "checked_at": "2026-10-30T09:49:37.294Z",
+        "elapsed_ms": 2662,
+        "detail_status": "available",
+        "missing_fields": [
+          "price",
+          "description"
+        ],
+        "source_type": "official_public_reference",
+        "warnings": [
+          "官方公开商品资料；不是Amazon Listing、平台成交价格或商家的供货参数。"
+        ]
+      },
+      {
+        "reference_id": "official-wm-w201",
+        "url": "https://westfordmill.com/products/w201-premium-cotton-tote",
+        "publisher": "Westford Mill",
+        "http_status": 200,
+        "provider_request_id": null,
+        "asin": null,
+        "title": "Premium Cotton Tote",
+        "bullets": [
+          "100% Cotton - 200gsm (6oz/yd²)",
+          "Premium Cotton for enhanced durability",
+          "Superior print surface for optimal decoration",
+          "Can be carried by hand or over the shoulder",
+          "CutAway label for ease of rebranding"
+        ],
+        "specifications": [
+          {
+            "name": "Approx Product Weight ( g )",
+            "value": "93"
+          },
+          {
+            "name": "Dimensions ( cm ) - width x height x depth",
+            "value": "38 x 42"
+          },
+          {
+            "name": "Capacity ( litres )",
+            "value": "10"
+          },
+          {
+            "name": "Fabric Weight (gsm)",
+            "value": "200"
+          },
+          {
+            "name": "Handle length ( cm )",
+            "value": "67"
+          },
+          {
+            "name": "Approx Carton Weight ( kg )",
+            "value": "17.9"
+          },
+          {
+            "name": "Carton Dimensions ( cm )",
+            "value": "46 x 40 x 33"
+          },
+          {
+            "name": "Carton Quantity",
+            "value": "150"
+          },
+          {
+            "name": "Pricelist Pack Qty",
+            "value": "25"
+          },
+          {
+            "name": "Poly Bag Qty",
+            "value": "25"
+          },
+          {
+            "name": "Maximum Print Area ( cm )",
+            "value": "33 x 36"
+          },
+          {
+            "name": "Maximum Embroidery ( cm tubular hoop )",
+            "value": "18"
+          },
+          {
+            "name": "Commodity Code",
+            "value": "4202929890"
+          }
+        ],
+        "description": "",
+        "brand": "",
+        "price": null,
+        "currency": "",
+        "rating": null,
+        "checked_at": "2026-10-30T09:49:36.493Z",
+        "elapsed_ms": 1847,
+        "detail_status": "available",
+        "missing_fields": [
+          "price",
+          "description"
+        ],
+        "source_type": "official_public_reference",
+        "warnings": [
+          "官方公开商品资料；不是Amazon Listing、平台成交价格或商家的供货参数。"
+        ]
+      }
+    ],
+    "failures": [],
+    "terms": [
+      {
+        "term": "carried",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "carried hand",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "cotton",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "cotton gsm",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "cutaway",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "cutaway label",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "ease",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "ease rebranding",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "gsm",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "hand",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "hand over",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "label",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "over",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "rebranding",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "shoulder",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "shoulder cutaway",
+        "count": 2,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101",
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "bag",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101"
+        ]
+      },
+      {
+        "term": "cotton tote",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "decoration",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "durability",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "durability superior",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "enhanced",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "enhanced durability",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "gsm premium",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "handles",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101"
+        ]
+      },
+      {
+        "term": "handles cotton",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101"
+        ]
+      },
+      {
+        "term": "life",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101"
+        ]
+      },
+      {
+        "term": "life long",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101"
+        ]
+      },
+      {
+        "term": "long",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101"
+        ]
+      },
+      {
+        "term": "long handles",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w101"
+        ]
+      },
+      {
+        "term": "optimal",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "optimal decoration",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "premium",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "premium cotton",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "print",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "print surface",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "superior",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "superior print",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "surface",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "tote",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      },
+      {
+        "term": "tote cotton",
+        "count": 1,
+        "asins": [],
+        "reference_ids": [
+          "official-wm-w201"
+        ]
+      }
+    ],
+    "warnings": []
+  }
+}

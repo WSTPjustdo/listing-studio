@@ -1,0 +1,184 @@
+{
+  "version": "2026-10-30.two-path-v1",
+  "batch_import": {
+    "orchestrator": "../server/batch.mjs",
+    "operations": [
+      "create",
+      "diagnose",
+      "optimize"
+    ],
+    "concurrency": 1,
+    "formats": [
+      "xlsx",
+      "csv-utf8"
+    ],
+    "scope": "Amazon US cotton tote bag",
+    "imported_rows_preserved": true,
+    "restart": "interrupted runs fail explicitly; queued rows continue"
+  },
+  "batch_review": {
+    "revision_kind": "review_issues",
+    "model_operation": "revise",
+    "input": "Server loads all saved issues, missing_data and checks as review_context",
+    "independent_review": true,
+    "requires_real_model": true
+  },
+  "orchestrator": "server/service.mjs",
+  "provider_adapter": "server/providers.mjs",
+  "system_prompt_export": "system-prompt.txt",
+  "rule_pack": "../amazon-focus/rules.json",
+  "workflows": [
+    {
+      "id": "listing_create",
+      "operations": [
+        "create",
+        "revise"
+      ],
+      "steps": [
+        "pin_product_snapshot",
+        "select_scoped_rules",
+        "generate_content",
+        "independent_semantic_review",
+        "hard_checks_and_source_validation",
+        "persist_immutable_version"
+      ],
+      "model_calls_per_real_run": 2
+    },
+    {
+      "id": "listing_diagnose",
+      "operations": [
+        "diagnose",
+        "patch"
+      ],
+      "steps": [
+        "accept_existing_fields",
+        "pin_optional_product_snapshot",
+        "select_scoped_rules",
+        "review_claims",
+        "hard_checks_and_source_validation",
+        "validate_model_patches",
+        "persist_immutable_version"
+      ],
+      "model_calls_per_real_run": 1
+    },
+    {
+      "id": "guided_improve_prompt",
+      "label": "我有提示词，帮我改进",
+      "entry_testid": "choose-improve",
+      "maps_to": "listing_create",
+      "operations": [
+        "prompt_plan",
+        "create",
+        "diagnose"
+      ],
+      "steps": [
+        "accept_prompt_and_product",
+        "optimize_prompt_with_placeholders",
+        "confirm_product_facts",
+        "generate_content",
+        "independent_semantic_review",
+        "persist_immutable_version"
+      ],
+      "model_calls_per_real_run": 3,
+      "note": "2026-10-30 界面默认入口之一。调用序列由 npm run demo:walk 的假上游实测：prompt_plan / create / diagnose。"
+    },
+    {
+      "id": "guided_automatic",
+      "label": "我没有提示词，帮我完成",
+      "entry_testid": "choose-automatic",
+      "maps_to": "listing_create",
+      "operations": [
+        "research_analyze",
+        "create",
+        "diagnose"
+      ],
+      "steps": [
+        "accept_product_text",
+        "extract_facts_from_real_text",
+        "search_public_reference",
+        "confirm_product_facts",
+        "generate_content",
+        "independent_semantic_review",
+        "persist_immutable_version"
+      ],
+      "model_calls_per_real_run": 3,
+      "note": "检索（/api/research/search）不调模型；Amazon 遇验证页则停止并保留 LOCAL_AMAZON_BLOCKED，可改用官方公开商品参考。"
+    }
+  ],
+  "default_provider": "compatible",
+  "recommended_provider": "compatible",
+  "deepseek_preset": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "max_tokens": 8192,
+    "documentation_checked_at": "2026-10-21"
+  },
+  "no_credentials_in_export": true,
+  "live_deepseek_verification": "verified_2026-10-30_real_public_product_two_path",
+  "grouped_issue_processing": {
+    "implementation": "server/batch.mjs",
+    "group_by": "rule_id within batch",
+    "actions": [
+      "review",
+      "repair_preview_and_apply",
+      "defer"
+    ],
+    "version_guards": [
+      "submit",
+      "queue_execution",
+      "immutable_store"
+    ],
+    "field_scope": "selected issue fields only",
+    "history": "SQLite batches.group_actions; XLSX audit sheet",
+    "missing_facts": "per product only",
+    "risk_deferral": "retains findings; expires on new version"
+  },
+  "evidence_handoff": {
+    "export": "POST /api/evidence-handoffs/export",
+    "preview": "POST /api/evidence-handoffs/preview",
+    "confirm": "POST /api/evidence-handoffs/confirm",
+    "scope": "single real product, multiple evidence tasks",
+    "atomic_save": true,
+    "submitted_status": "submitted_unverified",
+    "model_calls_on_import": 0
+  },
+  "review_consistency": {
+    "implementation": "server/consistency.mjs",
+    "same_input_comparison": true,
+    "changed_conclusion_requires_human_review": true
+  },
+  "revision_scope": {
+    "allowed_fields": [
+      "content.title",
+      "content.item_highlights",
+      "content.description"
+    ],
+    "server_preserves_other_fields": true
+  },
+  "rule_pack_version": "amazon-us-tote-2026-10-30.integration-v9",
+  "parameter_linking": {
+    "implementation": "server/evidence.mjs",
+    "version": "structured-parameters-v1",
+    "model_claim_map_required": false,
+    "source_kinds_excluded": [
+      "official_platform_policy",
+      "official_regulatory_guidance",
+      "project_check",
+      "merchant_submission",
+      "synthetic_demo"
+    ],
+    "semantics": "atomic parameter links only; whole-sentence meaning, conditions, certification and performance require separate review",
+    "exports": [
+      "json",
+      "txt",
+      "html",
+      "library_xlsx"
+    ]
+  }
+}

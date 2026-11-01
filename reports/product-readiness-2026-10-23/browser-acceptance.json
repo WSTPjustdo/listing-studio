@@ -1,0 +1,57 @@
+{
+  "completed_at": "2026-10-23T10:10:21.668Z",
+  "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+  "version": 16,
+  "model": "deepseek-flash",
+  "request_id": "cc88376c-919f-42dc-bd0d-2db4e4b7fe58",
+  "actual_model_call": true,
+  "elapsed_ms": 8367,
+  "usage": {
+    "prompt_tokens": 7165,
+    "completion_tokens": 919,
+    "total_tokens": 8084,
+    "prompt_tokens_details": {
+      "cached_tokens": 6912
+    },
+    "prompt_cache_hit_tokens": 6912,
+    "prompt_cache_miss_tokens": 253
+  },
+  "issues": [
+    {
+      "issue_id": "f8f267f4b8cce8",
+      "rule_id": "SYS-01",
+      "category": "system_integrity",
+      "title": "引用可追溯",
+      "severity": "needs_review",
+      "field_path": "content.bullet_points.b5",
+      "original": "Westford Mill W101 cotton tote bag.",
+      "reason": "商品参数已对照，但模型未返回该句对应的证据映射，该句审核尚未完成；这不是缺少商品资料。",
+      "suggestion": "核对已有参数及来源后重新审阅，无需向采购重复索取相同资料。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "checks": [
+    "invalid_product_revision_rejected",
+    "real_api_recheck",
+    "version_history_preserved",
+    "evidence_visible",
+    "html_txt_json_copy_exports"
+  ],
+  "screenshot": "browser-after.png"
+}

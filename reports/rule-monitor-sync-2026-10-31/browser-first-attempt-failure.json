@@ -1,0 +1,88 @@
+{
+  "started_at": "2026-10-31T09:33:21.747Z",
+  "base_url": "http://127.0.0.1:8793",
+  "evidence_type": "actual_browser_and_live_official_FTC_source",
+  "notice": "A real FTC guide is registered only as a source-check record, with policy change unverified. Publication and effective dates remain unknown. The isolated browser does not alter the user browser or server rules. Existing real DeepSeek output is read only; this script does not perform model inference.",
+  "live_source": {
+    "url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+    "final_url": "https://www.ftc.gov/business-guidance/resources/environmental-claims-summary-green-guides",
+    "http_status": 200,
+    "checked_at": "2026-10-31T09:33:22.678Z",
+    "elapsed_ms": 930,
+    "title": "Environmental Claims: Summary of the Green Guides",
+    "excerpt": "Claiming \"Green, made with recycled content\" may be deceptive if the environmental costs of using recycled content outweight the environmental benefits of using it.",
+    "page_sha256": "89a0d3d129473d0325147f9b4420303a57fecac10c48b98b00eea3226c6dc109",
+    "policy_change": "unverified",
+    "published_at": null,
+    "effective_at": null
+  },
+  "checks": [
+    "fresh_official_FTC_source_and_literal_excerpt",
+    "latest_navigation_opens_monitor",
+    "all_four_live_rule_pack_versions_visible",
+    "manual_schedule_and_empty_state_are_truthful",
+    "official_external_links_are_https"
+  ],
+  "engineering_checks": [],
+  "screenshots": [
+    "monitor-empty-1440.png",
+    "monitor-empty-768.png",
+    "monitor-empty-390.png"
+  ],
+  "overflow": [
+    {
+      "label": "monitor-empty",
+      "viewport": 1440,
+      "scroll": 1440
+    },
+    {
+      "label": "monitor-empty",
+      "viewport": 768,
+      "scroll": 768
+    },
+    {
+      "label": "monitor-empty",
+      "viewport": 390,
+      "scroll": 390
+    }
+  ],
+  "page_errors": [],
+  "mutation_requests": [],
+  "failures": [
+    {
+      "phase": "register_actual_source",
+      "at": "2026-10-31T09:33:54.213Z",
+      "name": "TimeoutError",
+      "message": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.rm-form').getByLabel('适用站点', { exact: true })\u001b[22m\n"
+    }
+  ],
+  "model_calls": [],
+  "new_model_calls": 0,
+  "new_tokens": 0,
+  "existing_real_listing": {
+    "listing_id": "listing-e5497dfb-af37-4090-a887-53393b946b1c",
+    "version": 4,
+    "model": "deepseek-flash",
+    "request_id": "dd1c30c2-818d-49c3-a2e8-e11a0c9bab16",
+    "elapsed_ms": 5098,
+    "usage": {
+      "prompt_tokens": 6120,
+      "completion_tokens": 858,
+      "total_tokens": 6978,
+      "prompt_tokens_details": {
+        "cached_tokens": 5888
+      },
+      "prompt_cache_hit_tokens": 5888,
+      "prompt_cache_miss_tokens": 232
+    },
+    "reuse_notice": "Existing real output read only; not a new model request."
+  },
+  "backend_before_sha256": "e1c8a7fe4d7c71c301e5add69f9564676018d0df82cd24e171acde627cbd1199",
+  "rule_pack_versions": {
+    "US": "amazon-us-tote-2026-10-30.integration-v9",
+    "DE": "amazon-de-tote-2026-10-30.r1",
+    "UK": "amazon-uk-tote-2026-10-31.r4.project-integrity-v1",
+    "FR": "amazon-fr-tote-2026-10-31.r1.project-integrity-v1"
+  },
+  "acceptance": "failed_without_mock_or_demo_fallback"
+}

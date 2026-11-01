@@ -1,0 +1,40 @@
+{
+  "completed_at": "2026-10-31T09:32:20.616Z",
+  "listing_id": "listing-e5497dfb-af37-4090-a887-53393b946b1c",
+  "version": 4,
+  "model": "deepseek-flash",
+  "request_id": "dd1c30c2-818d-49c3-a2e8-e11a0c9bab16",
+  "actual_model_call": true,
+  "elapsed_ms": 5098,
+  "usage": {
+    "prompt_tokens": 6120,
+    "completion_tokens": 858,
+    "total_tokens": 6978,
+    "prompt_tokens_details": {
+      "cached_tokens": 5888
+    },
+    "prompt_cache_hit_tokens": 5888,
+    "prompt_cache_miss_tokens": 232
+  },
+  "issues": [],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "checks": [
+    "invalid_product_revision_rejected",
+    "real_api_recheck",
+    "version_history_preserved",
+    "evidence_visible",
+    "html_txt_json_copy_exports"
+  ],
+  "screenshot": "browser-evidence.png"
+}

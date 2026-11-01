@@ -1,0 +1,223 @@
+{
+  "checked_at": "2026-10-23T10:38:22.644Z",
+  "kind": "recorded_real_response_replay_not_live_inference",
+  "cases": [
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 1,
+      "original_request_id": "f2425a59-ad85-4a3f-b41a-ccafdd0f16ba",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 2,
+      "original_request_id": "35c4eb30-be32-4eb2-a6cf-cd134ff71972",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 3,
+      "original_request_id": "4e308d05-d601-4bee-81f2-cda5c69b8216",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 4,
+      "original_request_id": "9d225753-1b96-4ae4-9bf5-3c06f7c61605",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 5,
+      "original_request_id": "332c6e80-15f1-41b1-bbbf-b66e72885382",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 6,
+      "original_request_id": "19f3cfe2-47a2-4404-82f1-5280c0472fc2",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 7,
+      "original_request_id": "af6f93c8-ec31-49e3-8d6a-7107cc142afe",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 8,
+      "original_request_id": "9726cbc4-19ef-4343-bf22-cc099b08a43f",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 9,
+      "original_request_id": "0a0e3e08-74fc-4d33-adfb-b059d1f2940f",
+      "remapped_review_errors": 0,
+      "consistency": "changed"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 10,
+      "original_request_id": "0c44c4c5-ac3b-442b-83f9-fcc28228226f",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 11,
+      "original_request_id": "1aec5d0d-eb47-4836-ae25-fc8acd98a4dc",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 12,
+      "original_request_id": "c54cf16d-45a4-41a6-8617-f9743dc85014",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 13,
+      "original_request_id": "f5b759f0-2402-421c-b03f-68d670ca67b2",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 14,
+      "original_request_id": "5e4f0bb3-b3f9-4f63-bee8-ec8e52a4114a",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 15,
+      "original_request_id": "fe0c711c-b71a-4b42-88f6-36814b0f9df0",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 16,
+      "original_request_id": "cc88376c-919f-42dc-bd0d-2db4e4b7fe58",
+      "remapped_review_errors": 0,
+      "consistency": "consistent"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 17,
+      "original_request_id": "8de39f1f-b345-4242-a9c9-af8042ae668f",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 18,
+      "original_request_id": "7b53ad78-8a18-4464-9847-3d750724d3cb",
+      "remapped_review_errors": 0,
+      "consistency": "consistent"
+    },
+    {
+      "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+      "version": 19,
+      "original_request_id": "60ae2fe4-7c45-46c3-ba30-5e53f8b5e7ef",
+      "remapped_review_errors": 0,
+      "consistency": "consistent"
+    },
+    {
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 1,
+      "original_request_id": "44038392-6821-4f35-b909-8fb70b32e9fb",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 2,
+      "original_request_id": "0dd5e97b-35e0-4bdd-826f-a50eb14dcf96",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-6b066ce4-7053-4914-89aa-4da69114fb49",
+      "version": 3,
+      "original_request_id": "242061ed-dc4c-4c9a-a25d-1ade3fd2c4c5",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 1,
+      "original_request_id": "2b3dd68a-a1f8-41af-9f8b-2b6e17a21fb2",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 2,
+      "original_request_id": "a558e9a4-6e78-4f3a-b0c2-639147119f6f",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 3,
+      "original_request_id": "04865d66-e65a-4815-b280-3c3e3e19090a",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 4,
+      "original_request_id": "5837ebed-3b76-4261-a8db-116c79e120da",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-93978482-d6c2-4d48-82e5-63a2a50c55b5",
+      "version": 5,
+      "original_request_id": "53dba230-9829-45e0-b2c9-4246516b854e",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 1,
+      "original_request_id": "59b49118-1844-4624-a7ce-46432481eacb",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 2,
+      "original_request_id": "e5ba974f-e2ef-45e0-8db0-4b5ced2fe86b",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 3,
+      "original_request_id": "3e76907e-a162-4ff6-a467-c55bbf8744ff",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    },
+    {
+      "listing_id": "listing-d403a536-1d43-4caa-ac68-4b9c5b631dee",
+      "version": 4,
+      "original_request_id": "7b7a9af8-566f-4c9d-a156-ca10478bcba8",
+      "remapped_review_errors": 0,
+      "consistency": "baseline"
+    }
+  ]
+}

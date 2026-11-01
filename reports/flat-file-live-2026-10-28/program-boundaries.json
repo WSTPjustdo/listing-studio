@@ -1,0 +1,140 @@
+{
+  "started_at": "2026-10-28T12:22:17.967Z",
+  "evidence_type": "unit_fixture",
+  "merchant_acceptance": false,
+  "model_calls_performed": 0,
+  "notice": "Synthetic identifiers and file structures below test program boundaries only; they are not merchant data or official Amazon templates. No model response is simulated.",
+  "checks": [
+    {
+      "name": "select_template_and_machine_header_without_reading_instructions_as_products",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "auxiliary_or_missing_sheet_requires_selection",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "marketplace_attribute_paths_keep_all_five_distinct_bullet_indexes",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "tsv_and_txt_preserve_identifier_quotes_bom_and_multiline_cells",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "invalid_utf8_and_unclosed_quotes_fail_without_repairing_input",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "data_formulas_require_values_instead_of_using_cached_results",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "xlsx_roundtrip_changes_only_mapped_copy_and_keeps_parent_unknown_columns_and_headers",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "tsv_roundtrip_preserves_bom_newline_unknown_data_and_exact_real_copy",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "missing_seller_sku_blocks_export_without_generating_an_identifier",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "sku_entered_only_in_preview_cannot_bypass_an_empty_original_sku_cell",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "duplicate_original_skus_block_processing_even_when_only_one_row_is_selected",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "parent_structure_is_preserved_and_child_input_keeps_five_distinct_bullets",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "uncompleted_copy_cannot_be_exported_as_finished_model_content",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "processing_report_matches_by_sku_and_never_guesses_unknown_or_conflicting_rows",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "error_row_export_with_no_content_application_keeps_original_values",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "unselected_source_rows_still_prevent_ambiguous_report_number_matching",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "real_reviewed_copy_takes_precedence_over_pre_review_import_edits",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "post_review_manual_copy_requires_unreviewed_export_instead_of_bypassing_real_review",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "manual_file_corrections_cannot_overwrite_seller_sku_even_for_unreviewed_export",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    },
+    {
+      "name": "exports_leave_source_file_and_real_model_record_immutable",
+      "status": "passed",
+      "evidence_type": "unit_fixture"
+    }
+  ],
+  "merchant_template": "unknown",
+  "platform_processing_report": "unknown",
+  "content_provenance": {
+    "file": "D:\\Desktop\\三城黑客松\\reports\\merchant-improvements-2026-10-24\\final-record.json",
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "version": 5,
+    "request_id": "de432edb-91b6-4ea4-bd95-cd0ca570e3f0",
+    "model": "deepseek-flash",
+    "elapsed_ms": 4998,
+    "usage": {
+      "prompt_tokens": 6928,
+      "completion_tokens": 1230,
+      "total_tokens": 8158,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 5904
+    }
+  },
+  "processing_report_boundary": {
+    "total": 3,
+    "matched": 1,
+    "unmatched": 1,
+    "ambiguous": 0,
+    "conflicts": 1,
+    "errors": 3,
+    "warnings": 0
+  },
+  "status": "passed_program_boundaries_only",
+  "completed_at": "2026-10-28T12:22:18.152Z"
+}

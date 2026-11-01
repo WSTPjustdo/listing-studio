@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-23T10:42:03.315Z",
+  "listing_id": "listing-f82515d7-b409-4197-873e-a2a8a3fd6583",
+  "version": 20,
+  "product_ref": "REAL-WESTFORD-W101@8",
+  "checks": [
+    "final_ui_material_presence_not_percentage",
+    "source_view",
+    "390px_layout",
+    "json_txt_html_metadata",
+    "xlsx_parameter_column_and_source_ids"
+  ],
+  "additional_model_calls": 0
+}

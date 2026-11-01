@@ -1,0 +1,46 @@
+[
+  {
+    "request_id": "86a9a900-4e78-4066-8922-f3a890593669",
+    "model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 6150,
+      "completion_tokens": 1771,
+      "total_tokens": 7921,
+      "prompt_tokens_details": {
+        "cached_tokens": 6016
+      },
+      "prompt_cache_hit_tokens": 6016,
+      "prompt_cache_miss_tokens": 134
+    },
+    "empty_original_issues": [
+      {
+        "rule_id": "AMZ-05",
+        "field_path": "content.bullet_points.b2",
+        "original_length": 0,
+        "reason": "b2 文本为空，属于空要点，无法承载任何已支持信息。"
+      }
+    ]
+  },
+  {
+    "request_id": "68f3fc49-2a27-4237-bcab-a05f629c092c",
+    "model": "deepseek-flash",
+    "usage": {
+      "prompt_tokens": 6426,
+      "completion_tokens": 1486,
+      "total_tokens": 7912,
+      "prompt_tokens_details": {
+        "cached_tokens": 1408
+      },
+      "prompt_cache_hit_tokens": 1408,
+      "prompt_cache_miss_tokens": 5018
+    },
+    "empty_original_issues": [
+      {
+        "rule_id": "AMZ-05",
+        "field_path": "content.bullet_points.b2",
+        "original_length": 0,
+        "reason": "b2 文本为空，属于空要点，无法承载任何可核实的商品信息。"
+      }
+    ]
+  }
+]

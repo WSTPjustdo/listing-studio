@@ -1,0 +1,176 @@
+[
+  {
+    "run_id": "run-0be8f8a9-d460-4599-8c64-161024dc96fb",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:19:01.939Z",
+    "listing_id": "listing-eb80f71b-1350-4771-9edb-98a363ab5ab8",
+    "operation": "patch",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "REAL-WESTFORD-W101@2",
+    "started_at": "2026-10-24T02:19:01.945Z",
+    "finished_at": "2026-10-24T02:19:06.377Z",
+    "elapsed_ms": 4436,
+    "version": 3,
+    "provider_request_id": "949b4461-9d27-4662-9070-f1ec9288df42",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "949b4461-9d27-4662-9070-f1ec9288df42",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4390,
+      "usage": {
+        "prompt_tokens": 4568,
+        "completion_tokens": 988,
+        "total_tokens": 5556,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 3544
+      }
+    }
+  },
+  {
+    "run_id": "run-49b68f13-84a8-4bbd-ad08-1f27be47546f",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:18:56.116Z",
+    "listing_id": "listing-eb80f71b-1350-4771-9edb-98a363ab5ab8",
+    "operation": "revise",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "REAL-WESTFORD-W101@1",
+    "started_at": "2026-10-24T02:18:56.119Z",
+    "finished_at": "2026-10-24T02:19:01.551Z",
+    "elapsed_ms": 5439,
+    "version": 2,
+    "provider_request_id": "44cbaf1c-36ad-4361-b626-7164b8cd9da9",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "44cbaf1c-36ad-4361-b626-7164b8cd9da9",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5284,
+      "usage": {
+        "prompt_tokens": 4531,
+        "completion_tokens": 861,
+        "total_tokens": 5392,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "prompt_cache_hit_tokens": 4352,
+        "prompt_cache_miss_tokens": 179
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "400bfb33-5ef1-43c8-8328-194003741ed3",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1353,
+          "usage": {
+            "prompt_tokens": 5134,
+            "completion_tokens": 188,
+            "total_tokens": 5322,
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "prompt_cache_hit_tokens": 1024,
+            "prompt_cache_miss_tokens": 4110
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "44cbaf1c-36ad-4361-b626-7164b8cd9da9",
+          "model": "deepseek-flash",
+          "elapsed_ms": 3931,
+          "usage": {
+            "prompt_tokens": 4531,
+            "completion_tokens": 861,
+            "total_tokens": 5392,
+            "prompt_tokens_details": {
+              "cached_tokens": 4352
+            },
+            "prompt_cache_hit_tokens": 4352,
+            "prompt_cache_miss_tokens": 179
+          }
+        }
+      ]
+    }
+  },
+  {
+    "run_id": "run-9fd3017f-0282-476f-879c-46c213296721",
+    "status": "succeeded",
+    "stage": "已保存",
+    "created_at": "2026-10-24T02:18:50.533Z",
+    "listing_id": "listing-eb80f71b-1350-4771-9edb-98a363ab5ab8",
+    "operation": "create",
+    "provider": "compatible",
+    "actual_model_call": true,
+    "request_id": null,
+    "product_ref": "REAL-WESTFORD-W101@1",
+    "started_at": "2026-10-24T02:18:50.537Z",
+    "finished_at": "2026-10-24T02:18:56.107Z",
+    "elapsed_ms": 5574,
+    "version": 1,
+    "provider_request_id": "3b0a2a3a-f19c-4abf-869a-bdbc8264fab8",
+    "trace": {
+      "provider": "compatible",
+      "actual_model_call": true,
+      "provider_request_id": "3b0a2a3a-f19c-4abf-869a-bdbc8264fab8",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5312,
+      "usage": {
+        "prompt_tokens": 4531,
+        "completion_tokens": 941,
+        "total_tokens": 5472,
+        "prompt_tokens_details": {
+          "cached_tokens": 768
+        },
+        "prompt_cache_hit_tokens": 768,
+        "prompt_cache_miss_tokens": 3763
+      },
+      "calls": [
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "2fd9799e-0e79-4518-af14-9984d3933577",
+          "model": "deepseek-flash",
+          "elapsed_ms": 1213,
+          "usage": {
+            "prompt_tokens": 4401,
+            "completion_tokens": 188,
+            "total_tokens": 4589,
+            "prompt_tokens_details": {
+              "cached_tokens": 640
+            },
+            "prompt_cache_hit_tokens": 640,
+            "prompt_cache_miss_tokens": 3761
+          }
+        },
+        {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "3b0a2a3a-f19c-4abf-869a-bdbc8264fab8",
+          "model": "deepseek-flash",
+          "elapsed_ms": 4099,
+          "usage": {
+            "prompt_tokens": 4531,
+            "completion_tokens": 941,
+            "total_tokens": 5472,
+            "prompt_tokens_details": {
+              "cached_tokens": 768
+            },
+            "prompt_cache_hit_tokens": 768,
+            "prompt_cache_miss_tokens": 3763
+          }
+        }
+      ]
+    }
+  }
+]

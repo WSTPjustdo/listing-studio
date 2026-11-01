@@ -1,0 +1,93 @@
+(node:3848) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/fs/promises:637
+  return new FileHandle(await PromisePrototypeThen(
+                        ^
+
+Error: ENOENT: no such file or directory, open 'D:\Desktop\qa\research\eval-set-20261030.json'
+    at async open (node:internal/fs/promises:637:25)
+    at async readFile (node:internal/fs/promises:1269:14)
+    at async loadEvalSet (file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/scripts/eval-set-probe.mjs:34:21)
+    at async file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/tests/eval-set.test.mjs:10:17 {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Desktop\\qa\\research\\eval-set-20261030.json'
+}
+
+Node.js v24.14.0
+✖ tests\eval-set.test.mjs (235.8808ms)
+(node:3888) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✖ 真实在售样本里没有「亮点」字段，映射也不许凭空造一个 (0.7505ms)
+✖ 映射保留标题、五点、描述，五点 ID 是 b1..bn（报告按 ID 定位） (0.2223ms)
+✖ 诊断一条真实在售文案，不该报 AMZ-02（它没有亮点字段） (0.2057ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 0
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 291.3488
+
+✖ failing tests:
+
+test at tests\eval-set.test.mjs:1:1
+✖ tests\eval-set.test.mjs (235.8808ms)
+  'test failed'
+
+test at tests\sample-listings.test.mjs:18:1
+✖ 真实在售样本里没有「亮点」字段，映射也不许凭空造一个 (0.7505ms)
+  Error: ENOENT: no such file or directory, open 'D:\Desktop\qa\research\listings-20261027.json'
+      at readFileSync (node:fs:440:20)
+      at loadSample (file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/scripts/sample-listings.mjs:14:26)
+      at TestContext.<anonymous> (file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/tests/sample-listings.test.mjs:19:21)
+      at Test.runInAsyncScope (node:async_hooks:228:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.start (node:internal/test_runner/test:1015:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'D:\\Desktop\\qa\\research\\listings-20261027.json'
+  }
+
+test at tests\sample-listings.test.mjs:28:1
+✖ 映射保留标题、五点、描述，五点 ID 是 b1..bn（报告按 ID 定位） (0.2223ms)
+  Error: ENOENT: no such file or directory, open 'D:\Desktop\qa\research\listings-20261027.json'
+      at readFileSync (node:fs:440:20)
+      at loadSample (file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/scripts/sample-listings.mjs:14:26)
+      at TestContext.<anonymous> (file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/tests/sample-listings.test.mjs:29:21)
+      at Test.runInAsyncScope (node:async_hooks:228:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'D:\\Desktop\\qa\\research\\listings-20261027.json'
+  }
+
+test at tests\sample-listings.test.mjs:37:1
+✖ 诊断一条真实在售文案，不该报 AMZ-02（它没有亮点字段） (0.2057ms)
+  Error: ENOENT: no such file or directory, open 'D:\Desktop\qa\research\listings-20261027.json'
+      at readFileSync (node:fs:440:20)
+      at loadSample (file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/scripts/sample-listings.mjs:14:26)
+      at TestContext.<anonymous> (file:///D:/Desktop/%E4%B8%89%E5%9F%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/tests/sample-listings.test.mjs:38:21)
+      at Test.runInAsyncScope (node:async_hooks:228:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    errno: -4058,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'D:\\Desktop\\qa\\research\\listings-20261027.json'
+  }

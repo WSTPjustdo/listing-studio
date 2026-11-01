@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-11-01T03:42:56.931Z",
+  "scope": "原本地工作台入口和保留功能的只读UI检查；本次不调用模型，不代表新增模型或保温杯品类验收。",
+  "base_url": "http://127.0.0.1:8787",
+  "browser": "headless Microsoft Edge",
+  "model_calls": 0,
+  "mutations": [],
+  "checks": [
+    {
+      "name": "health_200_and_application_identity",
+      "passed": true
+    },
+    {
+      "name": "bootstrap_200_and_saved_records_available",
+      "passed": true
+    },
+    {
+      "name": "local_model_public_config_has_key_flag_and_model",
+      "passed": true
+    },
+    {
+      "name": "public_config_contains_no_secret_fields",
+      "passed": true
+    },
+    {
+      "name": "home_http_200",
+      "passed": true
+    },
+    {
+      "name": "home_both_paths_visible",
+      "passed": true
+    },
+    {
+      "name": "existing_prompt_path_opens_without_generation",
+      "passed": true
+    },
+    {
+      "name": "return_home_restores_paths",
+      "passed": true
+    },
+    {
+      "name": "more_features_expands",
+      "passed": true
+    },
+    {
+      "name": "original_rules_and_import_entries_visible",
+      "passed": true
+    },
+    {
+      "name": "existing_real_model_record_present",
+      "passed": true
+    },
+    {
+      "name": "existing_saved_version_visible_in_result_list",
+      "passed": true
+    },
+    {
+      "name": "existing_saved_record_opens_read_only",
+      "passed": true
+    },
+    {
+      "name": "no_model_call_records_added",
+      "passed": true
+    },
+    {
+      "name": "no_mutating_requests_sent",
+      "passed": true
+    },
+    {
+      "name": "no_page_errors",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "model_configuration": {
+    "model": "deepseek-flash",
+    "has_api_key": true
+  },
+  "saved_record": {
+    "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+    "version": 17,
+    "actual_model_call_already_recorded": true
+  },
+  "screenshot": "workbench-entry-browser.png",
+  "new_call_records": 0,
+  "status": "passed",
+  "completed_at": "2026-11-01T03:42:59.980Z",
+  "total_checks": 16,
+  "screenshot_layout": [
+    {
+      "tag": "ASIDE",
+      "class": "sidebar",
+      "width": 60,
+      "cssWidth": "60px"
+    },
+    {
+      "tag": "ASIDE",
+      "class": "input-column",
+      "width": 270,
+      "cssWidth": "270px"
+    }
+  ],
+  "screenshot_stabilized_after_navigation": true,
+  "screenshot_mode": "viewport"
+}

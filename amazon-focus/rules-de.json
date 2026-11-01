@@ -1,0 +1,740 @@
+{
+  "schema_version": "1.0",
+  "rule_pack_version": "amazon-de-tote-2026-10-30.r1",
+  "checked_at": "2026-10-30",
+  "implementation_status": "implemented_scoped_pre_review",
+  "scope": {
+    "platform": "amazon",
+    "marketplace": "DE",
+    "locale": "de-DE",
+    "application_product_type": "tote_bag_demo",
+    "official_product_type_definition_loaded": false,
+    "workflows": [
+      "listing_create",
+      "listing_diagnose"
+    ]
+  },
+  "notice": "德国站规则包：只覆盖棉布手提袋这一示例品类的文本预审，不是完整品类、上架或法律审查。规则只适用于 amazon.de。",
+  "result_states": [
+    "pass",
+    "fail",
+    "needs_evidence",
+    "not_applicable",
+    "error",
+    "not_checked"
+  ],
+  "sources": [
+    {
+      "source_id": "DE-TITLE-2026",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon Seller Central（amazon.de 帮助页 Product title requirements and guidelines）",
+      "url": "https://sellercentral.amazon.de/help/hub/reference/external/GYTR6SYGFA5E3EQC?locale=de-DE",
+      "updated_on": null,
+      "effective_from": null,
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 直接抓取）：\"Title requirements apply to all product types, except media product types, listed in all stores, except for Saudi Arabia, Egypt, Türkiye, and the United Arab Emirates.\"；\"Titles must not exceed 75 characters, including spaces.\"；\"Titles must not use the following special characters: !, $, ?, _, {, }, ^, ¬, ¦.\"；\"Titles must not contain the same word more than twice. ... Prepositions, articles, and conjunctions may be used more than twice in a title. However, brand names are also subject to the two-instance limit.\""
+    },
+    {
+      "source_id": "DE-TITLE-2025-01",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon Seller Central 欧洲站卖家论坛（官方公告帖 New product title requirements effective as of January 21, 2025）",
+      "url": "https://sellercentral.amazon.de/seller-forums/discussions/t/533f9cf7-3b5e-4974-b523-02e4a1a42c5f",
+      "updated_on": null,
+      "effective_from": "2025-01-21",
+      "checked_at": "2026-10-30",
+      "access_note": "原文（2026-10-30 抓取）：\"For most product categories, titles may not exceed 200 characters, including spaces.\" 此条已被现行帮助页 DE-TITLE-2026 的 75 字符要求取代，仅作沿革保留，不作为本包上限依据。"
+    },
+    {
+      "source_id": "DE-GPSR-ART19",
+      "kind": "official_regulatory_guidance",
+      "publisher": "European Parliament and Council / EUR-Lex（Regulation (EU) 2023/988, Article 19）",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0988",
+      "document_date": "2023-05-10",
+      "effective_from": "2024-12-13",
+      "checked_at": "2026-10-30",
+      "access_note": "英文原文四项要件：(a) \"the name, registered trade name or registered trade mark of the manufacturer, as well as the postal and electronic address at which they can be contacted\"；(b) \"where the manufacturer is not established in the Union, the name, postal and electronic address of the responsible person within the meaning of Article 16(1) of this Regulation or Article 4(1) of Regulation (EU) 2019/1020\"；(c) \"information allowing the identification of the product, including a picture of it, its type and any other product identifier\"；(d) \"any warning or safety information ... in a language which can be easily understood by consumers, as determined by the Member State in which the product is made available on the market\"。取数说明：2026-10-30 直接抓 EUR-Lex 正文时页面在 Article 10 后被服务端截断（HTTP 202、0 字节），上述引文经两处独立二次来源逐字核对（GS1 Sweden《Trade Item Information GPSR Guide》v2 引 (a)(b)、criticalcatalyst 引 (a)–(d)），两处措辞一致；EUR-Lex 单页原文尚未取得。"
+    },
+    {
+      "source_id": "DE-UWG-5A",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Bundesministerium der Justiz / gesetze-im-internet.de（UWG § 5a）",
+      "url": "https://www.gesetze-im-internet.de/uwg_2004/__5a.html",
+      "checked_at": "2026-10-30",
+      "access_note": "德文原文：\"Unlauter handelt auch, wer einen Verbraucher oder sonstigen Marktteilnehmer irreführt, indem er ihm eine wesentliche Information vorenthält ...\"；第 2 款列举\"das Verheimlichen wesentlicher Informationen\"、\"die Bereitstellung wesentlicher Informationen in unklarer, unverständlicher oder zweideutiger Weise\"、\"die nicht rechtzeitige Bereitstellung wesentlicher Informationen\"。这是德国同行可据以起诉「信息没给全」的入口，本身不是产品安全法。"
+    },
+    {
+      "source_id": "EU-TEXTIL-1007",
+      "kind": "official_regulatory_guidance",
+      "publisher": "European Parliament and Council（Regulation (EU) No 1007/2011，经 legislation.gov.uk 转载原文）",
+      "url": "https://www.legislation.gov.uk/eur/2011/1007/chapter/2/adopted",
+      "document_date": "2011-09-27",
+      "checked_at": "2026-10-30",
+      "access_note": "英文原文：Art. 7(1) \"Only textile products exclusively composed of the same fibre may be labelled or marked as '100%', 'pure' or 'all'.\"；Art. 9(1) \"A textile product shall be labelled or marked with the name and percentage by weight of all constituent fibres in descending order.\"；Art. 9(2) \"a fibre which accounts for up to 5 % of the total weight ... or fibres which collectively account for up to 15 % ... may ... be designated by the term 'other fibres', immediately preceded or followed by their total percentage by weight.\"；Art. 16(1) \"This information shall be clearly visible to the consumer before the purchase, including in cases where the purchase is made by electronic means.\"；Art. 16(3) \"The labelling or marking shall be provided in the official language or languages of the Member State on the territory of which the textile products are made available to the consumer\"。"
+    },
+    {
+      "source_id": "DE-TEXTIL-KENNZG",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Bundesministerium der Justiz / gesetze-im-internet.de（Textilkennzeichnungsgesetz § 4）",
+      "url": "https://www.gesetze-im-internet.de/textilkennzg_2016/__4.html",
+      "checked_at": "2026-10-30",
+      "access_note": "德文原文 § 4(1)：\"Textilerzeugnisse dürfen nur dann auf dem Markt bereitgestellt werden, wenn sie entsprechend den Artikeln 5, 7, 8 Absatz 1 und 3, Artikel 9 Absatz 1, Artikel 11 Absatz 1, den Artikeln 12, 13 und 14 Absatz 1 der Verordnung (EU) Nr. 1007/2011 in deutscher Sprache zur Angabe ihrer Faserzusammensetzung etikettiert oder gekennzeichnet sind.\"；§ 4(5)：\"Die Absätze 1 bis 4 sind entsprechend für Textilerzeugnisse, die auf elektronischem Wege zum Verkauf angeboten werden, anzuwenden.\"；§ 4(7)：\"darf zusätzlich als Ergänzung auch in anderen Sprachen erfolgen\"（其他语言只能补充，不能替代德语）。"
+    },
+    {
+      "source_id": "EU-CJEU-C521-17",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Court of Justice of the European Union（C-521/17, Verein für Lauteren Wettbewerb eV v Princesport GmbH, 2018-07-05，经 Lexploria 转载判决全文）",
+      "url": "https://app.lexploria.com/document/14494-judgment-of-the-court-fifth-chamber-of-5-july-2018-verein-fur-lauteren-wettbewerb-ev-v-princesport-gmbh",
+      "document_date": "2018-07-05",
+      "checked_at": "2026-10-30",
+      "access_note": "判决逐条引用了 Art. 7、9、14(1)、16 的原文，并处理「远程销售（含电子方式）时纤维成分必须在购买前可见」以及德国 UWG § 3a 对违反标签法的追究。用来支撑：纤维成分不是可选装饰，缺了在德国会被同行起诉。"
+    },
+    {
+      "source_id": "DE-UWG-5",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Bundesministerium der Justiz / gesetze-im-internet.de（UWG § 5）",
+      "url": "https://www.gesetze-im-internet.de/uwg_2004/__5.html",
+      "checked_at": "2026-10-30",
+      "access_note": "德文原文 § 5(2) 开头：\"Eine geschäftliche Handlung ist irreführend, wenn sie unwahre Angaben enthält oder sonstige zur Täuschung geeignete Angaben über folgende Umstände enthält\"，其第 1 项包含 \"ökologische oder soziale Merkmale ... Zirkularitätsaspekte wie Haltbarkeit, Reparierbarkeit oder Recyclingfähigkeit\"，第 3 项包含 \"Auszeichnungen oder Ehrungen\"，第 7 项包含 \"Rechte des Verbrauchers, insbesondere solche auf Grund von Garantieversprechen\"。环保、认证、质保三类宣称的德国法入口都在这一条。"
+    },
+    {
+      "source_id": "EU-2024-825",
+      "kind": "official_regulatory_guidance",
+      "publisher": "European Parliament and Council / EUR-Lex（Directive (EU) 2024/825, EmpCo/ECGT）",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L0825",
+      "document_date": "2024-02-28",
+      "effective_from": "2026-09-27",
+      "checked_at": "2026-10-30",
+      "access_note": "Annex I 新增条款原文：\"4a. Making a generic environmental claim for which the trader is not able to demonstrate recognised excellent environmental performance relevant to the claim.\"；\"4b. Making an environmental claim about the entire product or the trader's entire business when it concerns only a certain aspect of the product or a specific activity of the trader's business.\"；\"4c. Claiming, based on the offsetting of greenhouse gas emissions, that a product has a neutral, reduced or positive impact on the environment in terms of greenhouse gas emissions.\"。Article 4：成员国须在 2026-03-27 前转化，\"They shall apply those measures from 27 September 2026.\"——即本包写作时（2026-10-30）已在适用。"
+    },
+    {
+      "source_id": "DE-UBA-GREENWASHING",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Umweltbundesamt（UBA，德国联邦环境署）",
+      "url": "https://www.umweltbundesamt.de/en/topics/eu-adopts-new-rules-to-combat-greenwashing-in",
+      "checked_at": "2026-10-30",
+      "access_note": "UBA 官方页面原文：\"General environmental claims (e.g. 'green', 'eco') as written or spoken text are prohibited, with a few exceptions. Environmental claims with a clear specification and justification are still admissible.\"；\"Product-related climate claims based on the offsetting of greenhouse gas emissions are included in the list of unfair practices and are therefore severely restricted.\"；并给出转化日期 \"Implementation in the Member States must take place by March 27, 2026 and will apply from September 27, 2026.\"（该页 2026-06 仍在线，任务书里「UBA 页面已下线」的前提不成立）。"
+    },
+    {
+      "source_id": "DE-BGH-IZB-26-24",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Bundesgerichtshof（BGH 2025-02-20, I ZB 26/24），经 Taylor Wessing 评述转述",
+      "url": "https://www.taylorwessing.com.cn/en/insights-and-events/insights/2025/06/01_nl_madewe",
+      "document_date": "2025-02-20",
+      "checked_at": "2026-10-30",
+      "access_note": "案情：德国长途大巴公司在比利时网站用 \"milieuvriendelijk\"/\"klimaatvriendelijk\"（环保/气候友好）并称大巴是\"最环保的交通方式\"，另提供未披露排放量的 CO2 补偿。比利时 ADEI 依 CPC 条例要求德国处理，UBA 下达禁令，Dessau-Roßlau 地方法院驳回申诉，BGH 于 2025-02-20 驳回上诉、确认 UBA 禁令合法。要点：泛化环保词 + 不给具体依据 = 误导；补偿类气候宣称必须写明所依据的排放值。本条为评述稿转述，未取得 BGH 判决全文。"
+    },
+    {
+      "source_id": "DE-VERPAKGD",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Bundesministerium der Justiz / gesetze-im-internet.de（Verpackungsrecht-Durchführungsgesetz, VerpackDG）",
+      "url": "https://www.gesetze-im-internet.de/verpackdg/__6.html",
+      "checked_at": "2026-10-30",
+      "access_note": "§ 6(1) 原文：\"Hersteller sind verpflichtet, sich im Falle des Artikels 3 Absatz 1 Nummer 15 Buchstabe a bis d der Verordnung (EU) 2025/40 ... vor dem erstmaligen Bereitstellen ... bei der Zentralen Stelle Verpackungsregister registrieren zu lassen.\"；§ 13(1) 原文：\"Hersteller dürfen weder Verpackungen im Bundesgebiet bereitstellen ... wenn sie nicht oder nicht ordnungsgemäß nach § 6 Absatz 1 Satz 1 registriert sind.\"（同页另见 https://www.gesetze-im-internet.de/verpackdg/__13.html）。§ 1：\"Dieses Gesetz ist anzuwenden auf Verpackungen im Anwendungsbereich der Verordnung (EU) 2025/40.\""
+    },
+    {
+      "source_id": "EU-765-2008-ART30",
+      "kind": "official_regulatory_guidance",
+      "publisher": "European Parliament and Council（Regulation (EC) No 765/2008, Article 30）",
+      "url": "https://www.legislation.gov.uk/eur/2008/765/article/30/2008-07-09",
+      "document_date": "2008-07-09",
+      "checked_at": "2026-10-30",
+      "access_note": "2008-07-09 时间点版本原文：Art. 30(2) \"The CE marking as presented in Annex II shall be affixed only to products to which its affixing is provided for by specific Community harmonisation legislation, and shall not be affixed to any other product.\"；Art. 30(1) \"The CE marking shall be affixed only by the manufacturer or his authorised representative.\" 注意：该站在 2020-12-31 后把本章替换成 UK marking，现行页已无 CE 原文，必须用 2008-07-09 时间点视图。"
+    },
+    {
+      "source_id": "DE-BGB-479",
+      "kind": "official_regulatory_guidance",
+      "publisher": "Bundesministerium der Justiz / gesetze-im-internet.de（BGB § 479, § 443）",
+      "url": "https://www.gesetze-im-internet.de/bgb/__479.html",
+      "checked_at": "2026-10-30",
+      "access_note": "§ 479(1) 原文：\"Eine Garantieerklärung (§ 443) muss einfach und verständlich abgefasst sein. Sie muss Folgendes enthalten: 1. den Hinweis auf die gesetzlichen Rechte des Verbrauchers bei Mängeln, darauf, dass die Inanspruchnahme dieser Rechte unentgeltlich ist sowie darauf, dass diese Rechte durch die Garantie nicht eingeschränkt werden, 2. den Namen und die Anschrift des Garantiegebers, 3. das vom Verbraucher einzuhaltende Verfahren für die Geltendmachung der Garantie, 4. die Nennung der Ware, auf die sich die Garantie bezieht, und 5. die Bestimmungen der Garantie, insbesondere die Dauer und den räumlichen Geltungsbereich des Garantieschutzes.\"；§ 479(2) 要求最迟在交付时以耐久介质提供。§ 443(2) 对 Haltbarkeitsgarantie 的推定规则（同页链接 https://www.gesetze-im-internet.de/bgb/__443.html）。"
+    },
+    {
+      "source_id": "DE-DETAIL-2026",
+      "kind": "official_platform_policy",
+      "publisher": "Amazon Seller Central（amazon.de 帮助页 Product detail page rules）",
+      "url": "https://sellercentral.amazon.de/help/hub/reference/external/G200390640?locale=de-DE",
+      "checked_at": "2026-10-30",
+      "access_note": "英文原文：\"None of the following are allowed in product detail page titles, descriptions, bullet points, or images\"，其后列举 \"External contact information such as but not limited to: Phone numbers, physical mail addresses, email addresses, social media handles, or website URLs.\"、\"Links or references to alternative ordering information ... or alternative shipping offers (such as free shipping)\"、\"Details of availability, price, or condition.\"、\"Adverts, promotional material, or watermarks on images, photos, or videos.\"；另：\"Product titles must not have more than 75 characters, including spaces ... Use item highlights ... which has a character limit of 125 characters (including spaces).\"（与标题页互相印证 75/125）。"
+    },
+    {
+      "source_id": "PROJECT-AMAZON-QUALITY",
+      "kind": "project_check",
+      "url": null,
+      "local_document": "../Amazon-Listing精细化落地方案.md",
+      "note": "项目的事实一致性、来源和运行状态检查，不是平台发布的额外规定。"
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "AMZ-01",
+      "category": "platform_rules",
+      "title_zh": "标题长度（德国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 75,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "DE-TITLE-2026"
+      ],
+      "repair": "缩到 75 字符以内再提交；放不下的属性移进亮点。不新增商品事实。",
+      "note": "正例：\"Baumwolltasche Natur, 38 × 42 cm, 140 g/m²\"（42 字符，合规）。反例：\"Baumwolltasche Natur, 38 × 42 cm, 140 g/m², mit langen Henkeln, wiederverwendbar, faltbar, für Einkauf und Strand, ideal als Geschenk\"（超 75）。2025-01-21 那版欧洲公告写的是 200 字符，现行 amazon.de 帮助页已改为 75；本包按现行要求，不按 200。"
+    },
+    {
+      "rule_id": "AMZ-02",
+      "category": "platform_rules",
+      "title_zh": "亮点长度",
+      "field_paths": [
+        "content.item_highlights"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "max_characters": 125,
+        "include_spaces": true,
+        "application_counting": "unicode_code_points"
+      },
+      "effective_from": "2026-07-27",
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "DE-TITLE-2026"
+      ],
+      "repair": "提炼信息，必要时移到其他适用字段，重新计数。"
+    },
+    {
+      "rule_id": "AMZ-03",
+      "category": "platform_rules",
+      "title_zh": "文案中的联系信息或链接",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points[].text",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "candidates": [
+          "email_address",
+          "phone_number",
+          "seller_address",
+          "website_url"
+        ]
+      },
+      "method": "patterns_with_context_review",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "DE-DETAIL-2026"
+      ],
+      "repair": "删除受限文案中的联系信息；内部证据链接不属于检查对象。",
+      "note": "尺寸数字不因形状相似而自动判为电话号码。"
+    },
+    {
+      "rule_id": "AMZ-04",
+      "category": "platform_rules",
+      "title_zh": "文案中的交易与促销信息",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points[].text",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "candidates": [
+          "price",
+          "availability",
+          "condition",
+          "alternative_shipping_offer",
+          "promotional_language"
+        ],
+        "promotional_language_examples": [
+          "on sale",
+          "best seller",
+          "limited time",
+          "buy 2 get 1",
+          "free shipping",
+          "shop now"
+        ]
+      },
+      "method": "patterns_and_semantic_review",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "DE-DETAIL-2026"
+      ],
+      "repair": "移除文案中的交易与促销信息，专门的售价或库存字段不适用此规则。",
+      "note": "促销语这一类只收整短语，不收裸 best / sale / free（20 条真实在售文案里 gift bag 14/20、perfect for 8/20 都是正常卖点）。同义词没有穷举；漏掉的写法由模型语义层兜底，本机无 Key，模型层是否兜得住属于未验证。"
+    },
+    {
+      "rule_id": "AMZ-05",
+      "category": "platform_rules",
+      "title_zh": "商品描述准确性",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "must_match_confirmed_product_facts": true
+      },
+      "method": "structured_comparison_and_semantic_review",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "DE-DETAIL-2026"
+      ],
+      "repair": "有确定事实则建议按事实修复；无资料则标记 needs_evidence。"
+    },
+    {
+      "rule_id": "AMZ-06",
+      "category": "product_fact_quality",
+      "title_zh": "标题含多个包装规格",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "application_product_type": "tote_bag_demo"
+      },
+      "constraint": {
+        "max_distinct_pack_counts_in_title": 1,
+        "pack_units": [
+          "pack",
+          "pcs",
+          "pieces",
+          "count",
+          "set"
+        ]
+      },
+      "method": "deterministic",
+      "severity_on_failure": "suggestion",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "标题只保留本变体的件数，其余规格放到变体选项里。",
+      "note": "标题并列多种包装规格时提醒确认当前变体的零售件数。项目内部表达建议，不是平台强制规则；不将并列选项自动登记为实际件数。"
+    },
+    {
+      "rule_id": "DE-TITLE-02",
+      "category": "platform_rules",
+      "title_zh": "标题同一个词不得超过两次（德国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "max_occurrences_per_word": 2,
+        "exempt_word_classes": [
+          "preposition",
+          "article",
+          "conjunction"
+        ],
+        "brand_name_also_limited": true,
+        "counting": "case_insensitive_word_tokens"
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "DE-TITLE-2026"
+      ],
+      "repair": "删掉重复的词，换成同义表达或把该属性移进亮点；品牌名同样受限，不能靠品牌名规避。",
+      "note": "正例：\"Baumwolltasche mit langen Henkeln, natur, 38 × 42 cm\"（每个实词只出现一次）。反例：\"Baumwolltasche Baumwolltasche Baumwolltasche natur\"（同一词三次）。介词/冠词/连词（mit、und、der、für 等）不受限；但品牌名不豁免——原文写明 \"brand names are also subject to the two-instance limit\"。德语复合词按整词计数，Baumwolltasche 与 Baumwolltasche Natur 里的 Baumwolltasche 算同一个词。"
+    },
+    {
+      "rule_id": "DE-TITLE-03",
+      "category": "platform_rules",
+      "title_zh": "标题禁用特殊字符（德国站）",
+      "field_paths": [
+        "content.title"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "prohibited_characters": [
+          "!",
+          "$",
+          "?",
+          "_",
+          "{",
+          "}",
+          "^",
+          "¬",
+          "¦"
+        ],
+        "brand_name_exemption": "brand 字段内可含，标题内不可含"
+      },
+      "effective_from": null,
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "DE-TITLE-2026"
+      ],
+      "repair": "删掉这些符号；品牌名里带这些符号的，把品牌名填进 Brand name 字段，不要写进标题。",
+      "note": "正例：\"Baumwolltasche, 38 × 42 cm\"（只用逗号、乘号与数字）。反例：\"Baumwolltasche_Bio! Jetzt kaufen?\"（含 _ ! ?）。官方 FAQ 原文：品牌名含禁用字符时应填进 \"Brand name\" 字段，该字段豁免；标题内不豁免。注意 × (U+00D7) 与 ² (U+00B2) 不在禁用清单内，德语尺寸与克重写法可以保留。"
+    },
+    {
+      "rule_id": "DE-GPSR-19",
+      "category": "target_country_product_info",
+      "title_zh": "GPSR 第 19 条的线上报价四要素",
+      "field_paths": [
+        "content.description",
+        "content.bullet_points"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "required_elements": [
+          "manufacturer_name_and_postal_and_electronic_address",
+          "eu_responsible_person_when_manufacturer_outside_eu",
+          "product_identification_type_or_batch_or_ean_and_picture",
+          "warnings_in_german_when_the_product_needs_them"
+        ],
+        "must_be_on_the_offer_itself": true,
+        "language_of_warnings": "de"
+      },
+      "effective_from": "2024-12-13",
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "DE-GPSR-ART19",
+        "DE-UWG-5A"
+      ],
+      "repair": "在商品描述或要点的固定区块补齐四要素：制造商名称 + 邮政地址 + 电子地址；制造商在欧盟外时补欧盟责任人的同三项；型号/批次/EAN 与图片；需要警告的品类补德语警告原文。缺一项就补一项，不要用「见包装」代替。",
+      "note": "正例（描述末尾一块）：Hersteller: Beispiel GmbH, Musterstraße 1, 10115 Berlin, kontakt@beispiel.de｜EU-Verantwortlicher: Beispiel EU GmbH, Hauptstraße 2, 10115 Berlin, eu@beispiel.de｜Modell: BT-38-42, EAN: 4006381333931。反例：只写 \"Hergestellt in China\"，或把制造商信息塞进图片水印、或用一句 \"siehe Verpackung\" 代替。注意：棉布袋通常不需要安全警告，第四项可判 not_applicable，但不能因为「不需要警告」就把前三项也省掉。判例：LG Hechingen 2026-04-23, 5 O 37/25 KfH 据报道以 §§ 5a、5b UWG 处理「卖家后台存了、德语视图没显示」的情形，认为以消费者实际看到为准、平台故障不免责；该判决只有单一商业媒体转述（EcoClaim 引 versandhandelsrecht.de），本项目未取得判决原文，引用时须标「据报道」。"
+    },
+    {
+      "rule_id": "DE-TEXTIL-01",
+      "category": "target_country_product_info",
+      "title_zh": "纺织品纤维成分的德文标注与百分比写法",
+      "field_paths": [
+        "content.title",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false,
+        "textile_product": true
+      },
+      "constraint": {
+        "language": "de",
+        "other_languages_allowed_only_as_addition": true,
+        "fibre_names_from_annex_i_only": true,
+        "percentages_in_descending_order": true,
+        "pure_wording_requires_single_fibre": "100 %, rein, pur",
+        "other_fibres_max_share_percent": 15,
+        "visible_before_purchase_online": true
+      },
+      "effective_from": "2016-02-24",
+      "method": "patterns_with_context_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "DE-TEXTIL-KENNZG",
+        "EU-TEXTIL-1007",
+        "EU-CJEU-C521-17"
+      ],
+      "repair": "写成德语成分句：单一成分用「100 % Baumwolle」；混纺按降序「65 % Baumwolle, 35 % Polyester」；占比不超过 15 % 且难拆分的少数纤维才写「sonstige Fasern」并带总百分比。英文或其他语言的成分只能作为补充并列出现，不能取代德语。",
+      "note": "正例：\"100 % Baumwolle\"（单一纤维，可用 100 %）；\"65 % Baumwolle, 35 % Polyester\"（降序）；\"95 % Baumwolle, 5 % sonstige Fasern\"（≤15 % 可用 sonstige Fasern）。反例：\"100% Cotton\"（英语，且用了英文纤维名 Cotton 而非 Baumwolle，在德国站只作补充才合法）；\"Baumwolle/Polyester\"（没百分比、没降序）；\"100 % Baumwolle, 5 % Elasthan\"（既称 100 % 又列第二种纤维，自相矛盾）。注意德语写法是「100 %」带空格，法规原文写作 '100%'，两种写法都能读到 100 %，本项目只拦「多种纤维却称 100 %」这种实质矛盾。"
+    },
+    {
+      "rule_id": "DE-ENV-01",
+      "category": "target_country_claims_review",
+      "title_zh": "泛化环保与气候中性宣称（德国站，比美国站严）",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "banned_generic_terms": [
+          "klimaneutral",
+          "CO2-neutral",
+          "umweltfreundlich",
+          "umweltneutral",
+          "nachhaltig",
+          "recycelbar",
+          "öko",
+          "grün",
+          "klimafreundlich"
+        ],
+        "generic_claim_needs": "同一媒介上清晰醒目的具体说明 + 可核实的公认卓越环境表现",
+        "offset_based_neutrality_banned": true,
+        "offset_disclosure_required": "若提及 CO2 补偿，必须写明所依据的排放量",
+        "whole_product_vs_part": "只能用在实际覆盖全产品时"
+      },
+      "effective_from": "2026-09-27",
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "EU-2024-825",
+        "DE-UBA-GREENWASHING",
+        "DE-BGH-IZB-26-24",
+        "DE-UWG-5"
+      ],
+      "repair": "把泛化词换成具体事实：不说「umweltfreundlich」，说「100 % Baumwolle, ungebleicht」或「Verpackung aus recyceltem Karton, 80 % Rezyklat」；凡涉及「klimaneutral」，删除或改成实际减排量，不要用补偿换取「中性」二字。",
+      "note": "正例：\"100 % Baumwolle aus kontrolliert biologischem Anbau\"（具体材质与来源）；\"Verpackung: 80 % Rezyklat aus Altpapier\"（具体比例与材料）。反例：\"klimaneutral\"（基于抵消，2026-09-27 起在欧盟一律不公平）；\"umweltfreundliche Baumwolltasche\"（泛化词，未在同一媒介给出具体说明）；\"nachhaltig und recycelbar\"（两个泛化词叠加，且未说明是哪一部分可回收）。与美国站的差别：美国站按 FTC Green Guides 走「有没有证据 + 有没有限定条件」，仍允许有条件的泛化表述；德国站在 2026-09-27 之后直接禁止无法证明「公认卓越环境表现」的泛化词，且抵消型「气候中性」属 Annex I 绝对禁止项。"
+    },
+    {
+      "rule_id": "DE-VERPACK-01",
+      "category": "target_country_product_info",
+      "title_zh": "包装法注册号是上架前提，且不能拿包装说环保",
+      "field_paths": [
+        "content.description",
+        "content.bullet_points"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "registration_required_before_placing_on_market": "Zentrale Stelle Verpackungsregister（LUCID）",
+        "unregistered_placing_on_market_prohibited": true,
+        "packaging_environmental_claim": "只能写具体材料与比例，不得只用泛化环保词"
+      },
+      "effective_from": null,
+      "method": "explicit_field_comparison",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "DE-VERPAKGD",
+        "EU-2024-825"
+      ],
+      "repair": "先在 LUCID 完成注册并取得注册号（同时完成系统参与），再上架；文案里提到包装时写材料与比例，不写「umweltfreundliche Verpackung」这类泛化说法。",
+      "note": "正例：包装写 \"Versand in einer Faltschachtel aus 100 % Altpapier\"，并在商家档案里记录 LUCID 注册号。反例：没有任何注册号就上架（VerpackDG § 13(1) 直接禁止「未注册即在本法适用区域内提供包装」）；文案写 \"umweltfreundliche Verpackung\" 却不说明材料（落入 2024/825 Annex I 4a）。说明：注册号本身不写在商品文案里，它是上架前置条件，本规则的作用是提醒与核对，不能让模型把它编进文案。德国包装法已由 VerpackDG（实施 PPWR (EU) 2025/40 的国内法）承接，VerpackDG § 1 只写「适用于 PPWR 适用范围内的包装」，PPWR 本身的适用起始日本项目未核到原文，因此本条不标生效日。"
+    },
+    {
+      "rule_id": "DE-CERT-01",
+      "category": "target_country_claims_review",
+      "title_zh": "认证、检测标志与 CE：什么不能写",
+      "field_paths": [
+        "content.title",
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "claim_must_match_held_certificate": [
+          "TÜV-geprüft",
+          "OEKO-TEX",
+          "GS-Zeichen",
+          "CE"
+        ],
+        "ce_only_for_harmonised_products": true,
+        "cotton_tote_bag_in_ce_scope": false,
+        "unsupported_award_claim_is_misleading": true
+      },
+      "effective_from": null,
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "EU-765-2008-ART30",
+        "DE-UWG-5"
+      ],
+      "repair": "只写手上真实持有、且覆盖该型号的证书，写清发证机构与证书编号；没有证书就删掉。棉布袋不属于 CE 指令覆盖范围，不要写 CE、也不要贴 CE 图标——贴了反而是反向风险。",
+      "note": "正例：\"OEKO-TEX Standard 100, Zertifikat-Nr. XX-XXXXX, geprüft auf Schadstoffe\"（有编号、有机构、有检测项）。反例：\"TÜV-geprüft\"（没有证书、没有编号，落入 UWG § 5(2) Nr. 3 \"Auszeichnungen oder Ehrungen\"）；在棉布袋上标 CE（765/2008 Art. 30(2) 原文 \"shall be affixed only to products to which its affixing is provided for by specific Community harmonisation legislation, and shall not be affixed to any other product\"，乱标等于自证不懂合规）。"
+    },
+    {
+      "rule_id": "DE-GARANTIE-01",
+      "category": "target_country_claims_review",
+      "title_zh": "Garantie（质保）宣称的法定内容",
+      "field_paths": [
+        "content.item_highlights",
+        "content.bullet_points",
+        "content.description"
+      ],
+      "scope": {
+        "marketplace": "DE",
+        "media_product": false
+      },
+      "constraint": {
+        "required_content": [
+          "hinweis_auf_gesetzliche_rechte_und_unentgeltlichkeit",
+          "name_und_anschrift_des_garantiegebers",
+          "verfahren_der_geltendmachung",
+          "nennung_der_ware",
+          "dauer_und_raeumlicher_geltungsbereich"
+        ],
+        "must_be_simple_and_understandable": true,
+        "on_durable_medium_at_delivery": true
+      },
+      "effective_from": null,
+      "method": "candidate_detection_and_contextual_review",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "DE-BGB-479",
+        "DE-UWG-5"
+      ],
+      "repair": "要么不写「Garantie」，要么按 § 479(1) 五项写全（法定权利提示、保证人名称地址、主张流程、适用商品、期限与地域范围），并用简明德语。只写「10 Jahre Garantie」不够。",
+      "note": "正例：\"3 Jahre Haltbarkeitsgarantie der Beispiel GmbH, Musterstraße 1, 10115 Berlin. Ihre gesetzlichen Mängelrechte bleiben unberührt und sind für Sie kostenlos. Geltendmachung: E-Mail an garantie@beispiel.de mit Bestellnummer.\"（五项齐备）。反例：\"Lebenslange Garantie\"（无保证人、无流程、无地域）；\"Garantie 2 Jahre\" 却把法定瑕疵权利写成「代替」。注意 § 479 是消费者合同下的强制内容要求，写不全本身就违法，不只是「说得夸张」。"
+    },
+    {
+      "rule_id": "FACT-01",
+      "category": "product_fact_quality",
+      "title_zh": "数量单位与属性混淆",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "application_product_type": "tote_bag_demo",
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "keep_distinct": [
+          [
+            "capacity_l",
+            "rated_load_kg"
+          ],
+          [
+            "fabric_weight_gsm",
+            "unit_weight_g"
+          ]
+        ]
+      },
+      "method": "typed_fact_comparison",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "使用正确的属性和单位；缺失的性能值保持未知。"
+    },
+    {
+      "rule_id": "FACT-02",
+      "category": "product_fact_quality",
+      "title_zh": "零售包装数量",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "application_product_type": "tote_bag_demo",
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "pack_claim_must_match": "product.retail_pack_count"
+      },
+      "method": "explicit_field_comparison",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "采用明确确认的零售件数，不沿用供应商装箱数量。"
+    },
+    {
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title_zh": "商品参数与来源对照",
+      "field_paths": [
+        "content"
+      ],
+      "scope": {
+        "workflows": [
+          "listing_create",
+          "listing_diagnose"
+        ],
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "typed_parameter_links_from_recorded_product_facts": true,
+        "model_mapping_required_for_parameter_links": false,
+        "sentence_semantics_proven_by_parameter_links": false
+      },
+      "method": "deterministic",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "按字段、单位、商品版本关联记录来源；参数未知或冲突时补充对应资料或修改表述。模型漏引用不影响已关联参数；整句语义与复杂宣称仍需单独审阅。"
+    },
+    {
+      "rule_id": "SYS-01",
+      "category": "system_integrity",
+      "title_zh": "引用可追溯",
+      "field_paths": [
+        "issues[].source_ids",
+        "claim_map[].source_ids"
+      ],
+      "scope": {
+        "workflows": [
+          "listing_create",
+          "listing_diagnose"
+        ],
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "source_must_exist_and_be_supplied_to_current_run": true
+      },
+      "method": "deterministic",
+      "severity_on_failure": "blocking",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "拒绝假引用；重新检查，无法支持的结论标为待核。"
+    },
+    {
+      "rule_id": "SYS-02",
+      "category": "system_integrity",
+      "title_zh": "范围与检查完成状态",
+      "field_paths": [
+        "marketplace",
+        "rule_pack_version",
+        "review_status",
+        "check_results"
+      ],
+      "scope": {
+        "workflows": [
+          "listing_create",
+          "listing_diagnose"
+        ],
+        "marketplace": "DE"
+      },
+      "constraint": {
+        "no_pass_from_error_or_missing_checks": true,
+        "require_rule_scope_match": true
+      },
+      "method": "deterministic",
+      "severity_on_failure": "needs_review",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "repair": "列出未覆盖或失败项目，保留部分完成状态。"
+    }
+  ],
+  "coverage_limits": [
+    "本包只覆盖 amazon.de 的文本规则；未取得官方商品类型 Schema，不检查商品属性、品牌资格、变体与准入。",
+    "未覆盖图片、A+、Search Terms、进口、税务与全部纺织品/化学品合规要求。",
+    "标题上限按 2026-10-30 抓到的 amazon.de 帮助页取 75；未按品类逐一核对分类上限。",
+    "规则用于上架前风险预审，不构成法律意见，也不宣称模型能完成法律认定。"
+  ],
+  "label": "棉布手提袋（Amazon DE 文本预审）",
+  "pack_id": "amazon-de-tote"
+}

@@ -1,0 +1,132 @@
+{
+  "listing_id": "listing-06ebe642-4bf9-4dc7-8316-b6da881a12a0",
+  "version": 7,
+  "trace": {
+    "provider": "compatible",
+    "actual_model_call": true,
+    "provider_request_id": "bb3705c2-e2d3-4162-87f4-66f5a744e95b",
+    "model": "deepseek-flash",
+    "requested_model": "deepseek-flash",
+    "elapsed_ms": 7057,
+    "usage": {
+      "prompt_tokens": 8457,
+      "completion_tokens": 503,
+      "total_tokens": 8960,
+      "prompt_tokens_details": {
+        "cached_tokens": 1280
+      },
+      "prompt_cache_hit_tokens": 1280,
+      "prompt_cache_miss_tokens": 7177
+    },
+    "http_status": 200,
+    "output_mode": "audit_only_format_retry",
+    "format_retry": {
+      "attempts": 2,
+      "recovered": true,
+      "failed_attempt": {
+        "error_code": "MODEL_INVALID_JSON",
+        "trace": {
+          "provider": "compatible",
+          "actual_model_call": true,
+          "provider_request_id": "f5c9d552-f947-46ee-86fa-87b7c37984ce",
+          "model": "deepseek-flash",
+          "requested_model": "deepseek-flash",
+          "elapsed_ms": 4329,
+          "usage": {
+            "prompt_tokens": 8372,
+            "completion_tokens": 1163,
+            "total_tokens": 9535,
+            "prompt_tokens_details": {
+              "cached_tokens": 1152
+            },
+            "prompt_cache_hit_tokens": 1152,
+            "prompt_cache_miss_tokens": 7220
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "prompt_version": "2026-10-30.guided-writing-v11",
+    "parameter_link_version": "structured-parameters-v2.4",
+    "audit_input_hash": "835faf7ccefc2a5da125248c3129cbe5db6b778a7678ad95afa1e93123a033cd",
+    "rule_selection": "structured_scope_selection",
+    "source_ids": [
+      "AMZS-TITLE-2026",
+      "AMZS-DETAIL-US",
+      "AMZS-DETAIL-PROMO",
+      "FTCS-GREEN-SUMMARY",
+      "FTCS-AD-SUBSTANTIATION",
+      "FTCS-GUIDE-STATUS",
+      "FTCS-GUIDE-REGISTER",
+      "PROJECT-AMAZON-QUALITY",
+      "AMZ-PAGE-B0732NPDRB-5be602c5cfce",
+      "MERCHANT-FACT-099a0846-5bc5-4d1a-814f-c22e5413461e",
+      "MERCHANT-FACT-8153ec24-95a6-4880-8c5a-30d97227494a",
+      "MERCHANT-FACT-834cecc7-6cc4-414d-a66f-886e8065cb48",
+      "MERCHANT-FACT-934c0f0b-afc1-4a81-92f8-2a9c89efc48b"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "c1989bde9634fc",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.item_highlights",
+      "original": "100% cotton canvas tote with a top zipper and an outer pocket; measures 22\" X 16\" X 6\".",
+      "reason": "22\" X 16\" X 6\"：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "08cdba20fcd255",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.bullet_points.b4",
+      "original": "Measures 22\" X 16\" X 6\", so you can picture how it fits your daily routine.",
+      "reason": "22\" X 16\" X 6\"：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    },
+    {
+      "issue_id": "2a45f66bae804a",
+      "rule_id": "EVID-01",
+      "category": "product_fact_quality",
+      "title": "商品参数与来源对照",
+      "severity": "needs_review",
+      "field_path": "content.description",
+      "original": "It measures 22\" X 16\" X 6\" and has a top zipper closure plus an outer pocket for small items you want close at hand.",
+      "reason": "22\" X 16\" X 6\" ：商品档案只有宽、高两轴，缺深度（depth 未确认）；这串写了 3 轴，不硬取前两个数当宽×高，等深度确认后再逐轴对照。请在商品资料中确认完整三轴及其来源。",
+      "suggestion": "核对商品原文与适用条件；补充依据或删除无法证实的表述。",
+      "method": "deterministic",
+      "source_ids": [
+        "PROJECT-AMAZON-QUALITY"
+      ],
+      "status": "open"
+    }
+  ],
+  "missing_data": [
+    {
+      "field": "color",
+      "label": "颜色",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    },
+    {
+      "field": "retail_pack_count",
+      "label": "零售包装",
+      "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+    }
+  ],
+  "notice": "Initial browser test used an archived real DALIX record; its unconfirmed depth remains unresolved. Later browser validation used the newly imported W101 material record; it does not resolve these old DALIX issues."
+}

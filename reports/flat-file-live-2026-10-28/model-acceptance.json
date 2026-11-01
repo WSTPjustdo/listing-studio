@@ -1,0 +1,204 @@
+{
+  "completed_at": "2026-10-28T12:19:09.618Z",
+  "model": "deepseek-flash",
+  "source_url": "https://westfordmill.com/products/w101",
+  "source_checked_live": true,
+  "commands": [
+    {
+      "command": "npm run test:live",
+      "status": "passed"
+    },
+    {
+      "command": "npm run test:live:browser",
+      "status": "passed"
+    }
+  ],
+  "calls": [
+    {
+      "stage": "真实商品生成与独立审核",
+      "request_id": "86258ada-21a5-47c5-bca5-071ec40a76fc",
+      "model": "deepseek-flash",
+      "elapsed_ms": 2179,
+      "usage": {
+        "prompt_tokens": 4401,
+        "completion_tokens": 285,
+        "total_tokens": 4686,
+        "prompt_tokens_details": {
+          "cached_tokens": 3968
+        },
+        "prompt_cache_hit_tokens": 3968,
+        "prompt_cache_miss_tokens": 433
+      }
+    },
+    {
+      "stage": "真实商品生成与独立审核",
+      "request_id": "8bf0dfad-4e81-42ea-bf74-d0f6762d8e16",
+      "model": "deepseek-flash",
+      "elapsed_ms": 5509,
+      "usage": {
+        "prompt_tokens": 4628,
+        "completion_tokens": 1100,
+        "total_tokens": 5728,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3220
+      }
+    },
+    {
+      "stage": "真实问题审查修复与复检",
+      "request_id": "eefd00b9-0983-46f2-a470-8ec701dde888",
+      "model": "deepseek-flash",
+      "elapsed_ms": 1714,
+      "usage": {
+        "prompt_tokens": 5973,
+        "completion_tokens": 192,
+        "total_tokens": 6165,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 4565
+      }
+    },
+    {
+      "stage": "真实问题审查修复与复检",
+      "request_id": "6285eb42-5f90-4c6e-aea5-0202b1290dc9",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4048,
+      "usage": {
+        "prompt_tokens": 4535,
+        "completion_tokens": 913,
+        "total_tokens": 5448,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "prompt_cache_hit_tokens": 1536,
+        "prompt_cache_miss_tokens": 2999
+      }
+    },
+    {
+      "stage": "补充真实规格后原任务复检",
+      "request_id": "94df97a8-6ca0-4714-a2c5-bb2ea5d7262d",
+      "model": "deepseek-flash",
+      "elapsed_ms": 4556,
+      "usage": {
+        "prompt_tokens": 4572,
+        "completion_tokens": 928,
+        "total_tokens": 5500,
+        "prompt_tokens_details": {
+          "cached_tokens": 1408
+        },
+        "prompt_cache_hit_tokens": 1408,
+        "prompt_cache_miss_tokens": 3164
+      }
+    },
+    {
+      "stage": "真实工作台浏览器复检",
+      "request_id": "4db3ca8c-8b9b-44c9-b4b2-2c2ba023db82",
+      "model": "deepseek-flash",
+      "elapsed_ms": 8079,
+      "usage": {
+        "prompt_tokens": 7013,
+        "completion_tokens": 447,
+        "total_tokens": 7460,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 5989
+      }
+    }
+  ],
+  "request_count": 6,
+  "known_total_tokens": 34987,
+  "stages": [
+    {
+      "label": "真实商品生成与独立审核",
+      "status": "succeeded",
+      "elapsed_ms": 8165,
+      "version": 1,
+      "issue_count": 4,
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    },
+    {
+      "label": "真实问题审查修复与复检",
+      "status": "succeeded",
+      "elapsed_ms": 6158,
+      "version": 2,
+      "issue_count": 0,
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    },
+    {
+      "label": "补充真实规格后原任务复检",
+      "status": "succeeded",
+      "elapsed_ms": 5066,
+      "version": 3,
+      "issue_count": 0,
+      "missing_data": [
+        {
+          "field": "color",
+          "label": "颜色",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        },
+        {
+          "field": "retail_pack_count",
+          "label": "零售包装",
+          "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+        }
+      ]
+    }
+  ],
+  "browser": {
+    "checks": [
+      "invalid_product_revision_rejected",
+      "real_api_recheck",
+      "version_history_preserved",
+      "evidence_visible",
+      "html_txt_json_copy_exports"
+    ],
+    "request_id": "4db3ca8c-8b9b-44c9-b4b2-2c2ba023db82",
+    "issues": [],
+    "missing_data": [
+      {
+        "field": "color",
+        "label": "颜色",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      },
+      {
+        "field": "retail_pack_count",
+        "label": "零售包装",
+        "reason": "未确认，草稿中不推测；正式上架仍需核对。"
+      }
+    ]
+  },
+  "merchant_original_template": "unknown",
+  "merchant_owned_sku_acceptance": "pending",
+  "platform_processing_report_acceptance": "pending",
+  "seller_central_upload_performed": false,
+  "credentials_included": false,
+  "raw_provider_responses_included": false
+}

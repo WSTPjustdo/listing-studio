@@ -1,0 +1,88 @@
+{
+  "started_at": "2026-10-31T04:23:03.994Z",
+  "evidence_type": "local_ocr_of_real_public_sources_no_model_calls",
+  "model_calls_performed": 0,
+  "sources": [
+    {
+      "filename": "official-w101-pdf-page-1.png",
+      "source_kind": "actual_official_pdf_page_render",
+      "source_url": "https://westfordmill.com/print/pdf/node/468",
+      "source_pdf_sha256": "63e579f9983a5be8297fdca21784c8c12210ca1856af267437f36ce1da7e0975",
+      "page": 1,
+      "bytes": 194708,
+      "sha256": "921e04f5d09a429bb94c8f09fbf07f4feb667b601832c3b4e55bebf50f886629",
+      "merchant_wechat_screenshot": false
+    },
+    {
+      "filename": "official-w101-product-photo.jpg",
+      "url": "https://mediahub.beechfieldbrands.com/asset/56a133a1-d3c1-40fa-8e60-483c1f7124d1/thumbnail/webimage-westfordmill_w101_violet-pink_flat-shot_c",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 18987,
+      "sha256": "c7aa037273c778f668ba0c5761b7f4d362576367466594f61ed05f7eb1c31411",
+      "source_kind": "official_real_product_photo",
+      "merchant_product_photo": false
+    }
+  ],
+  "chinese_merchant_screenshot": "not_provided",
+  "checks": [],
+  "failures": [
+    {
+      "filename": "official-w101-pdf-page-1.png",
+      "error": {
+        "code": "MATERIAL_OCR_UNAVAILABLE",
+        "message": "本机 OCR 初始化失败，请检查网络能否下载中英文识别资源，或粘贴截图中的原文后继续。"
+      }
+    },
+    {
+      "filename": "official-w101-product-photo.jpg",
+      "error": {
+        "code": "MATERIAL_OCR_UNAVAILABLE",
+        "message": "本机 OCR 初始化失败，请检查网络能否下载中英文识别资源，或粘贴截图中的原文后继续。"
+      }
+    }
+  ],
+  "elapsed_ms": 120085,
+  "http_status": 201,
+  "preview": {
+    "id": "materials-be873e53-f8aa-4cef-bcdb-9efb734018f8",
+    "kind": "factory_material_preview",
+    "received_at": "2026-10-31T04:25:04.069Z",
+    "documents": [
+      {
+        "id": "material-b44a3e7a-9cb6-4148-8a8d-af28b51b5d97",
+        "filename": "official-w101-pdf-page-1.png",
+        "kind": "png",
+        "sha256": "921e04f5d09a429bb94c8f09fbf07f4feb667b601832c3b4e55bebf50f886629",
+        "bytes": 194708,
+        "status": "failed",
+        "text": "",
+        "segments": [],
+        "warnings": [],
+        "error": {
+          "code": "MATERIAL_OCR_UNAVAILABLE",
+          "message": "本机 OCR 初始化失败，请检查网络能否下载中英文识别资源，或粘贴截图中的原文后继续。"
+        }
+      },
+      {
+        "id": "material-06b7f055-faba-414e-8802-f2f5ffafd77a",
+        "filename": "official-w101-product-photo.jpg",
+        "kind": "jpg",
+        "sha256": "c7aa037273c778f668ba0c5761b7f4d362576367466594f61ed05f7eb1c31411",
+        "bytes": 18987,
+        "status": "failed",
+        "text": "",
+        "segments": [],
+        "warnings": [],
+        "error": {
+          "code": "MATERIAL_OCR_UNAVAILABLE",
+          "message": "本机 OCR 初始化失败，请检查网络能否下载中英文识别资源，或粘贴截图中的原文后继续。"
+        }
+      }
+    ],
+    "text": "",
+    "warnings": [
+      "材料识别不创建商品。确认属于同一商品后，再由真实模型整理；冲突和未知参数须人工核对。"
+    ]
+  }
+}

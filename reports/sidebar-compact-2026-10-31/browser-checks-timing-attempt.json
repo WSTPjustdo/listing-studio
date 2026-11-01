@@ -1,0 +1,65 @@
+{
+  "started_at": "2026-10-31T06:21:10.103Z",
+  "base": "http://127.0.0.1:8787",
+  "scope": "Read-only layout and navigation on real workbench; no synthetic products, no model calls.",
+  "checks": [
+    {
+      "name": "guided_collapsed_1440",
+      "passed": false,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 60.015625,
+        "mainMargin": 60.0279,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 52.015625,
+        "sidebarRight": 60.015625
+      }
+    },
+    {
+      "name": "guided_expanded_1440",
+      "passed": false,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 199.972,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200
+      }
+    },
+    {
+      "name": "hover_expand_overlay",
+      "passed": true,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 200,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 187,
+        "sidebarRight": 200
+      }
+    },
+    {
+      "name": "keyboard_focus_expand",
+      "passed": false,
+      "actual": {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "sidebar": 199.96875,
+        "mainMargin": 60,
+        "activeShadow": "none",
+        "iconShadow": "none",
+        "brandRight": 186.96875,
+        "sidebarRight": 199.96875
+      }
+    }
+  ],
+  "note": "Diagnostic assertions used exact equality while polling allowed <0.05px; final checks wait for transitions to finish.",
+  "completed_at": "2026-10-31T06:25:28.702Z"
+}
